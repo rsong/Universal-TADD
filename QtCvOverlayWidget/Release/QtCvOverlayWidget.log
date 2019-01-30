@@ -1,0 +1,770 @@
+﻿Build started 16/04/2014 15:33:58.
+Environment at start of build:
+ALLUSERSPROFILE = C:\ProgramData
+APPDATA = C:\Users\Hossein\AppData\Roaming
+CommonProgramFiles = C:\Program Files (x86)\Common Files
+CommonProgramFiles(x86) = C:\Program Files (x86)\Common Files
+CommonProgramW6432 = C:\Program Files\Common Files
+COMPUTERNAME = H
+ComSpec = C:\Windows\system32\cmd.exe
+CUDA_PATH = C:\Program Files\NVIDIA GPU Computing Toolkit\CUDA\v6.0
+CUDA_PATH_V6_0 = C:\Program Files\NVIDIA GPU Computing Toolkit\CUDA\v6.0
+FP_NO_HOST_CHECK = NO
+HALCONARCH = x64-win64
+HALCONEXAMPLES = C:\Users\Public\Documents\MVTec\HALCON-11.0\examples
+HALCONIMAGES = C:\Users\Public\Documents\MVTec\HALCON-11.0\examples\images
+HALCONROOT = C:\Program Files\MVTec\HALCON-11.0
+HOMEDRIVE = C:
+HOMEPATH = \Users\Hossein
+LOCALAPPDATA = C:\Users\Hossein\AppData\Local
+LOGONSERVER = \\H
+NUMBER_OF_PROCESSORS = 8
+NVCUDASAMPLES6_0_ROOT = C:\ProgramData\NVIDIA Corporation\CUDA Samples\v6.0
+NVCUDASAMPLES_ROOT = C:\ProgramData\NVIDIA Corporation\CUDA Samples\v6.0
+NVTOOLSEXT_PATH = C:\Program Files\NVIDIA Corporation\NvToolsExt\
+OS = Windows_NT
+Path = C:\Program Files\NVIDIA GPU Computing Toolkit\CUDA\v6.0\bin;C:\Program Files\NVIDIA GPU Computing Toolkit\CUDA\v6.0\libnvvp;C:\Program Files (x86)\NVIDIA Corporation\PhysX\Common;C:\Program Files (x86)\Intel\iCLS Client\;C:\Program Files\Intel\iCLS Client\;C:\Windows\system32;C:\Windows;C:\Windows\System32\Wbem;C:\Windows\System32\WindowsPowerShell\v1.0\;C:\Program Files\Intel\Intel(R) Management Engine Components\DAL;C:\Program Files\Intel\Intel(R) Management Engine Components\IPT;C:\Program Files (x86)\Intel\Intel(R) Management Engine Components\DAL;C:\Program Files (x86)\Intel\Intel(R) Management Engine Components\IPT;c:\Program Files (x86)\Microsoft SQL Server\100\Tools\Binn\;c:\Program Files\Microsoft SQL Server\100\Tools\Binn\;c:\Program Files\Microsoft SQL Server\100\DTS\Binn\;C:\Tesseract-OCR;C:\Program Files (x86)\Tesseract-OCR;C:\Program Files\MVTec\HALCON-11.0\bin\x64-win64;C:\Program Files\MVTec\HALCON-11.0\FLEXlm\x64-win64;C:\Program Files\MiKTeX 2.9\miktex\bin\x64\;C:\Program Files\doxygen\bin;C:\Program Files\MATLAB\R2014a\runtime\win64;C:\Program Files\MATLAB\R2014a\bin;C:\Program Files\MATLAB\MATLAB Compiler Runtime\v82\runtime\win64
+PATHEXT = .COM;.EXE;.BAT;.CMD;.VBS;.VBE;.JS;.JSE;.WSF;.WSH;.MSC
+PROCESSOR_ARCHITECTURE = x86
+PROCESSOR_ARCHITEW6432 = AMD64
+PROCESSOR_IDENTIFIER = Intel64 Family 6 Model 58 Stepping 9, GenuineIntel
+PROCESSOR_LEVEL = 6
+PROCESSOR_REVISION = 3a09
+ProgramData = C:\ProgramData
+ProgramFiles = C:\Program Files (x86)
+ProgramFiles(x86) = C:\Program Files (x86)
+ProgramW6432 = C:\Program Files
+PSModulePath = C:\Windows\system32\WindowsPowerShell\v1.0\Modules\
+PUBLIC = C:\Users\Public
+QTDIR = C:\Users\Hossein\Project\4.7.3x86_Intel
+SESSIONNAME = Console
+SystemDrive = C:
+SystemRoot = C:\Windows
+TEMP = C:\Users\Hossein\AppData\Local\Temp
+TESSDATA_PREFIX = C:\Program Files (x86)\Tesseract-OCR\
+TMP = C:\Users\Hossein\AppData\Local\Temp
+USERDOMAIN = H
+USERNAME = Hossein
+USERPROFILE = C:\Users\Hossein
+VisualStudioDir = C:\Users\Hossein\Documents\Visual Studio 2010
+VS100COMNTOOLS = c:\Program Files (x86)\Microsoft Visual Studio 10.0\Common7\Tools\
+windir = C:\Windows
+windows_tracing_flags = 3
+windows_tracing_logfile = C:\BVTBin\Tests\installpackage\csilogfile.log
+
+15:33:58.879     1>Project "C:\Users\Hossein\Project\TADD-V1\QtCvOverlayWidget\QtCvOverlayWidget.vcxproj" on node 2 (rebuild target(s)).
+15:33:58.879     1>Building with tools version "4.0".
+15:33:58.879     1>Target "_CheckForInvalidConfigurationAndPlatform: (TargetId:2)" in file "C:\Windows\Microsoft.NET\Framework\v4.0.30319\Microsoft.Common.Targets" from project "C:\Users\Hossein\Project\TADD-V1\QtCvOverlayWidget\QtCvOverlayWidget.vcxproj" (entry point):
+                   Task "Error" skipped, due to false condition; ( '$(_InvalidConfigurationError)' == 'true' ) was evaluated as ( '' == 'true' ).
+                   Task "Warning" skipped, due to false condition; ( '$(_InvalidConfigurationWarning)' == 'true' ) was evaluated as ( '' == 'true' ).
+                   Using "Message" task from assembly "Microsoft.Build.Tasks.v4.0, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a".
+                   Task "Message" (TaskId:2)
+                     Configuration=Release (TaskId:2)
+                   Done executing task "Message". (TaskId:2)
+                   Task "Message" (TaskId:3)
+                     Platform=Win32 (TaskId:3)
+                   Done executing task "Message". (TaskId:3)
+                   Task "Error" skipped, due to false condition; ('$(OutDir)' != '' and !HasTrailingSlash('$(OutDir)')) was evaluated as ('C:\Users\Hossein\Project\TADD-V1\Release\' != '' and !HasTrailingSlash('C:\Users\Hossein\Project\TADD-V1\Release\')).
+                   Task "Error" skipped, due to false condition; ('$(BaseIntermediateOutputPath)' != '' and !HasTrailingSlash('$(BaseIntermediateOutputPath)')) was evaluated as ('obj\' != '' and !HasTrailingSlash('obj\')).
+                   Task "Error" skipped, due to false condition; ('$(IntermediateOutputPath)' != '' and !HasTrailingSlash('$(IntermediateOutputPath)')) was evaluated as ('Release\' != '' and !HasTrailingSlash('Release\')).
+15:33:58.881     1>Done building target "_CheckForInvalidConfigurationAndPlatform" in project "QtCvOverlayWidget.vcxproj".: (TargetId:2)
+15:33:58.881     1>Target "_DetermineManagedStateFromCL: (TargetId:3)" in file "C:\Program Files (x86)\MSBuild\Microsoft.Cpp\v4.0\Microsoft.CppBuild.targets" from project "C:\Users\Hossein\Project\TADD-V1\QtCvOverlayWidget\QtCvOverlayWidget.vcxproj" (target "Rebuild" depends on it):
+15:33:58.881     1>Done building target "_DetermineManagedStateFromCL" in project "QtCvOverlayWidget.vcxproj".: (TargetId:3)
+15:33:58.881     1>Target "_PrepareForRebuild: (TargetId:4)" in file "C:\Program Files (x86)\MSBuild\Microsoft.Cpp\v4.0\Microsoft.BuildSteps.Targets" from project "C:\Users\Hossein\Project\TADD-V1\QtCvOverlayWidget\QtCvOverlayWidget.vcxproj" (target "Rebuild" depends on it):
+15:33:58.881     1>Done building target "_PrepareForRebuild" in project "QtCvOverlayWidget.vcxproj".: (TargetId:4)
+15:33:58.881     1>Target "BeforeRebuild: (TargetId:5)" in file "C:\Windows\Microsoft.NET\Framework\v4.0.30319\Microsoft.Common.Targets" from project "C:\Users\Hossein\Project\TADD-V1\QtCvOverlayWidget\QtCvOverlayWidget.vcxproj" (target "Rebuild" depends on it):
+15:33:58.881     1>Done building target "BeforeRebuild" in project "QtCvOverlayWidget.vcxproj".: (TargetId:5)
+15:33:58.881     1>Target "_PrepareForClean: (TargetId:6)" in file "C:\Program Files (x86)\MSBuild\Microsoft.Cpp\v4.0\Microsoft.BuildSteps.Targets" from project "C:\Users\Hossein\Project\TADD-V1\QtCvOverlayWidget\QtCvOverlayWidget.vcxproj" (target "Clean" depends on it):
+                   Using "Delete" task from assembly "Microsoft.Build.Tasks.v4.0, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a".
+                   Task "Delete" (TaskId:4)
+                     Deleting file "Release\QtCvOverlayWidget.lastbuildstate". (TaskId:4)
+                   Done executing task "Delete". (TaskId:4)
+15:33:58.882     1>Done building target "_PrepareForClean" in project "QtCvOverlayWidget.vcxproj".: (TargetId:6)
+15:33:58.882     1>Target "BeforeClean: (TargetId:7)" in file "C:\Windows\Microsoft.NET\Framework\v4.0.30319\Microsoft.Common.Targets" from project "C:\Users\Hossein\Project\TADD-V1\QtCvOverlayWidget\QtCvOverlayWidget.vcxproj" (target "Clean" depends on it):
+15:33:58.882     1>Done building target "BeforeClean" in project "QtCvOverlayWidget.vcxproj".: (TargetId:7)
+                   Target "UnmanagedUnregistration" skipped, due to false condition; ((('$(_AssemblyTimestampBeforeCompile)' != '$(_AssemblyTimestampAfterCompile)' or '$(RegisterForComInterop)' != 'true' or '$(OutputType)' != 'library') or
+                                       ('$(_AssemblyTimestampBeforeCompile)' == '')) and
+                                      Exists('@(_UnmanagedRegistrationCache)')) was evaluated as ((('' != '' or '' != 'true' or 'staticlibrary' != 'library') or
+                                       ('' == '')) and
+                                      Exists('obj\QtCvOverlayWidget.vcxproj.UnmanagedRegistration.cache')).
+15:33:58.882     1>Target "CoreClean: (TargetId:8)" in file "C:\Windows\Microsoft.NET\Framework\v4.0.30319\Microsoft.Common.Targets" from project "C:\Users\Hossein\Project\TADD-V1\QtCvOverlayWidget\QtCvOverlayWidget.vcxproj" (target "Clean" depends on it):
+                   Task "Delete" (TaskId:5)
+                   Done executing task "Delete". (TaskId:5)
+                   Using "ReadLinesFromFile" task from assembly "Microsoft.Build.Tasks.v4.0, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a".
+                   Task "ReadLinesFromFile" (TaskId:6)
+                   Done executing task "ReadLinesFromFile". (TaskId:6)
+                   Using "FindUnderPath" task from assembly "Microsoft.Build.Tasks.v4.0, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a".
+                   Task "FindUnderPath" (TaskId:7)
+                     Comparison path is "C:\Users\Hossein\Project\TADD-V1\Release\". (TaskId:7)
+                   Done executing task "FindUnderPath". (TaskId:7)
+                   Task "FindUnderPath" (TaskId:8)
+                     Comparison path is "Release\". (TaskId:8)
+                   Done executing task "FindUnderPath". (TaskId:8)
+                   Task "Delete" (TaskId:9)
+                   Done executing task "Delete". (TaskId:9)
+                   Using "RemoveDuplicates" task from assembly "Microsoft.Build.Tasks.v4.0, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a".
+                   Task "RemoveDuplicates" (TaskId:10)
+                   Done executing task "RemoveDuplicates". (TaskId:10)
+                   Using "MakeDir" task from assembly "Microsoft.Build.Tasks.v4.0, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a".
+                   Task "MakeDir" (TaskId:11)
+                   Done executing task "MakeDir". (TaskId:11)
+                   Using "WriteLinesToFile" task from assembly "Microsoft.Build.Tasks.v4.0, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a".
+                   Task "WriteLinesToFile" (TaskId:12)
+                   Done executing task "WriteLinesToFile". (TaskId:12)
+15:33:58.883     1>Done building target "CoreClean" in project "QtCvOverlayWidget.vcxproj".: (TargetId:8)
+15:33:58.883     1>Target "AssignProjectConfiguration: (TargetId:9)" in file "C:\Windows\Microsoft.NET\Framework\v4.0.30319\Microsoft.Common.Targets" from project "C:\Users\Hossein\Project\TADD-V1\QtCvOverlayWidget\QtCvOverlayWidget.vcxproj" (target "CleanReferencedProjects" depends on it):
+                   Using "AssignProjectConfiguration" task from assembly "Microsoft.Build.Tasks.v4.0, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a".
+                   Task "AssignProjectConfiguration" (TaskId:13)
+                   Done executing task "AssignProjectConfiguration". (TaskId:13)
+15:33:58.883     1>Done building target "AssignProjectConfiguration" in project "QtCvOverlayWidget.vcxproj".: (TargetId:9)
+15:33:58.884     1>Target "_SplitProjectReferencesByFileExistence: (TargetId:10)" in file "C:\Windows\Microsoft.NET\Framework\v4.0.30319\Microsoft.Common.Targets" from project "C:\Users\Hossein\Project\TADD-V1\QtCvOverlayWidget\QtCvOverlayWidget.vcxproj" (target "CleanReferencedProjects" depends on it):
+                   Task "ResolveNonMSBuildProjectOutput" skipped, due to false condition; ('$(BuildingInsideVisualStudio)'=='true' and '@(ProjectReferenceWithConfiguration)'!='') was evaluated as ('true'=='true' and ''!='').
+15:33:58.884     1>Done building target "_SplitProjectReferencesByFileExistence" in project "QtCvOverlayWidget.vcxproj".: (TargetId:10)
+15:33:58.884     1>Target "CleanReferencedProjects: (TargetId:11)" in file "C:\Windows\Microsoft.NET\Framework\v4.0.30319\Microsoft.Common.Targets" from project "C:\Users\Hossein\Project\TADD-V1\QtCvOverlayWidget\QtCvOverlayWidget.vcxproj" (target "Clean" depends on it):
+                   Task "MSBuild" skipped, due to false condition; ('$(BuildingInsideVisualStudio)' != 'true' and '$(BuildProjectReferences)' == 'true' and '@(_MSBuildProjectReferenceExistent)' != '') was evaluated as ('true' != 'true' and 'true' == 'true' and '' != '').
+15:33:58.884     1>Done building target "CleanReferencedProjects" in project "QtCvOverlayWidget.vcxproj".: (TargetId:11)
+15:33:58.884     1>Target "CleanPublishFolder: (TargetId:12)" in file "C:\Windows\Microsoft.NET\Framework\v4.0.30319\Microsoft.Common.Targets" from project "C:\Users\Hossein\Project\TADD-V1\QtCvOverlayWidget\QtCvOverlayWidget.vcxproj" (target "Clean" depends on it):
+                   Task "RemoveDir" skipped, due to false condition; ('$(PublishDir)'=='$(OutputPath)app.publish\' and Exists('$(PublishDir)')) was evaluated as ('C:\Users\Hossein\Project\TADD-V1\Release\app.publish\'=='C:\Users\Hossein\Project\TADD-V1\Release\app.publish\' and Exists('C:\Users\Hossein\Project\TADD-V1\Release\app.publish\')).
+15:33:58.884     1>Done building target "CleanPublishFolder" in project "QtCvOverlayWidget.vcxproj".: (TargetId:12)
+15:33:58.884     1>Target "AfterClean: (TargetId:13)" in file "C:\Windows\Microsoft.NET\Framework\v4.0.30319\Microsoft.Common.Targets" from project "C:\Users\Hossein\Project\TADD-V1\QtCvOverlayWidget\QtCvOverlayWidget.vcxproj" (target "Clean" depends on it):
+15:33:58.884     1>Done building target "AfterClean" in project "QtCvOverlayWidget.vcxproj".: (TargetId:13)
+                   Target "EntityClean" skipped, due to false condition; ('@(EntityDeploy)' != '') was evaluated as ('' != '').
+15:33:58.884     1>Target "BeforeCppClean: (TargetId:14)" in file "C:\Program Files (x86)\MSBuild\Microsoft.Cpp\v4.0\Microsoft.CppClean.targets" from project "C:\Users\Hossein\Project\TADD-V1\QtCvOverlayWidget\QtCvOverlayWidget.vcxproj" (target "CppClean" depends on it):
+15:33:58.884     1>Done building target "BeforeCppClean" in project "QtCvOverlayWidget.vcxproj".: (TargetId:14)
+15:33:58.884     1>Target "CoreCppClean: (TargetId:15)" in file "C:\Program Files (x86)\MSBuild\Microsoft.Cpp\v4.0\Microsoft.CppClean.targets" from project "C:\Users\Hossein\Project\TADD-V1\QtCvOverlayWidget\QtCvOverlayWidget.vcxproj" (target "CppClean" depends on it):
+                   Task "MakeDir" (TaskId:14)
+                   Done executing task "MakeDir". (TaskId:14)
+                   Using "CppClean" task from assembly "Microsoft.Build.CppTasks.Common, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a".
+                   Task "CppClean" (TaskId:15)
+                   Done executing task "CppClean". (TaskId:15)
+                   Task "WriteLinesToFile" (TaskId:16)
+                   Done executing task "WriteLinesToFile". (TaskId:16)
+15:33:58.890     1>Done building target "CoreCppClean" in project "QtCvOverlayWidget.vcxproj".: (TargetId:15)
+15:33:58.890     1>Target "AfterCppClean: (TargetId:16)" in file "C:\Program Files (x86)\MSBuild\Microsoft.Cpp\v4.0\Microsoft.CppClean.targets" from project "C:\Users\Hossein\Project\TADD-V1\QtCvOverlayWidget\QtCvOverlayWidget.vcxproj" (target "CppClean" depends on it):
+15:33:58.890     1>Done building target "AfterCppClean" in project "QtCvOverlayWidget.vcxproj".: (TargetId:16)
+15:33:58.890     1>Target "PGInstrumentedClean: (TargetId:17)" in file "C:\Program Files (x86)\MSBuild\Microsoft.Cpp\v4.0\Microsoft.CppClean.targets" from project "C:\Users\Hossein\Project\TADD-V1\QtCvOverlayWidget\QtCvOverlayWidget.vcxproj" (target "CppClean" depends on it):
+                   Task "Delete" (TaskId:17)
+                   Done executing task "Delete". (TaskId:17)
+15:33:58.891     1>Done building target "PGInstrumentedClean" in project "QtCvOverlayWidget.vcxproj".: (TargetId:17)
+15:33:58.891     1>Target "CppClean: (TargetId:18)" in file "C:\Program Files (x86)\MSBuild\Microsoft.Cpp\v4.0\Microsoft.CppClean.targets" from project "C:\Users\Hossein\Project\TADD-V1\QtCvOverlayWidget\QtCvOverlayWidget.vcxproj" (target "Clean" depends on it):
+15:33:58.891     1>Done building target "CppClean" in project "QtCvOverlayWidget.vcxproj".: (TargetId:18)
+15:33:58.891     1>Target "Clean: (TargetId:19)" in file "C:\Windows\Microsoft.NET\Framework\v4.0.30319\Microsoft.Common.Targets" from project "C:\Users\Hossein\Project\TADD-V1\QtCvOverlayWidget\QtCvOverlayWidget.vcxproj" (target "Rebuild" depends on it):
+15:33:58.891     1>Done building target "Clean" in project "QtCvOverlayWidget.vcxproj".: (TargetId:19)
+                   Target "_DetermineManagedStateFromCL" skipped. Previously built successfully.
+15:33:58.891     1>Target "_PrepareForBuild: (TargetId:20)" in file "C:\Program Files (x86)\MSBuild\Microsoft.Cpp\v4.0\Microsoft.BuildSteps.Targets" from project "C:\Users\Hossein\Project\TADD-V1\QtCvOverlayWidget\QtCvOverlayWidget.vcxproj" (target "Build" depends on it):
+15:33:58.891     1>Done building target "_PrepareForBuild" in project "QtCvOverlayWidget.vcxproj".: (TargetId:20)
+15:33:58.891     1>Target "SetBuildDefaultEnvironmentVariables: (TargetId:21)" in file "C:\Program Files (x86)\MSBuild\Microsoft.Cpp\v4.0\Microsoft.Cpp.targets" from project "C:\Users\Hossein\Project\TADD-V1\QtCvOverlayWidget\QtCvOverlayWidget.vcxproj" (target "Build" depends on it):
+                   Using "SetEnv" task from assembly "Microsoft.Build.CppTasks.Common, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a".
+                   Task "SetEnv" (TaskId:18)
+                     PATH=c:\Program Files (x86)\Microsoft Visual Studio 10.0\VC\bin;C:\Program Files (x86)\Microsoft SDKs\Windows\v7.0A\bin\NETFX 4.0 Tools;C:\Program Files (x86)\Microsoft SDKs\Windows\v7.0A\bin;C:\Program Files (x86)\Microsoft Visual Studio 10.0\Common7\Tools\bin;C:\Program Files (x86)\Microsoft Visual Studio 10.0\Common7\tools;C:\Program Files (x86)\Microsoft Visual Studio 10.0\Common7\ide;C:\Program Files (x86)\HTML Help Workshop;C:\Program Files (x86)\Microsoft SDKs\Windows\v7.0A\\bin;C:\Windows\Microsoft.NET\Framework\v4.0.30319\;C:\Program Files (x86)\Microsoft Visual Studio 10.0\;C:\Windows\SysWow64;;C:\Program Files\NVIDIA GPU Computing Toolkit\CUDA\v6.0\bin;C:\Program Files\NVIDIA GPU Computing Toolkit\CUDA\v6.0\libnvvp;C:\Program Files (x86)\NVIDIA Corporation\PhysX\Common;C:\Program Files (x86)\Intel\iCLS Client\;C:\Program Files\Intel\iCLS Client\;C:\Windows\system32;C:\Windows;C:\Windows\System32\Wbem;C:\Windows\System32\WindowsPowerShell\v1.0\;C:\Program Files\Intel\Intel(R) Management Engine Components\DAL;C:\Program Files\Intel\Intel(R) Management Engine Components\IPT;C:\Program Files (x86)\Intel\Intel(R) Management Engine Components\DAL;C:\Program Files (x86)\Intel\Intel(R) Management Engine Components\IPT;c:\Program Files (x86)\Microsoft SQL Server\100\Tools\Binn\;c:\Program Files\Microsoft SQL Server\100\Tools\Binn\;c:\Program Files\Microsoft SQL Server\100\DTS\Binn\;C:\Tesseract-OCR;C:\Program Files (x86)\Tesseract-OCR;C:\Program Files\MVTec\HALCON-11.0\bin\x64-win64;C:\Program Files\MVTec\HALCON-11.0\FLEXlm\x64-win64;C:\Program Files\MiKTeX 2.9\miktex\bin\x64\;C:\Program Files\doxygen\bin;C:\Program Files\MATLAB\R2014a\runtime\win64;C:\Program Files\MATLAB\R2014a\bin;C:\Program Files\MATLAB\MATLAB Compiler Runtime\v82\runtime\win64; (TaskId:18)
+                   Done executing task "SetEnv". (TaskId:18)
+                   Task "SetEnv" skipped, due to false condition; ('$(_IsNativeEnvironment)' == 'true') was evaluated as ('' == 'true').
+                   Task "SetEnv" (TaskId:19)
+                     LIB=C:\Users\Hossein\Project\tbb\lib;C:\Users\Hossein\Project\OpenCV2.4.8\build\x86\vc10_intel\lib\Release;C:\Users\Hossein\Project\4.7.3x86_Intel\lib;c:\Program Files (x86)\Microsoft Visual Studio 10.0\VC\lib;c:\Program Files (x86)\Microsoft Visual Studio 10.0\VC\atlmfc\lib;C:\Program Files (x86)\Microsoft SDKs\Windows\v7.0A\lib;C:\Program Files (x86)\Microsoft SDKs\Windows\v7.0A\\lib (TaskId:19)
+                   Done executing task "SetEnv". (TaskId:19)
+                   Task "SetEnv" (TaskId:20)
+                     LIBPATH=c:\Program Files (x86)\Microsoft Visual Studio 10.0\VC\atlmfc\lib;c:\Program Files (x86)\Microsoft Visual Studio 10.0\VC\lib (TaskId:20)
+                   Done executing task "SetEnv". (TaskId:20)
+                   Task "SetEnv" (TaskId:21)
+                     INCLUDE=C:\Users\Hossein\Project\tbb\include;C:\Users\Hossein\Project\4.7.3x86_Intel\include;C:\Users\Hossein\Project\OpenCV2.4.8\build\include;C:\Users\Hossein\Project\OpenCV2.4.8\build\include\opencv;c:\Program Files (x86)\Microsoft Visual Studio 10.0\VC\include;c:\Program Files (x86)\Microsoft Visual Studio 10.0\VC\atlmfc\include;C:\Program Files (x86)\Microsoft SDKs\Windows\v7.0A\include;C:\Program Files (x86)\Microsoft SDKs\Windows\v7.0A\\include; (TaskId:21)
+                   Done executing task "SetEnv". (TaskId:21)
+15:33:58.892     1>Done building target "SetBuildDefaultEnvironmentVariables" in project "QtCvOverlayWidget.vcxproj".: (TargetId:21)
+                   Target "SetUserMacroEnvironmentVariables" skipped, due to false condition; ('@(BuildMacro)' != '') was evaluated as ('' != '').
+15:33:58.892     1>Target "BeforeResolveReferences: (TargetId:22)" in file "C:\Windows\Microsoft.NET\Framework\v4.0.30319\Microsoft.Common.Targets" from project "C:\Users\Hossein\Project\TADD-V1\QtCvOverlayWidget\QtCvOverlayWidget.vcxproj" (target "ResolveReferences" depends on it):
+15:33:58.892     1>Done building target "BeforeResolveReferences" in project "QtCvOverlayWidget.vcxproj".: (TargetId:22)
+                   Target "AssignProjectConfiguration" skipped. Previously built successfully.
+                   Target "AssignProjectConfiguration" skipped. Previously built successfully.
+                   Target "_SplitProjectReferencesByFileExistence" skipped. Previously built successfully.
+                   Target "_RemoveNameMetadataFromProjectReferenceItems" skipped, due to false condition; ('@(ProjectReference)'!='') was evaluated as (''!='').
+15:33:58.892     1>Target "ResolveProjectReferences: (TargetId:23)" in file "C:\Windows\Microsoft.NET\Framework\v4.0.30319\Microsoft.Common.Targets" from project "C:\Users\Hossein\Project\TADD-V1\QtCvOverlayWidget\QtCvOverlayWidget.vcxproj" (target "ResolveReferences" depends on it):
+                   Task "MSBuild" skipped, due to false condition; ('%(_MSBuildProjectReferenceExistent.BuildReference)' == 'true' and '@(ProjectReferenceWithConfiguration)' != '' and ('$(BuildingInsideVisualStudio)' == 'true' or '$(BuildProjectReferences)' != 'true') and '$(VisualStudioVersion)' != '10.0' and '@(_MSBuildProjectReferenceExistent)' != '') was evaluated as ('' == 'true' and '' != '' and ('true' == 'true' or 'true' != 'true') and '10.0' != '10.0' and '' != '').
+                   Task "MSBuild" skipped, due to false condition; ('%(_MSBuildProjectReferenceExistent.BuildReference)' == 'true' and '@(ProjectReferenceWithConfiguration)' != '' and ('$(BuildingInsideVisualStudio)' == 'true' or '$(BuildProjectReferences)' != 'true') and '$(VisualStudioVersion)' == '10.0' and '@(_MSBuildProjectReferenceExistent)' != '') was evaluated as ('' == 'true' and '' != '' and ('true' == 'true' or 'true' != 'true') and '10.0' == '10.0' and '' != '').
+                   Task "MSBuild" skipped, due to false condition; ('%(_MSBuildProjectReferenceExistent.BuildReference)' == 'true' and '@(ProjectReferenceWithConfiguration)' != '' and '$(BuildingInsideVisualStudio)' != 'true' and '$(BuildProjectReferences)' == 'true' and '@(_MSBuildProjectReferenceExistent)' != '') was evaluated as ('' == 'true' and '' != '' and 'true' != 'true' and 'true' == 'true' and '' != '').
+                   Task "MSBuild" skipped, due to false condition; ('%(_MSBuildProjectReferenceExistent.BuildReference)' == 'true' and '@(ProjectReferenceWithConfiguration)' != '' and '$(BuildingProject)' == 'true' and '@(_MSBuildProjectReferenceExistent)' != '') was evaluated as ('' == 'true' and '' != '' and 'true' == 'true' and '' != '').
+                   Task "Warning" skipped, due to false condition; ('@(ProjectReferenceWithConfiguration)' != '' and '@(_MSBuildProjectReferenceNonexistent)' != '') was evaluated as ('' != '' and '' != '').
+15:33:58.892     1>Done building target "ResolveProjectReferences" in project "QtCvOverlayWidget.vcxproj".: (TargetId:23)
+                   Target "ResolveNativeReferences" skipped, due to false condition; ('@(NativeReference)'!='') was evaluated as (''!='').
+15:33:58.892     1>Target "GetFrameworkPaths: (TargetId:24)" in file "C:\Windows\Microsoft.NET\Framework\v4.0.30319\Microsoft.NETFramework.targets" from project "C:\Users\Hossein\Project\TADD-V1\QtCvOverlayWidget\QtCvOverlayWidget.vcxproj" (target "ResolveAssemblyReferences" depends on it):
+15:33:58.892     1>Done building target "GetFrameworkPaths" in project "QtCvOverlayWidget.vcxproj".: (TargetId:24)
+                   Target "GetWinFXPath" skipped, due to false condition; (('@(Page)' != '' or '@(ApplicationDefinition)' != '' or '@(Resource)' != '') and ('$(GetWinFXNativePath)' != '' or '$(GetWinFXWoWPath)' != '' )) was evaluated as (('' != '' or '' != '' or '' != '') and ('' != '' or '' != '' )).
+15:33:58.892     1>Target "GetReferenceAssemblyPaths: (TargetId:25)" in file "C:\Windows\Microsoft.NET\Framework\v4.0.30319\Microsoft.Common.Targets" from project "C:\Users\Hossein\Project\TADD-V1\QtCvOverlayWidget\QtCvOverlayWidget.vcxproj" (target "ResolveAssemblyReferences" depends on it):
+                   Task "GetReferenceAssemblyPaths" skipped, due to false condition; ('$(TargetFrameworkMoniker)' != '' and ('$(_TargetFrameworkDirectories)' == '' or '$(_FullFrameworkReferenceAssemblyPaths)' == '')) was evaluated as ('.NETFramework,Version=v4.0' != '' and ('C:\Program Files (x86)\Reference Assemblies\Microsoft\Framework\.NETFramework\v4.0' == '' or 'C:\Program Files (x86)\Reference Assemblies\Microsoft\Framework\.NETFramework\v4.0' == '')).
+15:33:58.892     1>Done building target "GetReferenceAssemblyPaths" in project "QtCvOverlayWidget.vcxproj".: (TargetId:25)
+15:33:58.892     1>Target "PlatformPrepareForBuild: (TargetId:26)" in file "C:\Program Files (x86)\MSBuild\Microsoft.Cpp\v4.0\Platforms\Win32\Microsoft.Cpp.Win32.Targets" from project "C:\Users\Hossein\Project\TADD-V1\QtCvOverlayWidget\QtCvOverlayWidget.vcxproj" (target "PrepareForBuild" depends on it):
+                   Task "VCMessage" skipped, due to false condition; (!(exists('$(VCTargetsPath)\Platforms\Win32\PlatformToolsets\$(PlatformToolset)\Microsoft.Cpp.Win32.$(PlatformToolset).targets'))) was evaluated as (!(exists('C:\Program Files (x86)\MSBuild\Microsoft.Cpp\v4.0\\Platforms\Win32\PlatformToolsets\v100\Microsoft.Cpp.Win32.v100.targets'))).
+15:33:58.893     1>Done building target "PlatformPrepareForBuild" in project "QtCvOverlayWidget.vcxproj".: (TargetId:26)
+                   Target "GetFrameworkPaths" skipped. Previously built successfully.
+                   Target "GetReferenceAssemblyPaths" skipped. Previously built successfully.
+15:33:58.893     1>Target "PrepareForBuild: (TargetId:27)" in file "C:\Program Files (x86)\MSBuild\Microsoft.Cpp\v4.0\Microsoft.CppBuild.targets" from project "C:\Users\Hossein\Project\TADD-V1\QtCvOverlayWidget\QtCvOverlayWidget.vcxproj" (target "ResolveAssemblyReferences" depends on it):
+                   Task "VCMessage" skipped, due to false condition; ('$(DesignTimeBuild)'!='true' and '$(ConfigurationPlatformExists)' != 'true') was evaluated as (''!='true' and 'true' != 'true').
+                   Task "MakeDir" (TaskId:22)
+                   Done executing task "MakeDir". (TaskId:22)
+                   Task "VCMessage" skipped, due to false condition; ('$(DesignTimeBuild)'!='true' and '$(VCInstallDir)'=='' and '$(UseEnv)' != 'true' and ($(TargetFrameworkVersion)=='v3.5' or $(TargetFrameworkVersion)=='v3.0' or $(TargetFrameworkVersion)=='v2.0' )) was evaluated as (''!='true' and 'c:\Program Files (x86)\Microsoft Visual Studio 10.0\VC\'=='' and '' != 'true' and (v4.0=='v3.5' or v4.0=='v3.0' or v4.0=='v2.0' )).
+                   Task "VCMessage" skipped, due to false condition; ('$(DesignTimeBuild)'!='true' and '$(VCInstallDir)'=='' and '$(UseEnv)' != 'true' and '$(PlatformToolset)'=='v90') was evaluated as (''!='true' and 'c:\Program Files (x86)\Microsoft Visual Studio 10.0\VC\'=='' and '' != 'true' and 'v100'=='v90').
+                   Task "VCMessage" skipped, due to false condition; ('$(VCInstallDir)'=='' and '$(UseEnv)' != 'true') was evaluated as ('c:\Program Files (x86)\Microsoft Visual Studio 10.0\VC\'=='' and '' != 'true').
+                   Task "VCMessage" skipped, due to false condition; ('$(WindowsSDKDir)'=='' and '$(UseEnv)' != 'true') was evaluated as ('C:\Program Files (x86)\Microsoft SDKs\Windows\v7.0A\'=='' and '' != 'true').
+                   Task "VCMessage" skipped, due to false condition; ('$(IntDirTrailingSlashWarning)'=='true') was evaluated as (''=='true').
+                   Task "VCMessage" skipped, due to false condition; ('$(OutDirTrailingSlashWarning)'=='true') was evaluated as (''=='true').
+                   Task "MakeDir" (TaskId:23)
+                   Done executing task "MakeDir". (TaskId:23)
+15:33:58.893     1>Done building target "PrepareForBuild" in project "QtCvOverlayWidget.vcxproj".: (TargetId:27)
+15:33:58.893     1>Target "GetInstalledSDKLocations: (TargetId:28)" in file "C:\Windows\Microsoft.NET\Framework\v4.0.30319\Microsoft.Common.Targets" from project "C:\Users\Hossein\Project\TADD-V1\QtCvOverlayWidget\QtCvOverlayWidget.vcxproj" (target "ResolveSDKReferences" depends on it):
+                   Task "GetInstalledSDKLocations" skipped, due to false condition; ('@(SDKReference)' != '') was evaluated as ('' != '').
+15:33:58.893     1>Done building target "GetInstalledSDKLocations" in project "QtCvOverlayWidget.vcxproj".: (TargetId:28)
+15:33:58.893     1>Target "ResolveSDKReferences: (TargetId:29)" in file "C:\Windows\Microsoft.NET\Framework\v4.0.30319\Microsoft.Common.Targets" from project "C:\Users\Hossein\Project\TADD-V1\QtCvOverlayWidget\QtCvOverlayWidget.vcxproj" (target "ResolveAssemblyReferences" depends on it):
+                   Task "ResolveSDKReference" skipped, due to false condition; ('@(SDKReference)'!='') was evaluated as (''!='').
+15:33:58.893     1>Done building target "ResolveSDKReferences" in project "QtCvOverlayWidget.vcxproj".: (TargetId:29)
+                   Target "ResolveSDKReferences" skipped. Previously built successfully.
+15:33:58.893     1>Target "ExpandSDKReferences: (TargetId:30)" in file "C:\Windows\Microsoft.NET\Framework\v4.0.30319\Microsoft.Common.Targets" from project "C:\Users\Hossein\Project\TADD-V1\QtCvOverlayWidget\QtCvOverlayWidget.vcxproj" (target "ResolveAssemblyReferences" depends on it):
+                   Task "GetSDKReferenceFiles" skipped, due to false condition; ('@(ResolvedSDKReference)'!='') was evaluated as (''!='').
+15:33:58.893     1>Done building target "ExpandSDKReferences" in project "QtCvOverlayWidget.vcxproj".: (TargetId:30)
+15:33:58.893     1>Target "ResolveAssemblyReferences: (TargetId:31)" in file "C:\Windows\Microsoft.NET\Framework\v4.0.30319\Microsoft.Common.Targets" from project "C:\Users\Hossein\Project\TADD-V1\QtCvOverlayWidget\QtCvOverlayWidget.vcxproj" (target "ResolveReferences" depends on it):
+                   Using "ResolveAssemblyReference" task from assembly "Microsoft.Build.Tasks.v4.0, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a".
+                   Task "ResolveAssemblyReference" (TaskId:24)
+                     TargetFrameworkMoniker: (TaskId:24)
+                         .NETFramework,Version=v4.0 (TaskId:24)
+                     TargetFrameworkMonikerDisplayName: (TaskId:24)
+                         .NET Framework 4 (TaskId:24)
+                     TargetedRuntimeVersion: (TaskId:24)
+                         v4.0.30319 (TaskId:24)
+                     Assemblies: (TaskId:24)
+                         System.Core (TaskId:24)
+                     AssemblyFiles: (TaskId:24)
+                     CandidateAssemblyFiles: (TaskId:24)
+                     TargetFrameworkDirectories: (TaskId:24)
+                         C:\Program Files (x86)\Reference Assemblies\Microsoft\Framework\.NETFramework\v4.0 (TaskId:24)
+                     InstalledAssemblyTables: (TaskId:24)
+                     IgnoreInstalledAssemblyTable: (TaskId:24)
+                         False (TaskId:24)
+                     SearchPaths: (TaskId:24)
+                         {CandidateAssemblyFiles} (TaskId:24)
+                         c:\Program Files (x86)\Microsoft Visual Studio 10.0\VC\atlmfc\lib (TaskId:24)
+                         c:\Program Files (x86)\Microsoft Visual Studio 10.0\VC\lib (TaskId:24)
+                         {HintPathFromItem} (TaskId:24)
+                         {TargetFrameworkDirectory} (TaskId:24)
+                         {Registry:Software\Microsoft\.NETFramework,v4.0,AssemblyFoldersEx} (TaskId:24)
+                         {AssemblyFolders} (TaskId:24)
+                         {GAC} (TaskId:24)
+                         {RawFileName} (TaskId:24)
+                         C:\Users\Hossein\Project\TADD-V1\Release\ (TaskId:24)
+                     AllowedAssemblyExtensions: (TaskId:24)
+                         .winmd (TaskId:24)
+                         .dll (TaskId:24)
+                         .exe (TaskId:24)
+                     AllowedRelatedFileExtensions: (TaskId:24)
+                         .pdb (TaskId:24)
+                         .xml (TaskId:24)
+                         .pri (TaskId:24)
+                     AppConfigFile: (TaskId:24)
+                          (TaskId:24)
+                     AutoUnify: (TaskId:24)
+                         True (TaskId:24)
+                     CopyLocalDependenciesWhenParentReferenceInGac: (TaskId:24)
+                         True (TaskId:24)
+                     FindDependencies: (TaskId:24)
+                         True (TaskId:24)
+                     TargetProcessorArchitecture: (TaskId:24)
+                         x86 (TaskId:24)
+                     StateFile: (TaskId:24)
+                         Release\QtCvOverlayWidget.vcxprojResolveAssemblyReference.cache (TaskId:24)
+                     InstalledAssemblySubsetTables: (TaskId:24)
+                     IgnoreInstalledAssemblySubsetTable: (TaskId:24)
+                         False (TaskId:24)
+                     TargetFrameworkSubsets: (TaskId:24)
+                     FullTargetFrameworkSubsetNames: (TaskId:24)
+                         Full (TaskId:24)
+                     ProfileName: (TaskId:24)
+                          (TaskId:24)
+                     FullFrameworkFolders: (TaskId:24)
+                         C:\Program Files (x86)\Reference Assemblies\Microsoft\Framework\.NETFramework\v4.0 (TaskId:24)
+                     LatestTargetFrameworkDirectories: (TaskId:24)
+                     ProfileTablesLocation: (TaskId:24)
+                     Primary reference "System.Core, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089". (TaskId:24)
+                         Resolved file path is "C:\Program Files (x86)\Reference Assemblies\Microsoft\Framework\.NETFramework\v4.0\System.Core.dll". (TaskId:24)
+                         Reference found at search path location "{TargetFrameworkDirectory}". (TaskId:24)
+                             For SearchPath "c:\Program Files (x86)\Microsoft Visual Studio 10.0\VC\atlmfc\lib". (TaskId:24)
+                             Considered "c:\Program Files (x86)\Microsoft Visual Studio 10.0\VC\atlmfc\lib\System.Core.winmd", but it didn't exist. (TaskId:24)
+                             Considered "c:\Program Files (x86)\Microsoft Visual Studio 10.0\VC\atlmfc\lib\System.Core.dll", but it didn't exist. (TaskId:24)
+                             Considered "c:\Program Files (x86)\Microsoft Visual Studio 10.0\VC\atlmfc\lib\System.Core.exe", but it didn't exist. (TaskId:24)
+                             For SearchPath "c:\Program Files (x86)\Microsoft Visual Studio 10.0\VC\lib". (TaskId:24)
+                             Considered "c:\Program Files (x86)\Microsoft Visual Studio 10.0\VC\lib\System.Core.winmd", but it didn't exist. (TaskId:24)
+                             Considered "c:\Program Files (x86)\Microsoft Visual Studio 10.0\VC\lib\System.Core.dll", but it didn't exist. (TaskId:24)
+                             Considered "c:\Program Files (x86)\Microsoft Visual Studio 10.0\VC\lib\System.Core.exe", but it didn't exist. (TaskId:24)
+                             For SearchPath "{TargetFrameworkDirectory}". (TaskId:24)
+                             Considered "C:\Program Files (x86)\Reference Assemblies\Microsoft\Framework\.NETFramework\v4.0\System.Core.winmd", but it didn't exist. (TaskId:24)
+                         This reference is not "CopyLocal" because it's a prerequisite file. (TaskId:24)
+                         The ImageRuntimeVersion for this reference is "v4.0.30319". (TaskId:24)
+                   Done executing task "ResolveAssemblyReference". (TaskId:24)
+15:33:58.894     1>Done building target "ResolveAssemblyReferences" in project "QtCvOverlayWidget.vcxproj".: (TargetId:31)
+                   Target "ResolveComReferences" skipped, due to false condition; ('@(COMReference)'!='' or '@(COMFileReference)'!='') was evaluated as (''!='' or ''!='').
+15:33:58.894     1>Target "AfterResolveReferences: (TargetId:32)" in file "C:\Windows\Microsoft.NET\Framework\v4.0.30319\Microsoft.Common.Targets" from project "C:\Users\Hossein\Project\TADD-V1\QtCvOverlayWidget\QtCvOverlayWidget.vcxproj" (target "ResolveReferences" depends on it):
+15:33:58.894     1>Done building target "AfterResolveReferences" in project "QtCvOverlayWidget.vcxproj".: (TargetId:32)
+                   Target "ImplicitlyExpandDesignTimeFacades" skipped, due to false condition; ('$(ImplicitlyExpandDesignTimeFacades)' == 'true') was evaluated as ('' == 'true').
+                   Target "ResolveTestReferences" skipped, due to false condition; ('@(Shadow)'!='') was evaluated as (''!='').
+15:33:58.894     1>Target "ResolveReferences: (TargetId:33)" in file "C:\Windows\Microsoft.NET\Framework\v4.0.30319\Microsoft.Common.Targets" from project "C:\Users\Hossein\Project\TADD-V1\QtCvOverlayWidget\QtCvOverlayWidget.vcxproj" (target "Build" depends on it):
+15:33:58.894     1>Done building target "ResolveReferences" in project "QtCvOverlayWidget.vcxproj".: (TargetId:33)
+                   Target "PrepareForBuild" skipped. Previously built successfully.
+                   Target "PrepareForBuild" skipped. Previously built successfully.
+15:33:58.894     1>Target "InitializeBuildStatus: (TargetId:34)" in file "C:\Program Files (x86)\MSBuild\Microsoft.Cpp\v4.0\Microsoft.CppBuild.targets" from project "C:\Users\Hossein\Project\TADD-V1\QtCvOverlayWidget\QtCvOverlayWidget.vcxproj" (target "Build" depends on it):
+                   Task "ReadLinesFromFile" (TaskId:25)
+                   Done executing task "ReadLinesFromFile". (TaskId:25)
+                   Task "WriteLinesToFile" (TaskId:26)
+                   Done executing task "WriteLinesToFile". (TaskId:26)
+                   Using "Touch" task from assembly "Microsoft.Build.Tasks.v4.0, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a".
+                   Task "Touch" (TaskId:27)
+                     Creating "Release\QtCvOverlayWidget.unsuccessfulbuild" because "AlwaysCreate" was specified. (TaskId:27)
+                   Done executing task "Touch". (TaskId:27)
+15:33:58.898     1>Done building target "InitializeBuildStatus" in project "QtCvOverlayWidget.vcxproj".: (TargetId:34)
+                   Target "AssignProjectConfiguration" skipped. Previously built successfully.
+                   Target "_SplitProjectReferencesByFileExistence" skipped. Previously built successfully.
+15:33:58.898     1>Target "BuildGenerateSourcesTraverse: (TargetId:35)" in file "C:\Windows\Microsoft.NET\Framework\v4.0.30319\Microsoft.Common.Targets" from project "C:\Users\Hossein\Project\TADD-V1\QtCvOverlayWidget\QtCvOverlayWidget.vcxproj" (target "BuildGenerateSources" depends on it):
+                   Task "MSBuild" skipped, due to false condition; ('$(BuildPassReferences)' == 'true' and '@(ProjectReferenceWithConfiguration)' != '' and '@(_MSBuildProjectReferenceExistent)' != '' and '%(_MSBuildProjectReferenceExistent.BuildReference)' == 'true') was evaluated as ('' == 'true' and '' != '' and '' != '' and '' == 'true').
+15:33:58.898     1>Done building target "BuildGenerateSourcesTraverse" in project "QtCvOverlayWidget.vcxproj".: (TargetId:35)
+                   Target "SetBuildDefaultEnvironmentVariables" skipped. Previously built successfully.
+                   Target "SetUserMacroEnvironmentVariables" skipped, due to false condition; ('@(BuildMacro)' != '') was evaluated as ('' != '').
+                   Target "PrepareForBuild" skipped. Previously built successfully.
+                   Target "ResolveReferences" skipped. Previously built successfully.
+15:33:58.898     1>Target "BeforeBuildGenerateSources: (TargetId:36)" in file "C:\Program Files (x86)\MSBuild\Microsoft.Cpp\v4.0\Microsoft.BuildSteps.Targets" from project "C:\Users\Hossein\Project\TADD-V1\QtCvOverlayWidget\QtCvOverlayWidget.vcxproj" (target "BuildGenerateSources" depends on it):
+15:33:58.898     1>Done building target "BeforeBuildGenerateSources" in project "QtCvOverlayWidget.vcxproj".: (TargetId:36)
+15:33:58.898     1>Target "PreBuildEvent: (TargetId:37)" in file "C:\Program Files (x86)\MSBuild\Microsoft.Cpp\v4.0\Microsoft.CppCommon.targets" from project "C:\Users\Hossein\Project\TADD-V1\QtCvOverlayWidget\QtCvOverlayWidget.vcxproj" (target "BuildGenerateSources" depends on it):
+                   Task "Message" skipped, due to false condition; ('%(PreBuildEvent.Message)' != '' and '%(PreBuildEvent.Command)' != '') was evaluated as ('' != '' and '' != '').
+                   Task "Exec" skipped, due to false condition; ('%(PreBuildEvent.Command)' != '') was evaluated as ('' != '').
+15:33:58.898     1>Done building target "PreBuildEvent" in project "QtCvOverlayWidget.vcxproj".: (TargetId:37)
+                   Target "PrepareForBuild" skipped. Previously built successfully.
+                   Target "SetBuildDefaultEnvironmentVariables" skipped. Previously built successfully.
+                   Target "SetUserMacroEnvironmentVariables" skipped, due to false condition; ('@(BuildMacro)' != '') was evaluated as ('' != '').
+15:33:58.898     1>Target "_SelectedFiles: (TargetId:38)" in file "C:\Program Files (x86)\MSBuild\Microsoft.Cpp\v4.0\Microsoft.CppBuild.targets" from project "C:\Users\Hossein\Project\TADD-V1\QtCvOverlayWidget\QtCvOverlayWidget.vcxproj" (target "SelectCustomBuild" depends on it):
+15:33:58.898     1>Done building target "_SelectedFiles" in project "QtCvOverlayWidget.vcxproj".: (TargetId:38)
+15:33:58.898     1>Target "SelectCustomBuild: (TargetId:39)" in file "C:\Program Files (x86)\MSBuild\Microsoft.Cpp\v4.0\Microsoft.CppBuild.targets" from project "C:\Users\Hossein\Project\TADD-V1\QtCvOverlayWidget\QtCvOverlayWidget.vcxproj" (target "CustomBuild" depends on it):
+15:33:58.898     1>Done building target "SelectCustomBuild" in project "QtCvOverlayWidget.vcxproj".: (TargetId:39)
+15:33:58.898     1>Target "ComputeCustomBuildOutput: (TargetId:40)" in file "C:\Program Files (x86)\MSBuild\Microsoft.Cpp\v4.0\Microsoft.CppBuild.targets" from project "C:\Users\Hossein\Project\TADD-V1\QtCvOverlayWidget\QtCvOverlayWidget.vcxproj" (target "CustomBuild" depends on it):
+                   Task "MakeDir" (TaskId:28)
+                   Done executing task "MakeDir". (TaskId:28)
+15:33:58.901     1>Done building target "ComputeCustomBuildOutput" in project "QtCvOverlayWidget.vcxproj".: (TargetId:40)
+15:33:58.901     1>Target "CustomBuild: (TargetId:41)" in file "C:\Program Files (x86)\MSBuild\Microsoft.Cpp\v4.0\Microsoft.CppCommon.targets" from project "C:\Users\Hossein\Project\TADD-V1\QtCvOverlayWidget\QtCvOverlayWidget.vcxproj" (target "BuildGenerateSources" depends on it):
+                   Using "CustomBuild" task from assembly "Microsoft.Build.CppTasks.Common, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a".
+                   Task "CustomBuild" (TaskId:29)
+                     Forcing rebuild of all source files due to missing command tlog "C:\Users\Hossein\Project\TADD-V1\QtCvOverlayWidget\Release\custombuild.command.1.tlog". (TaskId:29)
+                     "C:\Users\Hossein\Project\4.7.3x86_Intel\bin\moc.exe"   -DUNICODE -DWIN32 -DQT_LARGEFILE_SUPPORT -DQT_PLUGIN -DQT_NO_DEBUG -DNDEBUG -DQDESIGNER_EXPORT_WIDGETS -DQT_CORE_LIB -DQT_GUI_LIB  "-I." "-I.\GeneratedFiles" "-IC:\Users\Hossein\Project\4.7.3x86_Intel\include" "-I.\GeneratedFiles\Release\." "-IC:\Users\Hossein\Project\4.7.3x86_Intel\include\qtmain" "-IC:\Users\Hossein\Project\4.7.3x86_Intel\include\QtDesigner" "-IC:\Users\Hossein\Project\4.7.3x86_Intel\include\QtCore" "-IC:\Users\Hossein\Project\4.7.3x86_Intel\include\QtGui" "-I." "-I." "-I." "C:\Users\Hossein\Project\TADD-V1\QtCvOverlayWidget\CvOverlayWidget.h" -o ".\GeneratedFiles\Release\moc_CvOverlayWidget.cpp" (TaskId:29)
+                     "C:\Users\Hossein\Project\4.7.3x86_Intel\bin\moc.exe"   -DUNICODE -DWIN32 -DQT_LARGEFILE_SUPPORT -DQT_PLUGIN -DQT_NO_DEBUG -DNDEBUG -DQDESIGNER_EXPORT_WIDGETS -DQT_CORE_LIB -DQT_GUI_LIB  "-I." "-I.\GeneratedFiles" "-IC:\Users\Hossein\Project\4.7.3x86_Intel\include" "-I.\GeneratedFiles\Release\." "-IC:\Users\Hossein\Project\4.7.3x86_Intel\include\qtmain" "-IC:\Users\Hossein\Project\4.7.3x86_Intel\include\QtDesigner" "-IC:\Users\Hossein\Project\4.7.3x86_Intel\include\QtCore" "-IC:\Users\Hossein\Project\4.7.3x86_Intel\include\QtGui" "-I." "-I." "-I." "C:\Users\Hossein\Project\TADD-V1\QtCvOverlayWidget\CvOverlayWidgetPlugin.h" -o ".\GeneratedFiles\Release\moc_CvOverlayWidgetPlugin.cpp" (TaskId:29)
+                     "C:\Users\Hossein\Project\4.7.3x86_Intel\bin\uic.exe" -o ".\GeneratedFiles\ui_CvOverlayUI.h" "C:\Users\Hossein\Project\TADD-V1\QtCvOverlayWidget\CvOverlayUI.ui" (TaskId:29)
+                     Moc'ing CvOverlayWidget.h... (TaskId:29)
+                     Moc'ing CvOverlayWidgetPlugin.h... (TaskId:29)
+                     Uic'ing CvOverlayUI.ui... (TaskId:29)
+                   Done executing task "CustomBuild". (TaskId:29)
+15:33:59.156     1>Done building target "CustomBuild" in project "QtCvOverlayWidget.vcxproj".: (TargetId:41)
+15:33:59.156     1>Target "_GenerateXMLData: (TargetId:42)" in file "C:\Program Files (x86)\MSBuild\Microsoft.Cpp\v4.0\Microsoft.CppBuild.targets" from project "C:\Users\Hossein\Project\TADD-V1\QtCvOverlayWidget\QtCvOverlayWidget.vcxproj" (target "BuildGenerateSources" depends on it):
+15:33:59.156     1>Done building target "_GenerateXMLData" in project "QtCvOverlayWidget.vcxproj".: (TargetId:42)
+15:33:59.156     1>Target "_GenerateWebServiceProxy: (TargetId:43)" in file "C:\Program Files (x86)\MSBuild\Microsoft.Cpp\v4.0\Microsoft.CppBuild.targets" from project "C:\Users\Hossein\Project\TADD-V1\QtCvOverlayWidget\QtCvOverlayWidget.vcxproj" (target "BuildGenerateSources" depends on it):
+15:33:59.156     1>Done building target "_GenerateWebServiceProxy" in project "QtCvOverlayWidget.vcxproj".: (TargetId:43)
+                   Target "Xsd" skipped, due to false condition; ('@(Xsd)' != '') was evaluated as ('' != '').
+15:33:59.156     1>Target "_Xsd: (TargetId:44)" in file "C:\Program Files (x86)\MSBuild\Microsoft.Cpp\v4.0\Microsoft.CppBuild.targets" from project "C:\Users\Hossein\Project\TADD-V1\QtCvOverlayWidget\QtCvOverlayWidget.vcxproj" (target "BuildGenerateSources" depends on it):
+15:33:59.156     1>Done building target "_Xsd" in project "QtCvOverlayWidget.vcxproj".: (TargetId:44)
+15:33:59.156     1>Target "MakeDirsForMidl: (TargetId:45)" in file "C:\Program Files (x86)\MSBuild\Microsoft.Cpp\v4.0\Microsoft.CppBuild.targets" from project "C:\Users\Hossein\Project\TADD-V1\QtCvOverlayWidget\QtCvOverlayWidget.vcxproj" (target "_Midl" depends on it):
+                   Task "Makedir" (TaskId:30)
+                   Done executing task "Makedir". (TaskId:30)
+15:33:59.156     1>Done building target "MakeDirsForMidl" in project "QtCvOverlayWidget.vcxproj".: (TargetId:45)
+                   Target "Midl" skipped, due to false condition; ('@(Midl)' != '') was evaluated as ('' != '').
+15:33:59.156     1>Target "ComputeMIDLGeneratedCompileInputs: (TargetId:46)" in file "C:\Program Files (x86)\MSBuild\Microsoft.Cpp\v4.0\Microsoft.CppBuild.targets" from project "C:\Users\Hossein\Project\TADD-V1\QtCvOverlayWidget\QtCvOverlayWidget.vcxproj" (target "_Midl" depends on it):
+15:33:59.156     1>Done building target "ComputeMIDLGeneratedCompileInputs" in project "QtCvOverlayWidget.vcxproj".: (TargetId:46)
+15:33:59.156     1>Target "AfterMidl: (TargetId:47)" in file "C:\Program Files (x86)\MSBuild\Microsoft.Cpp\v4.0\Microsoft.CppBuild.targets" from project "C:\Users\Hossein\Project\TADD-V1\QtCvOverlayWidget\QtCvOverlayWidget.vcxproj" (target "_Midl" depends on it):
+15:33:59.156     1>Done building target "AfterMidl" in project "QtCvOverlayWidget.vcxproj".: (TargetId:47)
+15:33:59.156     1>Target "_Midl: (TargetId:48)" in file "C:\Program Files (x86)\MSBuild\Microsoft.Cpp\v4.0\Microsoft.CppBuild.targets" from project "C:\Users\Hossein\Project\TADD-V1\QtCvOverlayWidget\QtCvOverlayWidget.vcxproj" (target "BuildGenerateSources" depends on it):
+15:33:59.156     1>Done building target "_Midl" in project "QtCvOverlayWidget.vcxproj".: (TargetId:48)
+15:33:59.156     1>Target "AfterBuildGenerateSources: (TargetId:49)" in file "C:\Program Files (x86)\MSBuild\Microsoft.Cpp\v4.0\Microsoft.BuildSteps.Targets" from project "C:\Users\Hossein\Project\TADD-V1\QtCvOverlayWidget\QtCvOverlayWidget.vcxproj" (target "BuildGenerateSources" depends on it):
+15:33:59.156     1>Done building target "AfterBuildGenerateSources" in project "QtCvOverlayWidget.vcxproj".: (TargetId:49)
+15:33:59.156     1>Target "AfterBuildGenerateSourcesEvent: (TargetId:50)" in file "C:\Program Files (x86)\MSBuild\Microsoft.Cpp\v4.0\Microsoft.CppBuild.targets" from project "C:\Users\Hossein\Project\TADD-V1\QtCvOverlayWidget\QtCvOverlayWidget.vcxproj" (target "BuildGenerateSources" depends on it):
+15:33:59.156     1>Done building target "AfterBuildGenerateSourcesEvent" in project "QtCvOverlayWidget.vcxproj".: (TargetId:50)
+15:33:59.156     1>Target "BuildGenerateSources: (TargetId:51)" in file "C:\Windows\Microsoft.NET\Framework\v4.0.30319\Microsoft.Common.Targets" from project "C:\Users\Hossein\Project\TADD-V1\QtCvOverlayWidget\QtCvOverlayWidget.vcxproj" (target "Build" depends on it):
+15:33:59.156     1>Done building target "BuildGenerateSources" in project "QtCvOverlayWidget.vcxproj".: (TargetId:51)
+                   Target "AssignProjectConfiguration" skipped. Previously built successfully.
+                   Target "_SplitProjectReferencesByFileExistence" skipped. Previously built successfully.
+15:33:59.156     1>Target "BuildCompileTraverse: (TargetId:52)" in file "C:\Windows\Microsoft.NET\Framework\v4.0.30319\Microsoft.Common.Targets" from project "C:\Users\Hossein\Project\TADD-V1\QtCvOverlayWidget\QtCvOverlayWidget.vcxproj" (target "BuildCompile" depends on it):
+                   Task "MSBuild" skipped, due to false condition; ('$(BuildPassReferences)' == 'true' and '@(ProjectReferenceWithConfiguration)' != '' and '@(_MSBuildProjectReferenceExistent)' != ''  and '%(_MSBuildProjectReferenceExistent.BuildReference)' == 'true') was evaluated as ('' == 'true' and '' != '' and '' != ''  and '' == 'true').
+15:33:59.157     1>Done building target "BuildCompileTraverse" in project "QtCvOverlayWidget.vcxproj".: (TargetId:52)
+                   Target "SetBuildDefaultEnvironmentVariables" skipped. Previously built successfully.
+                   Target "SetUserMacroEnvironmentVariables" skipped, due to false condition; ('@(BuildMacro)' != '') was evaluated as ('' != '').
+                   Target "PrepareForBuild" skipped. Previously built successfully.
+                   Target "ResolveReferences" skipped. Previously built successfully.
+15:33:59.157     1>Target "BeforeClCompile: (TargetId:53)" in file "C:\Program Files (x86)\MSBuild\Microsoft.Cpp\v4.0\Microsoft.CppBuild.targets" from project "C:\Users\Hossein\Project\TADD-V1\QtCvOverlayWidget\QtCvOverlayWidget.vcxproj" (target "_ClCompile" depends on it):
+15:33:59.157     1>Done building target "BeforeClCompile" in project "QtCvOverlayWidget.vcxproj".: (TargetId:53)
+                   Target "ComputeMIDLGeneratedCompileInputs" skipped. Previously built successfully.
+15:33:59.157     1>Target "ComputeCLInputPDBName: (TargetId:54)" in file "C:\Program Files (x86)\MSBuild\Microsoft.Cpp\v4.0\Microsoft.CppBuild.targets" from project "C:\Users\Hossein\Project\TADD-V1\QtCvOverlayWidget\QtCvOverlayWidget.vcxproj" (target "_ClCompile" depends on it):
+15:33:59.157     1>Done building target "ComputeCLInputPDBName" in project "QtCvOverlayWidget.vcxproj".: (TargetId:54)
+                   Target "ResolveReferences" skipped. Previously built successfully.
+15:33:59.157     1>Target "ComputeReferenceCLInput: (TargetId:55)" in file "C:\Program Files (x86)\MSBuild\Microsoft.Cpp\v4.0\Microsoft.CppBuild.targets" from project "C:\Users\Hossein\Project\TADD-V1\QtCvOverlayWidget\QtCvOverlayWidget.vcxproj" (target "_ClCompile" depends on it):
+                   Task "WriteLinesToFile" (TaskId:31)
+                   Done executing task "WriteLinesToFile". (TaskId:31)
+                   Task "Message" skipped, due to false condition; ('$(_REFERENCE_DEBUG)'=='true' and '%(ClCompile.CompileAsManaged)' != 'false' and '%(ClCompile.CompileAsManaged)' != '') was evaluated as (''=='true' and '' != 'false' and '' != '').
+15:33:59.157     1>Done building target "ComputeReferenceCLInput" in project "QtCvOverlayWidget.vcxproj".: (TargetId:55)
+15:33:59.157     1>Target "MakeDirsForCl: (TargetId:56)" in file "C:\Program Files (x86)\MSBuild\Microsoft.Cpp\v4.0\Microsoft.CppBuild.targets" from project "C:\Users\Hossein\Project\TADD-V1\QtCvOverlayWidget\QtCvOverlayWidget.vcxproj" (target "_ClCompile" depends on it):
+                   Task "MakeDir" (TaskId:32)
+                   Done executing task "MakeDir". (TaskId:32)
+15:33:59.158     1>Done building target "MakeDirsForCl" in project "QtCvOverlayWidget.vcxproj".: (TargetId:56)
+                   Target "_SelectedFiles" skipped. Previously built successfully.
+                   Target "ComputeMIDLGeneratedCompileInputs" skipped. Previously built successfully.
+                   Target "ComputeCLInputPDBName" skipped. Previously built successfully.
+                   Target "ComputeReferenceCLInput" skipped. Previously built successfully.
+                   Target "SelectCustomBuild" skipped. Previously built successfully.
+15:33:59.158     1>Target "SelectClCompile: (TargetId:57)" in file "C:\Program Files (x86)\MSBuild\Microsoft.Cpp\v4.0\Microsoft.CppBuild.targets" from project "C:\Users\Hossein\Project\TADD-V1\QtCvOverlayWidget\QtCvOverlayWidget.vcxproj" (target "ClCompile" depends on it):
+15:33:59.158     1>Done building target "SelectClCompile" in project "QtCvOverlayWidget.vcxproj".: (TargetId:57)
+                   Target "GenerateTargetFrameworkMonikerAttribute" skipped, due to false condition; ('$(GenerateTargetFrameworkAttribute)' == 'true') was evaluated as ('false' == 'true').
+                   Target "ManagedIncrementalBuildPreProcessDependencyGraph" skipped, due to false condition; ('@(ClCompile)' != '' and '$(EnableManagedIncrementalBuild)' == 'True') was evaluated as ('CvOverlayWidget.cpp;CvOverlayWidgetPlugin.cpp;GeneratedFiles\Debug\moc_CvOverlayWidget.cpp;GeneratedFiles\Debug\moc_CvOverlayWidgetPlugin.cpp;GeneratedFiles\Release\moc_CvOverlayWidget.cpp;GeneratedFiles\Release\moc_CvOverlayWidgetPlugin.cpp' != '' and 'false' == 'True').
+15:33:59.158     1>Target "ClCompile: (TargetId:58)" in file "C:\Program Files (x86)\MSBuild\Microsoft.Cpp\v4.0\Platforms\Win32\Microsoft.Cpp.Win32.Targets" from project "C:\Users\Hossein\Project\TADD-V1\QtCvOverlayWidget\QtCvOverlayWidget.vcxproj" (target "_ClCompile" depends on it):
+                   Task "Delete" skipped, due to false condition; ('%(ClCompile.DebugInformationFormat)' != '' and '%(ClCompile.DebugInformationFormat)' != 'OldStyle' and '%(ClCompile.ProgramDataBaseFileName)' != '' and !Exists(%(ClCompile.ProgramDataBaseFileName))) was evaluated as ('' != '' and '' != 'OldStyle' and 'Release\vc100.pdb' != '' and !Exists(Release\vc100.pdb)).
+                   Task "CL" skipped, due to false condition; ('%(ClCompile.PrecompiledHeader)' == 'Create' and '%(ClCompile.ExcludedFromBuild)'!='true') was evaluated as ('NotUsing' == 'Create' and ''!='true').
+                   Task "CL" skipped, due to false condition; ('%(ClCompile.PrecompiledHeader)' == 'Create' and '%(ClCompile.ExcludedFromBuild)'!='true') was evaluated as ('NotUsing' == 'Create' and 'true'!='true').
+                   Using "CL" task from assembly "Microsoft.Build.CppTasks.Win32, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a".
+                   Task "CL" (TaskId:33)
+                     Environment Variables passed to tool: (TaskId:33)
+                       VS_UNICODE_OUTPUT=676 (TaskId:33)
+                     c:\Program Files (x86)\Microsoft Visual Studio 10.0\VC\bin\CL.exe /c /I.\GeneratedFiles /IC:\Users\Hossein\Project\4.7.3x86_Intel\include /I.\GeneratedFiles\Release /IC:\Users\Hossein\Project\4.7.3x86_Intel\include\qtmain /IC:\Users\Hossein\Project\4.7.3x86_Intel\include\QtDesigner /I.\ /nologo /W1 /WX- /O2 /Ob2 /Oi /Ot /Oy /GT /D UNICODE /D WIN32 /D QT_LARGEFILE_SUPPORT /D QT_PLUGIN /D QT_NO_DEBUG /D NDEBUG /D QDESIGNER_EXPORT_WIDGETS /Gm- /EHsc /MD /GS /fp:precise /Zc:wchar_t- /Zc:forScope /Fo"Release\\" /Fd"Release\vc100.pdb" /Gd /TP /analyze- /errorReport:prompt CvOverlayWidget.cpp CvOverlayWidgetPlugin.cpp GeneratedFiles\Release\moc_CvOverlayWidget.cpp GeneratedFiles\Release\moc_CvOverlayWidgetPlugin.cpp (TaskId:33)
+                     Tracking command: (TaskId:33)
+                     C:\Program Files (x86)\Microsoft SDKs\Windows\v7.0A\bin\NETFX 4.0 Tools\Tracker.exe /d C:\Windows\Microsoft.NET\Framework\v4.0.30319\FileTracker.dll /i C:\Users\Hossein\Project\TADD-V1\QtCvOverlayWidget\Release /r "C:\USERS\HOSSEIN\PROJECT\TADD-V1\QTCVOVERLAYWIDGET\CVOVERLAYWIDGET.CPP|C:\USERS\HOSSEIN\PROJECT\TADD-V1\QTCVOVERLAYWIDGET\CVOVERLAYWIDGETPLUGIN.CPP|C:\USERS\HOSSEIN\PROJECT\TADD-V1\QTCVOVERLAYWIDGET\GENERATEDFILES\RELEASE\MOC_CVOVERLAYWIDGET.CPP|C:\USERS\HOSSEIN\PROJECT\TADD-V1\QTCVOVERLAYWIDGET\GENERATEDFILES\RELEASE\MOC_CVOVERLAYWIDGETPLUGIN.CPP" /b MSBuildConsole_CancelEventd1af462867e84b2ba017b13e99ff9121  /c "c:\Program Files (x86)\Microsoft Visual Studio 10.0\VC\bin\CL.exe"  /c /I.\GeneratedFiles /IC:\Users\Hossein\Project\4.7.3x86_Intel\include /I.\GeneratedFiles\Release /IC:\Users\Hossein\Project\4.7.3x86_Intel\include\qtmain /IC:\Users\Hossein\Project\4.7.3x86_Intel\include\QtDesigner /I.\ /nologo /W1 /WX- /O2 /Ob2 /Oi /Ot /Oy /GT /D UNICODE /D WIN32 /D QT_LARGEFILE_SUPPORT /D QT_PLUGIN /D QT_NO_DEBUG /D NDEBUG /D QDESIGNER_EXPORT_WIDGETS /Gm- /EHsc /MD /GS /fp:precise /Zc:wchar_t- /Zc:forScope /Fo"Release\\" /Fd"Release\vc100.pdb" /Gd /TP /analyze- /errorReport:prompt CvOverlayWidget.cpp CvOverlayWidgetPlugin.cpp GeneratedFiles\Release\moc_CvOverlayWidget.cpp GeneratedFiles\Release\moc_CvOverlayWidgetPlugin.cpp (TaskId:33)
+                     CvOverlayWidget.cpp (TaskId:33)
+                     CvOverlayWidgetPlugin.cpp (TaskId:33)
+15:34:00.687     1>CvOverlayWidgetPlugin.cpp(13): warning C4138: '*/' found outside of comment
+                     moc_CvOverlayWidget.cpp (TaskId:33)
+                     moc_CvOverlayWidgetPlugin.cpp (TaskId:33)
+                     Generating Code... (TaskId:33)
+                   Done executing task "CL". (TaskId:33)
+                   Task "CL" skipped, due to false condition; ('%(ClCompile.PrecompiledHeader)' != 'Create' and '%(ClCompile.ExcludedFromBuild)'!='true') was evaluated as ('NotUsing' != 'Create' and 'true'!='true').
+15:34:02.173     1>Done building target "ClCompile" in project "QtCvOverlayWidget.vcxproj".: (TargetId:58)
+                   Target "ManagedIncrementalBuildPostProcessDependencyGraph" skipped, due to false condition; ('@(ClCompile)' != '' and '$(EnableManagedIncrementalBuild)' == 'True') was evaluated as ('CvOverlayWidget.cpp;CvOverlayWidgetPlugin.cpp;GeneratedFiles\Debug\moc_CvOverlayWidget.cpp;GeneratedFiles\Debug\moc_CvOverlayWidgetPlugin.cpp;GeneratedFiles\Release\moc_CvOverlayWidget.cpp;GeneratedFiles\Release\moc_CvOverlayWidgetPlugin.cpp' != '' and 'false' == 'True').
+15:34:02.173     1>Target "AfterClCompile: (TargetId:59)" in file "C:\Program Files (x86)\MSBuild\Microsoft.Cpp\v4.0\Microsoft.CppBuild.targets" from project "C:\Users\Hossein\Project\TADD-V1\QtCvOverlayWidget\QtCvOverlayWidget.vcxproj" (target "_ClCompile" depends on it):
+15:34:02.173     1>Done building target "AfterClCompile" in project "QtCvOverlayWidget.vcxproj".: (TargetId:59)
+15:34:02.173     1>Target "_ClCompile: (TargetId:60)" in file "C:\Program Files (x86)\MSBuild\Microsoft.Cpp\v4.0\Microsoft.CppBuild.targets" from project "C:\Users\Hossein\Project\TADD-V1\QtCvOverlayWidget\QtCvOverlayWidget.vcxproj" (target "BuildCompile" depends on it):
+15:34:02.173     1>Done building target "_ClCompile" in project "QtCvOverlayWidget.vcxproj".: (TargetId:60)
+                   Target "_ResGen" skipped, due to false condition; ('@(EmbeddedResource)'!='') was evaluated as (''!='').
+15:34:02.173     1>Target "BeforeResourceCompile: (TargetId:61)" in file "C:\Program Files (x86)\MSBuild\Microsoft.Cpp\v4.0\Microsoft.CppBuild.targets" from project "C:\Users\Hossein\Project\TADD-V1\QtCvOverlayWidget\QtCvOverlayWidget.vcxproj" (target "_ResourceCompile" depends on it):
+15:34:02.173     1>Done building target "BeforeResourceCompile" in project "QtCvOverlayWidget.vcxproj".: (TargetId:61)
+15:34:02.173     1>Target "MakeDirsForResourceCompile: (TargetId:62)" in file "C:\Program Files (x86)\MSBuild\Microsoft.Cpp\v4.0\Microsoft.CppBuild.targets" from project "C:\Users\Hossein\Project\TADD-V1\QtCvOverlayWidget\QtCvOverlayWidget.vcxproj" (target "_ResourceCompile" depends on it):
+                   Task "MakeDir" (TaskId:34)
+                   Done executing task "MakeDir". (TaskId:34)
+15:34:02.173     1>Done building target "MakeDirsForResourceCompile" in project "QtCvOverlayWidget.vcxproj".: (TargetId:62)
+                   Target "ResourceCompile" skipped, due to false condition; ('@(ResourceCompile)' != '') was evaluated as ('' != '').
+15:34:02.173     1>Target "AfterResourceCompile: (TargetId:63)" in file "C:\Program Files (x86)\MSBuild\Microsoft.Cpp\v4.0\Microsoft.CppBuild.targets" from project "C:\Users\Hossein\Project\TADD-V1\QtCvOverlayWidget\QtCvOverlayWidget.vcxproj" (target "_ResourceCompile" depends on it):
+15:34:02.173     1>Done building target "AfterResourceCompile" in project "QtCvOverlayWidget.vcxproj".: (TargetId:63)
+15:34:02.173     1>Target "_ResourceCompile: (TargetId:64)" in file "C:\Program Files (x86)\MSBuild\Microsoft.Cpp\v4.0\Microsoft.CppBuild.targets" from project "C:\Users\Hossein\Project\TADD-V1\QtCvOverlayWidget\QtCvOverlayWidget.vcxproj" (target "BuildCompile" depends on it):
+15:34:02.173     1>Done building target "_ResourceCompile" in project "QtCvOverlayWidget.vcxproj".: (TargetId:64)
+                   Target "_ImpLib" skipped, due to false condition; ('$(ImpLibCompiled)' == 'true') was evaluated as ('' == 'true').
+15:34:02.173     1>Target "BeforeLib: (TargetId:65)" in file "C:\Program Files (x86)\MSBuild\Microsoft.Cpp\v4.0\Microsoft.CppBuild.targets" from project "C:\Users\Hossein\Project\TADD-V1\QtCvOverlayWidget\QtCvOverlayWidget.vcxproj" (target "_Lib" depends on it):
+15:34:02.173     1>Done building target "BeforeLib" in project "QtCvOverlayWidget.vcxproj".: (TargetId:65)
+15:34:02.173     1>Target "ComputeLibAdditionalOptions: (TargetId:66)" in file "C:\Program Files (x86)\MSBuild\Microsoft.Cpp\v4.0\Microsoft.CppBuild.targets" from project "C:\Users\Hossein\Project\TADD-V1\QtCvOverlayWidget\QtCvOverlayWidget.vcxproj" (target "_Lib" depends on it):
+15:34:02.173     1>Done building target "ComputeLibAdditionalOptions" in project "QtCvOverlayWidget.vcxproj".: (TargetId:66)
+15:34:02.173     1>Target "ComputeRCOutputs: (TargetId:67)" in file "C:\Program Files (x86)\MSBuild\Microsoft.Cpp\v4.0\Microsoft.CppBuild.targets" from project "C:\Users\Hossein\Project\TADD-V1\QtCvOverlayWidget\QtCvOverlayWidget.vcxproj" (target "ComputeRCGeneratedLibInputs" depends on it):
+15:34:02.173     1>Done building target "ComputeRCOutputs" in project "QtCvOverlayWidget.vcxproj".: (TargetId:67)
+15:34:02.173     1>Target "ComputeRCGeneratedLibInputs: (TargetId:68)" in file "C:\Program Files (x86)\MSBuild\Microsoft.Cpp\v4.0\Microsoft.CppBuild.targets" from project "C:\Users\Hossein\Project\TADD-V1\QtCvOverlayWidget\QtCvOverlayWidget.vcxproj" (target "_Lib" depends on it):
+15:34:02.173     1>Done building target "ComputeRCGeneratedLibInputs" in project "QtCvOverlayWidget.vcxproj".: (TargetId:68)
+                   Target "ComputeCustomBuildOutput" skipped. Previously built successfully.
+                   Target "ComputeMIDLGeneratedCompileInputs" skipped. Previously built successfully.
+                   Target "ComputeCLInputPDBName" skipped. Previously built successfully.
+                   Target "ComputeReferenceCLInput" skipped. Previously built successfully.
+15:34:02.173     1>Target "ComputeCLOutputs: (TargetId:69)" in file "C:\Program Files (x86)\MSBuild\Microsoft.Cpp\v4.0\Microsoft.CppBuild.targets" from project "C:\Users\Hossein\Project\TADD-V1\QtCvOverlayWidget\QtCvOverlayWidget.vcxproj" (target "ComputeCLGeneratedLibInputs" depends on it):
+15:34:02.173     1>Done building target "ComputeCLOutputs" in project "QtCvOverlayWidget.vcxproj".: (TargetId:69)
+15:34:02.173     1>Target "ComputeCLGeneratedLibInputs: (TargetId:70)" in file "C:\Program Files (x86)\MSBuild\Microsoft.Cpp\v4.0\Microsoft.CppBuild.targets" from project "C:\Users\Hossein\Project\TADD-V1\QtCvOverlayWidget\QtCvOverlayWidget.vcxproj" (target "_Lib" depends on it):
+15:34:02.173     1>Done building target "ComputeCLGeneratedLibInputs" in project "QtCvOverlayWidget.vcxproj".: (TargetId:70)
+15:34:02.173     1>Target "ComputeLibInputsFromProject: (TargetId:71)" in file "C:\Program Files (x86)\MSBuild\Microsoft.Cpp\v4.0\Microsoft.CppBuild.targets" from project "C:\Users\Hossein\Project\TADD-V1\QtCvOverlayWidget\QtCvOverlayWidget.vcxproj" (target "_Lib" depends on it):
+15:34:02.173     1>Done building target "ComputeLibInputsFromProject" in project "QtCvOverlayWidget.vcxproj".: (TargetId:71)
+                   Target "ComputeReferenceLibInputs" skipped, due to false condition; (@(ProjectReference) != '') was evaluated as ( != '').
+15:34:02.173     1>Target "MakeDirsForLib: (TargetId:72)" in file "C:\Program Files (x86)\MSBuild\Microsoft.Cpp\v4.0\Microsoft.CppBuild.targets" from project "C:\Users\Hossein\Project\TADD-V1\QtCvOverlayWidget\QtCvOverlayWidget.vcxproj" (target "_Lib" depends on it):
+                   Task "MakeDir" (TaskId:35)
+                   Done executing task "MakeDir". (TaskId:35)
+15:34:02.174     1>Done building target "MakeDirsForLib" in project "QtCvOverlayWidget.vcxproj".: (TargetId:72)
+15:34:02.174     1>Target "DoLibOutputFilesMatch: (TargetId:73)" in file "C:\Program Files (x86)\MSBuild\Microsoft.Cpp\v4.0\Microsoft.CppBuild.targets" from project "C:\Users\Hossein\Project\TADD-V1\QtCvOverlayWidget\QtCvOverlayWidget.vcxproj" (target "_Lib" depends on it):
+                   Task "VCMessage" skipped, due to false condition; ('%(_OutputFileFromLib.FullPath)' != '$([System.IO.Path]::GetFullPath($(TargetPath)))') was evaluated as ('C:\Users\Hossein\Project\TADD-V1\Release\QtCvOverlayWidget.lib' != 'C:\Users\Hossein\Project\TADD-V1\Release\QtCvOverlayWidget.lib').
+                   Task "VCMessage" skipped, due to false condition; ('%(_OutputFileFromLib.Extension)' != '$(TargetExt)') was evaluated as ('.lib' != '.lib').
+                   Task "VCMessage" skipped, due to false condition; ('%(_OutputFileFromLib.Filename)' != '$(TargetName)') was evaluated as ('QtCvOverlayWidget' != 'QtCvOverlayWidget').
+15:34:02.174     1>Done building target "DoLibOutputFilesMatch" in project "QtCvOverlayWidget.vcxproj".: (TargetId:73)
+15:34:02.174     1>Target "PreLinkEvent: (TargetId:74)" in file "C:\Program Files (x86)\MSBuild\Microsoft.Cpp\v4.0\Microsoft.CppCommon.targets" from project "C:\Users\Hossein\Project\TADD-V1\QtCvOverlayWidget\QtCvOverlayWidget.vcxproj" (target "_Lib" depends on it):
+                   Task "Message" skipped, due to false condition; ('%(PreLinkEvent.Message)' != '' and '%(PreLinkEvent.Command)' != '') was evaluated as ('' != '' and '' != '').
+                   Task "Exec" skipped, due to false condition; ('%(PreLinkEvent.Command)' != '') was evaluated as ('' != '').
+15:34:02.174     1>Done building target "PreLinkEvent" in project "QtCvOverlayWidget.vcxproj".: (TargetId:74)
+15:34:02.174     1>Target "Lib: (TargetId:75)" in file "C:\Program Files (x86)\MSBuild\Microsoft.Cpp\v4.0\Microsoft.CppCommon.targets" from project "C:\Users\Hossein\Project\TADD-V1\QtCvOverlayWidget\QtCvOverlayWidget.vcxproj" (target "_Lib" depends on it):
+                   Using "LIB" task from assembly "Microsoft.Build.CppTasks.Common, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a".
+                   Task "LIB" (TaskId:36)
+                     c:\Program Files (x86)\Microsoft Visual Studio 10.0\VC\bin\Lib.exe /OUT:"C:\Users\Hossein\Project\TADD-V1\Release\QtCvOverlayWidget.lib" /NOLOGO Release\CvOverlayWidget.obj
+                     Release\CvOverlayWidgetPlugin.obj
+                     Release\moc_CvOverlayWidget.obj
+                     Release\moc_CvOverlayWidgetPlugin.obj (TaskId:36)
+                     Tracking command: (TaskId:36)
+                     C:\Program Files (x86)\Microsoft SDKs\Windows\v7.0A\bin\NETFX 4.0 Tools\Tracker.exe /d C:\Windows\Microsoft.NET\Framework\v4.0.30319\FileTracker.dll /i C:\Users\Hossein\Project\TADD-V1\QtCvOverlayWidget\Release /r "C:\USERS\HOSSEIN\PROJECT\TADD-V1\QTCVOVERLAYWIDGET\RELEASE\CVOVERLAYWIDGET.OBJ|C:\USERS\HOSSEIN\PROJECT\TADD-V1\QTCVOVERLAYWIDGET\RELEASE\CVOVERLAYWIDGETPLUGIN.OBJ|C:\USERS\HOSSEIN\PROJECT\TADD-V1\QTCVOVERLAYWIDGET\RELEASE\MOC_CVOVERLAYWIDGET.OBJ|C:\USERS\HOSSEIN\PROJECT\TADD-V1\QTCVOVERLAYWIDGET\RELEASE\MOC_CVOVERLAYWIDGETPLUGIN.OBJ" /b MSBuildConsole_CancelEventd70fa0f411bf499696705d5ddd0568de  /c "c:\Program Files (x86)\Microsoft Visual Studio 10.0\VC\bin\Lib.exe"  /OUT:"C:\Users\Hossein\Project\TADD-V1\Release\QtCvOverlayWidget.lib" /NOLOGO Release\CvOverlayWidget.obj
+                     Release\CvOverlayWidgetPlugin.obj
+                     Release\moc_CvOverlayWidget.obj
+                     Release\moc_CvOverlayWidgetPlugin.obj (TaskId:36)
+                   Done executing task "LIB". (TaskId:36)
+                   Task "Message" (TaskId:37)
+                     QtCvOverlayWidget.vcxproj -> C:\Users\Hossein\Project\TADD-V1\Release\QtCvOverlayWidget.lib (TaskId:37)
+                   Done executing task "Message". (TaskId:37)
+15:34:02.213     1>Done building target "Lib" in project "QtCvOverlayWidget.vcxproj".: (TargetId:75)
+15:34:02.213     1>Target "AfterLib: (TargetId:76)" in file "C:\Program Files (x86)\MSBuild\Microsoft.Cpp\v4.0\Microsoft.CppBuild.targets" from project "C:\Users\Hossein\Project\TADD-V1\QtCvOverlayWidget\QtCvOverlayWidget.vcxproj" (target "_Lib" depends on it):
+15:34:02.213     1>Done building target "AfterLib" in project "QtCvOverlayWidget.vcxproj".: (TargetId:76)
+15:34:02.213     1>Target "_Lib: (TargetId:77)" in file "C:\Program Files (x86)\MSBuild\Microsoft.Cpp\v4.0\Microsoft.CppBuild.targets" from project "C:\Users\Hossein\Project\TADD-V1\QtCvOverlayWidget\QtCvOverlayWidget.vcxproj" (target "BuildCompile" depends on it):
+15:34:02.213     1>Done building target "_Lib" in project "QtCvOverlayWidget.vcxproj".: (TargetId:77)
+15:34:02.213     1>Target "AfterBuildCompileEvent: (TargetId:78)" in file "C:\Program Files (x86)\MSBuild\Microsoft.Cpp\v4.0\Microsoft.CppBuild.targets" from project "C:\Users\Hossein\Project\TADD-V1\QtCvOverlayWidget\QtCvOverlayWidget.vcxproj" (target "BuildCompile" depends on it):
+15:34:02.213     1>Done building target "AfterBuildCompileEvent" in project "QtCvOverlayWidget.vcxproj".: (TargetId:78)
+15:34:02.213     1>Target "BuildCompile: (TargetId:79)" in file "C:\Windows\Microsoft.NET\Framework\v4.0.30319\Microsoft.Common.Targets" from project "C:\Users\Hossein\Project\TADD-V1\QtCvOverlayWidget\QtCvOverlayWidget.vcxproj" (target "Build" depends on it):
+15:34:02.213     1>Done building target "BuildCompile" in project "QtCvOverlayWidget.vcxproj".: (TargetId:79)
+                   Target "AssignProjectConfiguration" skipped. Previously built successfully.
+                   Target "_SplitProjectReferencesByFileExistence" skipped. Previously built successfully.
+15:34:02.213     1>Target "BuildLinkTraverse: (TargetId:80)" in file "C:\Windows\Microsoft.NET\Framework\v4.0.30319\Microsoft.Common.Targets" from project "C:\Users\Hossein\Project\TADD-V1\QtCvOverlayWidget\QtCvOverlayWidget.vcxproj" (target "BuildLink" depends on it):
+                   Task "MSBuild" skipped, due to false condition; ('$(BuildPassReferences)' == 'true' and '@(ProjectReferenceWithConfiguration)' != '' and '@(_MSBuildProjectReferenceExistent)' != ''  and '%(_MSBuildProjectReferenceExistent.BuildReference)' == 'true') was evaluated as ('' == 'true' and '' != '' and '' != ''  and '' == 'true').
+15:34:02.213     1>Done building target "BuildLinkTraverse" in project "QtCvOverlayWidget.vcxproj".: (TargetId:80)
+                   Target "SetBuildDefaultEnvironmentVariables" skipped. Previously built successfully.
+                   Target "SetUserMacroEnvironmentVariables" skipped, due to false condition; ('@(BuildMacro)' != '') was evaluated as ('' != '').
+                   Target "PrepareForBuild" skipped. Previously built successfully.
+                   Target "ResolveReferences" skipped. Previously built successfully.
+                   Target "_Link" skipped, due to false condition; ('$(LinkCompiled)' == 'true') was evaluated as ('' == 'true').
+15:34:02.213     1>Target "_ALink: (TargetId:81)" in file "C:\Program Files (x86)\MSBuild\Microsoft.Cpp\v4.0\Microsoft.CppBuild.targets" from project "C:\Users\Hossein\Project\TADD-V1\QtCvOverlayWidget\QtCvOverlayWidget.vcxproj" (target "BuildLink" depends on it):
+15:34:02.213     1>Done building target "_ALink" in project "QtCvOverlayWidget.vcxproj".: (TargetId:81)
+15:34:02.214     1>Target "_Manifest: (TargetId:82)" in file "C:\Program Files (x86)\MSBuild\Microsoft.Cpp\v4.0\Microsoft.CppBuild.targets" from project "C:\Users\Hossein\Project\TADD-V1\QtCvOverlayWidget\QtCvOverlayWidget.vcxproj" (target "BuildLink" depends on it):
+15:34:02.214     1>Done building target "_Manifest" in project "QtCvOverlayWidget.vcxproj".: (TargetId:82)
+15:34:02.214     1>Target "RegisterOutput: (TargetId:83)" in file "C:\Program Files (x86)\MSBuild\Microsoft.Cpp\v4.0\Microsoft.CppCommon.targets" from project "C:\Users\Hossein\Project\TADD-V1\QtCvOverlayWidget\QtCvOverlayWidget.vcxproj" (target "BuildLink" depends on it):
+                   Task "Exec" skipped, due to false condition; ('$(ConfigurationType)'=='DynamicLibrary' and '%(Link.RegisterOutput)'=='true' and '%(Link.PerUserRedirection)'!='true') was evaluated as ('StaticLibrary'=='DynamicLibrary' and ''=='true' and ''!='true').
+                   Task "Exec" skipped, due to false condition; ('$(ConfigurationType)'=='DynamicLibrary' and '%(Link.RegisterOutput)'=='true' and '%(Link.PerUserRedirection)'=='true') was evaluated as ('StaticLibrary'=='DynamicLibrary' and ''=='true' and ''=='true').
+                   Task "Exec" skipped, due to false condition; ('$(ConfigurationType)'=='Application' and '%(Link.RegisterOutput)'=='true' and '%(Link.PerUserRedirection)'!='true') was evaluated as ('StaticLibrary'=='Application' and ''=='true' and ''!='true').
+                   Task "Exec" skipped, due to false condition; ('$(ConfigurationType)'=='Application' and '%(Link.RegisterOutput)'=='true' and '%(Link.PerUserRedirection)'=='true') was evaluated as ('StaticLibrary'=='Application' and ''=='true' and ''=='true').
+                   Task "VCMessage" skipped, due to false condition; ('$(_RegisterOutputExitCode)' != '' and '$(_RegisterOutputExitCode)' != '0') was evaluated as ('' != '' and '' != '0').
+15:34:02.214     1>Done building target "RegisterOutput" in project "QtCvOverlayWidget.vcxproj".: (TargetId:83)
+15:34:02.214     1>Target "ComputeCLCompileGeneratedXDCFiles: (TargetId:84)" in file "C:\Program Files (x86)\MSBuild\Microsoft.Cpp\v4.0\Microsoft.CppBuild.targets" from project "C:\Users\Hossein\Project\TADD-V1\QtCvOverlayWidget\QtCvOverlayWidget.vcxproj" (target "_XdcMake" depends on it):
+15:34:02.214     1>Done building target "ComputeCLCompileGeneratedXDCFiles" in project "QtCvOverlayWidget.vcxproj".: (TargetId:84)
+                   Target "SetBuildDefaultEnvironmentVariables" skipped. Previously built successfully.
+                   Target "SetUserMacroEnvironmentVariables" skipped, due to false condition; ('@(BuildMacro)' != '') was evaluated as ('' != '').
+                   Target "PrepareForBuild" skipped. Previously built successfully.
+                   Target "ResolveReferences" skipped. Previously built successfully.
+15:34:02.214     1>Target "ResolvedXDCMake: (TargetId:85)" in file "C:\Program Files (x86)\MSBuild\Microsoft.Cpp\v4.0\Microsoft.CppBuild.targets" from project "C:\Users\Hossein\Project\TADD-V1\QtCvOverlayWidget\QtCvOverlayWidget.vcxproj" (target "_XdcMake" depends on it):
+                   Task "MSBuild" skipped, due to false condition; ('%(_MSBuildProjectReferenceExistent.Extension)' == '.vcxproj' and '@(ProjectReferenceWithConfiguration)' != '' and '@(_MSBuildProjectReferenceExistent)' != '' and '$(_ClCompileGenerateXMLDocumentationFiles)' == 'true') was evaluated as ('' == '.vcxproj' and '' != '' and '' != '' and '' == 'true').
+15:34:02.214     1>Done building target "ResolvedXDCMake" in project "QtCvOverlayWidget.vcxproj".: (TargetId:85)
+15:34:02.214     1>Target "MakeDirsForXdcMake: (TargetId:86)" in file "C:\Program Files (x86)\MSBuild\Microsoft.Cpp\v4.0\Microsoft.CppBuild.targets" from project "C:\Users\Hossein\Project\TADD-V1\QtCvOverlayWidget\QtCvOverlayWidget.vcxproj" (target "_XdcMake" depends on it):
+                   Task "MakeDir" (TaskId:38)
+                   Done executing task "MakeDir". (TaskId:38)
+15:34:02.214     1>Done building target "MakeDirsForXdcMake" in project "QtCvOverlayWidget.vcxproj".: (TargetId:86)
+                   Target "XdcMake" skipped, due to false condition; ('@(XdcMake)' != '') was evaluated as ('' != '').
+15:34:02.214     1>Target "_XdcMake: (TargetId:87)" in file "C:\Program Files (x86)\MSBuild\Microsoft.Cpp\v4.0\Microsoft.CppBuild.targets" from project "C:\Users\Hossein\Project\TADD-V1\QtCvOverlayWidget\QtCvOverlayWidget.vcxproj" (target "BuildLink" depends on it):
+15:34:02.214     1>Done building target "_XdcMake" in project "QtCvOverlayWidget.vcxproj".: (TargetId:87)
+15:34:02.214     1>Target "ComputeCLCompileGeneratedSbrFiles: (TargetId:88)" in file "C:\Program Files (x86)\MSBuild\Microsoft.Cpp\v4.0\Microsoft.CppBuild.targets" from project "C:\Users\Hossein\Project\TADD-V1\QtCvOverlayWidget\QtCvOverlayWidget.vcxproj" (target "_BscMake" depends on it):
+15:34:02.214     1>Done building target "ComputeCLCompileGeneratedSbrFiles" in project "QtCvOverlayWidget.vcxproj".: (TargetId:88)
+15:34:02.214     1>Target "MakeDirsForBscMake: (TargetId:89)" in file "C:\Program Files (x86)\MSBuild\Microsoft.Cpp\v4.0\Microsoft.CppBuild.targets" from project "C:\Users\Hossein\Project\TADD-V1\QtCvOverlayWidget\QtCvOverlayWidget.vcxproj" (target "_BscMake" depends on it):
+                   Task "MakeDir" (TaskId:39)
+                   Done executing task "MakeDir". (TaskId:39)
+15:34:02.214     1>Done building target "MakeDirsForBscMake" in project "QtCvOverlayWidget.vcxproj".: (TargetId:89)
+                   Target "BscMake" skipped, due to false condition; ('@(BscMake)' != '') was evaluated as ('' != '').
+                   Target "CustomBuildStep" skipped, due to false condition; ('@(CustomBuildStep)' != '' and '$(SelectedFiles)'=='') was evaluated as ('' != '' and ''=='').
+15:34:02.214     1>Target "_BscMake: (TargetId:90)" in file "C:\Program Files (x86)\MSBuild\Microsoft.Cpp\v4.0\Microsoft.CppBuild.targets" from project "C:\Users\Hossein\Project\TADD-V1\QtCvOverlayWidget\QtCvOverlayWidget.vcxproj" (target "BuildLink" depends on it):
+15:34:02.214     1>Done building target "_BscMake" in project "QtCvOverlayWidget.vcxproj".: (TargetId:90)
+                   Target "RunCodeAnalysis" skipped, due to false condition; ('$(RunCodeAnalysis)'=='true' or '$(RunCodeAnalysisOnce)'=='true') was evaluated as (''=='true' or ''=='true').
+15:34:02.214     1>Target "_GenerateSatelliteAssemblyInputs: (TargetId:91)" in file "C:\Windows\Microsoft.NET\Framework\v4.0.30319\Microsoft.Common.Targets" from project "C:\Users\Hossein\Project\TADD-V1\QtCvOverlayWidget\QtCvOverlayWidget.vcxproj" (target "CreateSatelliteAssemblies" depends on it):
+                   Task "Warning" skipped, due to false condition; ('@(ManifestResourceWithCulture)'!='' and '%(ManifestResourceWithCulture.EmittedForCompatibilityOnly)'=='') was evaluated as (''!='' and ''=='').
+                   Task "Warning" skipped, due to false condition; ('@(ManifestNonResxWithCultureOnDisk)'!='' and '%(ManifestNonResxWithCultureOnDisk.EmittedForCompatibilityOnly)'=='') was evaluated as (''!='' and ''=='').
+15:34:02.214     1>Done building target "_GenerateSatelliteAssemblyInputs" in project "QtCvOverlayWidget.vcxproj".: (TargetId:91)
+                   Target "ComputeIntermediateSatelliteAssemblies" skipped, due to false condition; (@(ReferenceSatellitePaths->'%(DestinationSubDirectory)') != '') was evaluated as ( != '').
+                   Target "GenerateSatelliteAssemblies" skipped, due to false condition; ('@(_SatelliteAssemblyResourceInputs)' != '') was evaluated as ('' != '').
+15:34:02.214     1>Target "CreateSatelliteAssemblies: (TargetId:92)" in file "C:\Windows\Microsoft.NET\Framework\v4.0.30319\Microsoft.Common.Targets" from project "C:\Users\Hossein\Project\TADD-V1\QtCvOverlayWidget\QtCvOverlayWidget.vcxproj" (target "BuildLink" depends on it):
+15:34:02.214     1>Done building target "CreateSatelliteAssemblies" in project "QtCvOverlayWidget.vcxproj".: (TargetId:92)
+15:34:02.214     1>Target "_Appverifier: (TargetId:93)" in file "C:\Program Files (x86)\MSBuild\Microsoft.Cpp\v4.0\Microsoft.CppBuild.targets" from project "C:\Users\Hossein\Project\TADD-V1\QtCvOverlayWidget\QtCvOverlayWidget.vcxproj" (target "BuildLink" depends on it):
+15:34:02.214     1>Done building target "_Appverifier" in project "QtCvOverlayWidget.vcxproj".: (TargetId:93)
+15:34:02.214     1>Target "_Deploy: (TargetId:94)" in file "C:\Program Files (x86)\MSBuild\Microsoft.Cpp\v4.0\Microsoft.CppBuild.targets" from project "C:\Users\Hossein\Project\TADD-V1\QtCvOverlayWidget\QtCvOverlayWidget.vcxproj" (target "BuildLink" depends on it):
+15:34:02.214     1>Done building target "_Deploy" in project "QtCvOverlayWidget.vcxproj".: (TargetId:94)
+                   Target "ComputeIntermediateSatelliteAssemblies" skipped, due to false condition; (@(ReferenceSatellitePaths->'%(DestinationSubDirectory)') != '') was evaluated as ( != '').
+                   Target "_CopyFilesMarkedCopyLocal" skipped, due to false condition; ('@(ReferenceCopyLocalPaths)' != '') was evaluated as ('' != '').
+15:34:02.214     1>Target "AssignTargetPaths: (TargetId:95)" in file "C:\Windows\Microsoft.NET\Framework\v4.0.30319\Microsoft.Common.Targets" from project "C:\Users\Hossein\Project\TADD-V1\QtCvOverlayWidget\QtCvOverlayWidget.vcxproj" (target "GetCopyToOutputDirectoryItems" depends on it):
+                   Using "AssignTargetPath" task from assembly "Microsoft.Build.Tasks.v4.0, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a".
+                   Task "AssignTargetPath" (TaskId:40)
+                   Done executing task "AssignTargetPath". (TaskId:40)
+                   Task "AssignTargetPath" (TaskId:41)
+                   Done executing task "AssignTargetPath". (TaskId:41)
+                   Task "AssignTargetPath" (TaskId:42)
+                   Done executing task "AssignTargetPath". (TaskId:42)
+                   Task "AssignTargetPath" (TaskId:43)
+                   Done executing task "AssignTargetPath". (TaskId:43)
+                   Task "AssignTargetPath" skipped, due to false condition; ('@(_DeploymentBaseManifestWithTargetPath)'=='' and '%(None.Extension)'=='.manifest') was evaluated as (''=='' and ''=='.manifest').
+15:34:02.215     1>Done building target "AssignTargetPaths" in project "QtCvOverlayWidget.vcxproj".: (TargetId:95)
+                   Target "_SplitProjectReferencesByFileExistence" skipped. Previously built successfully.
+15:34:02.215     1>Target "GetCopyToOutputDirectoryXamlAppDefs: (TargetId:96)" in file "C:\Windows\Microsoft.NET\Framework\v4.0.30319\Microsoft.Xaml.targets" from project "C:\Users\Hossein\Project\TADD-V1\QtCvOverlayWidget\QtCvOverlayWidget.vcxproj" (target "GetCopyToOutputDirectoryItems" depends on it):
+                   Task "AssignTargetPath" (TaskId:44)
+                   Done executing task "AssignTargetPath". (TaskId:44)
+15:34:02.215     1>Done building target "GetCopyToOutputDirectoryXamlAppDefs" in project "QtCvOverlayWidget.vcxproj".: (TargetId:96)
+15:34:02.215     1>Target "GetCopyToOutputDirectoryItems: (TargetId:97)" in file "C:\Windows\Microsoft.NET\Framework\v4.0.30319\Microsoft.Common.Targets" from project "C:\Users\Hossein\Project\TADD-V1\QtCvOverlayWidget\QtCvOverlayWidget.vcxproj" (target "_CopySourceItemsToOutputDirectory" depends on it):
+                   Task "MSBuild" skipped, due to false condition; ('@(_MSBuildProjectReferenceExistent)' != '' and '$(_GetChildProjectCopyToOutputDirectoryItems)' == 'true' and '%(_MSBuildProjectReferenceExistent.Private)' != 'false' and '$(UseCommonOutputDirectory)' != 'true') was evaluated as ('' != '' and 'true' == 'true' and '' != 'false' and 'false' != 'true').
+                   Task "AssignTargetPath" (TaskId:45)
+                   Done executing task "AssignTargetPath". (TaskId:45)
+15:34:02.215     1>Done building target "GetCopyToOutputDirectoryItems" in project "QtCvOverlayWidget.vcxproj".: (TargetId:97)
+                   Target "_CopyOutOfDateSourceItemsToOutputDirectory" skipped, due to false condition; ( '@(_SourceItemsToCopyToOutputDirectory)' != '' ) was evaluated as ( '' != '' ).
+                   Target "_CopyOutOfDateSourceItemsToOutputDirectoryAlways" skipped, due to false condition; ( '@(_SourceItemsToCopyToOutputDirectoryAlways)' != '' ) was evaluated as ( '' != '' ).
+15:34:02.215     1>Target "_CopySourceItemsToOutputDirectory: (TargetId:98)" in file "C:\Windows\Microsoft.NET\Framework\v4.0.30319\Microsoft.Common.Targets" from project "C:\Users\Hossein\Project\TADD-V1\QtCvOverlayWidget\QtCvOverlayWidget.vcxproj" (target "CopyFilesToOutputDirectory" depends on it):
+15:34:02.215     1>Done building target "_CopySourceItemsToOutputDirectory" in project "QtCvOverlayWidget.vcxproj".: (TargetId:98)
+                   Target "_CopyAppConfigFile" skipped, due to false condition; ( '@(AppConfigWithTargetPath)' != '' ) was evaluated as ( '' != '' ).
+                   Target "_CopyManifestFiles" skipped, due to false condition; ( '$(_DeploymentCopyApplicationManifest)'=='true' or '$(GenerateClickOnceManifests)'=='true' ) was evaluated as ( ''=='true' or ''=='true' ).
+15:34:02.215     1>Target "_CheckForCompileOutputs: (TargetId:99)" in file "C:\Windows\Microsoft.NET\Framework\v4.0.30319\Microsoft.Common.Targets" from project "C:\Users\Hossein\Project\TADD-V1\QtCvOverlayWidget\QtCvOverlayWidget.vcxproj" (target "CopyFilesToOutputDirectory" depends on it):
+15:34:02.215     1>Done building target "_CheckForCompileOutputs" in project "QtCvOverlayWidget.vcxproj".: (TargetId:99)
+                   Target "_SGenCheckForOutputs" skipped, due to false condition; ('$(_SGenGenerateSerializationAssembliesConfig)' == 'On' or ('@(WebReferenceUrl)'!='' and '$(_SGenGenerateSerializationAssembliesConfig)' == 'Auto')) was evaluated as ('Auto' == 'On' or (''!='' and 'Auto' == 'Auto')).
+15:34:02.216     1>Target "CopyFilesToOutputDirectory: (TargetId:100)" in file "C:\Windows\Microsoft.NET\Framework\v4.0.30319\Microsoft.Common.Targets" from project "C:\Users\Hossein\Project\TADD-V1\QtCvOverlayWidget\QtCvOverlayWidget.vcxproj" (target "BuildLink" depends on it):
+                   Task "Copy" skipped, due to false condition; ('$(CopyBuildOutputToOutputDirectory)' == 'true' and '$(SkipCopyBuildProduct)' != 'true') was evaluated as ('true' == 'true' and 'true' != 'true').
+                   Task "Message" skipped, due to false condition; ('$(CopyBuildOutputToOutputDirectory)' == 'true' and '$(SkipCopyBuildProduct)'!='true') was evaluated as ('true' == 'true' and 'true'!='true').
+                   Task "Copy" skipped, due to false condition; ('@(AddModules)' != '') was evaluated as ('' != '').
+                   Task "Copy" skipped, due to false condition; ('$(_SGenDllCreated)'=='true') was evaluated as ('false'=='true').
+                   Task "Copy" skipped, due to false condition; ('$(_DebugSymbolsProduced)'=='true' and '$(SkipCopyingSymbolsToOutputDirectory)' != 'true' and '$(CopyOutputSymbolsToOutputDirectory)'=='true') was evaluated as ('false'=='true' and '' != 'true' and 'true'=='true').
+                   Task "Copy" skipped, due to false condition; ('$(_DocumentationFileProduced)'=='true') was evaluated as ('false'=='true').
+                   Task "Copy" skipped, due to false condition; ('@(IntermediateSatelliteAssembliesWithTargetPath)' != '') was evaluated as ('' != '').
+                   Task "Copy" skipped, due to false condition; ('@(ReferenceComWrappersToCopyLocal)' != '' or '@(ResolvedIsolatedComModules)' != '' or '@(_DeploymentLooseManifestFile)' != '' or '@(NativeReferenceFile)' != '' ) was evaluated as ('' != '' or '' != '' or '' != '' or '' != '' ).
+                   Task "Copy" skipped, due to false condition; ('$(SkipCopyWinMDArtifact)' != 'true' and '@(WinMDExpArtifacts)' != '') was evaluated as ('' != 'true' and '' != '').
+                   Task "Message" skipped, due to false condition; ('$(SkipCopyWinMDArtifact)' != 'true' and '$(_WindowsMetadataOutputPath)' != '') was evaluated as ('' != 'true' and '' != '').
+15:34:02.216     1>Done building target "CopyFilesToOutputDirectory" in project "QtCvOverlayWidget.vcxproj".: (TargetId:100)
+                   Target "CustomBuildStep" skipped, due to false condition; ('@(CustomBuildStep)' != '' and '$(SelectedFiles)'=='') was evaluated as ('' != '' and ''=='').
+15:34:02.216     1>Target "PostBuildEvent: (TargetId:101)" in file "C:\Program Files (x86)\MSBuild\Microsoft.Cpp\v4.0\Microsoft.CppCommon.targets" from project "C:\Users\Hossein\Project\TADD-V1\QtCvOverlayWidget\QtCvOverlayWidget.vcxproj" (target "BuildLink" depends on it):
+                   Task "Message" skipped, due to false condition; ('%(PostBuildEvent.Message)' != '' and '%(PostBuildEvent.Command)' != '') was evaluated as ('' != '' and '' != '').
+                   Task "Exec" skipped, due to false condition; ('%(PostBuildEvent.Command)' != '') was evaluated as ('' != '').
+15:34:02.216     1>Done building target "PostBuildEvent" in project "QtCvOverlayWidget.vcxproj".: (TargetId:101)
+15:34:02.216     1>Target "BuildLink: (TargetId:102)" in file "C:\Windows\Microsoft.NET\Framework\v4.0.30319\Microsoft.Common.Targets" from project "C:\Users\Hossein\Project\TADD-V1\QtCvOverlayWidget\QtCvOverlayWidget.vcxproj" (target "Build" depends on it):
+15:34:02.216     1>Done building target "BuildLink" in project "QtCvOverlayWidget.vcxproj".: (TargetId:102)
+15:34:02.216     1>Target "AfterBuild: (TargetId:103)" in file "C:\Program Files (x86)\MSBuild\Microsoft.Cpp\v4.0\Microsoft.BuildSteps.Targets" from project "C:\Users\Hossein\Project\TADD-V1\QtCvOverlayWidget\QtCvOverlayWidget.vcxproj" (target "Build" depends on it):
+15:34:02.216     1>Done building target "AfterBuild" in project "QtCvOverlayWidget.vcxproj".: (TargetId:103)
+15:34:02.216     1>Target "FinalizeBuildStatus: (TargetId:104)" in file "C:\Program Files (x86)\MSBuild\Microsoft.Cpp\v4.0\Microsoft.CppBuild.targets" from project "C:\Users\Hossein\Project\TADD-V1\QtCvOverlayWidget\QtCvOverlayWidget.vcxproj" (target "Build" depends on it):
+                   Task "Delete" (TaskId:46)
+                     Deleting file "Release\QtCvOverlayWidget.unsuccessfulbuild". (TaskId:46)
+                   Done executing task "Delete". (TaskId:46)
+                   Task "Touch" (TaskId:47)
+                     Touching "Release\QtCvOverlayWidget.lastbuildstate". (TaskId:47)
+                   Done executing task "Touch". (TaskId:47)
+15:34:02.217     1>Done building target "FinalizeBuildStatus" in project "QtCvOverlayWidget.vcxproj".: (TargetId:104)
+15:34:02.217     1>Target "Build: (TargetId:105)" in file "C:\Program Files (x86)\MSBuild\Microsoft.Cpp\v4.0\Microsoft.BuildSteps.Targets" from project "C:\Users\Hossein\Project\TADD-V1\QtCvOverlayWidget\QtCvOverlayWidget.vcxproj" (target "Rebuild" depends on it):
+15:34:02.217     1>Done building target "Build" in project "QtCvOverlayWidget.vcxproj".: (TargetId:105)
+15:34:02.217     1>Target "AfterRebuild: (TargetId:106)" in file "C:\Windows\Microsoft.NET\Framework\v4.0.30319\Microsoft.Common.Targets" from project "C:\Users\Hossein\Project\TADD-V1\QtCvOverlayWidget\QtCvOverlayWidget.vcxproj" (target "Rebuild" depends on it):
+15:34:02.217     1>Done building target "AfterRebuild" in project "QtCvOverlayWidget.vcxproj".: (TargetId:106)
+15:34:02.217     1>Target "Rebuild: (TargetId:107)" in file "C:\Program Files (x86)\MSBuild\Microsoft.Cpp\v4.0\Microsoft.BuildSteps.Targets" from project "C:\Users\Hossein\Project\TADD-V1\QtCvOverlayWidget\QtCvOverlayWidget.vcxproj" (entry point):
+15:34:02.217     1>Done building target "Rebuild" in project "QtCvOverlayWidget.vcxproj".: (TargetId:107)
+15:34:02.217     1>Done Building Project "C:\Users\Hossein\Project\TADD-V1\QtCvOverlayWidget\QtCvOverlayWidget.vcxproj" (rebuild target(s)).
+
+Project Performance Summary:
+     3338 ms  C:\Users\Hossein\Project\TADD-V1\QtCvOverlayWidget\QtCvOverlayWidget.vcxproj   1 calls
+               3338 ms  rebuild                                    1 calls
+
+Target Performance Summary:
+        0 ms  SelectClCompile                            1 calls
+        0 ms  ResolveReferences                          1 calls
+        0 ms  ResolvedXDCMake                            1 calls
+        0 ms  CleanPublishFolder                         1 calls
+        0 ms  _Lib                                       1 calls
+        0 ms  _CheckForCompileOutputs                    1 calls
+        0 ms  Clean                                      1 calls
+        0 ms  _CopySourceItemsToOutputDirectory          1 calls
+        0 ms  ComputeCLCompileGeneratedSbrFiles          1 calls
+        0 ms  SelectCustomBuild                          1 calls
+        0 ms  AfterClCompile                             1 calls
+        0 ms  ExpandSDKReferences                        1 calls
+        0 ms  ComputeMIDLGeneratedCompileInputs          1 calls
+        0 ms  ComputeCLCompileGeneratedXDCFiles          1 calls
+        0 ms  GetReferenceAssemblyPaths                  1 calls
+        0 ms  AfterBuild                                 1 calls
+        0 ms  _Manifest                                  1 calls
+        0 ms  AfterCppClean                              1 calls
+        0 ms  _Midl                                      1 calls
+        0 ms  _PrepareForBuild                           1 calls
+        0 ms  CleanReferencedProjects                    1 calls
+        0 ms  _ClCompile                                 1 calls
+        0 ms  BeforeClean                                1 calls
+        0 ms  BuildCompile                               1 calls
+        0 ms  BeforeLib                                  1 calls
+        0 ms  ComputeLibAdditionalOptions                1 calls
+        0 ms  AfterBuildGenerateSources                  1 calls
+        0 ms  MakeDirsForResourceCompile                 1 calls
+        0 ms  BeforeRebuild                              1 calls
+        0 ms  PostBuildEvent                             1 calls
+        0 ms  _DetermineManagedStateFromCL               1 calls
+        0 ms  GetCopyToOutputDirectoryXamlAppDefs        1 calls
+        0 ms  ComputeCLInputPDBName                      1 calls
+        0 ms  _Xsd                                       1 calls
+        0 ms  AfterResourceCompile                       1 calls
+        0 ms  GetFrameworkPaths                          1 calls
+        0 ms  CreateSatelliteAssemblies                  1 calls
+        0 ms  DoLibOutputFilesMatch                      1 calls
+        0 ms  _XdcMake                                   1 calls
+        0 ms  AfterClean                                 1 calls
+        0 ms  ComputeCLGeneratedLibInputs                1 calls
+        0 ms  CopyFilesToOutputDirectory                 1 calls
+        0 ms  BeforeCppClean                             1 calls
+        0 ms  AfterLib                                   1 calls
+        0 ms  _ResourceCompile                           1 calls
+        0 ms  ComputeRCOutputs                           1 calls
+        0 ms  _GenerateXMLData                           1 calls
+        0 ms  BuildLinkTraverse                          1 calls
+        0 ms  ComputeReferenceCLInput                    1 calls
+        0 ms  ComputeLibInputsFromProject                1 calls
+        0 ms  PreBuildEvent                              1 calls
+        0 ms  _BscMake                                   1 calls
+        0 ms  MakeDirsForMidl                            1 calls
+        0 ms  BeforeResolveReferences                    1 calls
+        0 ms  AfterBuildGenerateSourcesEvent             1 calls
+        0 ms  ComputeRCGeneratedLibInputs                1 calls
+        0 ms  BeforeClCompile                            1 calls
+        0 ms  AfterResolveReferences                     1 calls
+        0 ms  _SelectedFiles                             1 calls
+        0 ms  _Appverifier                               1 calls
+        0 ms  ResolveProjectReferences                   1 calls
+        0 ms  MakeDirsForBscMake                         1 calls
+        0 ms  _SplitProjectReferencesByFileExistence     1 calls
+        0 ms  Rebuild                                    1 calls
+        0 ms  BuildGenerateSourcesTraverse               1 calls
+        0 ms  _ALink                                     1 calls
+        0 ms  AfterRebuild                               1 calls
+        0 ms  RegisterOutput                             1 calls
+        0 ms  BuildLink                                  1 calls
+        0 ms  ResolveSDKReferences                       1 calls
+        0 ms  ComputeCLOutputs                           1 calls
+        0 ms  GetCopyToOutputDirectoryItems              1 calls
+        0 ms  PrepareForBuild                            1 calls
+        0 ms  BeforeBuildGenerateSources                 1 calls
+        0 ms  Build                                      1 calls
+        0 ms  CppClean                                   1 calls
+        0 ms  _GenerateSatelliteAssemblyInputs           1 calls
+        0 ms  PreLinkEvent                               1 calls
+        0 ms  BeforeResourceCompile                      1 calls
+        0 ms  AfterMidl                                  1 calls
+        0 ms  MakeDirsForXdcMake                         1 calls
+        0 ms  AfterBuildCompileEvent                     1 calls
+        0 ms  BuildGenerateSources                       1 calls
+        0 ms  _PrepareForRebuild                         1 calls
+        0 ms  _GenerateWebServiceProxy                   1 calls
+        0 ms  GetInstalledSDKLocations                   1 calls
+        0 ms  _Deploy                                    1 calls
+        0 ms  AssignProjectConfiguration                 1 calls
+        1 ms  _PrepareForClean                           1 calls
+        1 ms  ResolveAssemblyReferences                  1 calls
+        1 ms  SetBuildDefaultEnvironmentVariables        1 calls
+        1 ms  MakeDirsForCl                              1 calls
+        1 ms  FinalizeBuildStatus                        1 calls
+        1 ms  MakeDirsForLib                             1 calls
+        1 ms  PGInstrumentedClean                        1 calls
+        1 ms  PlatformPrepareForBuild                    1 calls
+        1 ms  CoreClean                                  1 calls
+        1 ms  BuildCompileTraverse                       1 calls
+        1 ms  AssignTargetPaths                          1 calls
+        2 ms  _CheckForInvalidConfigurationAndPlatform   1 calls
+        3 ms  ComputeCustomBuildOutput                   1 calls
+        4 ms  InitializeBuildStatus                      1 calls
+        6 ms  CoreCppClean                               1 calls
+       39 ms  Lib                                        1 calls
+      255 ms  CustomBuild                                1 calls
+     3015 ms  ClCompile                                  1 calls
+
+Task Performance Summary:
+        0 ms  Message                                    3 calls
+        0 ms  AssignProjectConfiguration                 1 calls
+        0 ms  ReadLinesFromFile                          2 calls
+        0 ms  RemoveDuplicates                           1 calls
+        1 ms  SetEnv                                     4 calls
+        1 ms  Delete                                     5 calls
+        1 ms  ResolveAssemblyReference                   1 calls
+        1 ms  FindUnderPath                              2 calls
+        1 ms  WriteLinesToFile                           4 calls
+        1 ms  AssignTargetPath                           6 calls
+        2 ms  MakeDir                                   11 calls
+        4 ms  Touch                                      2 calls
+        5 ms  CppClean                                   1 calls
+       39 ms  LIB                                        1 calls
+      255 ms  CustomBuild                                1 calls
+     3014 ms  CL                                         1 calls
+
+Build succeeded.
+
+Time Elapsed 00:00:03.34

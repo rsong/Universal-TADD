@@ -1,0 +1,820 @@
+﻿Build started 07/03/2014 14:14:40.
+Environment at start of build:
+ALLUSERSPROFILE = C:\ProgramData
+APPDATA = C:\Users\Hossein\AppData\Roaming
+CommonProgramFiles = C:\Program Files (x86)\Common Files
+CommonProgramFiles(x86) = C:\Program Files (x86)\Common Files
+CommonProgramW6432 = C:\Program Files\Common Files
+COMPUTERNAME = H
+ComSpec = C:\Windows\system32\cmd.exe
+CUDA_PATH = C:\Program Files\NVIDIA GPU Computing Toolkit\CUDA\v6.0
+CUDA_PATH_V6_0 = C:\Program Files\NVIDIA GPU Computing Toolkit\CUDA\v6.0
+FP_NO_HOST_CHECK = NO
+HALCONARCH = x64-win64
+HALCONEXAMPLES = C:\Users\Public\Documents\MVTec\HALCON-11.0\examples
+HALCONIMAGES = C:\Users\Public\Documents\MVTec\HALCON-11.0\examples\images
+HALCONROOT = C:\Program Files\MVTec\HALCON-11.0
+HOMEDRIVE = C:
+HOMEPATH = \Users\Hossein
+LOCALAPPDATA = C:\Users\Hossein\AppData\Local
+LOGONSERVER = \\H
+NUMBER_OF_PROCESSORS = 8
+NVCUDASAMPLES6_0_ROOT = C:\ProgramData\NVIDIA Corporation\CUDA Samples\v6.0
+NVCUDASAMPLES_ROOT = C:\ProgramData\NVIDIA Corporation\CUDA Samples\v6.0
+NVTOOLSEXT_PATH = C:\Program Files\NVIDIA Corporation\NvToolsExt\
+OS = Windows_NT
+Path = C:\Program Files\NVIDIA GPU Computing Toolkit\CUDA\v6.0\bin;C:\Program Files\NVIDIA GPU Computing Toolkit\CUDA\v6.0\libnvvp;C:\Program Files (x86)\NVIDIA Corporation\PhysX\Common;C:\Program Files (x86)\Intel\iCLS Client\;C:\Program Files\Intel\iCLS Client\;C:\Windows\system32;C:\Windows;C:\Windows\System32\Wbem;C:\Windows\System32\WindowsPowerShell\v1.0\;C:\Program Files\Intel\Intel(R) Management Engine Components\DAL;C:\Program Files\Intel\Intel(R) Management Engine Components\IPT;C:\Program Files (x86)\Intel\Intel(R) Management Engine Components\DAL;C:\Program Files (x86)\Intel\Intel(R) Management Engine Components\IPT;c:\Program Files (x86)\Microsoft SQL Server\100\Tools\Binn\;c:\Program Files\Microsoft SQL Server\100\Tools\Binn\;c:\Program Files\Microsoft SQL Server\100\DTS\Binn\;C:\Tesseract-OCR;C:\Program Files (x86)\Tesseract-OCR;C:\Program Files\MATLAB\R2013b\runtime\win64;C:\Program Files\MATLAB\R2013b\bin;C:\Program Files\MVTec\HALCON-11.0\bin\x64-win64;C:\Program Files\MVTec\HALCON-11.0\FLEXlm\x64-win64;C:\Program Files\MiKTeX 2.9\miktex\bin\x64\;C:\Program Files\doxygen\bin
+PATHEXT = .COM;.EXE;.BAT;.CMD;.VBS;.VBE;.JS;.JSE;.WSF;.WSH;.MSC
+PROCESSOR_ARCHITECTURE = x86
+PROCESSOR_ARCHITEW6432 = AMD64
+PROCESSOR_IDENTIFIER = Intel64 Family 6 Model 58 Stepping 9, GenuineIntel
+PROCESSOR_LEVEL = 6
+PROCESSOR_REVISION = 3a09
+ProgramData = C:\ProgramData
+ProgramFiles = C:\Program Files (x86)
+ProgramFiles(x86) = C:\Program Files (x86)
+ProgramW6432 = C:\Program Files
+PSModulePath = C:\Windows\system32\WindowsPowerShell\v1.0\Modules\
+PUBLIC = C:\Users\Public
+QTDIR = C:\Users\Hossein\Project\4.7.3x86_Intel
+SESSIONNAME = Console
+SystemDrive = C:
+SystemRoot = C:\Windows
+TEMP = C:\Users\Hossein\AppData\Local\Temp
+TESSDATA_PREFIX = C:\Program Files (x86)\Tesseract-OCR\
+TMP = C:\Users\Hossein\AppData\Local\Temp
+USERDOMAIN = H
+USERNAME = Hossein
+USERPROFILE = C:\Users\Hossein
+VisualStudioDir = C:\Users\Hossein\Documents\Visual Studio 2010
+VS100COMNTOOLS = c:\Program Files (x86)\Microsoft Visual Studio 10.0\Common7\Tools\
+windir = C:\Windows
+windows_tracing_flags = 3
+windows_tracing_logfile = C:\BVTBin\Tests\installpackage\csilogfile.log
+
+14:14:40.653     1>Project "C:\TODD5_3D - Copy 05 Feb2014\gKNN\gKNN.vcxproj" on node 2 (build target(s)).
+14:14:40.653     1>Building with tools version "4.0".
+14:14:40.653     1>Target "_CheckForInvalidConfigurationAndPlatform: (TargetId:2)" in file "C:\Windows\Microsoft.NET\Framework\v4.0.30319\Microsoft.Common.Targets" from project "C:\TODD5_3D - Copy 05 Feb2014\gKNN\gKNN.vcxproj" (entry point):
+                   Task "Error" skipped, due to false condition; ( '$(_InvalidConfigurationError)' == 'true' ) was evaluated as ( '' == 'true' ).
+                   Task "Warning" skipped, due to false condition; ( '$(_InvalidConfigurationWarning)' == 'true' ) was evaluated as ( '' == 'true' ).
+                   Using "Message" task from assembly "Microsoft.Build.Tasks.v4.0, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a".
+                   Task "Message" (TaskId:2)
+                     Configuration=Release (TaskId:2)
+                   Done executing task "Message". (TaskId:2)
+                   Task "Message" (TaskId:3)
+                     Platform=Win32 (TaskId:3)
+                   Done executing task "Message". (TaskId:3)
+                   Task "Error" skipped, due to false condition; ('$(OutDir)' != '' and !HasTrailingSlash('$(OutDir)')) was evaluated as ('C:\TODD5_3D - Copy 05 Feb2014\Release\' != '' and !HasTrailingSlash('C:\TODD5_3D - Copy 05 Feb2014\Release\')).
+                   Task "Error" skipped, due to false condition; ('$(BaseIntermediateOutputPath)' != '' and !HasTrailingSlash('$(BaseIntermediateOutputPath)')) was evaluated as ('obj\' != '' and !HasTrailingSlash('obj\')).
+                   Task "Error" skipped, due to false condition; ('$(IntermediateOutputPath)' != '' and !HasTrailingSlash('$(IntermediateOutputPath)')) was evaluated as ('Release\' != '' and !HasTrailingSlash('Release\')).
+14:14:40.654     1>Done building target "_CheckForInvalidConfigurationAndPlatform" in project "gKNN.vcxproj".: (TargetId:2)
+14:14:40.654     1>Target "_DetermineManagedStateFromCL: (TargetId:3)" in file "C:\Program Files (x86)\MSBuild\Microsoft.Cpp\v4.0\Microsoft.CppBuild.targets" from project "C:\TODD5_3D - Copy 05 Feb2014\gKNN\gKNN.vcxproj" (target "Build" depends on it):
+14:14:40.654     1>Done building target "_DetermineManagedStateFromCL" in project "gKNN.vcxproj".: (TargetId:3)
+14:14:40.654     1>Target "_PrepareForBuild: (TargetId:4)" in file "C:\Program Files (x86)\MSBuild\Microsoft.Cpp\v4.0\Microsoft.BuildSteps.Targets" from project "C:\TODD5_3D - Copy 05 Feb2014\gKNN\gKNN.vcxproj" (target "Build" depends on it):
+14:14:40.654     1>Done building target "_PrepareForBuild" in project "gKNN.vcxproj".: (TargetId:4)
+14:14:40.654     1>Target "SetBuildDefaultEnvironmentVariables: (TargetId:5)" in file "C:\Program Files (x86)\MSBuild\Microsoft.Cpp\v4.0\Microsoft.Cpp.targets" from project "C:\TODD5_3D - Copy 05 Feb2014\gKNN\gKNN.vcxproj" (target "Build" depends on it):
+                   Using "SetEnv" task from assembly "Microsoft.Build.CppTasks.Common, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a".
+                   Task "SetEnv" (TaskId:4)
+                     PATH=c:\Program Files (x86)\Microsoft Visual Studio 10.0\VC\bin;C:\Program Files (x86)\Microsoft SDKs\Windows\v7.0A\bin\NETFX 4.0 Tools;C:\Program Files (x86)\Microsoft SDKs\Windows\v7.0A\bin;C:\Program Files (x86)\Microsoft Visual Studio 10.0\Common7\Tools\bin;C:\Program Files (x86)\Microsoft Visual Studio 10.0\Common7\tools;C:\Program Files (x86)\Microsoft Visual Studio 10.0\Common7\ide;C:\Program Files (x86)\HTML Help Workshop;C:\Program Files (x86)\Microsoft SDKs\Windows\v7.0A\\bin;C:\Windows\Microsoft.NET\Framework\v4.0.30319\;C:\Program Files (x86)\Microsoft Visual Studio 10.0\;C:\Windows\SysWow64;;C:\Program Files\NVIDIA GPU Computing Toolkit\CUDA\v6.0\bin;C:\Program Files\NVIDIA GPU Computing Toolkit\CUDA\v6.0\libnvvp;C:\Program Files (x86)\NVIDIA Corporation\PhysX\Common;C:\Program Files (x86)\Intel\iCLS Client\;C:\Program Files\Intel\iCLS Client\;C:\Windows\system32;C:\Windows;C:\Windows\System32\Wbem;C:\Windows\System32\WindowsPowerShell\v1.0\;C:\Program Files\Intel\Intel(R) Management Engine Components\DAL;C:\Program Files\Intel\Intel(R) Management Engine Components\IPT;C:\Program Files (x86)\Intel\Intel(R) Management Engine Components\DAL;C:\Program Files (x86)\Intel\Intel(R) Management Engine Components\IPT;c:\Program Files (x86)\Microsoft SQL Server\100\Tools\Binn\;c:\Program Files\Microsoft SQL Server\100\Tools\Binn\;c:\Program Files\Microsoft SQL Server\100\DTS\Binn\;C:\Tesseract-OCR;C:\Program Files (x86)\Tesseract-OCR;C:\Program Files\MATLAB\R2013b\runtime\win64;C:\Program Files\MATLAB\R2013b\bin;C:\Program Files\MVTec\HALCON-11.0\bin\x64-win64;C:\Program Files\MVTec\HALCON-11.0\FLEXlm\x64-win64;C:\Program Files\MiKTeX 2.9\miktex\bin\x64\;C:\Program Files\doxygen\bin; (TaskId:4)
+                   Done executing task "SetEnv". (TaskId:4)
+                   Task "SetEnv" skipped, due to false condition; ('$(_IsNativeEnvironment)' == 'true') was evaluated as ('' == 'true').
+                   Task "SetEnv" (TaskId:5)
+                     LIB=c:\Program Files (x86)\Microsoft Visual Studio 10.0\VC\lib;c:\Program Files (x86)\Microsoft Visual Studio 10.0\VC\atlmfc\lib;C:\Program Files (x86)\Microsoft SDKs\Windows\v7.0A\lib;C:\Program Files (x86)\Microsoft SDKs\Windows\v7.0A\\lib (TaskId:5)
+                   Done executing task "SetEnv". (TaskId:5)
+                   Task "SetEnv" (TaskId:6)
+                     LIBPATH=c:\Program Files (x86)\Microsoft Visual Studio 10.0\VC\atlmfc\lib;c:\Program Files (x86)\Microsoft Visual Studio 10.0\VC\lib (TaskId:6)
+                   Done executing task "SetEnv". (TaskId:6)
+                   Task "SetEnv" (TaskId:7)
+                     INCLUDE=c:\Program Files (x86)\Microsoft Visual Studio 10.0\VC\include;c:\Program Files (x86)\Microsoft Visual Studio 10.0\VC\atlmfc\include;C:\Program Files (x86)\Microsoft SDKs\Windows\v7.0A\include;C:\Program Files (x86)\Microsoft SDKs\Windows\v7.0A\\include; (TaskId:7)
+                   Done executing task "SetEnv". (TaskId:7)
+14:14:40.655     1>Done building target "SetBuildDefaultEnvironmentVariables" in project "gKNN.vcxproj".: (TargetId:5)
+                   Target "SetUserMacroEnvironmentVariables" skipped, due to false condition; ('@(BuildMacro)' != '') was evaluated as ('' != '').
+14:14:40.655     1>Target "BeforeResolveReferences: (TargetId:6)" in file "C:\Windows\Microsoft.NET\Framework\v4.0.30319\Microsoft.Common.Targets" from project "C:\TODD5_3D - Copy 05 Feb2014\gKNN\gKNN.vcxproj" (target "ResolveReferences" depends on it):
+14:14:40.655     1>Done building target "BeforeResolveReferences" in project "gKNN.vcxproj".: (TargetId:6)
+14:14:40.655     1>Target "AssignProjectConfiguration: (TargetId:7)" in file "C:\Windows\Microsoft.NET\Framework\v4.0.30319\Microsoft.Common.Targets" from project "C:\TODD5_3D - Copy 05 Feb2014\gKNN\gKNN.vcxproj" (target "ResolveReferences" depends on it):
+                   Using "AssignProjectConfiguration" task from assembly "Microsoft.Build.Tasks.v4.0, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a".
+                   Task "AssignProjectConfiguration" (TaskId:8)
+                   Done executing task "AssignProjectConfiguration". (TaskId:8)
+14:14:40.655     1>Done building target "AssignProjectConfiguration" in project "gKNN.vcxproj".: (TargetId:7)
+                   Target "AssignProjectConfiguration" skipped. Previously built successfully.
+14:14:40.655     1>Target "_SplitProjectReferencesByFileExistence: (TargetId:8)" in file "C:\Windows\Microsoft.NET\Framework\v4.0.30319\Microsoft.Common.Targets" from project "C:\TODD5_3D - Copy 05 Feb2014\gKNN\gKNN.vcxproj" (target "ResolveProjectReferences" depends on it):
+                   Task "ResolveNonMSBuildProjectOutput" skipped, due to false condition; ('$(BuildingInsideVisualStudio)'=='true' and '@(ProjectReferenceWithConfiguration)'!='') was evaluated as ('true'=='true' and ''!='').
+14:14:40.655     1>Done building target "_SplitProjectReferencesByFileExistence" in project "gKNN.vcxproj".: (TargetId:8)
+                   Target "_RemoveNameMetadataFromProjectReferenceItems" skipped, due to false condition; ('@(ProjectReference)'!='') was evaluated as (''!='').
+14:14:40.655     1>Target "ResolveProjectReferences: (TargetId:9)" in file "C:\Windows\Microsoft.NET\Framework\v4.0.30319\Microsoft.Common.Targets" from project "C:\TODD5_3D - Copy 05 Feb2014\gKNN\gKNN.vcxproj" (target "ResolveReferences" depends on it):
+                   Task "MSBuild" skipped, due to false condition; ('%(_MSBuildProjectReferenceExistent.BuildReference)' == 'true' and '@(ProjectReferenceWithConfiguration)' != '' and ('$(BuildingInsideVisualStudio)' == 'true' or '$(BuildProjectReferences)' != 'true') and '$(VisualStudioVersion)' != '10.0' and '@(_MSBuildProjectReferenceExistent)' != '') was evaluated as ('' == 'true' and '' != '' and ('true' == 'true' or 'true' != 'true') and '10.0' != '10.0' and '' != '').
+                   Task "MSBuild" skipped, due to false condition; ('%(_MSBuildProjectReferenceExistent.BuildReference)' == 'true' and '@(ProjectReferenceWithConfiguration)' != '' and ('$(BuildingInsideVisualStudio)' == 'true' or '$(BuildProjectReferences)' != 'true') and '$(VisualStudioVersion)' == '10.0' and '@(_MSBuildProjectReferenceExistent)' != '') was evaluated as ('' == 'true' and '' != '' and ('true' == 'true' or 'true' != 'true') and '10.0' == '10.0' and '' != '').
+                   Task "MSBuild" skipped, due to false condition; ('%(_MSBuildProjectReferenceExistent.BuildReference)' == 'true' and '@(ProjectReferenceWithConfiguration)' != '' and '$(BuildingInsideVisualStudio)' != 'true' and '$(BuildProjectReferences)' == 'true' and '@(_MSBuildProjectReferenceExistent)' != '') was evaluated as ('' == 'true' and '' != '' and 'true' != 'true' and 'true' == 'true' and '' != '').
+                   Task "MSBuild" skipped, due to false condition; ('%(_MSBuildProjectReferenceExistent.BuildReference)' == 'true' and '@(ProjectReferenceWithConfiguration)' != '' and '$(BuildingProject)' == 'true' and '@(_MSBuildProjectReferenceExistent)' != '') was evaluated as ('' == 'true' and '' != '' and 'true' == 'true' and '' != '').
+                   Task "Warning" skipped, due to false condition; ('@(ProjectReferenceWithConfiguration)' != '' and '@(_MSBuildProjectReferenceNonexistent)' != '') was evaluated as ('' != '' and '' != '').
+14:14:40.656     1>Done building target "ResolveProjectReferences" in project "gKNN.vcxproj".: (TargetId:9)
+                   Target "ResolveNativeReferences" skipped, due to false condition; ('@(NativeReference)'!='') was evaluated as (''!='').
+14:14:40.656     1>Target "GetFrameworkPaths: (TargetId:10)" in file "C:\Windows\Microsoft.NET\Framework\v4.0.30319\Microsoft.NETFramework.targets" from project "C:\TODD5_3D - Copy 05 Feb2014\gKNN\gKNN.vcxproj" (target "ResolveAssemblyReferences" depends on it):
+14:14:40.656     1>Done building target "GetFrameworkPaths" in project "gKNN.vcxproj".: (TargetId:10)
+                   Target "GetWinFXPath" skipped, due to false condition; (('@(Page)' != '' or '@(ApplicationDefinition)' != '' or '@(Resource)' != '') and ('$(GetWinFXNativePath)' != '' or '$(GetWinFXWoWPath)' != '' )) was evaluated as (('' != '' or '' != '' or '' != '') and ('' != '' or '' != '' )).
+14:14:40.656     1>Target "GetReferenceAssemblyPaths: (TargetId:11)" in file "C:\Windows\Microsoft.NET\Framework\v4.0.30319\Microsoft.Common.Targets" from project "C:\TODD5_3D - Copy 05 Feb2014\gKNN\gKNN.vcxproj" (target "ResolveAssemblyReferences" depends on it):
+                   Task "GetReferenceAssemblyPaths" skipped, due to false condition; ('$(TargetFrameworkMoniker)' != '' and ('$(_TargetFrameworkDirectories)' == '' or '$(_FullFrameworkReferenceAssemblyPaths)' == '')) was evaluated as ('.NETFramework,Version=v4.0' != '' and ('C:\Program Files (x86)\Reference Assemblies\Microsoft\Framework\.NETFramework\v4.0' == '' or 'C:\Program Files (x86)\Reference Assemblies\Microsoft\Framework\.NETFramework\v4.0' == '')).
+14:14:40.656     1>Done building target "GetReferenceAssemblyPaths" in project "gKNN.vcxproj".: (TargetId:11)
+14:14:40.656     1>Target "PlatformPrepareForBuild: (TargetId:12)" in file "C:\Program Files (x86)\MSBuild\Microsoft.Cpp\v4.0\Platforms\Win32\Microsoft.Cpp.Win32.Targets" from project "C:\TODD5_3D - Copy 05 Feb2014\gKNN\gKNN.vcxproj" (target "PrepareForBuild" depends on it):
+                   Task "VCMessage" skipped, due to false condition; (!(exists('$(VCTargetsPath)\Platforms\Win32\PlatformToolsets\$(PlatformToolset)\Microsoft.Cpp.Win32.$(PlatformToolset).targets'))) was evaluated as (!(exists('C:\Program Files (x86)\MSBuild\Microsoft.Cpp\v4.0\\Platforms\Win32\PlatformToolsets\v100\Microsoft.Cpp.Win32.v100.targets'))).
+14:14:40.656     1>Done building target "PlatformPrepareForBuild" in project "gKNN.vcxproj".: (TargetId:12)
+                   Target "GetFrameworkPaths" skipped. Previously built successfully.
+                   Target "GetReferenceAssemblyPaths" skipped. Previously built successfully.
+14:14:40.656     1>Target "PrepareForBuild: (TargetId:13)" in file "C:\Program Files (x86)\MSBuild\Microsoft.Cpp\v4.0\Microsoft.CppBuild.targets" from project "C:\TODD5_3D - Copy 05 Feb2014\gKNN\gKNN.vcxproj" (target "ResolveAssemblyReferences" depends on it):
+                   Task "VCMessage" skipped, due to false condition; ('$(DesignTimeBuild)'!='true' and '$(ConfigurationPlatformExists)' != 'true') was evaluated as (''!='true' and 'true' != 'true').
+                   Using "MakeDir" task from assembly "Microsoft.Build.Tasks.v4.0, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a".
+                   Task "MakeDir" (TaskId:9)
+                   Done executing task "MakeDir". (TaskId:9)
+                   Task "VCMessage" skipped, due to false condition; ('$(DesignTimeBuild)'!='true' and '$(VCInstallDir)'=='' and '$(UseEnv)' != 'true' and ($(TargetFrameworkVersion)=='v3.5' or $(TargetFrameworkVersion)=='v3.0' or $(TargetFrameworkVersion)=='v2.0' )) was evaluated as (''!='true' and 'c:\Program Files (x86)\Microsoft Visual Studio 10.0\VC\'=='' and '' != 'true' and (v4.0=='v3.5' or v4.0=='v3.0' or v4.0=='v2.0' )).
+                   Task "VCMessage" skipped, due to false condition; ('$(DesignTimeBuild)'!='true' and '$(VCInstallDir)'=='' and '$(UseEnv)' != 'true' and '$(PlatformToolset)'=='v90') was evaluated as (''!='true' and 'c:\Program Files (x86)\Microsoft Visual Studio 10.0\VC\'=='' and '' != 'true' and 'v100'=='v90').
+                   Task "VCMessage" skipped, due to false condition; ('$(VCInstallDir)'=='' and '$(UseEnv)' != 'true') was evaluated as ('c:\Program Files (x86)\Microsoft Visual Studio 10.0\VC\'=='' and '' != 'true').
+                   Task "VCMessage" skipped, due to false condition; ('$(WindowsSDKDir)'=='' and '$(UseEnv)' != 'true') was evaluated as ('C:\Program Files (x86)\Microsoft SDKs\Windows\v7.0A\'=='' and '' != 'true').
+                   Task "VCMessage" skipped, due to false condition; ('$(IntDirTrailingSlashWarning)'=='true') was evaluated as (''=='true').
+                   Task "VCMessage" skipped, due to false condition; ('$(OutDirTrailingSlashWarning)'=='true') was evaluated as (''=='true').
+                   Task "MakeDir" (TaskId:10)
+                   Done executing task "MakeDir". (TaskId:10)
+14:14:40.656     1>Done building target "PrepareForBuild" in project "gKNN.vcxproj".: (TargetId:13)
+14:14:40.657     1>Target "GetInstalledSDKLocations: (TargetId:14)" in file "C:\Windows\Microsoft.NET\Framework\v4.0.30319\Microsoft.Common.Targets" from project "C:\TODD5_3D - Copy 05 Feb2014\gKNN\gKNN.vcxproj" (target "ResolveSDKReferences" depends on it):
+                   Task "GetInstalledSDKLocations" skipped, due to false condition; ('@(SDKReference)' != '') was evaluated as ('' != '').
+14:14:40.657     1>Done building target "GetInstalledSDKLocations" in project "gKNN.vcxproj".: (TargetId:14)
+14:14:40.657     1>Target "ResolveSDKReferences: (TargetId:15)" in file "C:\Windows\Microsoft.NET\Framework\v4.0.30319\Microsoft.Common.Targets" from project "C:\TODD5_3D - Copy 05 Feb2014\gKNN\gKNN.vcxproj" (target "ResolveAssemblyReferences" depends on it):
+                   Task "ResolveSDKReference" skipped, due to false condition; ('@(SDKReference)'!='') was evaluated as (''!='').
+14:14:40.657     1>Done building target "ResolveSDKReferences" in project "gKNN.vcxproj".: (TargetId:15)
+                   Target "ResolveSDKReferences" skipped. Previously built successfully.
+14:14:40.657     1>Target "ExpandSDKReferences: (TargetId:16)" in file "C:\Windows\Microsoft.NET\Framework\v4.0.30319\Microsoft.Common.Targets" from project "C:\TODD5_3D - Copy 05 Feb2014\gKNN\gKNN.vcxproj" (target "ResolveAssemblyReferences" depends on it):
+                   Task "GetSDKReferenceFiles" skipped, due to false condition; ('@(ResolvedSDKReference)'!='') was evaluated as (''!='').
+14:14:40.657     1>Done building target "ExpandSDKReferences" in project "gKNN.vcxproj".: (TargetId:16)
+14:14:40.657     1>Target "ResolveAssemblyReferences: (TargetId:17)" in file "C:\Windows\Microsoft.NET\Framework\v4.0.30319\Microsoft.Common.Targets" from project "C:\TODD5_3D - Copy 05 Feb2014\gKNN\gKNN.vcxproj" (target "ResolveReferences" depends on it):
+                   Using "ResolveAssemblyReference" task from assembly "Microsoft.Build.Tasks.v4.0, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a".
+                   Task "ResolveAssemblyReference" (TaskId:11)
+                     TargetFrameworkMoniker: (TaskId:11)
+                         .NETFramework,Version=v4.0 (TaskId:11)
+                     TargetFrameworkMonikerDisplayName: (TaskId:11)
+                         .NET Framework 4 (TaskId:11)
+                     TargetedRuntimeVersion: (TaskId:11)
+                         v4.0.30319 (TaskId:11)
+                     Assemblies: (TaskId:11)
+                         System.Core (TaskId:11)
+                     AssemblyFiles: (TaskId:11)
+                     CandidateAssemblyFiles: (TaskId:11)
+                     TargetFrameworkDirectories: (TaskId:11)
+                         C:\Program Files (x86)\Reference Assemblies\Microsoft\Framework\.NETFramework\v4.0 (TaskId:11)
+                     InstalledAssemblyTables: (TaskId:11)
+                     IgnoreInstalledAssemblyTable: (TaskId:11)
+                         False (TaskId:11)
+                     SearchPaths: (TaskId:11)
+                         {CandidateAssemblyFiles} (TaskId:11)
+                         c:\Program Files (x86)\Microsoft Visual Studio 10.0\VC\atlmfc\lib (TaskId:11)
+                         c:\Program Files (x86)\Microsoft Visual Studio 10.0\VC\lib (TaskId:11)
+                         {HintPathFromItem} (TaskId:11)
+                         {TargetFrameworkDirectory} (TaskId:11)
+                         {Registry:Software\Microsoft\.NETFramework,v4.0,AssemblyFoldersEx} (TaskId:11)
+                         {AssemblyFolders} (TaskId:11)
+                         {GAC} (TaskId:11)
+                         {RawFileName} (TaskId:11)
+                         C:\TODD5_3D - Copy 05 Feb2014\Release\ (TaskId:11)
+                     AllowedAssemblyExtensions: (TaskId:11)
+                         .winmd (TaskId:11)
+                         .dll (TaskId:11)
+                         .exe (TaskId:11)
+                     AllowedRelatedFileExtensions: (TaskId:11)
+                         .pdb (TaskId:11)
+                         .xml (TaskId:11)
+                         .pri (TaskId:11)
+                     AppConfigFile: (TaskId:11)
+                          (TaskId:11)
+                     AutoUnify: (TaskId:11)
+                         True (TaskId:11)
+                     CopyLocalDependenciesWhenParentReferenceInGac: (TaskId:11)
+                         True (TaskId:11)
+                     FindDependencies: (TaskId:11)
+                         True (TaskId:11)
+                     TargetProcessorArchitecture: (TaskId:11)
+                         x86 (TaskId:11)
+                     StateFile: (TaskId:11)
+                         Release\gKNN.vcxprojResolveAssemblyReference.cache (TaskId:11)
+                     InstalledAssemblySubsetTables: (TaskId:11)
+                     IgnoreInstalledAssemblySubsetTable: (TaskId:11)
+                         False (TaskId:11)
+                     TargetFrameworkSubsets: (TaskId:11)
+                     FullTargetFrameworkSubsetNames: (TaskId:11)
+                         Full (TaskId:11)
+                     ProfileName: (TaskId:11)
+                          (TaskId:11)
+                     FullFrameworkFolders: (TaskId:11)
+                         C:\Program Files (x86)\Reference Assemblies\Microsoft\Framework\.NETFramework\v4.0 (TaskId:11)
+                     LatestTargetFrameworkDirectories: (TaskId:11)
+                     ProfileTablesLocation: (TaskId:11)
+                     Primary reference "System.Core, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089". (TaskId:11)
+                         Resolved file path is "C:\Program Files (x86)\Reference Assemblies\Microsoft\Framework\.NETFramework\v4.0\System.Core.dll". (TaskId:11)
+                         Reference found at search path location "{TargetFrameworkDirectory}". (TaskId:11)
+                             For SearchPath "c:\Program Files (x86)\Microsoft Visual Studio 10.0\VC\atlmfc\lib". (TaskId:11)
+                             Considered "c:\Program Files (x86)\Microsoft Visual Studio 10.0\VC\atlmfc\lib\System.Core.winmd", but it didn't exist. (TaskId:11)
+                             Considered "c:\Program Files (x86)\Microsoft Visual Studio 10.0\VC\atlmfc\lib\System.Core.dll", but it didn't exist. (TaskId:11)
+                             Considered "c:\Program Files (x86)\Microsoft Visual Studio 10.0\VC\atlmfc\lib\System.Core.exe", but it didn't exist. (TaskId:11)
+                             For SearchPath "c:\Program Files (x86)\Microsoft Visual Studio 10.0\VC\lib". (TaskId:11)
+                             Considered "c:\Program Files (x86)\Microsoft Visual Studio 10.0\VC\lib\System.Core.winmd", but it didn't exist. (TaskId:11)
+                             Considered "c:\Program Files (x86)\Microsoft Visual Studio 10.0\VC\lib\System.Core.dll", but it didn't exist. (TaskId:11)
+                             Considered "c:\Program Files (x86)\Microsoft Visual Studio 10.0\VC\lib\System.Core.exe", but it didn't exist. (TaskId:11)
+                             For SearchPath "{TargetFrameworkDirectory}". (TaskId:11)
+                             Considered "C:\Program Files (x86)\Reference Assemblies\Microsoft\Framework\.NETFramework\v4.0\System.Core.winmd", but it didn't exist. (TaskId:11)
+                         This reference is not "CopyLocal" because it's a prerequisite file. (TaskId:11)
+                         The ImageRuntimeVersion for this reference is "v4.0.30319". (TaskId:11)
+                   Done executing task "ResolveAssemblyReference". (TaskId:11)
+14:14:40.658     1>Done building target "ResolveAssemblyReferences" in project "gKNN.vcxproj".: (TargetId:17)
+                   Target "ResolveComReferences" skipped, due to false condition; ('@(COMReference)'!='' or '@(COMFileReference)'!='') was evaluated as (''!='' or ''!='').
+14:14:40.658     1>Target "AfterResolveReferences: (TargetId:18)" in file "C:\Windows\Microsoft.NET\Framework\v4.0.30319\Microsoft.Common.Targets" from project "C:\TODD5_3D - Copy 05 Feb2014\gKNN\gKNN.vcxproj" (target "ResolveReferences" depends on it):
+14:14:40.658     1>Done building target "AfterResolveReferences" in project "gKNN.vcxproj".: (TargetId:18)
+                   Target "ImplicitlyExpandDesignTimeFacades" skipped, due to false condition; ('$(ImplicitlyExpandDesignTimeFacades)' == 'true') was evaluated as ('' == 'true').
+                   Target "ResolveTestReferences" skipped, due to false condition; ('@(Shadow)'!='') was evaluated as (''!='').
+14:14:40.658     1>Target "ResolveReferences: (TargetId:19)" in file "C:\Windows\Microsoft.NET\Framework\v4.0.30319\Microsoft.Common.Targets" from project "C:\TODD5_3D - Copy 05 Feb2014\gKNN\gKNN.vcxproj" (target "Build" depends on it):
+14:14:40.658     1>Done building target "ResolveReferences" in project "gKNN.vcxproj".: (TargetId:19)
+                   Target "PrepareForBuild" skipped. Previously built successfully.
+                   Target "PrepareForBuild" skipped. Previously built successfully.
+14:14:40.658     1>Target "InitializeBuildStatus: (TargetId:20)" in file "C:\Program Files (x86)\MSBuild\Microsoft.Cpp\v4.0\Microsoft.CppBuild.targets" from project "C:\TODD5_3D - Copy 05 Feb2014\gKNN\gKNN.vcxproj" (target "Build" depends on it):
+                   Using "ReadLinesFromFile" task from assembly "Microsoft.Build.Tasks.v4.0, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a".
+                   Task "ReadLinesFromFile" (TaskId:12)
+                   Done executing task "ReadLinesFromFile". (TaskId:12)
+                   Using "WriteLinesToFile" task from assembly "Microsoft.Build.Tasks.v4.0, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a".
+                   Task "WriteLinesToFile" (TaskId:13)
+                   Done executing task "WriteLinesToFile". (TaskId:13)
+                   Using "Touch" task from assembly "Microsoft.Build.Tasks.v4.0, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a".
+                   Task "Touch" (TaskId:14)
+                     Creating "Release\gKNN.unsuccessfulbuild" because "AlwaysCreate" was specified. (TaskId:14)
+                   Done executing task "Touch". (TaskId:14)
+14:14:40.660     1>Done building target "InitializeBuildStatus" in project "gKNN.vcxproj".: (TargetId:20)
+                   Target "AssignProjectConfiguration" skipped. Previously built successfully.
+                   Target "_SplitProjectReferencesByFileExistence" skipped. Previously built successfully.
+14:14:40.661     1>Target "BuildGenerateSourcesTraverse: (TargetId:21)" in file "C:\Windows\Microsoft.NET\Framework\v4.0.30319\Microsoft.Common.Targets" from project "C:\TODD5_3D - Copy 05 Feb2014\gKNN\gKNN.vcxproj" (target "BuildGenerateSources" depends on it):
+                   Task "MSBuild" skipped, due to false condition; ('$(BuildPassReferences)' == 'true' and '@(ProjectReferenceWithConfiguration)' != '' and '@(_MSBuildProjectReferenceExistent)' != '' and '%(_MSBuildProjectReferenceExistent.BuildReference)' == 'true') was evaluated as ('' == 'true' and '' != '' and '' != '' and '' == 'true').
+14:14:40.661     1>Done building target "BuildGenerateSourcesTraverse" in project "gKNN.vcxproj".: (TargetId:21)
+                   Target "SetBuildDefaultEnvironmentVariables" skipped. Previously built successfully.
+                   Target "SetUserMacroEnvironmentVariables" skipped, due to false condition; ('@(BuildMacro)' != '') was evaluated as ('' != '').
+                   Target "PrepareForBuild" skipped. Previously built successfully.
+                   Target "ResolveReferences" skipped. Previously built successfully.
+14:14:40.661     1>Target "BeforeBuildGenerateSources: (TargetId:22)" in file "C:\Program Files (x86)\MSBuild\Microsoft.Cpp\v4.0\Microsoft.BuildSteps.Targets" from project "C:\TODD5_3D - Copy 05 Feb2014\gKNN\gKNN.vcxproj" (target "BuildGenerateSources" depends on it):
+14:14:40.661     1>Done building target "BeforeBuildGenerateSources" in project "gKNN.vcxproj".: (TargetId:22)
+14:14:40.661     1>Target "PreBuildEvent: (TargetId:23)" in file "C:\Program Files (x86)\MSBuild\Microsoft.Cpp\v4.0\Microsoft.CppCommon.targets" from project "C:\TODD5_3D - Copy 05 Feb2014\gKNN\gKNN.vcxproj" (target "BuildGenerateSources" depends on it):
+                   Task "Message" skipped, due to false condition; ('%(PreBuildEvent.Message)' != '' and '%(PreBuildEvent.Command)' != '') was evaluated as ('' != '' and '' != '').
+                   Task "Exec" skipped, due to false condition; ('%(PreBuildEvent.Command)' != '') was evaluated as ('' != '').
+14:14:40.661     1>Done building target "PreBuildEvent" in project "gKNN.vcxproj".: (TargetId:23)
+                   Target "CustomBuild" skipped, due to false condition; ('@(CustomBuild)' != '') was evaluated as ('' != '').
+                   Target "PrepareForBuild" skipped. Previously built successfully.
+                   Target "SetBuildDefaultEnvironmentVariables" skipped. Previously built successfully.
+                   Target "SetUserMacroEnvironmentVariables" skipped, due to false condition; ('@(BuildMacro)' != '') was evaluated as ('' != '').
+14:14:40.661     1>Target "_SelectedFiles: (TargetId:24)" in file "C:\Program Files (x86)\MSBuild\Microsoft.Cpp\v4.0\Microsoft.CppBuild.targets" from project "C:\TODD5_3D - Copy 05 Feb2014\gKNN\gKNN.vcxproj" (target "CudaBuild" depends on it):
+14:14:40.661     1>Done building target "_SelectedFiles" in project "gKNN.vcxproj".: (TargetId:24)
+                   Target "CudaFilterSelectedFiles" skipped, due to false condition; ('@(SelectedFiles)' != '') was evaluated as ('' != '').
+14:14:40.661     1>Target "InitializeCudaHostProperties: (TargetId:25)" in file "C:\Program Files (x86)\MSBuild\Microsoft.Cpp\v4.0\BuildCustomizations\CUDA 6.0.targets" from project "C:\TODD5_3D - Copy 05 Feb2014\gKNN\gKNN.vcxproj" (target "AddCudaCompileMetadata" depends on it):
+14:14:40.661     1>Done building target "InitializeCudaHostProperties" in project "gKNN.vcxproj".: (TargetId:25)
+14:14:40.661     1>Target "AddCudaCompileMetadata: (TargetId:26)" in file "C:\Program Files (x86)\MSBuild\Microsoft.Cpp\v4.0\BuildCustomizations\CUDA 6.0.targets" from project "C:\TODD5_3D - Copy 05 Feb2014\gKNN\gKNN.vcxproj" (target "CudaBuild" depends on it):
+                   Building target "AddCudaCompileMetadata" completely.
+                   No input files were specified.
+                   Using "SanitizePaths" task from assembly "C:\Program Files (x86)\MSBuild\Microsoft.Cpp\v4.0\BuildCustomizations\Nvda.Build.CudaTasks.v6.0.dll".
+                   Task "SanitizePaths" (TaskId:15)
+                   Done executing task "SanitizePaths". (TaskId:15)
+                   Task "ReadLinesFromFile" (TaskId:16)
+                   Done executing task "ReadLinesFromFile". (TaskId:16)
+                   Using "SplitToItemMetadata" task from assembly "C:\Program Files (x86)\MSBuild\Microsoft.Cpp\v4.0\BuildCustomizations\Nvda.Build.CudaTasks.v6.0.dll".
+                   Task "SplitToItemMetadata" (TaskId:17)
+                   Done executing task "SplitToItemMetadata". (TaskId:17)
+14:14:40.665     1>Done building target "AddCudaCompileMetadata" in project "gKNN.vcxproj".: (TargetId:26)
+                   Target "AddCudaCompileMetadata" skipped. Previously built successfully.
+                   Target "InitializeCudaHostProperties" skipped. Previously built successfully.
+                   Target "AddCudaCompileMetadata" skipped. Previously built successfully.
+14:14:40.665     1>Target "InitializeCudaProjectProperties: (TargetId:27)" in file "C:\Program Files (x86)\MSBuild\Microsoft.Cpp\v4.0\BuildCustomizations\CUDA 6.0.targets" from project "C:\TODD5_3D - Copy 05 Feb2014\gKNN\gKNN.vcxproj" (target "AddCudaLinkMetadata" depends on it):
+                   Task "SplitToItemMetadata" (TaskId:18)
+                   Done executing task "SplitToItemMetadata". (TaskId:18)
+14:14:40.666     1>Done building target "InitializeCudaProjectProperties" in project "gKNN.vcxproj".: (TargetId:27)
+14:14:40.666     1>Target "AddCudaLinkMetadata: (TargetId:28)" in file "C:\Program Files (x86)\MSBuild\Microsoft.Cpp\v4.0\BuildCustomizations\CUDA 6.0.targets" from project "C:\TODD5_3D - Copy 05 Feb2014\gKNN\gKNN.vcxproj" (target "CudaBuild" depends on it):
+                   Building target "AddCudaLinkMetadata" completely.
+                   No input files were specified.
+                   Using "ResolvePaths" task from assembly "C:\Program Files (x86)\MSBuild\Microsoft.Cpp\v4.0\BuildCustomizations\Nvda.Build.CudaTasks.v6.0.dll".
+                   Task "ResolvePaths" (TaskId:19)
+                   Done executing task "ResolvePaths". (TaskId:19)
+14:14:40.666     1>Done building target "AddCudaLinkMetadata" in project "gKNN.vcxproj".: (TargetId:28)
+                   Target "SetBuildDefaultEnvironmentVariables" skipped. Previously built successfully.
+                   Target "SetUserMacroEnvironmentVariables" skipped, due to false condition; ('@(BuildMacro)' != '') was evaluated as ('' != '').
+                   Target "PrepareForBuild" skipped. Previously built successfully.
+                   Target "AddCudaCompileMetadata" skipped. Previously built successfully.
+14:14:40.666     1>Target "AddCudaCompileDeps: (TargetId:29)" in file "C:\Program Files (x86)\MSBuild\Microsoft.Cpp\v4.0\BuildCustomizations\CUDA 6.0.targets" from project "C:\TODD5_3D - Copy 05 Feb2014\gKNN\gKNN.vcxproj" (target "CudaBuild" depends on it):
+                   Building target "AddCudaCompileDeps" completely.
+                   Input file "C:\Program Files\NVIDIA GPU Computing Toolkit\CUDA\v4.1\include\cuda_runtime.h" does not exist.
+                   Using "GenerateDeps" task from assembly "C:\Program Files (x86)\MSBuild\Microsoft.Cpp\v4.0\BuildCustomizations\Nvda.Build.CudaTasks.v6.0.dll".
+                   Task "GenerateDeps" (TaskId:20)
+                     Command: (TaskId:20)
+                     c:\Program Files (x86)\Microsoft Visual Studio 10.0\VC\bin\cl.exe /E /nologo /showIncludes /TP /D__CUDACC__ /D_MBCS /I"C:\Program Files\NVIDIA GPU Computing Toolkit\CUDA\v6.0\include" /I"C:\Program Files\NVIDIA GPU Computing Toolkit\CUDA\v6.0\bin" /I"C:\Program Files\NVIDIA GPU Computing Toolkit\CUDA\v6.0\include" /I. /FIcuda_runtime.h /c "C:\TODD5_3D - Copy 05 Feb2014\gKNN\knn_cublas.cu"  (TaskId:20)
+                     The "GenerateDeps" task is using "cl.exe" from "c:\Program Files (x86)\Microsoft Visual Studio 10.0\VC\bin\cl.exe". (TaskId:20)
+                   Done executing task "GenerateDeps". (TaskId:20)
+                   Task "MakeDir" (TaskId:21)
+                   Done executing task "MakeDir". (TaskId:21)
+                   Task "WriteLinesToFile" (TaskId:22)
+                   Done executing task "WriteLinesToFile". (TaskId:22)
+14:14:41.391     1>Done building target "AddCudaCompileDeps" in project "gKNN.vcxproj".: (TargetId:29)
+                   Target "SetBuildDefaultEnvironmentVariables" skipped. Previously built successfully.
+                   Target "SetUserMacroEnvironmentVariables" skipped, due to false condition; ('@(BuildMacro)' != '') was evaluated as ('' != '').
+                   Target "PrepareForBuild" skipped. Previously built successfully.
+                   Target "AddCudaCompileMetadata" skipped. Previously built successfully.
+14:14:41.391     1>Target "AddCudaCompilePropsDeps: (TargetId:30)" in file "C:\Program Files (x86)\MSBuild\Microsoft.Cpp\v4.0\BuildCustomizations\CUDA 6.0.targets" from project "C:\TODD5_3D - Copy 05 Feb2014\gKNN\gKNN.vcxproj" (target "CudaBuild" depends on it):
+                   Building target "AddCudaCompilePropsDeps" completely.
+                   Input file "gKNN.vcxproj" is newer than output file "Release\knn_cublas.cu.cache".
+                   Task "ReadLinesFromFile" (TaskId:23)
+                   Done executing task "ReadLinesFromFile". (TaskId:23)
+                   Using "XmlPeek" task from assembly "Microsoft.Build.Tasks.v4.0, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a".
+                   Task "XmlPeek" (TaskId:24)
+                     Found "CudaToolkitCustomDir". (TaskId:24)
+                     Found "AdditionalDeps". (TaskId:24)
+                     Found "CompileOut". (TaskId:24)
+                     Found "Include". (TaskId:24)
+                     Found "UseHostInclude". (TaskId:24)
+                     Found "Keep". (TaskId:24)
+                     Found "KeepDir". (TaskId:24)
+                     Found "GenerateRelocatableDeviceCode". (TaskId:24)
+                     Found "NvccCompilation". (TaskId:24)
+                     Found "CudaRuntime". (TaskId:24)
+                     Found "NvccPath". (TaskId:24)
+                     Found "RequiredIncludes". (TaskId:24)
+                     Found "TargetMachinePlatform". (TaskId:24)
+                     Found "CInterleavedPTX". (TaskId:24)
+                     Found "CodeGeneration". (TaskId:24)
+                     Found "GPUDebugInfo". (TaskId:24)
+                     Found "GenerateLineInfo". (TaskId:24)
+                     Found "MaxRegCount". (TaskId:24)
+                     Found "PtxAsOptionV". (TaskId:24)
+                     Found "AdditionalCompilerOptions". (TaskId:24)
+                     Found "Defines". (TaskId:24)
+                     Found "UseHostDefines". (TaskId:24)
+                     Found "Emulation". (TaskId:24)
+                     Found "HostDebugInfo". (TaskId:24)
+                     Found "FastMath". (TaskId:24)
+                     Found "Optimization". (TaskId:24)
+                     Found "Runtime". (TaskId:24)
+                     Found "RuntimeChecks". (TaskId:24)
+                     Found "TypeInfo". (TaskId:24)
+                     Found "Warning". (TaskId:24)
+                     Found "AdditionalOptions". (TaskId:24)
+                     Found "CommandLineTemplate". (TaskId:24)
+                     Found "PerformDeviceLink". (TaskId:24)
+                     Found "LinkOut". (TaskId:24)
+                     Found "AdditionalLibraryDirectories". (TaskId:24)
+                     Found "UseHostLibraryDirectories". (TaskId:24)
+                     Found "AdditionalDependencies". (TaskId:24)
+                     Found "UseHostLibraryDependencies". (TaskId:24)
+                     Found "GPUDebugInfo". (TaskId:24)
+                     Found "Optimization". (TaskId:24)
+                     Found "CodeGeneration". (TaskId:24)
+                     Found "TargetMachinePlatform". (TaskId:24)
+                     Found "Warning". (TaskId:24)
+                     Found "RuntimeChecks". (TaskId:24)
+                     Found "Runtime". (TaskId:24)
+                     Found "TypeInfo". (TaskId:24)
+                     Found "AdditionalCompilerOptions". (TaskId:24)
+                     Found "Inputs". (TaskId:24)
+                     Found "AdditionalOptions". (TaskId:24)
+                     Found "CommandLineTemplate". (TaskId:24)
+                   Done executing task "XmlPeek". (TaskId:24)
+                   Using "ReadMetadataLinesFromItems" task from assembly "C:\Program Files (x86)\MSBuild\Microsoft.Cpp\v4.0\BuildCustomizations\Nvda.Build.CudaTasks.v6.0.dll".
+                   Task "ReadMetadataLinesFromItems" (TaskId:25)
+                   Done executing task "ReadMetadataLinesFromItems". (TaskId:25)
+                   Task "WriteLinesToFile" (TaskId:26)
+                   Done executing task "WriteLinesToFile". (TaskId:26)
+14:14:41.395     1>Done building target "AddCudaCompilePropsDeps" in project "gKNN.vcxproj".: (TargetId:30)
+14:14:41.395     1>Target "ValidateCudaBuild: (TargetId:31)" in file "C:\Program Files (x86)\MSBuild\Microsoft.Cpp\v4.0\BuildCustomizations\CUDA 6.0.targets" from project "C:\TODD5_3D - Copy 05 Feb2014\gKNN\gKNN.vcxproj" (target "CudaBuild" depends on it):
+                   Task "Error" skipped, due to false condition; (!Exists($(CudaToolkitDir))) was evaluated as (!Exists(C:\Program Files\NVIDIA GPU Computing Toolkit\CUDA\v6.0\)).
+                   Task "Error" skipped, due to false condition; ('$(PlatformToolset)' == 'v120') was evaluated as ('v100' == 'v120').
+14:14:41.395     1>Done building target "ValidateCudaBuild" in project "gKNN.vcxproj".: (TargetId:31)
+14:14:41.395     1>Target "ValidateCudaCodeGeneration: (TargetId:32)" in file "C:\Program Files (x86)\MSBuild\Microsoft.Cpp\v4.0\BuildCustomizations\CUDA 6.0.targets" from project "C:\TODD5_3D - Copy 05 Feb2014\gKNN\gKNN.vcxproj" (target "CudaBuild" depends on it):
+                   Building target "ValidateCudaCodeGeneration" completely.
+                   No input files were specified.
+                   Using "CountItems" task from assembly "C:\Program Files (x86)\MSBuild\Microsoft.Cpp\v4.0\BuildCustomizations\Nvda.Build.CudaTasks.v6.0.dll".
+                   Task "CountItems" (TaskId:27)
+                   Done executing task "CountItems". (TaskId:27)
+                   Task "Error" skipped, due to false condition; ('%(CudaCompile.NvccCompilation)' != 'compile' AND $(ValidateCudaCodeGenerationCount) > 1) was evaluated as ('compile' != 'compile' AND 1 > 1).
+14:14:41.395     1>Done building target "ValidateCudaCodeGeneration" in project "gKNN.vcxproj".: (TargetId:32)
+14:14:41.395     1>Target "ComputeCudaCompileOutput: (TargetId:33)" in file "C:\Program Files (x86)\MSBuild\Microsoft.Cpp\v4.0\BuildCustomizations\CUDA 6.0.targets" from project "C:\TODD5_3D - Copy 05 Feb2014\gKNN\gKNN.vcxproj" (target "CudaBuild" depends on it):
+                   Building target "ComputeCudaCompileOutput" completely.
+                   No input files were specified.
+14:14:41.395     1>Done building target "ComputeCudaCompileOutput" in project "gKNN.vcxproj".: (TargetId:33)
+14:14:41.395     1>Target "PrepareForCudaBuild: (TargetId:34)" in file "C:\Program Files (x86)\MSBuild\Microsoft.Cpp\v4.0\BuildCustomizations\CUDA 6.0.targets" from project "C:\TODD5_3D - Copy 05 Feb2014\gKNN\gKNN.vcxproj" (target "CudaBuild" depends on it):
+                   Task "SanitizePaths" (TaskId:28)
+                   Done executing task "SanitizePaths". (TaskId:28)
+                   Using "CudaSetEnvironmentVariable" task from assembly "C:\Program Files (x86)\MSBuild\Microsoft.Cpp\v4.0\BuildCustomizations\Nvda.Build.CudaTasks.v6.0.dll".
+                   Task "CudaSetEnvironmentVariable" (TaskId:29)
+                     Nvda.Build.CudaTasks.CudaSetEnvironmentVariable: Setting 'CUDAFE_FLAGS' to '--sdk_dir "C:\Program Files (x86)\Microsoft SDKs\Windows\v7.0A"' (TaskId:29)
+                   Done executing task "CudaSetEnvironmentVariable". (TaskId:29)
+14:14:41.396     1>Done building target "PrepareForCudaBuild" in project "gKNN.vcxproj".: (TargetId:34)
+14:14:41.396     1>Target "CudaBuild: (TargetId:35)" in file "C:\Program Files (x86)\MSBuild\Microsoft.Cpp\v4.0\BuildCustomizations\CUDA 6.0.targets" from project "C:\TODD5_3D - Copy 05 Feb2014\gKNN\gKNN.vcxproj" (target "BuildGenerateSources" depends on it):
+                   Building target "CudaBuild" completely.
+                   Input file "gKNN.vcxproj" is newer than output file "Release\knn_cublas.cu.obj".
+                   Task "Message" (TaskId:30)
+                     Compiling CUDA source file knn_cublas.cu... (TaskId:30)
+                   Done executing task "Message". (TaskId:30)
+                   Task "Message" skipped, due to false condition; ('%(CudaCompile.ExcludedFromBuild)' == 'true') was evaluated as ('' == 'true').
+                   Task "MakeDir" skipped, due to false condition; (!Exists('$(CompileOutDir)')) was evaluated as (!Exists('C:\TODD5_3D - Copy 05 Feb2014\gKNN\Release')).
+                   Task "MakeDir" skipped, due to false condition; ('%(CudaCompile.Keep)' == 'true' AND !Exists('%(CudaCompile.KeepDir)')) was evaluated as ('false' == 'true' AND !Exists('Release')).
+                   Initializing task factory "XamlTaskFactory" from assembly "Microsoft.Build.Tasks.v4.0".
+                   Using "CudaCompile" task from the task factory "XamlTaskFactory".
+                   Task "CudaCompile" (TaskId:31)
+                     cmd.exe /C "C:\Users\Hossein\AppData\Local\Temp\tmp14e66bb765774827bfa1d0ee7b306fc7.cmd" (TaskId:31)
+                     "C:\Program Files\NVIDIA GPU Computing Toolkit\CUDA\v6.0\bin\nvcc.exe" -gencode=arch=compute_20,code=\"sm_20,compute_20\" --use-local-env --cl-version 2010 -ccbin "c:\Program Files (x86)\Microsoft Visual Studio 10.0\VC\bin"  -I"C:\Program Files\NVIDIA GPU Computing Toolkit\CUDA\v6.0\include" -I"C:\Program Files\NVIDIA GPU Computing Toolkit\CUDA\v6.0\include"     --keep-dir Release -maxrregcount=32  --machine 32 --compile -cudart static     -D_MBCS -Xcompiler "/EHsc /W3 /nologo /O2 /Zi  /MD  " -o Release\knn_cublas.cu.obj "C:\TODD5_3D - Copy 05 Feb2014\gKNN\knn_cublas.cu" (TaskId:31)
+                      (TaskId:31)
+                     C:\TODD5_3D - Copy 05 Feb2014\gKNN>"C:\Program Files\NVIDIA GPU Computing Toolkit\CUDA\v6.0\bin\nvcc.exe" -gencode=arch=compute_20,code=\"sm_20,compute_20\" --use-local-env --cl-version 2010 -ccbin "c:\Program Files (x86)\Microsoft Visual Studio 10.0\VC\bin"  -I"C:\Program Files\NVIDIA GPU Computing Toolkit\CUDA\v6.0\include" -I"C:\Program Files\NVIDIA GPU Computing Toolkit\CUDA\v6.0\include"     --keep-dir Release -maxrregcount=32  --machine 32 --compile -cudart static     -D_MBCS -Xcompiler "/EHsc /W3 /nologo /O2 /Zi  /MD  " -o Release\knn_cublas.cu.obj "C:\TODD5_3D - Copy 05 Feb2014\gKNN\knn_cublas.cu"  (TaskId:31)
+                     knn_cublas.cu (TaskId:31)
+                   Done executing task "CudaCompile". (TaskId:31)
+                   Using "Delete" task from assembly "Microsoft.Build.Tasks.v4.0, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a".
+                   Task "Delete" (TaskId:32)
+                   Done executing task "Delete". (TaskId:32)
+14:14:44.897     1>Done building target "CudaBuild" in project "gKNN.vcxproj".: (TargetId:35)
+14:14:44.897     1>Target "_GenerateXMLData: (TargetId:36)" in file "C:\Program Files (x86)\MSBuild\Microsoft.Cpp\v4.0\Microsoft.CppBuild.targets" from project "C:\TODD5_3D - Copy 05 Feb2014\gKNN\gKNN.vcxproj" (target "BuildGenerateSources" depends on it):
+14:14:44.897     1>Done building target "_GenerateXMLData" in project "gKNN.vcxproj".: (TargetId:36)
+14:14:44.897     1>Target "_GenerateWebServiceProxy: (TargetId:37)" in file "C:\Program Files (x86)\MSBuild\Microsoft.Cpp\v4.0\Microsoft.CppBuild.targets" from project "C:\TODD5_3D - Copy 05 Feb2014\gKNN\gKNN.vcxproj" (target "BuildGenerateSources" depends on it):
+14:14:44.897     1>Done building target "_GenerateWebServiceProxy" in project "gKNN.vcxproj".: (TargetId:37)
+                   Target "Xsd" skipped, due to false condition; ('@(Xsd)' != '') was evaluated as ('' != '').
+14:14:44.897     1>Target "_Xsd: (TargetId:38)" in file "C:\Program Files (x86)\MSBuild\Microsoft.Cpp\v4.0\Microsoft.CppBuild.targets" from project "C:\TODD5_3D - Copy 05 Feb2014\gKNN\gKNN.vcxproj" (target "BuildGenerateSources" depends on it):
+14:14:44.897     1>Done building target "_Xsd" in project "gKNN.vcxproj".: (TargetId:38)
+14:14:44.897     1>Target "MakeDirsForMidl: (TargetId:39)" in file "C:\Program Files (x86)\MSBuild\Microsoft.Cpp\v4.0\Microsoft.CppBuild.targets" from project "C:\TODD5_3D - Copy 05 Feb2014\gKNN\gKNN.vcxproj" (target "_Midl" depends on it):
+                   Task "Makedir" (TaskId:33)
+                   Done executing task "Makedir". (TaskId:33)
+14:14:44.897     1>Done building target "MakeDirsForMidl" in project "gKNN.vcxproj".: (TargetId:39)
+                   Target "Midl" skipped, due to false condition; ('@(Midl)' != '') was evaluated as ('' != '').
+                   Target "CustomBuild" skipped, due to false condition; ('@(CustomBuild)' != '') was evaluated as ('' != '').
+14:14:44.897     1>Target "ComputeMIDLGeneratedCompileInputs: (TargetId:40)" in file "C:\Program Files (x86)\MSBuild\Microsoft.Cpp\v4.0\Microsoft.CppBuild.targets" from project "C:\TODD5_3D - Copy 05 Feb2014\gKNN\gKNN.vcxproj" (target "_Midl" depends on it):
+14:14:44.897     1>Done building target "ComputeMIDLGeneratedCompileInputs" in project "gKNN.vcxproj".: (TargetId:40)
+14:14:44.897     1>Target "AfterMidl: (TargetId:41)" in file "C:\Program Files (x86)\MSBuild\Microsoft.Cpp\v4.0\Microsoft.CppBuild.targets" from project "C:\TODD5_3D - Copy 05 Feb2014\gKNN\gKNN.vcxproj" (target "_Midl" depends on it):
+14:14:44.897     1>Done building target "AfterMidl" in project "gKNN.vcxproj".: (TargetId:41)
+14:14:44.897     1>Target "_Midl: (TargetId:42)" in file "C:\Program Files (x86)\MSBuild\Microsoft.Cpp\v4.0\Microsoft.CppBuild.targets" from project "C:\TODD5_3D - Copy 05 Feb2014\gKNN\gKNN.vcxproj" (target "BuildGenerateSources" depends on it):
+14:14:44.897     1>Done building target "_Midl" in project "gKNN.vcxproj".: (TargetId:42)
+14:14:44.897     1>Target "AfterBuildGenerateSources: (TargetId:43)" in file "C:\Program Files (x86)\MSBuild\Microsoft.Cpp\v4.0\Microsoft.BuildSteps.Targets" from project "C:\TODD5_3D - Copy 05 Feb2014\gKNN\gKNN.vcxproj" (target "BuildGenerateSources" depends on it):
+14:14:44.897     1>Done building target "AfterBuildGenerateSources" in project "gKNN.vcxproj".: (TargetId:43)
+14:14:44.898     1>Target "AfterBuildGenerateSourcesEvent: (TargetId:44)" in file "C:\Program Files (x86)\MSBuild\Microsoft.Cpp\v4.0\Microsoft.CppBuild.targets" from project "C:\TODD5_3D - Copy 05 Feb2014\gKNN\gKNN.vcxproj" (target "BuildGenerateSources" depends on it):
+14:14:44.898     1>Done building target "AfterBuildGenerateSourcesEvent" in project "gKNN.vcxproj".: (TargetId:44)
+14:14:44.898     1>Target "BuildGenerateSources: (TargetId:45)" in file "C:\Windows\Microsoft.NET\Framework\v4.0.30319\Microsoft.Common.Targets" from project "C:\TODD5_3D - Copy 05 Feb2014\gKNN\gKNN.vcxproj" (target "Build" depends on it):
+14:14:44.898     1>Done building target "BuildGenerateSources" in project "gKNN.vcxproj".: (TargetId:45)
+                   Target "AssignProjectConfiguration" skipped. Previously built successfully.
+                   Target "_SplitProjectReferencesByFileExistence" skipped. Previously built successfully.
+14:14:44.898     1>Target "BuildCompileTraverse: (TargetId:46)" in file "C:\Windows\Microsoft.NET\Framework\v4.0.30319\Microsoft.Common.Targets" from project "C:\TODD5_3D - Copy 05 Feb2014\gKNN\gKNN.vcxproj" (target "BuildCompile" depends on it):
+                   Task "MSBuild" skipped, due to false condition; ('$(BuildPassReferences)' == 'true' and '@(ProjectReferenceWithConfiguration)' != '' and '@(_MSBuildProjectReferenceExistent)' != ''  and '%(_MSBuildProjectReferenceExistent.BuildReference)' == 'true') was evaluated as ('' == 'true' and '' != '' and '' != ''  and '' == 'true').
+14:14:44.898     1>Done building target "BuildCompileTraverse" in project "gKNN.vcxproj".: (TargetId:46)
+                   Target "SetBuildDefaultEnvironmentVariables" skipped. Previously built successfully.
+                   Target "SetUserMacroEnvironmentVariables" skipped, due to false condition; ('@(BuildMacro)' != '') was evaluated as ('' != '').
+                   Target "PrepareForBuild" skipped. Previously built successfully.
+                   Target "ResolveReferences" skipped. Previously built successfully.
+14:14:44.898     1>Target "BeforeClCompile: (TargetId:47)" in file "C:\Program Files (x86)\MSBuild\Microsoft.Cpp\v4.0\Microsoft.CppBuild.targets" from project "C:\TODD5_3D - Copy 05 Feb2014\gKNN\gKNN.vcxproj" (target "_ClCompile" depends on it):
+14:14:44.898     1>Done building target "BeforeClCompile" in project "gKNN.vcxproj".: (TargetId:47)
+                   Target "ComputeMIDLGeneratedCompileInputs" skipped. Previously built successfully.
+14:14:44.898     1>Target "ComputeCLInputPDBName: (TargetId:48)" in file "C:\Program Files (x86)\MSBuild\Microsoft.Cpp\v4.0\Microsoft.CppBuild.targets" from project "C:\TODD5_3D - Copy 05 Feb2014\gKNN\gKNN.vcxproj" (target "_ClCompile" depends on it):
+14:14:44.898     1>Done building target "ComputeCLInputPDBName" in project "gKNN.vcxproj".: (TargetId:48)
+                   Target "ResolveReferences" skipped. Previously built successfully.
+14:14:44.898     1>Target "ComputeReferenceCLInput: (TargetId:49)" in file "C:\Program Files (x86)\MSBuild\Microsoft.Cpp\v4.0\Microsoft.CppBuild.targets" from project "C:\TODD5_3D - Copy 05 Feb2014\gKNN\gKNN.vcxproj" (target "_ClCompile" depends on it):
+                   Task "WriteLinesToFile" (TaskId:34)
+                   Done executing task "WriteLinesToFile". (TaskId:34)
+                   Task "Message" skipped, due to false condition; ('$(_REFERENCE_DEBUG)'=='true' and '%(ClCompile.CompileAsManaged)' != 'false' and '%(ClCompile.CompileAsManaged)' != '') was evaluated as (''=='true' and '' != 'false' and '' != '').
+14:14:44.898     1>Done building target "ComputeReferenceCLInput" in project "gKNN.vcxproj".: (TargetId:49)
+14:14:44.898     1>Target "MakeDirsForCl: (TargetId:50)" in file "C:\Program Files (x86)\MSBuild\Microsoft.Cpp\v4.0\Microsoft.CppBuild.targets" from project "C:\TODD5_3D - Copy 05 Feb2014\gKNN\gKNN.vcxproj" (target "_ClCompile" depends on it):
+                   Task "MakeDir" (TaskId:35)
+                   Done executing task "MakeDir". (TaskId:35)
+14:14:44.899     1>Done building target "MakeDirsForCl" in project "gKNN.vcxproj".: (TargetId:50)
+                   Target "ClCompile" skipped, due to false condition; ('@(ClCompile)' != '') was evaluated as ('' != '').
+                   Target "GenerateTargetFrameworkMonikerAttribute" skipped, due to false condition; ('$(GenerateTargetFrameworkAttribute)' == 'true') was evaluated as ('false' == 'true').
+                   Target "ManagedIncrementalBuildPreProcessDependencyGraph" skipped, due to false condition; ('@(ClCompile)' != '' and '$(EnableManagedIncrementalBuild)' == 'True') was evaluated as ('' != '' and 'false' == 'True').
+                   Target "ManagedIncrementalBuildPostProcessDependencyGraph" skipped, due to false condition; ('@(ClCompile)' != '' and '$(EnableManagedIncrementalBuild)' == 'True') was evaluated as ('' != '' and 'false' == 'True').
+14:14:44.899     1>Target "AfterClCompile: (TargetId:51)" in file "C:\Program Files (x86)\MSBuild\Microsoft.Cpp\v4.0\Microsoft.CppBuild.targets" from project "C:\TODD5_3D - Copy 05 Feb2014\gKNN\gKNN.vcxproj" (target "_ClCompile" depends on it):
+14:14:44.899     1>Done building target "AfterClCompile" in project "gKNN.vcxproj".: (TargetId:51)
+14:14:44.899     1>Target "_ClCompile: (TargetId:52)" in file "C:\Program Files (x86)\MSBuild\Microsoft.Cpp\v4.0\Microsoft.CppBuild.targets" from project "C:\TODD5_3D - Copy 05 Feb2014\gKNN\gKNN.vcxproj" (target "BuildCompile" depends on it):
+14:14:44.899     1>Done building target "_ClCompile" in project "gKNN.vcxproj".: (TargetId:52)
+                   Target "_ResGen" skipped, due to false condition; ('@(EmbeddedResource)'!='') was evaluated as (''!='').
+14:14:44.899     1>Target "BeforeResourceCompile: (TargetId:53)" in file "C:\Program Files (x86)\MSBuild\Microsoft.Cpp\v4.0\Microsoft.CppBuild.targets" from project "C:\TODD5_3D - Copy 05 Feb2014\gKNN\gKNN.vcxproj" (target "_ResourceCompile" depends on it):
+14:14:44.899     1>Done building target "BeforeResourceCompile" in project "gKNN.vcxproj".: (TargetId:53)
+14:14:44.899     1>Target "MakeDirsForResourceCompile: (TargetId:54)" in file "C:\Program Files (x86)\MSBuild\Microsoft.Cpp\v4.0\Microsoft.CppBuild.targets" from project "C:\TODD5_3D - Copy 05 Feb2014\gKNN\gKNN.vcxproj" (target "_ResourceCompile" depends on it):
+                   Task "MakeDir" (TaskId:36)
+                   Done executing task "MakeDir". (TaskId:36)
+14:14:44.899     1>Done building target "MakeDirsForResourceCompile" in project "gKNN.vcxproj".: (TargetId:54)
+                   Target "ResourceCompile" skipped, due to false condition; ('@(ResourceCompile)' != '') was evaluated as ('' != '').
+14:14:44.899     1>Target "AfterResourceCompile: (TargetId:55)" in file "C:\Program Files (x86)\MSBuild\Microsoft.Cpp\v4.0\Microsoft.CppBuild.targets" from project "C:\TODD5_3D - Copy 05 Feb2014\gKNN\gKNN.vcxproj" (target "_ResourceCompile" depends on it):
+14:14:44.899     1>Done building target "AfterResourceCompile" in project "gKNN.vcxproj".: (TargetId:55)
+14:14:44.899     1>Target "_ResourceCompile: (TargetId:56)" in file "C:\Program Files (x86)\MSBuild\Microsoft.Cpp\v4.0\Microsoft.CppBuild.targets" from project "C:\TODD5_3D - Copy 05 Feb2014\gKNN\gKNN.vcxproj" (target "BuildCompile" depends on it):
+14:14:44.899     1>Done building target "_ResourceCompile" in project "gKNN.vcxproj".: (TargetId:56)
+                   Target "_ImpLib" skipped, due to false condition; ('$(ImpLibCompiled)' == 'true') was evaluated as ('' == 'true').
+14:14:44.899     1>Target "BeforeLib: (TargetId:57)" in file "C:\Program Files (x86)\MSBuild\Microsoft.Cpp\v4.0\Microsoft.CppBuild.targets" from project "C:\TODD5_3D - Copy 05 Feb2014\gKNN\gKNN.vcxproj" (target "_Lib" depends on it):
+14:14:44.899     1>Done building target "BeforeLib" in project "gKNN.vcxproj".: (TargetId:57)
+14:14:44.899     1>Target "ComputeLibAdditionalOptions: (TargetId:58)" in file "C:\Program Files (x86)\MSBuild\Microsoft.Cpp\v4.0\Microsoft.CppBuild.targets" from project "C:\TODD5_3D - Copy 05 Feb2014\gKNN\gKNN.vcxproj" (target "_Lib" depends on it):
+14:14:44.899     1>Done building target "ComputeLibAdditionalOptions" in project "gKNN.vcxproj".: (TargetId:58)
+14:14:44.899     1>Target "ComputeRCOutputs: (TargetId:59)" in file "C:\Program Files (x86)\MSBuild\Microsoft.Cpp\v4.0\Microsoft.CppBuild.targets" from project "C:\TODD5_3D - Copy 05 Feb2014\gKNN\gKNN.vcxproj" (target "ComputeRCGeneratedLibInputs" depends on it):
+14:14:44.899     1>Done building target "ComputeRCOutputs" in project "gKNN.vcxproj".: (TargetId:59)
+14:14:44.899     1>Target "ComputeRCGeneratedLibInputs: (TargetId:60)" in file "C:\Program Files (x86)\MSBuild\Microsoft.Cpp\v4.0\Microsoft.CppBuild.targets" from project "C:\TODD5_3D - Copy 05 Feb2014\gKNN\gKNN.vcxproj" (target "_Lib" depends on it):
+14:14:44.899     1>Done building target "ComputeRCGeneratedLibInputs" in project "gKNN.vcxproj".: (TargetId:60)
+14:14:44.899     1>Target "ComputeCustomBuildOutput: (TargetId:61)" in file "C:\Program Files (x86)\MSBuild\Microsoft.Cpp\v4.0\Microsoft.CppBuild.targets" from project "C:\TODD5_3D - Copy 05 Feb2014\gKNN\gKNN.vcxproj" (target "_Lib" depends on it):
+                   Task "MakeDir" (TaskId:37)
+                   Done executing task "MakeDir". (TaskId:37)
+14:14:44.899     1>Done building target "ComputeCustomBuildOutput" in project "gKNN.vcxproj".: (TargetId:61)
+                   Target "ComputeCLOutputs" skipped, due to false condition; ('@(ClCompile)' != '') was evaluated as ('' != '').
+14:14:44.899     1>Target "ComputeCLGeneratedLibInputs: (TargetId:62)" in file "C:\Program Files (x86)\MSBuild\Microsoft.Cpp\v4.0\Microsoft.CppBuild.targets" from project "C:\TODD5_3D - Copy 05 Feb2014\gKNN\gKNN.vcxproj" (target "_Lib" depends on it):
+14:14:44.899     1>Done building target "ComputeCLGeneratedLibInputs" in project "gKNN.vcxproj".: (TargetId:62)
+14:14:44.899     1>Target "ComputeLibInputsFromProject: (TargetId:63)" in file "C:\Program Files (x86)\MSBuild\Microsoft.Cpp\v4.0\Microsoft.CppBuild.targets" from project "C:\TODD5_3D - Copy 05 Feb2014\gKNN\gKNN.vcxproj" (target "_Lib" depends on it):
+14:14:44.899     1>Done building target "ComputeLibInputsFromProject" in project "gKNN.vcxproj".: (TargetId:63)
+                   Target "ComputeReferenceLibInputs" skipped, due to false condition; (@(ProjectReference) != '') was evaluated as ( != '').
+                   Target "ComputeCudaCompileOutput" skipped. Previously built successfully.
+                   Target "ComputeCudaLinkOutput" skipped, due to false condition; ('@(CudaLink)' != '') was evaluated as ('' != '').
+14:14:44.899     1>Target "MakeDirsForLib: (TargetId:64)" in file "C:\Program Files (x86)\MSBuild\Microsoft.Cpp\v4.0\Microsoft.CppBuild.targets" from project "C:\TODD5_3D - Copy 05 Feb2014\gKNN\gKNN.vcxproj" (target "_Lib" depends on it):
+                   Task "MakeDir" (TaskId:38)
+                   Done executing task "MakeDir". (TaskId:38)
+14:14:44.899     1>Done building target "MakeDirsForLib" in project "gKNN.vcxproj".: (TargetId:64)
+14:14:44.899     1>Target "DoLibOutputFilesMatch: (TargetId:65)" in file "C:\Program Files (x86)\MSBuild\Microsoft.Cpp\v4.0\Microsoft.CppBuild.targets" from project "C:\TODD5_3D - Copy 05 Feb2014\gKNN\gKNN.vcxproj" (target "_Lib" depends on it):
+                   Task "VCMessage" skipped, due to false condition; ('%(_OutputFileFromLib.FullPath)' != '$([System.IO.Path]::GetFullPath($(TargetPath)))') was evaluated as ('C:\TODD5_3D - Copy 05 Feb2014\Release\gKNN.lib' != 'C:\TODD5_3D - Copy 05 Feb2014\Release\gKNN.lib').
+                   Task "VCMessage" skipped, due to false condition; ('%(_OutputFileFromLib.Extension)' != '$(TargetExt)') was evaluated as ('.lib' != '.lib').
+                   Task "VCMessage" skipped, due to false condition; ('%(_OutputFileFromLib.Filename)' != '$(TargetName)') was evaluated as ('gKNN' != 'gKNN').
+14:14:44.899     1>Done building target "DoLibOutputFilesMatch" in project "gKNN.vcxproj".: (TargetId:65)
+14:14:44.899     1>Target "PreLinkEvent: (TargetId:66)" in file "C:\Program Files (x86)\MSBuild\Microsoft.Cpp\v4.0\Microsoft.CppCommon.targets" from project "C:\TODD5_3D - Copy 05 Feb2014\gKNN\gKNN.vcxproj" (target "_Lib" depends on it):
+                   Task "Message" skipped, due to false condition; ('%(PreLinkEvent.Message)' != '' and '%(PreLinkEvent.Command)' != '') was evaluated as ('' != '' and '' != '').
+                   Task "Exec" skipped, due to false condition; ('%(PreLinkEvent.Command)' != '') was evaluated as ('' != '').
+14:14:44.900     1>Done building target "PreLinkEvent" in project "gKNN.vcxproj".: (TargetId:66)
+                   Target "CudaLink" skipped, due to false condition; ('@(CudaLink)' != '') was evaluated as ('' != '').
+14:14:44.900     1>Target "Lib: (TargetId:67)" in file "C:\Program Files (x86)\MSBuild\Microsoft.Cpp\v4.0\Microsoft.CppCommon.targets" from project "C:\TODD5_3D - Copy 05 Feb2014\gKNN\gKNN.vcxproj" (target "_Lib" depends on it):
+                   Using "LIB" task from assembly "Microsoft.Build.CppTasks.Common, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a".
+                   Task "LIB" (TaskId:39)
+                     Write Tracking Logs: (TaskId:39)
+                     	Release\Lib-link.write.1.tlog (TaskId:39)
+                     Read Tracking Logs: (TaskId:39)
+                     	Release\Lib-link.read.1.tlog (TaskId:39)
+                     No output for C:\TODD5_3D - COPY 05 FEB2014\GKNN\RELEASE\KNN_CUBLAS.CU.OBJ was found in the tracking log; source compilation required. (TaskId:39)
+                     No dependencies for output C:\TODD5_3D - COPY 05 FEB2014\GKNN\RELEASE\KNN_CUBLAS.CU.OBJ were found in the tracking log; source compilation required. (TaskId:39)
+                     c:\Program Files (x86)\Microsoft Visual Studio 10.0\VC\bin\Lib.exe /OUT:"C:\TODD5_3D - Copy 05 Feb2014\Release\gKNN.lib" /LIBPATH:"C:\TODD5_3D - Copy 05 Feb2014\Release" /NOLOGO /LTCG Release\knn_cublas.cu.obj (TaskId:39)
+                     Tracking command: (TaskId:39)
+                     C:\Program Files (x86)\Microsoft SDKs\Windows\v7.0A\bin\NETFX 4.0 Tools\Tracker.exe /d C:\Windows\Microsoft.NET\Framework\v4.0.30319\FileTracker.dll /i "C:\TODD5_3D - Copy 05 Feb2014\gKNN\Release" /r "C:\TODD5_3D - COPY 05 FEB2014\GKNN\RELEASE\KNN_CUBLAS.CU.OBJ" /b MSBuildConsole_CancelEventb4980d8f4a874b609cbc76505a8e2168  /c "c:\Program Files (x86)\Microsoft Visual Studio 10.0\VC\bin\Lib.exe"  /OUT:"C:\TODD5_3D - Copy 05 Feb2014\Release\gKNN.lib" /LIBPATH:"C:\TODD5_3D - Copy 05 Feb2014\Release" /NOLOGO /LTCG Release\knn_cublas.cu.obj (TaskId:39)
+                   Done executing task "LIB". (TaskId:39)
+                   Task "Message" (TaskId:40)
+                     gKNN.vcxproj -> C:\TODD5_3D - Copy 05 Feb2014\Release\gKNN.lib (TaskId:40)
+                   Done executing task "Message". (TaskId:40)
+14:14:44.935     1>Done building target "Lib" in project "gKNN.vcxproj".: (TargetId:67)
+14:14:44.935     1>Target "AfterLib: (TargetId:68)" in file "C:\Program Files (x86)\MSBuild\Microsoft.Cpp\v4.0\Microsoft.CppBuild.targets" from project "C:\TODD5_3D - Copy 05 Feb2014\gKNN\gKNN.vcxproj" (target "_Lib" depends on it):
+14:14:44.935     1>Done building target "AfterLib" in project "gKNN.vcxproj".: (TargetId:68)
+14:14:44.935     1>Target "_Lib: (TargetId:69)" in file "C:\Program Files (x86)\MSBuild\Microsoft.Cpp\v4.0\Microsoft.CppBuild.targets" from project "C:\TODD5_3D - Copy 05 Feb2014\gKNN\gKNN.vcxproj" (target "BuildCompile" depends on it):
+14:14:44.935     1>Done building target "_Lib" in project "gKNN.vcxproj".: (TargetId:69)
+14:14:44.935     1>Target "AfterBuildCompileEvent: (TargetId:70)" in file "C:\Program Files (x86)\MSBuild\Microsoft.Cpp\v4.0\Microsoft.CppBuild.targets" from project "C:\TODD5_3D - Copy 05 Feb2014\gKNN\gKNN.vcxproj" (target "BuildCompile" depends on it):
+14:14:44.935     1>Done building target "AfterBuildCompileEvent" in project "gKNN.vcxproj".: (TargetId:70)
+14:14:44.935     1>Target "BuildCompile: (TargetId:71)" in file "C:\Windows\Microsoft.NET\Framework\v4.0.30319\Microsoft.Common.Targets" from project "C:\TODD5_3D - Copy 05 Feb2014\gKNN\gKNN.vcxproj" (target "Build" depends on it):
+14:14:44.935     1>Done building target "BuildCompile" in project "gKNN.vcxproj".: (TargetId:71)
+                   Target "AssignProjectConfiguration" skipped. Previously built successfully.
+                   Target "_SplitProjectReferencesByFileExistence" skipped. Previously built successfully.
+14:14:44.935     1>Target "BuildLinkTraverse: (TargetId:72)" in file "C:\Windows\Microsoft.NET\Framework\v4.0.30319\Microsoft.Common.Targets" from project "C:\TODD5_3D - Copy 05 Feb2014\gKNN\gKNN.vcxproj" (target "BuildLink" depends on it):
+                   Task "MSBuild" skipped, due to false condition; ('$(BuildPassReferences)' == 'true' and '@(ProjectReferenceWithConfiguration)' != '' and '@(_MSBuildProjectReferenceExistent)' != ''  and '%(_MSBuildProjectReferenceExistent.BuildReference)' == 'true') was evaluated as ('' == 'true' and '' != '' and '' != ''  and '' == 'true').
+14:14:44.935     1>Done building target "BuildLinkTraverse" in project "gKNN.vcxproj".: (TargetId:72)
+                   Target "SetBuildDefaultEnvironmentVariables" skipped. Previously built successfully.
+                   Target "SetUserMacroEnvironmentVariables" skipped, due to false condition; ('@(BuildMacro)' != '') was evaluated as ('' != '').
+                   Target "PrepareForBuild" skipped. Previously built successfully.
+                   Target "ResolveReferences" skipped. Previously built successfully.
+                   Target "_Link" skipped, due to false condition; ('$(LinkCompiled)' == 'true') was evaluated as ('' == 'true').
+14:14:44.935     1>Target "_ALink: (TargetId:73)" in file "C:\Program Files (x86)\MSBuild\Microsoft.Cpp\v4.0\Microsoft.CppBuild.targets" from project "C:\TODD5_3D - Copy 05 Feb2014\gKNN\gKNN.vcxproj" (target "BuildLink" depends on it):
+14:14:44.935     1>Done building target "_ALink" in project "gKNN.vcxproj".: (TargetId:73)
+14:14:44.935     1>Target "_Manifest: (TargetId:74)" in file "C:\Program Files (x86)\MSBuild\Microsoft.Cpp\v4.0\Microsoft.CppBuild.targets" from project "C:\TODD5_3D - Copy 05 Feb2014\gKNN\gKNN.vcxproj" (target "BuildLink" depends on it):
+14:14:44.935     1>Done building target "_Manifest" in project "gKNN.vcxproj".: (TargetId:74)
+14:14:44.935     1>Target "RegisterOutput: (TargetId:75)" in file "C:\Program Files (x86)\MSBuild\Microsoft.Cpp\v4.0\Microsoft.CppCommon.targets" from project "C:\TODD5_3D - Copy 05 Feb2014\gKNN\gKNN.vcxproj" (target "BuildLink" depends on it):
+                   Task "Exec" skipped, due to false condition; ('$(ConfigurationType)'=='DynamicLibrary' and '%(Link.RegisterOutput)'=='true' and '%(Link.PerUserRedirection)'!='true') was evaluated as ('StaticLibrary'=='DynamicLibrary' and ''=='true' and ''!='true').
+                   Task "Exec" skipped, due to false condition; ('$(ConfigurationType)'=='DynamicLibrary' and '%(Link.RegisterOutput)'=='true' and '%(Link.PerUserRedirection)'=='true') was evaluated as ('StaticLibrary'=='DynamicLibrary' and ''=='true' and ''=='true').
+                   Task "Exec" skipped, due to false condition; ('$(ConfigurationType)'=='Application' and '%(Link.RegisterOutput)'=='true' and '%(Link.PerUserRedirection)'!='true') was evaluated as ('StaticLibrary'=='Application' and ''=='true' and ''!='true').
+                   Task "Exec" skipped, due to false condition; ('$(ConfigurationType)'=='Application' and '%(Link.RegisterOutput)'=='true' and '%(Link.PerUserRedirection)'=='true') was evaluated as ('StaticLibrary'=='Application' and ''=='true' and ''=='true').
+                   Task "VCMessage" skipped, due to false condition; ('$(_RegisterOutputExitCode)' != '' and '$(_RegisterOutputExitCode)' != '0') was evaluated as ('' != '' and '' != '0').
+14:14:44.935     1>Done building target "RegisterOutput" in project "gKNN.vcxproj".: (TargetId:75)
+14:14:44.935     1>Target "ComputeCLCompileGeneratedXDCFiles: (TargetId:76)" in file "C:\Program Files (x86)\MSBuild\Microsoft.Cpp\v4.0\Microsoft.CppBuild.targets" from project "C:\TODD5_3D - Copy 05 Feb2014\gKNN\gKNN.vcxproj" (target "_XdcMake" depends on it):
+14:14:44.935     1>Done building target "ComputeCLCompileGeneratedXDCFiles" in project "gKNN.vcxproj".: (TargetId:76)
+                   Target "SetBuildDefaultEnvironmentVariables" skipped. Previously built successfully.
+                   Target "SetUserMacroEnvironmentVariables" skipped, due to false condition; ('@(BuildMacro)' != '') was evaluated as ('' != '').
+                   Target "PrepareForBuild" skipped. Previously built successfully.
+                   Target "ResolveReferences" skipped. Previously built successfully.
+14:14:44.936     1>Target "ResolvedXDCMake: (TargetId:77)" in file "C:\Program Files (x86)\MSBuild\Microsoft.Cpp\v4.0\Microsoft.CppBuild.targets" from project "C:\TODD5_3D - Copy 05 Feb2014\gKNN\gKNN.vcxproj" (target "_XdcMake" depends on it):
+                   Task "MSBuild" skipped, due to false condition; ('%(_MSBuildProjectReferenceExistent.Extension)' == '.vcxproj' and '@(ProjectReferenceWithConfiguration)' != '' and '@(_MSBuildProjectReferenceExistent)' != '' and '$(_ClCompileGenerateXMLDocumentationFiles)' == 'true') was evaluated as ('' == '.vcxproj' and '' != '' and '' != '' and '' == 'true').
+14:14:44.936     1>Done building target "ResolvedXDCMake" in project "gKNN.vcxproj".: (TargetId:77)
+14:14:44.936     1>Target "MakeDirsForXdcMake: (TargetId:78)" in file "C:\Program Files (x86)\MSBuild\Microsoft.Cpp\v4.0\Microsoft.CppBuild.targets" from project "C:\TODD5_3D - Copy 05 Feb2014\gKNN\gKNN.vcxproj" (target "_XdcMake" depends on it):
+                   Task "MakeDir" (TaskId:41)
+                   Done executing task "MakeDir". (TaskId:41)
+14:14:44.936     1>Done building target "MakeDirsForXdcMake" in project "gKNN.vcxproj".: (TargetId:78)
+                   Target "XdcMake" skipped, due to false condition; ('@(XdcMake)' != '') was evaluated as ('' != '').
+14:14:44.936     1>Target "_XdcMake: (TargetId:79)" in file "C:\Program Files (x86)\MSBuild\Microsoft.Cpp\v4.0\Microsoft.CppBuild.targets" from project "C:\TODD5_3D - Copy 05 Feb2014\gKNN\gKNN.vcxproj" (target "BuildLink" depends on it):
+14:14:44.936     1>Done building target "_XdcMake" in project "gKNN.vcxproj".: (TargetId:79)
+14:14:44.936     1>Target "ComputeCLCompileGeneratedSbrFiles: (TargetId:80)" in file "C:\Program Files (x86)\MSBuild\Microsoft.Cpp\v4.0\Microsoft.CppBuild.targets" from project "C:\TODD5_3D - Copy 05 Feb2014\gKNN\gKNN.vcxproj" (target "_BscMake" depends on it):
+14:14:44.936     1>Done building target "ComputeCLCompileGeneratedSbrFiles" in project "gKNN.vcxproj".: (TargetId:80)
+14:14:44.936     1>Target "MakeDirsForBscMake: (TargetId:81)" in file "C:\Program Files (x86)\MSBuild\Microsoft.Cpp\v4.0\Microsoft.CppBuild.targets" from project "C:\TODD5_3D - Copy 05 Feb2014\gKNN\gKNN.vcxproj" (target "_BscMake" depends on it):
+                   Task "MakeDir" (TaskId:42)
+                   Done executing task "MakeDir". (TaskId:42)
+14:14:44.936     1>Done building target "MakeDirsForBscMake" in project "gKNN.vcxproj".: (TargetId:81)
+                   Target "BscMake" skipped, due to false condition; ('@(BscMake)' != '') was evaluated as ('' != '').
+                   Target "CustomBuildStep" skipped, due to false condition; ('@(CustomBuildStep)' != '' and '$(SelectedFiles)'=='') was evaluated as ('' != '' and ''=='').
+14:14:44.936     1>Target "_BscMake: (TargetId:82)" in file "C:\Program Files (x86)\MSBuild\Microsoft.Cpp\v4.0\Microsoft.CppBuild.targets" from project "C:\TODD5_3D - Copy 05 Feb2014\gKNN\gKNN.vcxproj" (target "BuildLink" depends on it):
+14:14:44.936     1>Done building target "_BscMake" in project "gKNN.vcxproj".: (TargetId:82)
+                   Target "RunCodeAnalysis" skipped, due to false condition; ('$(RunCodeAnalysis)'=='true' or '$(RunCodeAnalysisOnce)'=='true') was evaluated as (''=='true' or ''=='true').
+14:14:44.936     1>Target "_GenerateSatelliteAssemblyInputs: (TargetId:83)" in file "C:\Windows\Microsoft.NET\Framework\v4.0.30319\Microsoft.Common.Targets" from project "C:\TODD5_3D - Copy 05 Feb2014\gKNN\gKNN.vcxproj" (target "CreateSatelliteAssemblies" depends on it):
+                   Task "Warning" skipped, due to false condition; ('@(ManifestResourceWithCulture)'!='' and '%(ManifestResourceWithCulture.EmittedForCompatibilityOnly)'=='') was evaluated as (''!='' and ''=='').
+                   Task "Warning" skipped, due to false condition; ('@(ManifestNonResxWithCultureOnDisk)'!='' and '%(ManifestNonResxWithCultureOnDisk.EmittedForCompatibilityOnly)'=='') was evaluated as (''!='' and ''=='').
+14:14:44.936     1>Done building target "_GenerateSatelliteAssemblyInputs" in project "gKNN.vcxproj".: (TargetId:83)
+                   Target "ComputeIntermediateSatelliteAssemblies" skipped, due to false condition; (@(ReferenceSatellitePaths->'%(DestinationSubDirectory)') != '') was evaluated as ( != '').
+                   Target "GenerateSatelliteAssemblies" skipped, due to false condition; ('@(_SatelliteAssemblyResourceInputs)' != '') was evaluated as ('' != '').
+14:14:44.936     1>Target "CreateSatelliteAssemblies: (TargetId:84)" in file "C:\Windows\Microsoft.NET\Framework\v4.0.30319\Microsoft.Common.Targets" from project "C:\TODD5_3D - Copy 05 Feb2014\gKNN\gKNN.vcxproj" (target "BuildLink" depends on it):
+14:14:44.936     1>Done building target "CreateSatelliteAssemblies" in project "gKNN.vcxproj".: (TargetId:84)
+14:14:44.936     1>Target "_Appverifier: (TargetId:85)" in file "C:\Program Files (x86)\MSBuild\Microsoft.Cpp\v4.0\Microsoft.CppBuild.targets" from project "C:\TODD5_3D - Copy 05 Feb2014\gKNN\gKNN.vcxproj" (target "BuildLink" depends on it):
+14:14:44.936     1>Done building target "_Appverifier" in project "gKNN.vcxproj".: (TargetId:85)
+14:14:44.936     1>Target "_Deploy: (TargetId:86)" in file "C:\Program Files (x86)\MSBuild\Microsoft.Cpp\v4.0\Microsoft.CppBuild.targets" from project "C:\TODD5_3D - Copy 05 Feb2014\gKNN\gKNN.vcxproj" (target "BuildLink" depends on it):
+14:14:44.936     1>Done building target "_Deploy" in project "gKNN.vcxproj".: (TargetId:86)
+                   Target "ComputeIntermediateSatelliteAssemblies" skipped, due to false condition; (@(ReferenceSatellitePaths->'%(DestinationSubDirectory)') != '') was evaluated as ( != '').
+                   Target "_CopyFilesMarkedCopyLocal" skipped, due to false condition; ('@(ReferenceCopyLocalPaths)' != '') was evaluated as ('' != '').
+14:14:44.936     1>Target "AssignTargetPaths: (TargetId:87)" in file "C:\Windows\Microsoft.NET\Framework\v4.0.30319\Microsoft.Common.Targets" from project "C:\TODD5_3D - Copy 05 Feb2014\gKNN\gKNN.vcxproj" (target "GetCopyToOutputDirectoryItems" depends on it):
+                   Using "AssignTargetPath" task from assembly "Microsoft.Build.Tasks.v4.0, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a".
+                   Task "AssignTargetPath" (TaskId:43)
+                   Done executing task "AssignTargetPath". (TaskId:43)
+                   Task "AssignTargetPath" (TaskId:44)
+                   Done executing task "AssignTargetPath". (TaskId:44)
+                   Task "AssignTargetPath" (TaskId:45)
+                   Done executing task "AssignTargetPath". (TaskId:45)
+                   Task "AssignTargetPath" (TaskId:46)
+                   Done executing task "AssignTargetPath". (TaskId:46)
+                   Task "AssignTargetPath" skipped, due to false condition; ('@(_DeploymentBaseManifestWithTargetPath)'=='' and '%(None.Extension)'=='.manifest') was evaluated as (''=='' and '.cuh'=='.manifest').
+14:14:44.936     1>Done building target "AssignTargetPaths" in project "gKNN.vcxproj".: (TargetId:87)
+                   Target "_SplitProjectReferencesByFileExistence" skipped. Previously built successfully.
+14:14:44.936     1>Target "GetCopyToOutputDirectoryXamlAppDefs: (TargetId:88)" in file "C:\Windows\Microsoft.NET\Framework\v4.0.30319\Microsoft.Xaml.targets" from project "C:\TODD5_3D - Copy 05 Feb2014\gKNN\gKNN.vcxproj" (target "GetCopyToOutputDirectoryItems" depends on it):
+                   Task "AssignTargetPath" (TaskId:47)
+                   Done executing task "AssignTargetPath". (TaskId:47)
+14:14:44.937     1>Done building target "GetCopyToOutputDirectoryXamlAppDefs" in project "gKNN.vcxproj".: (TargetId:88)
+14:14:44.937     1>Target "GetCopyToOutputDirectoryItems: (TargetId:89)" in file "C:\Windows\Microsoft.NET\Framework\v4.0.30319\Microsoft.Common.Targets" from project "C:\TODD5_3D - Copy 05 Feb2014\gKNN\gKNN.vcxproj" (target "_CopySourceItemsToOutputDirectory" depends on it):
+                   Task "MSBuild" skipped, due to false condition; ('@(_MSBuildProjectReferenceExistent)' != '' and '$(_GetChildProjectCopyToOutputDirectoryItems)' == 'true' and '%(_MSBuildProjectReferenceExistent.Private)' != 'false' and '$(UseCommonOutputDirectory)' != 'true') was evaluated as ('' != '' and 'true' == 'true' and '' != 'false' and 'false' != 'true').
+                   Task "AssignTargetPath" (TaskId:48)
+                   Done executing task "AssignTargetPath". (TaskId:48)
+14:14:44.937     1>Done building target "GetCopyToOutputDirectoryItems" in project "gKNN.vcxproj".: (TargetId:89)
+                   Target "_CopyOutOfDateSourceItemsToOutputDirectory" skipped, due to false condition; ( '@(_SourceItemsToCopyToOutputDirectory)' != '' ) was evaluated as ( '' != '' ).
+                   Target "_CopyOutOfDateSourceItemsToOutputDirectoryAlways" skipped, due to false condition; ( '@(_SourceItemsToCopyToOutputDirectoryAlways)' != '' ) was evaluated as ( '' != '' ).
+14:14:44.937     1>Target "_CopySourceItemsToOutputDirectory: (TargetId:90)" in file "C:\Windows\Microsoft.NET\Framework\v4.0.30319\Microsoft.Common.Targets" from project "C:\TODD5_3D - Copy 05 Feb2014\gKNN\gKNN.vcxproj" (target "CopyFilesToOutputDirectory" depends on it):
+14:14:44.937     1>Done building target "_CopySourceItemsToOutputDirectory" in project "gKNN.vcxproj".: (TargetId:90)
+                   Target "_CopyAppConfigFile" skipped, due to false condition; ( '@(AppConfigWithTargetPath)' != '' ) was evaluated as ( '' != '' ).
+                   Target "_CopyManifestFiles" skipped, due to false condition; ( '$(_DeploymentCopyApplicationManifest)'=='true' or '$(GenerateClickOnceManifests)'=='true' ) was evaluated as ( ''=='true' or ''=='true' ).
+14:14:44.937     1>Target "_CheckForCompileOutputs: (TargetId:91)" in file "C:\Windows\Microsoft.NET\Framework\v4.0.30319\Microsoft.Common.Targets" from project "C:\TODD5_3D - Copy 05 Feb2014\gKNN\gKNN.vcxproj" (target "CopyFilesToOutputDirectory" depends on it):
+14:14:44.937     1>Done building target "_CheckForCompileOutputs" in project "gKNN.vcxproj".: (TargetId:91)
+                   Target "_SGenCheckForOutputs" skipped, due to false condition; ('$(_SGenGenerateSerializationAssembliesConfig)' == 'On' or ('@(WebReferenceUrl)'!='' and '$(_SGenGenerateSerializationAssembliesConfig)' == 'Auto')) was evaluated as ('Auto' == 'On' or (''!='' and 'Auto' == 'Auto')).
+14:14:44.937     1>Target "CopyFilesToOutputDirectory: (TargetId:92)" in file "C:\Windows\Microsoft.NET\Framework\v4.0.30319\Microsoft.Common.Targets" from project "C:\TODD5_3D - Copy 05 Feb2014\gKNN\gKNN.vcxproj" (target "BuildLink" depends on it):
+                   Task "Copy" skipped, due to false condition; ('$(CopyBuildOutputToOutputDirectory)' == 'true' and '$(SkipCopyBuildProduct)' != 'true') was evaluated as ('true' == 'true' and 'true' != 'true').
+                   Task "Message" skipped, due to false condition; ('$(CopyBuildOutputToOutputDirectory)' == 'true' and '$(SkipCopyBuildProduct)'!='true') was evaluated as ('true' == 'true' and 'true'!='true').
+                   Task "Copy" skipped, due to false condition; ('@(AddModules)' != '') was evaluated as ('' != '').
+                   Task "Copy" skipped, due to false condition; ('$(_SGenDllCreated)'=='true') was evaluated as ('false'=='true').
+                   Task "Copy" skipped, due to false condition; ('$(_DebugSymbolsProduced)'=='true' and '$(SkipCopyingSymbolsToOutputDirectory)' != 'true' and '$(CopyOutputSymbolsToOutputDirectory)'=='true') was evaluated as ('false'=='true' and '' != 'true' and 'true'=='true').
+                   Task "Copy" skipped, due to false condition; ('$(_DocumentationFileProduced)'=='true') was evaluated as ('false'=='true').
+                   Task "Copy" skipped, due to false condition; ('@(IntermediateSatelliteAssembliesWithTargetPath)' != '') was evaluated as ('' != '').
+                   Task "Copy" skipped, due to false condition; ('@(ReferenceComWrappersToCopyLocal)' != '' or '@(ResolvedIsolatedComModules)' != '' or '@(_DeploymentLooseManifestFile)' != '' or '@(NativeReferenceFile)' != '' ) was evaluated as ('' != '' or '' != '' or '' != '' or '' != '' ).
+                   Task "Copy" skipped, due to false condition; ('$(SkipCopyWinMDArtifact)' != 'true' and '@(WinMDExpArtifacts)' != '') was evaluated as ('' != 'true' and '' != '').
+                   Task "Message" skipped, due to false condition; ('$(SkipCopyWinMDArtifact)' != 'true' and '$(_WindowsMetadataOutputPath)' != '') was evaluated as ('' != 'true' and '' != '').
+14:14:44.937     1>Done building target "CopyFilesToOutputDirectory" in project "gKNN.vcxproj".: (TargetId:92)
+                   Target "CustomBuildStep" skipped, due to false condition; ('@(CustomBuildStep)' != '' and '$(SelectedFiles)'=='') was evaluated as ('' != '' and ''=='').
+14:14:44.937     1>Target "PostBuildEvent: (TargetId:93)" in file "C:\Program Files (x86)\MSBuild\Microsoft.Cpp\v4.0\Microsoft.CppCommon.targets" from project "C:\TODD5_3D - Copy 05 Feb2014\gKNN\gKNN.vcxproj" (target "BuildLink" depends on it):
+                   Task "Message" skipped, due to false condition; ('%(PostBuildEvent.Message)' != '' and '%(PostBuildEvent.Command)' != '') was evaluated as ('' != '' and 'echo copy "C:\Program Files\NVIDIA GPU Computing Toolkit\CUDA\v6.0\bin\cudart*.dll" "C:\TODD5_3D - Copy 05 Feb2014\Release\"
+                   copy "C:\Program Files\NVIDIA GPU Computing Toolkit\CUDA\v6.0\bin\cudart*.dll" "C:\TODD5_3D - Copy 05 Feb2014\Release\"' != '').
+                   Using "Exec" task from assembly "Microsoft.Build.Tasks.v4.0, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a".
+                   Task "Exec" (TaskId:49)
+                     echo copy "C:\Program Files\NVIDIA GPU Computing Toolkit\CUDA\v6.0\bin\cudart*.dll" "C:\TODD5_3D - Copy 05 Feb2014\Release\"
+                     copy "C:\Program Files\NVIDIA GPU Computing Toolkit\CUDA\v6.0\bin\cudart*.dll" "C:\TODD5_3D - Copy 05 Feb2014\Release\"
+                     :VCEnd (TaskId:49)
+                     copy "C:\Program Files\NVIDIA GPU Computing Toolkit\CUDA\v6.0\bin\cudart*.dll" "C:\TODD5_3D - Copy 05 Feb2014\Release\" (TaskId:49)
+                     C:\Program Files\NVIDIA GPU Computing Toolkit\CUDA\v6.0\bin\cudart32_60.dll (TaskId:49)
+                     C:\Program Files\NVIDIA GPU Computing Toolkit\CUDA\v6.0\bin\cudart64_60.dll (TaskId:49)
+                             2 file(s) copied. (TaskId:49)
+                   Done executing task "Exec". (TaskId:49)
+14:14:45.062     1>Done building target "PostBuildEvent" in project "gKNN.vcxproj".: (TargetId:93)
+14:14:45.062     1>Target "BuildLink: (TargetId:94)" in file "C:\Windows\Microsoft.NET\Framework\v4.0.30319\Microsoft.Common.Targets" from project "C:\TODD5_3D - Copy 05 Feb2014\gKNN\gKNN.vcxproj" (target "Build" depends on it):
+14:14:45.062     1>Done building target "BuildLink" in project "gKNN.vcxproj".: (TargetId:94)
+14:14:45.062     1>Target "AfterBuild: (TargetId:95)" in file "C:\Program Files (x86)\MSBuild\Microsoft.Cpp\v4.0\Microsoft.BuildSteps.Targets" from project "C:\TODD5_3D - Copy 05 Feb2014\gKNN\gKNN.vcxproj" (target "Build" depends on it):
+14:14:45.062     1>Done building target "AfterBuild" in project "gKNN.vcxproj".: (TargetId:95)
+14:14:45.062     1>Target "FinalizeBuildStatus: (TargetId:96)" in file "C:\Program Files (x86)\MSBuild\Microsoft.Cpp\v4.0\Microsoft.CppBuild.targets" from project "C:\TODD5_3D - Copy 05 Feb2014\gKNN\gKNN.vcxproj" (target "Build" depends on it):
+                   Task "Delete" (TaskId:50)
+                     Deleting file "Release\gKNN.unsuccessfulbuild". (TaskId:50)
+                   Done executing task "Delete". (TaskId:50)
+                   Task "Touch" (TaskId:51)
+                     Touching "Release\gKNN.lastbuildstate". (TaskId:51)
+                   Done executing task "Touch". (TaskId:51)
+14:14:45.063     1>Done building target "FinalizeBuildStatus" in project "gKNN.vcxproj".: (TargetId:96)
+14:14:45.063     1>Target "Build: (TargetId:97)" in file "C:\Program Files (x86)\MSBuild\Microsoft.Cpp\v4.0\Microsoft.BuildSteps.Targets" from project "C:\TODD5_3D - Copy 05 Feb2014\gKNN\gKNN.vcxproj" (entry point):
+14:14:45.063     1>Done building target "Build" in project "gKNN.vcxproj".: (TargetId:97)
+14:14:45.063     1>Done Building Project "C:\TODD5_3D - Copy 05 Feb2014\gKNN\gKNN.vcxproj" (build target(s)).
+
+Project Performance Summary:
+     4409 ms  C:\TODD5_3D - Copy 05 Feb2014\gKNN\gKNN.vcxproj   1 calls
+               4409 ms  build                                      1 calls
+
+Target Performance Summary:
+        0 ms  BuildCompile                               1 calls
+        0 ms  _Midl                                      1 calls
+        0 ms  ComputeCLCompileGeneratedSbrFiles          1 calls
+        0 ms  GetReferenceAssemblyPaths                  1 calls
+        0 ms  _ClCompile                                 1 calls
+        0 ms  _Lib                                       1 calls
+        0 ms  _CheckForCompileOutputs                    1 calls
+        0 ms  ComputeLibInputsFromProject                1 calls
+        0 ms  _PrepareForBuild                           1 calls
+        0 ms  _SelectedFiles                             1 calls
+        0 ms  InitializeCudaHostProperties               1 calls
+        0 ms  AfterBuild                                 1 calls
+        0 ms  AddCudaLinkMetadata                        1 calls
+        0 ms  BeforeResourceCompile                      1 calls
+        0 ms  GetCopyToOutputDirectoryItems              1 calls
+        0 ms  _GenerateXMLData                           1 calls
+        0 ms  ComputeCLCompileGeneratedXDCFiles          1 calls
+        0 ms  ComputeCustomBuildOutput                   1 calls
+        0 ms  _Manifest                                  1 calls
+        0 ms  _Xsd                                       1 calls
+        0 ms  ComputeRCOutputs                           1 calls
+        0 ms  BuildLinkTraverse                          1 calls
+        0 ms  _GenerateSatelliteAssemblyInputs           1 calls
+        0 ms  DoLibOutputFilesMatch                      1 calls
+        0 ms  _XdcMake                                   1 calls
+        0 ms  _ResourceCompile                           1 calls
+        0 ms  MakeDirsForResourceCompile                 1 calls
+        0 ms  AfterLib                                   1 calls
+        0 ms  AfterBuildCompileEvent                     1 calls
+        0 ms  Build                                      1 calls
+        0 ms  AfterBuildGenerateSources                  1 calls
+        0 ms  BuildCompileTraverse                       1 calls
+        0 ms  MakeDirsForLib                             1 calls
+        0 ms  BeforeLib                                  1 calls
+        0 ms  ResolvedXDCMake                            1 calls
+        0 ms  ComputeCLGeneratedLibInputs                1 calls
+        0 ms  CopyFilesToOutputDirectory                 1 calls
+        0 ms  _CopySourceItemsToOutputDirectory          1 calls
+        0 ms  CreateSatelliteAssemblies                  1 calls
+        0 ms  _Appverifier                               1 calls
+        0 ms  ComputeReferenceCLInput                    1 calls
+        0 ms  RegisterOutput                             1 calls
+        0 ms  ValidateCudaCodeGeneration                 1 calls
+        0 ms  BuildLink                                  1 calls
+        0 ms  PrepareForBuild                            1 calls
+        0 ms  MakeDirsForMidl                            1 calls
+        0 ms  PreBuildEvent                              1 calls
+        0 ms  ExpandSDKReferences                        1 calls
+        0 ms  _BscMake                                   1 calls
+        0 ms  _DetermineManagedStateFromCL               1 calls
+        0 ms  AssignTargetPaths                          1 calls
+        0 ms  BuildGenerateSourcesTraverse               1 calls
+        0 ms  ComputeMIDLGeneratedCompileInputs          1 calls
+        0 ms  ComputeCLInputPDBName                      1 calls
+        0 ms  _SplitProjectReferencesByFileExistence     1 calls
+        0 ms  _ALink                                     1 calls
+        0 ms  ResolveSDKReferences                       1 calls
+        0 ms  MakeDirsForBscMake                         1 calls
+        0 ms  GetFrameworkPaths                          1 calls
+        0 ms  AfterResourceCompile                       1 calls
+        0 ms  PlatformPrepareForBuild                    1 calls
+        0 ms  AfterClCompile                             1 calls
+        0 ms  MakeDirsForXdcMake                         1 calls
+        0 ms  AssignProjectConfiguration                 1 calls
+        0 ms  GetInstalledSDKLocations                   1 calls
+        0 ms  ResolveReferences                          1 calls
+        0 ms  AfterMidl                                  1 calls
+        0 ms  _Deploy                                    1 calls
+        0 ms  BeforeBuildGenerateSources                 1 calls
+        0 ms  ComputeCudaCompileOutput                   1 calls
+        0 ms  BeforeClCompile                            1 calls
+        0 ms  BeforeResolveReferences                    1 calls
+        0 ms  AfterResolveReferences                     1 calls
+        0 ms  ComputeLibAdditionalOptions                1 calls
+        0 ms  AfterBuildGenerateSourcesEvent             1 calls
+        0 ms  BuildGenerateSources                       1 calls
+        0 ms  _GenerateWebServiceProxy                   1 calls
+        0 ms  ValidateCudaBuild                          1 calls
+        0 ms  ComputeRCGeneratedLibInputs                1 calls
+        1 ms  GetCopyToOutputDirectoryXamlAppDefs        1 calls
+        1 ms  FinalizeBuildStatus                        1 calls
+        1 ms  ResolveAssemblyReferences                  1 calls
+        1 ms  SetBuildDefaultEnvironmentVariables        1 calls
+        1 ms  PrepareForCudaBuild                        1 calls
+        1 ms  MakeDirsForCl                              1 calls
+        1 ms  _CheckForInvalidConfigurationAndPlatform   1 calls
+        1 ms  ResolveProjectReferences                   1 calls
+        1 ms  PreLinkEvent                               1 calls
+        1 ms  InitializeCudaProjectProperties            1 calls
+        2 ms  InitializeBuildStatus                      1 calls
+        4 ms  AddCudaCompileMetadata                     1 calls
+        4 ms  AddCudaCompilePropsDeps                    1 calls
+       35 ms  Lib                                        1 calls
+      125 ms  PostBuildEvent                             1 calls
+      725 ms  AddCudaCompileDeps                         1 calls
+     3500 ms  CudaBuild                                  1 calls
+
+Task Performance Summary:
+        0 ms  ResolvePaths                               1 calls
+        0 ms  AssignProjectConfiguration                 1 calls
+        0 ms  SetEnv                                     4 calls
+        0 ms  SplitToItemMetadata                        2 calls
+        0 ms  Message                                    4 calls
+        0 ms  Delete                                     2 calls
+        0 ms  CountItems                                 1 calls
+        0 ms  MakeDir                                   10 calls
+        0 ms  SanitizePaths                              2 calls
+        0 ms  AssignTargetPath                           6 calls
+        1 ms  ReadMetadataLinesFromItems                 1 calls
+        1 ms  CudaSetEnvironmentVariable                 1 calls
+        1 ms  ResolveAssemblyReference                   1 calls
+        1 ms  XmlPeek                                    1 calls
+        2 ms  Touch                                      2 calls
+        3 ms  ReadLinesFromFile                          3 calls
+        3 ms  WriteLinesToFile                           4 calls
+       35 ms  LIB                                        1 calls
+      125 ms  Exec                                       1 calls
+      721 ms  GenerateDeps                               1 calls
+     3383 ms  CudaCompile                                1 calls
+
+Build succeeded.
+
+Time Elapsed 00:00:04.40

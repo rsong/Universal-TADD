@@ -1,0 +1,106 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="4.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <ItemGroup>
+    <Filter Include="Source Files">
+      <UniqueIdentifier>{4FC737F1-C7A5-4376-A066-2A32D752A2FF}</UniqueIdentifier>
+      <Extensions>cpp;cxx;c;def</Extensions>
+    </Filter>
+    <Filter Include="Resource Files">
+      <UniqueIdentifier>{D9D6E242-F8AF-46E4-B9FD-80ECBC20BA3E}</UniqueIdentifier>
+      <Extensions>qrc;*</Extensions>
+      <ParseFiles>false</ParseFiles>
+    </Filter>
+    <Filter Include="Generated Files">
+      <UniqueIdentifier>{71ED8ED8-ACB9-4CE9-BBE1-E00B30144E11}</UniqueIdentifier>
+      <Extensions>moc;h;cpp</Extensions>
+      <SourceControlFiles>False</SourceControlFiles>
+    </Filter>
+    <Filter Include="Generated Files\Debug">
+      <UniqueIdentifier>{e9eb40a2-0940-45bb-bb3f-2682de3c754a}</UniqueIdentifier>
+      <Extensions>cpp;moc</Extensions>
+      <SourceControlFiles>False</SourceControlFiles>
+    </Filter>
+    <Filter Include="Generated Files\Release">
+      <UniqueIdentifier>{5977fcce-5a54-480e-8cff-4079ab13176c}</UniqueIdentifier>
+      <Extensions>cpp;moc</Extensions>
+      <SourceControlFiles>False</SourceControlFiles>
+    </Filter>
+    <Filter Include="splashUI">
+      <UniqueIdentifier>{0fd4e0e4-03f6-4e4c-9813-67bf466b6ad3}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="splashUI\Form Files">
+      <UniqueIdentifier>{99349809-55BA-4b9d-BF79-8FDBB0286EB3}</UniqueIdentifier>
+      <Extensions>ui</Extensions>
+    </Filter>
+    <Filter Include="splashUI\Header Files">
+      <UniqueIdentifier>{93995380-89BD-4b04-88EB-625FBE52EBFB}</UniqueIdentifier>
+      <Extensions>h</Extensions>
+    </Filter>
+    <Filter Include="splashUI\Source Files">
+      <UniqueIdentifier>{dfba1387-3c6c-478b-b0a7-736bd0f87073}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="webcamUI">
+      <UniqueIdentifier>{2956e687-0ab2-4064-9d9c-c7ab68295a1a}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="webcamUI\FormFiles">
+      <UniqueIdentifier>{7665e097-8644-425e-8f3e-c2aa30caf31a}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="webcamUI\Header Files">
+      <UniqueIdentifier>{82f3b7ce-8d81-45a5-929e-10abb6832659}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="webcamUI\Source Files">
+      <UniqueIdentifier>{e4de01bc-7f84-4d21-8a57-fcdcc498a4d6}</UniqueIdentifier>
+    </Filter>
+  </ItemGroup>
+  <ItemGroup>
+    <ClCompile Include="main.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="GeneratedFiles\Debug\moc_splashUI.cpp">
+      <Filter>Generated Files\Debug</Filter>
+    </ClCompile>
+    <ClCompile Include="GeneratedFiles\Release\moc_splashUI.cpp">
+      <Filter>Generated Files\Release</Filter>
+    </ClCompile>
+    <ClCompile Include="GeneratedFiles\qrc_QtTADD.cpp">
+      <Filter>Generated Files</Filter>
+    </ClCompile>
+    <ClCompile Include="splashUI.cpp">
+      <Filter>splashUI\Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="GeneratedFiles\Debug\moc_webcamUI.cpp">
+      <Filter>Generated Files\Debug</Filter>
+    </ClCompile>
+    <ClCompile Include="GeneratedFiles\Release\moc_webcamUI.cpp">
+      <Filter>Generated Files\Release</Filter>
+    </ClCompile>
+    <ClCompile Include="webcamUI.cpp">
+      <Filter>webcamUI\Source Files</Filter>
+    </ClCompile>
+  </ItemGroup>
+  <ItemGroup>
+    <CustomBuild Include="splashUI.h">
+      <Filter>splashUI\Header Files</Filter>
+    </CustomBuild>
+    <CustomBuild Include="splashUI.ui">
+      <Filter>splashUI\Form Files</Filter>
+    </CustomBuild>
+    <CustomBuild Include="QtTADD.qrc">
+      <Filter>Resource Files</Filter>
+    </CustomBuild>
+    <CustomBuild Include="webcamUI.ui">
+      <Filter>webcamUI\FormFiles</Filter>
+    </CustomBuild>
+    <CustomBuild Include="webcamUI.h">
+      <Filter>webcamUI\Header Files</Filter>
+    </CustomBuild>
+  </ItemGroup>
+  <ItemGroup>
+    <ClInclude Include="GeneratedFiles\ui_splashUI.h">
+      <Filter>Generated Files</Filter>
+    </ClInclude>
+    <ClInclude Include="GeneratedFiles\ui_webcamUI.h">
+      <Filter>Generated Files</Filter>
+    </ClInclude>
+  </ItemGroup>
+</Project>

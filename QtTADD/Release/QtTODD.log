@@ -1,0 +1,31 @@
+﻿Build started 07/03/2013 17:17:46.
+     1>Project "C:\Users\sbcsr\Documents\Project\TADD\QtTODD\QtTODD.vcxproj" on node 2 (build target(s)).
+     1>InitializeBuildStatus:
+         Creating "Release\QtTADD.unsuccessfulbuild" because "AlwaysCreate" was specified.
+       CustomBuild:
+         All outputs are up-to-date.
+       ClCompile:
+         All outputs are up-to-date.
+         All outputs are up-to-date.
+       Link:
+         C:\Program Files (x86)\Microsoft Visual Studio 10.0\VC\bin\link.exe /ERRORREPORT:PROMPT /OUT:"C:\Users\sbcsr\Documents\Project\TADD\Release\QtTODD.exe" /NOLOGO /LIBPATH:C:\Users\sbcsr\Documents\Project\TODD\Release /LIBPATH:"C:\Program Files\NVIDIA GPU Computing Toolkit\CUDA\v4.1\\lib\Win32" /LIBPATH:C:\Users\sbcsr\Documents\Project\OpenCV2.3.1\OpenCV2.3.1\build\x86\vc10\lib /LIBPATH:C:\Users\sbcsr\Documents\Project\4.7.3x86_Intel\lib /LIBPATH:C:\Users\sbcsr\Documents\Project\tbb\lib\ia32\vc10 /LIBPATH:C:\Users\sbcsr\Documents\Project\FlyCapture2\lib /LIBPATH:C:\Users\sbcsr\Documents\Project\FlyCapture2\lib\FC1 /LIBPATH:C:\Users\sbcsr\Documents\Project\FlyCapture2\lib\C /LIBPATH:C:\Users\sbcsr\Documents\Project\boost_1_47\lib /LIBPATH:C:\Users\sbcsr\Documents\Project\EDSDK\Library mkl_intel_c_dll.lib mkl_intel_thread_dll.lib mkl_core_dll.lib libiomp5md.lib qtmain.lib QtCore4.lib QtGui4.lib FlyCapture2.lib opencv_core231.lib opencv_highgui231.lib opencv_imgproc231.lib opencv_gpu231.lib opencv_calib3d231.lib opencv_contrib231.lib opencv_features2d231.lib opencv_flann231.lib opencv_legacy231.lib opencv_ml231.lib opencv_objdetect231.lib opencv_ts231.lib opencv_video231.lib QtCvImageWidget.lib QtCvOverlayWidget.lib CvCamera.lib EdsCapture.lib CvFlyCapture.lib CvAviCapture.lib CvCapture.lib TODDengine.lib multiAdaboost.lib BackgroundSeg.lib cSLIC.lib gSLIC.lib cudart.lib cublas.lib cuda.lib cufft.lib ipps.lib OpenCL.lib npp.lib curand.lib cusparse.lib cuinj.lib nvcuvenc.lib nvcuvid.lib videoInput.lib EDSDK.lib FolderCam.lib kernel32.lib user32.lib gdi32.lib winspool.lib comdlg32.lib advapi32.lib shell32.lib ole32.lib oleaut32.lib uuid.lib odbc32.lib odbccp32.lib /MANIFEST /ManifestFile:"Release\QtTODD.exe.intermediate.manifest" /MANIFESTUAC:"level='asInvoker' uiAccess='false'" /PDB:"C:\Users\sbcsr\Documents\Project\TODD\Release\QtTODD.pdb" /SUBSYSTEM:WINDOWS /TLBID:1 /DYNAMICBASE /NXCOMPAT /IMPLIB:"C:\Users\sbcsr\Documents\Project\TODD\Release\QtTODD.lib" /MACHINE:X86 Release\qrc_QtTODD.obj
+         Release\moc_splashUI.obj
+         Release\moc_webcamUI.obj
+         Release\main.obj
+         Release\splashUI.obj
+         Release\webcamUI.obj
+         CvCamera.lib(CvCamera.obj) : MSIL .netmodule or module compiled with /GL found; restarting link with /LTCG; add /LTCG to the link command line to improve linker performance
+            Creating library C:\Users\sbcsr\Documents\Project\TADD\Release\QtTODD.lib and object C:\Users\sbcsr\Documents\Project\TODD\Release\QtTODD.exp
+         Generating code
+         Finished generating code
+         QtTADD.vcxproj -> C:\Users\sbcsr\Documents\Project\TODD\Release\QtTODD.exe
+       Manifest:
+         C:\Program Files (x86)\Microsoft SDKs\Windows\v7.0A\bin\mt.exe /nologo /verbose /outputresource:"C:\Users\sbcsr\Documents\Project\TADD\Release\QtTODD.exe;#1" /manifest Release\QtTODD.exe.intermediate.manifest
+       FinalizeBuildStatus:
+         Deleting file "Release\QtTADD.unsuccessfulbuild".
+         Touching "Release\QtTADD.lastbuildstate".
+     1>Done Building Project "C:\Users\sbcsr\Documents\Project\TADD\QtTODD\QtTODD.vcxproj" (build target(s)).
+
+Build succeeded.
+
+Time Elapsed 00:00:04.07

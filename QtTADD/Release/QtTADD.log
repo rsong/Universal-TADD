@@ -1,0 +1,175 @@
+﻿Build started 29/05/2014 14:27:23.
+Environment at start of build:
+ALLUSERSPROFILE = C:\ProgramData
+APPDATA = C:\Users\Hossein\AppData\Roaming
+CommonProgramFiles = C:\Program Files (x86)\Common Files
+CommonProgramFiles(x86) = C:\Program Files (x86)\Common Files
+CommonProgramW6432 = C:\Program Files\Common Files
+COMPUTERNAME = H
+ComSpec = C:\Windows\system32\cmd.exe
+CUDA_PATH = C:\Program Files\NVIDIA GPU Computing Toolkit\CUDA\v6.0
+CUDA_PATH_V6_0 = C:\Program Files\NVIDIA GPU Computing Toolkit\CUDA\v6.0
+FP_NO_HOST_CHECK = NO
+HALCONARCH = x64-win64
+HALCONEXAMPLES = C:\Users\Public\Documents\MVTec\HALCON-11.0\examples
+HALCONIMAGES = C:\Users\Public\Documents\MVTec\HALCON-11.0\examples\images
+HALCONROOT = C:\Program Files\MVTec\HALCON-11.0
+HOMEDRIVE = C:
+HOMEPATH = \Users\Hossein
+LOCALAPPDATA = C:\Users\Hossein\AppData\Local
+LOGONSERVER = \\H
+NUMBER_OF_PROCESSORS = 8
+NVCUDASAMPLES6_0_ROOT = C:\ProgramData\NVIDIA Corporation\CUDA Samples\v6.0
+NVCUDASAMPLES_ROOT = C:\ProgramData\NVIDIA Corporation\CUDA Samples\v6.0
+NVTOOLSEXT_PATH = C:\Program Files\NVIDIA Corporation\NvToolsExt\
+OS = Windows_NT
+Path = C:\Program Files\Common Files\Microsoft Shared\Windows Live;C:\Program Files (x86)\Common Files\Microsoft Shared\Windows Live;C:\Program Files\NVIDIA GPU Computing Toolkit\CUDA\v6.0\bin;C:\Program Files\NVIDIA GPU Computing Toolkit\CUDA\v6.0\libnvvp;C:\Program Files (x86)\NVIDIA Corporation\PhysX\Common;C:\Program Files (x86)\Intel\iCLS Client\;C:\Program Files\Intel\iCLS Client\;C:\Windows\system32;C:\Windows;C:\Windows\System32\Wbem;C:\Windows\System32\WindowsPowerShell\v1.0\;C:\Program Files\Intel\Intel(R) Management Engine Components\DAL;C:\Program Files\Intel\Intel(R) Management Engine Components\IPT;C:\Program Files (x86)\Intel\Intel(R) Management Engine Components\DAL;C:\Program Files (x86)\Intel\Intel(R) Management Engine Components\IPT;c:\Program Files (x86)\Microsoft SQL Server\100\Tools\Binn\;c:\Program Files\Microsoft SQL Server\100\Tools\Binn\;c:\Program Files\Microsoft SQL Server\100\DTS\Binn\;C:\Tesseract-OCR;C:\Program Files (x86)\Tesseract-OCR;C:\Program Files\MVTec\HALCON-11.0\bin\x64-win64;C:\Program Files\MVTec\HALCON-11.0\FLEXlm\x64-win64;C:\Program Files\MiKTeX 2.9\miktex\bin\x64\;C:\Program Files\doxygen\bin;C:\Program Files\MATLAB\R2014a\runtime\win64;C:\Program Files\MATLAB\R2014a\bin;C:\Program Files\MATLAB\MATLAB Compiler Runtime\v82\runtime\win64;C:\Program Files (x86)\Windows Live\Shared;C:\Users\Hossein\Project\OpenCV2.4.8\build
+PATHEXT = .COM;.EXE;.BAT;.CMD;.VBS;.VBE;.JS;.JSE;.WSF;.WSH;.MSC
+PROCESSOR_ARCHITECTURE = x86
+PROCESSOR_ARCHITEW6432 = AMD64
+PROCESSOR_IDENTIFIER = Intel64 Family 6 Model 58 Stepping 9, GenuineIntel
+PROCESSOR_LEVEL = 6
+PROCESSOR_REVISION = 3a09
+ProgramData = C:\ProgramData
+ProgramFiles = C:\Program Files (x86)
+ProgramFiles(x86) = C:\Program Files (x86)
+ProgramW6432 = C:\Program Files
+PSModulePath = C:\Windows\system32\WindowsPowerShell\v1.0\Modules\
+PUBLIC = C:\Users\Public
+QTDIR = C:\Users\Hossein\Project\4.7.3x86_Intel
+SESSIONNAME = Console
+SystemDrive = C:
+SystemRoot = C:\Windows
+TEMP = C:\Users\Hossein\AppData\Local\Temp
+TESSDATA_PREFIX = C:\Program Files (x86)\Tesseract-OCR\
+TMP = C:\Users\Hossein\AppData\Local\Temp
+USERDOMAIN = H
+USERNAME = Hossein
+USERPROFILE = C:\Users\Hossein
+VisualStudioDir = C:\Users\Hossein\Documents\Visual Studio 2010
+VS100COMNTOOLS = c:\Program Files (x86)\Microsoft Visual Studio 10.0\Common7\Tools\
+windir = C:\Windows
+windows_tracing_flags = 3
+windows_tracing_logfile = C:\BVTBin\Tests\installpackage\csilogfile.log
+
+14:27:23.371     1>Project "C:\Users\Hossein\Project\TADD\QtTADD\QtTADD.vcxproj" on node 2 (clean target(s)).
+14:27:23.371     1>Building with tools version "4.0".
+14:27:23.371     1>Target "_CheckForInvalidConfigurationAndPlatform: (TargetId:32)" in file "C:\Windows\Microsoft.NET\Framework\v4.0.30319\Microsoft.Common.Targets" from project "C:\Users\Hossein\Project\TADD\QtTADD\QtTADD.vcxproj" (entry point):
+                   Task "Error" skipped, due to false condition; ( '$(_InvalidConfigurationError)' == 'true' ) was evaluated as ( '' == 'true' ).
+                   Task "Warning" skipped, due to false condition; ( '$(_InvalidConfigurationWarning)' == 'true' ) was evaluated as ( '' == 'true' ).
+                   Task "Message" (TaskId:34)
+                     Configuration=Release (TaskId:34)
+                   Done executing task "Message". (TaskId:34)
+                   Task "Message" (TaskId:35)
+                     Platform=Win32 (TaskId:35)
+                   Done executing task "Message". (TaskId:35)
+                   Task "Error" skipped, due to false condition; ('$(OutDir)' != '' and !HasTrailingSlash('$(OutDir)')) was evaluated as ('C:\Users\Hossein\Project\TADD\Release\' != '' and !HasTrailingSlash('C:\Users\Hossein\Project\TADD\Release\')).
+                   Task "Error" skipped, due to false condition; ('$(BaseIntermediateOutputPath)' != '' and !HasTrailingSlash('$(BaseIntermediateOutputPath)')) was evaluated as ('obj\' != '' and !HasTrailingSlash('obj\')).
+                   Task "Error" skipped, due to false condition; ('$(IntermediateOutputPath)' != '' and !HasTrailingSlash('$(IntermediateOutputPath)')) was evaluated as ('Release\' != '' and !HasTrailingSlash('Release\')).
+14:27:23.371     1>Done building target "_CheckForInvalidConfigurationAndPlatform" in project "QtTADD.vcxproj".: (TargetId:32)
+14:27:23.371     1>Target "_PrepareForClean: (TargetId:33)" in file "C:\Program Files (x86)\MSBuild\Microsoft.Cpp\v4.0\Microsoft.BuildSteps.Targets" from project "C:\Users\Hossein\Project\TADD\QtTADD\QtTADD.vcxproj" (target "Clean" depends on it):
+                   Task "Delete" (TaskId:36)
+                     Deleting file "Release\QtTADD.lastbuildstate". (TaskId:36)
+                   Done executing task "Delete". (TaskId:36)
+14:27:23.372     1>Done building target "_PrepareForClean" in project "QtTADD.vcxproj".: (TargetId:33)
+14:27:23.372     1>Target "BeforeClean: (TargetId:34)" in file "C:\Windows\Microsoft.NET\Framework\v4.0.30319\Microsoft.Common.Targets" from project "C:\Users\Hossein\Project\TADD\QtTADD\QtTADD.vcxproj" (target "Clean" depends on it):
+14:27:23.372     1>Done building target "BeforeClean" in project "QtTADD.vcxproj".: (TargetId:34)
+                   Target "UnmanagedUnregistration" skipped, due to false condition; ((('$(_AssemblyTimestampBeforeCompile)' != '$(_AssemblyTimestampAfterCompile)' or '$(RegisterForComInterop)' != 'true' or '$(OutputType)' != 'library') or
+                                       ('$(_AssemblyTimestampBeforeCompile)' == '')) and
+                                      Exists('@(_UnmanagedRegistrationCache)')) was evaluated as ((('' != '' or '' != 'true' or 'exe' != 'library') or
+                                       ('' == '')) and
+                                      Exists('obj\QtTADD.vcxproj.UnmanagedRegistration.cache')).
+14:27:23.372     1>Target "CoreClean: (TargetId:35)" in file "C:\Windows\Microsoft.NET\Framework\v4.0.30319\Microsoft.Common.Targets" from project "C:\Users\Hossein\Project\TADD\QtTADD\QtTADD.vcxproj" (target "Clean" depends on it):
+                   Task "Delete" (TaskId:37)
+                   Done executing task "Delete". (TaskId:37)
+                   Task "ReadLinesFromFile" (TaskId:38)
+                   Done executing task "ReadLinesFromFile". (TaskId:38)
+                   Task "FindUnderPath" (TaskId:39)
+                     Comparison path is "C:\Users\Hossein\Project\TADD\Release\". (TaskId:39)
+                   Done executing task "FindUnderPath". (TaskId:39)
+                   Task "FindUnderPath" (TaskId:40)
+                     Comparison path is "Release\". (TaskId:40)
+                   Done executing task "FindUnderPath". (TaskId:40)
+                   Task "Delete" (TaskId:41)
+                   Done executing task "Delete". (TaskId:41)
+                   Task "RemoveDuplicates" (TaskId:42)
+                   Done executing task "RemoveDuplicates". (TaskId:42)
+                   Task "MakeDir" (TaskId:43)
+                   Done executing task "MakeDir". (TaskId:43)
+                   Task "WriteLinesToFile" (TaskId:44)
+                   Done executing task "WriteLinesToFile". (TaskId:44)
+14:27:23.372     1>Done building target "CoreClean" in project "QtTADD.vcxproj".: (TargetId:35)
+14:27:23.372     1>Target "AssignProjectConfiguration: (TargetId:36)" in file "C:\Windows\Microsoft.NET\Framework\v4.0.30319\Microsoft.Common.Targets" from project "C:\Users\Hossein\Project\TADD\QtTADD\QtTADD.vcxproj" (target "CleanReferencedProjects" depends on it):
+                   Task "AssignProjectConfiguration" (TaskId:45)
+                   Done executing task "AssignProjectConfiguration". (TaskId:45)
+14:27:23.373     1>Done building target "AssignProjectConfiguration" in project "QtTADD.vcxproj".: (TargetId:36)
+14:27:23.373     1>Target "_SplitProjectReferencesByFileExistence: (TargetId:37)" in file "C:\Windows\Microsoft.NET\Framework\v4.0.30319\Microsoft.Common.Targets" from project "C:\Users\Hossein\Project\TADD\QtTADD\QtTADD.vcxproj" (target "CleanReferencedProjects" depends on it):
+                   Task "ResolveNonMSBuildProjectOutput" skipped, due to false condition; ('$(BuildingInsideVisualStudio)'=='true' and '@(ProjectReferenceWithConfiguration)'!='') was evaluated as ('true'=='true' and ''!='').
+14:27:23.373     1>Done building target "_SplitProjectReferencesByFileExistence" in project "QtTADD.vcxproj".: (TargetId:37)
+14:27:23.373     1>Target "CleanReferencedProjects: (TargetId:38)" in file "C:\Windows\Microsoft.NET\Framework\v4.0.30319\Microsoft.Common.Targets" from project "C:\Users\Hossein\Project\TADD\QtTADD\QtTADD.vcxproj" (target "Clean" depends on it):
+                   Task "MSBuild" skipped, due to false condition; ('$(BuildingInsideVisualStudio)' != 'true' and '$(BuildProjectReferences)' == 'true' and '@(_MSBuildProjectReferenceExistent)' != '') was evaluated as ('true' != 'true' and 'true' == 'true' and '' != '').
+14:27:23.373     1>Done building target "CleanReferencedProjects" in project "QtTADD.vcxproj".: (TargetId:38)
+14:27:23.373     1>Target "CleanPublishFolder: (TargetId:39)" in file "C:\Windows\Microsoft.NET\Framework\v4.0.30319\Microsoft.Common.Targets" from project "C:\Users\Hossein\Project\TADD\QtTADD\QtTADD.vcxproj" (target "Clean" depends on it):
+                   Task "RemoveDir" skipped, due to false condition; ('$(PublishDir)'=='$(OutputPath)app.publish\' and Exists('$(PublishDir)')) was evaluated as ('C:\Users\Hossein\Project\TADD\Release\app.publish\'=='C:\Users\Hossein\Project\TADD\Release\app.publish\' and Exists('C:\Users\Hossein\Project\TADD\Release\app.publish\')).
+14:27:23.373     1>Done building target "CleanPublishFolder" in project "QtTADD.vcxproj".: (TargetId:39)
+14:27:23.373     1>Target "AfterClean: (TargetId:40)" in file "C:\Windows\Microsoft.NET\Framework\v4.0.30319\Microsoft.Common.Targets" from project "C:\Users\Hossein\Project\TADD\QtTADD\QtTADD.vcxproj" (target "Clean" depends on it):
+14:27:23.373     1>Done building target "AfterClean" in project "QtTADD.vcxproj".: (TargetId:40)
+                   Target "EntityClean" skipped, due to false condition; ('@(EntityDeploy)' != '') was evaluated as ('' != '').
+14:27:23.373     1>Target "BeforeCppClean: (TargetId:41)" in file "C:\Program Files (x86)\MSBuild\Microsoft.Cpp\v4.0\Microsoft.CppClean.targets" from project "C:\Users\Hossein\Project\TADD\QtTADD\QtTADD.vcxproj" (target "CppClean" depends on it):
+14:27:23.373     1>Done building target "BeforeCppClean" in project "QtTADD.vcxproj".: (TargetId:41)
+14:27:23.373     1>Target "CoreCppClean: (TargetId:42)" in file "C:\Program Files (x86)\MSBuild\Microsoft.Cpp\v4.0\Microsoft.CppClean.targets" from project "C:\Users\Hossein\Project\TADD\QtTADD\QtTADD.vcxproj" (target "CppClean" depends on it):
+                   Task "MakeDir" (TaskId:46)
+                   Done executing task "MakeDir". (TaskId:46)
+                   Using "CppClean" task from assembly "Microsoft.Build.CppTasks.Common, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a".
+                   Task "CppClean" (TaskId:47)
+                   Done executing task "CppClean". (TaskId:47)
+                   Task "WriteLinesToFile" (TaskId:48)
+                   Done executing task "WriteLinesToFile". (TaskId:48)
+14:27:23.383     1>Done building target "CoreCppClean" in project "QtTADD.vcxproj".: (TargetId:42)
+14:27:23.383     1>Target "AfterCppClean: (TargetId:43)" in file "C:\Program Files (x86)\MSBuild\Microsoft.Cpp\v4.0\Microsoft.CppClean.targets" from project "C:\Users\Hossein\Project\TADD\QtTADD\QtTADD.vcxproj" (target "CppClean" depends on it):
+14:27:23.383     1>Done building target "AfterCppClean" in project "QtTADD.vcxproj".: (TargetId:43)
+14:27:23.383     1>Target "PGInstrumentedClean: (TargetId:44)" in file "C:\Program Files (x86)\MSBuild\Microsoft.Cpp\v4.0\Microsoft.CppClean.targets" from project "C:\Users\Hossein\Project\TADD\QtTADD\QtTADD.vcxproj" (target "CppClean" depends on it):
+                   Task "Delete" (TaskId:49)
+                   Done executing task "Delete". (TaskId:49)
+14:27:23.384     1>Done building target "PGInstrumentedClean" in project "QtTADD.vcxproj".: (TargetId:44)
+14:27:23.384     1>Target "CppClean: (TargetId:45)" in file "C:\Program Files (x86)\MSBuild\Microsoft.Cpp\v4.0\Microsoft.CppClean.targets" from project "C:\Users\Hossein\Project\TADD\QtTADD\QtTADD.vcxproj" (target "Clean" depends on it):
+14:27:23.384     1>Done building target "CppClean" in project "QtTADD.vcxproj".: (TargetId:45)
+14:27:23.384     1>Target "Clean: (TargetId:46)" in file "C:\Windows\Microsoft.NET\Framework\v4.0.30319\Microsoft.Common.Targets" from project "C:\Users\Hossein\Project\TADD\QtTADD\QtTADD.vcxproj" (entry point):
+14:27:23.384     1>Done building target "Clean" in project "QtTADD.vcxproj".: (TargetId:46)
+14:27:23.384     1>Done Building Project "C:\Users\Hossein\Project\TADD\QtTADD\QtTADD.vcxproj" (clean target(s)).
+
+Project Performance Summary:
+       13 ms  C:\Users\Hossein\Project\TADD\QtTADD\QtTADD.vcxproj   1 calls
+                 13 ms  clean                                      1 calls
+
+Target Performance Summary:
+        0 ms  BeforeCppClean                             1 calls
+        0 ms  _CheckForInvalidConfigurationAndPlatform   1 calls
+        0 ms  Clean                                      1 calls
+        0 ms  _SplitProjectReferencesByFileExistence     1 calls
+        0 ms  CppClean                                   1 calls
+        0 ms  CleanPublishFolder                         1 calls
+        0 ms  CleanReferencedProjects                    1 calls
+        0 ms  BeforeClean                                1 calls
+        0 ms  CoreClean                                  1 calls
+        0 ms  AfterClean                                 1 calls
+        0 ms  AfterCppClean                              1 calls
+        1 ms  _PrepareForClean                           1 calls
+        1 ms  AssignProjectConfiguration                 1 calls
+        1 ms  PGInstrumentedClean                        1 calls
+       10 ms  CoreCppClean                               1 calls
+
+Task Performance Summary:
+        0 ms  RemoveDuplicates                           1 calls
+        0 ms  MakeDir                                    2 calls
+        0 ms  WriteLinesToFile                           2 calls
+        0 ms  FindUnderPath                              2 calls
+        0 ms  Message                                    2 calls
+        0 ms  ReadLinesFromFile                          1 calls
+        1 ms  Delete                                     4 calls
+        1 ms  AssignProjectConfiguration                 1 calls
+       10 ms  CppClean                                   1 calls
+
+Build succeeded.
+
+Time Elapsed 00:00:00.01

@@ -1,0 +1,42 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="4.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <ItemGroup>
+    <Filter Include="Header Files">
+      <UniqueIdentifier>{0de876f6-77ee-4637-a705-fe0dbbd9b40a}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Source Files">
+      <UniqueIdentifier>{b1b5503f-1d68-4c55-a576-0c722d7e4a23}</UniqueIdentifier>
+    </Filter>
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="cudaDefines.cuh">
+      <Filter>Header Files</Filter>
+    </None>
+    <None Include="cudaImgTrans.cuh">
+      <Filter>Header Files</Filter>
+    </None>
+    <None Include="cudaSegEngine.cuh">
+      <Filter>Header Files</Filter>
+    </None>
+    <None Include="cudaSegSLIC.cuh">
+      <Filter>Header Files</Filter>
+    </None>
+    <None Include="cudaUtil.cuh">
+      <Filter>Header Files</Filter>
+    </None>
+  </ItemGroup>
+  <ItemGroup>
+    <CudaCompile Include="cudaImgTrans.cu">
+      <Filter>Source Files</Filter>
+    </CudaCompile>
+    <CudaCompile Include="cudaSegEngine.cu">
+      <Filter>Source Files</Filter>
+    </CudaCompile>
+    <CudaCompile Include="cudaSegSLIC.cu">
+      <Filter>Source Files</Filter>
+    </CudaCompile>
+    <CudaCompile Include="cudaUtil.cu">
+      <Filter>Source Files</Filter>
+    </CudaCompile>
+  </ItemGroup>
+</Project>

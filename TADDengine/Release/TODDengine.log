@@ -1,0 +1,26 @@
+﻿Build started 07/03/2013 16:46:08.
+     1>Project "C:\Users\sbcsr\Documents\Project\TADD\TODDengine\TODDengine.vcxproj" on node 3 (build target(s)).
+     1>InitializeBuildStatus:
+         Creating "Release\TADDengine.unsuccessfulbuild" because "AlwaysCreate" was specified.
+       ClCompile:
+         C:\Program Files (x86)\Microsoft Visual Studio 10.0\VC\bin\CL.exe /c /I"C:\Program Files\NVIDIA GPU Computing Toolkit\CUDA\v4.1\include" /Zi /nologo /W3 /WX- /O2 /Ob2 /Oi /Ot /Oy /GT /GL /D _IPP_PARALLEL_DYNAMIC /D _MBCS /Gm- /EHsc /MD /GS /Gy /arch:SSE2 /fp:precise /Zc:wchar_t /Zc:forScope /Fo"Release\\" /Fd"Release\vc100.pdb" /Gd /TP /analyze- /errorReport:prompt Engine.cpp
+         Engine.cpp
+     1>c:\users\sbcsr\documents\project\opencv2.3.1\opencv2.3.1\build\include\opencv2\flann\logger.h(66): warning C4996: 'fopen': This function or variable may be unsafe. Consider using fopen_s instead. To disable deprecation, use _CRT_SECURE_NO_WARNINGS. See online help for details.
+                 C:\Program Files (x86)\Microsoft Visual Studio 10.0\VC\include\stdio.h(234) : see declaration of 'fopen'
+     1>C:\Users\sbcsr\Documents\Project\OpenCV2.3.1\OpenCV2.3.1\build\include\opencv2/flann/flann.hpp(233): warning C4996: 'cv::flann::Index_<T>': was declared deprecated
+                 C:\Users\sbcsr\Documents\Project\OpenCV2.3.1\OpenCV2.3.1\build\include\opencv2/flann/flann.hpp(278) : see reference to class template instantiation 'cv::flann::Index_<T>' being compiled
+     1>Engine.cpp(9): warning C4996: 'sprintf': This function or variable may be unsafe. Consider using sprintf_s instead. To disable deprecation, use _CRT_SECURE_NO_WARNINGS. See online help for details.
+                 C:\Program Files (x86)\Microsoft Visual Studio 10.0\VC\include\stdio.h(371) : see declaration of 'sprintf'
+       Lib:
+         C:\Program Files (x86)\Microsoft Visual Studio 10.0\VC\bin\Lib.exe /OUT:"C:\Users\sbcsr\Documents\Project\TADD\Release\TODDengine.lib" mkl_intel_c_dll.lib mkl_intel_thread_dll.lib mkl_core_dll.lib libiomp5md.lib /NOLOGO /LTCG Release\Engine.obj
+     1>mkl_intel_thread_dll.lib(mkl_intel_thread.dll) : warning LNK4006: __NULL_IMPORT_DESCRIPTOR already defined in mkl_intel_c_dll.lib(libimalloc.dll); second definition ignored
+     1>libiomp5md.lib(libiomp5md.dll) : warning LNK4006: __NULL_IMPORT_DESCRIPTOR already defined in mkl_intel_c_dll.lib(libimalloc.dll); second definition ignored
+         TADDengine.vcxproj -> C:\Users\sbcsr\Documents\Project\TODD\Release\TODDengine.lib
+       FinalizeBuildStatus:
+         Deleting file "Release\TADDengine.unsuccessfulbuild".
+         Touching "Release\TADDengine.lastbuildstate".
+     1>Done Building Project "C:\Users\sbcsr\Documents\Project\TADD\TODDengine\TODDengine.vcxproj" (build target(s)).
+
+Build succeeded.
+
+Time Elapsed 00:00:07.94

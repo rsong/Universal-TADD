@@ -1,0 +1,1251 @@
+﻿Build started 07/03/2014 14:14:47.
+Environment at start of build:
+ALLUSERSPROFILE = C:\ProgramData
+APPDATA = C:\Users\Hossein\AppData\Roaming
+CommonProgramFiles = C:\Program Files (x86)\Common Files
+CommonProgramFiles(x86) = C:\Program Files (x86)\Common Files
+CommonProgramW6432 = C:\Program Files\Common Files
+COMPUTERNAME = H
+ComSpec = C:\Windows\system32\cmd.exe
+CUDA_PATH = C:\Program Files\NVIDIA GPU Computing Toolkit\CUDA\v6.0
+CUDA_PATH_V6_0 = C:\Program Files\NVIDIA GPU Computing Toolkit\CUDA\v6.0
+FP_NO_HOST_CHECK = NO
+HALCONARCH = x64-win64
+HALCONEXAMPLES = C:\Users\Public\Documents\MVTec\HALCON-11.0\examples
+HALCONIMAGES = C:\Users\Public\Documents\MVTec\HALCON-11.0\examples\images
+HALCONROOT = C:\Program Files\MVTec\HALCON-11.0
+HOMEDRIVE = C:
+HOMEPATH = \Users\Hossein
+LOCALAPPDATA = C:\Users\Hossein\AppData\Local
+LOGONSERVER = \\H
+NUMBER_OF_PROCESSORS = 8
+NVCUDASAMPLES6_0_ROOT = C:\ProgramData\NVIDIA Corporation\CUDA Samples\v6.0
+NVCUDASAMPLES_ROOT = C:\ProgramData\NVIDIA Corporation\CUDA Samples\v6.0
+NVTOOLSEXT_PATH = C:\Program Files\NVIDIA Corporation\NvToolsExt\
+OS = Windows_NT
+Path = C:\Program Files\NVIDIA GPU Computing Toolkit\CUDA\v6.0\bin;C:\Program Files\NVIDIA GPU Computing Toolkit\CUDA\v6.0\libnvvp;C:\Program Files (x86)\NVIDIA Corporation\PhysX\Common;C:\Program Files (x86)\Intel\iCLS Client\;C:\Program Files\Intel\iCLS Client\;C:\Windows\system32;C:\Windows;C:\Windows\System32\Wbem;C:\Windows\System32\WindowsPowerShell\v1.0\;C:\Program Files\Intel\Intel(R) Management Engine Components\DAL;C:\Program Files\Intel\Intel(R) Management Engine Components\IPT;C:\Program Files (x86)\Intel\Intel(R) Management Engine Components\DAL;C:\Program Files (x86)\Intel\Intel(R) Management Engine Components\IPT;c:\Program Files (x86)\Microsoft SQL Server\100\Tools\Binn\;c:\Program Files\Microsoft SQL Server\100\Tools\Binn\;c:\Program Files\Microsoft SQL Server\100\DTS\Binn\;C:\Tesseract-OCR;C:\Program Files (x86)\Tesseract-OCR;C:\Program Files\MATLAB\R2013b\runtime\win64;C:\Program Files\MATLAB\R2013b\bin;C:\Program Files\MVTec\HALCON-11.0\bin\x64-win64;C:\Program Files\MVTec\HALCON-11.0\FLEXlm\x64-win64;C:\Program Files\MiKTeX 2.9\miktex\bin\x64\;C:\Program Files\doxygen\bin
+PATHEXT = .COM;.EXE;.BAT;.CMD;.VBS;.VBE;.JS;.JSE;.WSF;.WSH;.MSC
+PROCESSOR_ARCHITECTURE = x86
+PROCESSOR_ARCHITEW6432 = AMD64
+PROCESSOR_IDENTIFIER = Intel64 Family 6 Model 58 Stepping 9, GenuineIntel
+PROCESSOR_LEVEL = 6
+PROCESSOR_REVISION = 3a09
+ProgramData = C:\ProgramData
+ProgramFiles = C:\Program Files (x86)
+ProgramFiles(x86) = C:\Program Files (x86)
+ProgramW6432 = C:\Program Files
+PSModulePath = C:\Windows\system32\WindowsPowerShell\v1.0\Modules\
+PUBLIC = C:\Users\Public
+QTDIR = C:\Users\Hossein\Project\4.7.3x86_Intel
+SESSIONNAME = Console
+SystemDrive = C:
+SystemRoot = C:\Windows
+TEMP = C:\Users\Hossein\AppData\Local\Temp
+TESSDATA_PREFIX = C:\Program Files (x86)\Tesseract-OCR\
+TMP = C:\Users\Hossein\AppData\Local\Temp
+USERDOMAIN = H
+USERNAME = Hossein
+USERPROFILE = C:\Users\Hossein
+VisualStudioDir = C:\Users\Hossein\Documents\Visual Studio 2010
+VS100COMNTOOLS = c:\Program Files (x86)\Microsoft Visual Studio 10.0\Common7\Tools\
+windir = C:\Windows
+windows_tracing_flags = 3
+windows_tracing_logfile = C:\BVTBin\Tests\installpackage\csilogfile.log
+
+14:14:47.430     1>Project "C:\TODD5_3D - Copy 05 Feb2014\gSLIC\gSLIC.vcxproj" on node 2 (build target(s)).
+14:14:47.430     1>Building with tools version "4.0".
+14:14:47.430     1>Target "_CheckForInvalidConfigurationAndPlatform: (TargetId:2)" in file "C:\Windows\Microsoft.NET\Framework\v4.0.30319\Microsoft.Common.Targets" from project "C:\TODD5_3D - Copy 05 Feb2014\gSLIC\gSLIC.vcxproj" (entry point):
+                   Task "Error" skipped, due to false condition; ( '$(_InvalidConfigurationError)' == 'true' ) was evaluated as ( '' == 'true' ).
+                   Task "Warning" skipped, due to false condition; ( '$(_InvalidConfigurationWarning)' == 'true' ) was evaluated as ( '' == 'true' ).
+                   Using "Message" task from assembly "Microsoft.Build.Tasks.v4.0, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a".
+                   Task "Message" (TaskId:2)
+                     Configuration=Release (TaskId:2)
+                   Done executing task "Message". (TaskId:2)
+                   Task "Message" (TaskId:3)
+                     Platform=Win32 (TaskId:3)
+                   Done executing task "Message". (TaskId:3)
+                   Task "Error" skipped, due to false condition; ('$(OutDir)' != '' and !HasTrailingSlash('$(OutDir)')) was evaluated as ('C:\TODD5_3D - Copy 05 Feb2014\Release\' != '' and !HasTrailingSlash('C:\TODD5_3D - Copy 05 Feb2014\Release\')).
+                   Task "Error" skipped, due to false condition; ('$(BaseIntermediateOutputPath)' != '' and !HasTrailingSlash('$(BaseIntermediateOutputPath)')) was evaluated as ('obj\' != '' and !HasTrailingSlash('obj\')).
+                   Task "Error" skipped, due to false condition; ('$(IntermediateOutputPath)' != '' and !HasTrailingSlash('$(IntermediateOutputPath)')) was evaluated as ('Release\' != '' and !HasTrailingSlash('Release\')).
+14:14:47.432     1>Done building target "_CheckForInvalidConfigurationAndPlatform" in project "gSLIC.vcxproj".: (TargetId:2)
+14:14:47.432     1>Target "_DetermineManagedStateFromCL: (TargetId:3)" in file "C:\Program Files (x86)\MSBuild\Microsoft.Cpp\v4.0\Microsoft.CppBuild.targets" from project "C:\TODD5_3D - Copy 05 Feb2014\gSLIC\gSLIC.vcxproj" (target "Build" depends on it):
+14:14:47.432     1>Done building target "_DetermineManagedStateFromCL" in project "gSLIC.vcxproj".: (TargetId:3)
+14:14:47.432     1>Target "_PrepareForBuild: (TargetId:4)" in file "C:\Program Files (x86)\MSBuild\Microsoft.Cpp\v4.0\Microsoft.BuildSteps.Targets" from project "C:\TODD5_3D - Copy 05 Feb2014\gSLIC\gSLIC.vcxproj" (target "Build" depends on it):
+14:14:47.432     1>Done building target "_PrepareForBuild" in project "gSLIC.vcxproj".: (TargetId:4)
+14:14:47.432     1>Target "SetBuildDefaultEnvironmentVariables: (TargetId:5)" in file "C:\Program Files (x86)\MSBuild\Microsoft.Cpp\v4.0\Microsoft.Cpp.targets" from project "C:\TODD5_3D - Copy 05 Feb2014\gSLIC\gSLIC.vcxproj" (target "Build" depends on it):
+                   Using "SetEnv" task from assembly "Microsoft.Build.CppTasks.Common, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a".
+                   Task "SetEnv" (TaskId:4)
+                     PATH=c:\Program Files (x86)\Microsoft Visual Studio 10.0\VC\bin;C:\Program Files (x86)\Microsoft SDKs\Windows\v7.0A\bin\NETFX 4.0 Tools;C:\Program Files (x86)\Microsoft SDKs\Windows\v7.0A\bin;C:\Program Files (x86)\Microsoft Visual Studio 10.0\Common7\Tools\bin;C:\Program Files (x86)\Microsoft Visual Studio 10.0\Common7\tools;C:\Program Files (x86)\Microsoft Visual Studio 10.0\Common7\ide;C:\Program Files (x86)\HTML Help Workshop;C:\Program Files (x86)\Microsoft SDKs\Windows\v7.0A\\bin;C:\Windows\Microsoft.NET\Framework\v4.0.30319\;C:\Program Files (x86)\Microsoft Visual Studio 10.0\;C:\Windows\SysWow64;;C:\Program Files\NVIDIA GPU Computing Toolkit\CUDA\v6.0\bin;C:\Program Files\NVIDIA GPU Computing Toolkit\CUDA\v6.0\libnvvp;C:\Program Files (x86)\NVIDIA Corporation\PhysX\Common;C:\Program Files (x86)\Intel\iCLS Client\;C:\Program Files\Intel\iCLS Client\;C:\Windows\system32;C:\Windows;C:\Windows\System32\Wbem;C:\Windows\System32\WindowsPowerShell\v1.0\;C:\Program Files\Intel\Intel(R) Management Engine Components\DAL;C:\Program Files\Intel\Intel(R) Management Engine Components\IPT;C:\Program Files (x86)\Intel\Intel(R) Management Engine Components\DAL;C:\Program Files (x86)\Intel\Intel(R) Management Engine Components\IPT;c:\Program Files (x86)\Microsoft SQL Server\100\Tools\Binn\;c:\Program Files\Microsoft SQL Server\100\Tools\Binn\;c:\Program Files\Microsoft SQL Server\100\DTS\Binn\;C:\Tesseract-OCR;C:\Program Files (x86)\Tesseract-OCR;C:\Program Files\MATLAB\R2013b\runtime\win64;C:\Program Files\MATLAB\R2013b\bin;C:\Program Files\MVTec\HALCON-11.0\bin\x64-win64;C:\Program Files\MVTec\HALCON-11.0\FLEXlm\x64-win64;C:\Program Files\MiKTeX 2.9\miktex\bin\x64\;C:\Program Files\doxygen\bin; (TaskId:4)
+                   Done executing task "SetEnv". (TaskId:4)
+                   Task "SetEnv" skipped, due to false condition; ('$(_IsNativeEnvironment)' == 'true') was evaluated as ('' == 'true').
+                   Task "SetEnv" (TaskId:5)
+                     LIB=c:\Program Files (x86)\Microsoft Visual Studio 10.0\VC\lib;c:\Program Files (x86)\Microsoft Visual Studio 10.0\VC\atlmfc\lib;C:\Program Files (x86)\Microsoft SDKs\Windows\v7.0A\lib;C:\Program Files (x86)\Microsoft SDKs\Windows\v7.0A\\lib (TaskId:5)
+                   Done executing task "SetEnv". (TaskId:5)
+                   Task "SetEnv" (TaskId:6)
+                     LIBPATH=c:\Program Files (x86)\Microsoft Visual Studio 10.0\VC\atlmfc\lib;c:\Program Files (x86)\Microsoft Visual Studio 10.0\VC\lib (TaskId:6)
+                   Done executing task "SetEnv". (TaskId:6)
+                   Task "SetEnv" (TaskId:7)
+                     INCLUDE=c:\Program Files (x86)\Microsoft Visual Studio 10.0\VC\include;c:\Program Files (x86)\Microsoft Visual Studio 10.0\VC\atlmfc\include;C:\Program Files (x86)\Microsoft SDKs\Windows\v7.0A\include;C:\Program Files (x86)\Microsoft SDKs\Windows\v7.0A\\include; (TaskId:7)
+                   Done executing task "SetEnv". (TaskId:7)
+14:14:47.433     1>Done building target "SetBuildDefaultEnvironmentVariables" in project "gSLIC.vcxproj".: (TargetId:5)
+                   Target "SetUserMacroEnvironmentVariables" skipped, due to false condition; ('@(BuildMacro)' != '') was evaluated as ('' != '').
+14:14:47.433     1>Target "BeforeResolveReferences: (TargetId:6)" in file "C:\Windows\Microsoft.NET\Framework\v4.0.30319\Microsoft.Common.Targets" from project "C:\TODD5_3D - Copy 05 Feb2014\gSLIC\gSLIC.vcxproj" (target "ResolveReferences" depends on it):
+14:14:47.433     1>Done building target "BeforeResolveReferences" in project "gSLIC.vcxproj".: (TargetId:6)
+14:14:47.433     1>Target "AssignProjectConfiguration: (TargetId:7)" in file "C:\Windows\Microsoft.NET\Framework\v4.0.30319\Microsoft.Common.Targets" from project "C:\TODD5_3D - Copy 05 Feb2014\gSLIC\gSLIC.vcxproj" (target "ResolveReferences" depends on it):
+                   Using "AssignProjectConfiguration" task from assembly "Microsoft.Build.Tasks.v4.0, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a".
+                   Task "AssignProjectConfiguration" (TaskId:8)
+                   Done executing task "AssignProjectConfiguration". (TaskId:8)
+14:14:47.433     1>Done building target "AssignProjectConfiguration" in project "gSLIC.vcxproj".: (TargetId:7)
+                   Target "AssignProjectConfiguration" skipped. Previously built successfully.
+14:14:47.433     1>Target "_SplitProjectReferencesByFileExistence: (TargetId:8)" in file "C:\Windows\Microsoft.NET\Framework\v4.0.30319\Microsoft.Common.Targets" from project "C:\TODD5_3D - Copy 05 Feb2014\gSLIC\gSLIC.vcxproj" (target "ResolveProjectReferences" depends on it):
+                   Task "ResolveNonMSBuildProjectOutput" skipped, due to false condition; ('$(BuildingInsideVisualStudio)'=='true' and '@(ProjectReferenceWithConfiguration)'!='') was evaluated as ('true'=='true' and ''!='').
+14:14:47.433     1>Done building target "_SplitProjectReferencesByFileExistence" in project "gSLIC.vcxproj".: (TargetId:8)
+                   Target "_RemoveNameMetadataFromProjectReferenceItems" skipped, due to false condition; ('@(ProjectReference)'!='') was evaluated as (''!='').
+14:14:47.433     1>Target "ResolveProjectReferences: (TargetId:9)" in file "C:\Windows\Microsoft.NET\Framework\v4.0.30319\Microsoft.Common.Targets" from project "C:\TODD5_3D - Copy 05 Feb2014\gSLIC\gSLIC.vcxproj" (target "ResolveReferences" depends on it):
+                   Task "MSBuild" skipped, due to false condition; ('%(_MSBuildProjectReferenceExistent.BuildReference)' == 'true' and '@(ProjectReferenceWithConfiguration)' != '' and ('$(BuildingInsideVisualStudio)' == 'true' or '$(BuildProjectReferences)' != 'true') and '$(VisualStudioVersion)' != '10.0' and '@(_MSBuildProjectReferenceExistent)' != '') was evaluated as ('' == 'true' and '' != '' and ('true' == 'true' or 'true' != 'true') and '10.0' != '10.0' and '' != '').
+                   Task "MSBuild" skipped, due to false condition; ('%(_MSBuildProjectReferenceExistent.BuildReference)' == 'true' and '@(ProjectReferenceWithConfiguration)' != '' and ('$(BuildingInsideVisualStudio)' == 'true' or '$(BuildProjectReferences)' != 'true') and '$(VisualStudioVersion)' == '10.0' and '@(_MSBuildProjectReferenceExistent)' != '') was evaluated as ('' == 'true' and '' != '' and ('true' == 'true' or 'true' != 'true') and '10.0' == '10.0' and '' != '').
+                   Task "MSBuild" skipped, due to false condition; ('%(_MSBuildProjectReferenceExistent.BuildReference)' == 'true' and '@(ProjectReferenceWithConfiguration)' != '' and '$(BuildingInsideVisualStudio)' != 'true' and '$(BuildProjectReferences)' == 'true' and '@(_MSBuildProjectReferenceExistent)' != '') was evaluated as ('' == 'true' and '' != '' and 'true' != 'true' and 'true' == 'true' and '' != '').
+                   Task "MSBuild" skipped, due to false condition; ('%(_MSBuildProjectReferenceExistent.BuildReference)' == 'true' and '@(ProjectReferenceWithConfiguration)' != '' and '$(BuildingProject)' == 'true' and '@(_MSBuildProjectReferenceExistent)' != '') was evaluated as ('' == 'true' and '' != '' and 'true' == 'true' and '' != '').
+                   Task "Warning" skipped, due to false condition; ('@(ProjectReferenceWithConfiguration)' != '' and '@(_MSBuildProjectReferenceNonexistent)' != '') was evaluated as ('' != '' and '' != '').
+14:14:47.434     1>Done building target "ResolveProjectReferences" in project "gSLIC.vcxproj".: (TargetId:9)
+                   Target "ResolveNativeReferences" skipped, due to false condition; ('@(NativeReference)'!='') was evaluated as (''!='').
+14:14:47.434     1>Target "GetFrameworkPaths: (TargetId:10)" in file "C:\Windows\Microsoft.NET\Framework\v4.0.30319\Microsoft.NETFramework.targets" from project "C:\TODD5_3D - Copy 05 Feb2014\gSLIC\gSLIC.vcxproj" (target "ResolveAssemblyReferences" depends on it):
+14:14:47.434     1>Done building target "GetFrameworkPaths" in project "gSLIC.vcxproj".: (TargetId:10)
+                   Target "GetWinFXPath" skipped, due to false condition; (('@(Page)' != '' or '@(ApplicationDefinition)' != '' or '@(Resource)' != '') and ('$(GetWinFXNativePath)' != '' or '$(GetWinFXWoWPath)' != '' )) was evaluated as (('' != '' or '' != '' or '' != '') and ('' != '' or '' != '' )).
+14:14:47.434     1>Target "GetReferenceAssemblyPaths: (TargetId:11)" in file "C:\Windows\Microsoft.NET\Framework\v4.0.30319\Microsoft.Common.Targets" from project "C:\TODD5_3D - Copy 05 Feb2014\gSLIC\gSLIC.vcxproj" (target "ResolveAssemblyReferences" depends on it):
+                   Task "GetReferenceAssemblyPaths" skipped, due to false condition; ('$(TargetFrameworkMoniker)' != '' and ('$(_TargetFrameworkDirectories)' == '' or '$(_FullFrameworkReferenceAssemblyPaths)' == '')) was evaluated as ('.NETFramework,Version=v4.0' != '' and ('C:\Program Files (x86)\Reference Assemblies\Microsoft\Framework\.NETFramework\v4.0' == '' or 'C:\Program Files (x86)\Reference Assemblies\Microsoft\Framework\.NETFramework\v4.0' == '')).
+14:14:47.434     1>Done building target "GetReferenceAssemblyPaths" in project "gSLIC.vcxproj".: (TargetId:11)
+14:14:47.434     1>Target "PlatformPrepareForBuild: (TargetId:12)" in file "C:\Program Files (x86)\MSBuild\Microsoft.Cpp\v4.0\Platforms\Win32\Microsoft.Cpp.Win32.Targets" from project "C:\TODD5_3D - Copy 05 Feb2014\gSLIC\gSLIC.vcxproj" (target "PrepareForBuild" depends on it):
+                   Task "VCMessage" skipped, due to false condition; (!(exists('$(VCTargetsPath)\Platforms\Win32\PlatformToolsets\$(PlatformToolset)\Microsoft.Cpp.Win32.$(PlatformToolset).targets'))) was evaluated as (!(exists('C:\Program Files (x86)\MSBuild\Microsoft.Cpp\v4.0\\Platforms\Win32\PlatformToolsets\v100\Microsoft.Cpp.Win32.v100.targets'))).
+14:14:47.434     1>Done building target "PlatformPrepareForBuild" in project "gSLIC.vcxproj".: (TargetId:12)
+                   Target "GetFrameworkPaths" skipped. Previously built successfully.
+                   Target "GetReferenceAssemblyPaths" skipped. Previously built successfully.
+14:14:47.434     1>Target "PrepareForBuild: (TargetId:13)" in file "C:\Program Files (x86)\MSBuild\Microsoft.Cpp\v4.0\Microsoft.CppBuild.targets" from project "C:\TODD5_3D - Copy 05 Feb2014\gSLIC\gSLIC.vcxproj" (target "ResolveAssemblyReferences" depends on it):
+                   Task "VCMessage" skipped, due to false condition; ('$(DesignTimeBuild)'!='true' and '$(ConfigurationPlatformExists)' != 'true') was evaluated as (''!='true' and 'true' != 'true').
+                   Using "MakeDir" task from assembly "Microsoft.Build.Tasks.v4.0, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a".
+                   Task "MakeDir" (TaskId:9)
+                   Done executing task "MakeDir". (TaskId:9)
+                   Task "VCMessage" skipped, due to false condition; ('$(DesignTimeBuild)'!='true' and '$(VCInstallDir)'=='' and '$(UseEnv)' != 'true' and ($(TargetFrameworkVersion)=='v3.5' or $(TargetFrameworkVersion)=='v3.0' or $(TargetFrameworkVersion)=='v2.0' )) was evaluated as (''!='true' and 'c:\Program Files (x86)\Microsoft Visual Studio 10.0\VC\'=='' and '' != 'true' and (v4.0=='v3.5' or v4.0=='v3.0' or v4.0=='v2.0' )).
+                   Task "VCMessage" skipped, due to false condition; ('$(DesignTimeBuild)'!='true' and '$(VCInstallDir)'=='' and '$(UseEnv)' != 'true' and '$(PlatformToolset)'=='v90') was evaluated as (''!='true' and 'c:\Program Files (x86)\Microsoft Visual Studio 10.0\VC\'=='' and '' != 'true' and 'v100'=='v90').
+                   Task "VCMessage" skipped, due to false condition; ('$(VCInstallDir)'=='' and '$(UseEnv)' != 'true') was evaluated as ('c:\Program Files (x86)\Microsoft Visual Studio 10.0\VC\'=='' and '' != 'true').
+                   Task "VCMessage" skipped, due to false condition; ('$(WindowsSDKDir)'=='' and '$(UseEnv)' != 'true') was evaluated as ('C:\Program Files (x86)\Microsoft SDKs\Windows\v7.0A\'=='' and '' != 'true').
+                   Task "VCMessage" skipped, due to false condition; ('$(IntDirTrailingSlashWarning)'=='true') was evaluated as (''=='true').
+                   Task "VCMessage" skipped, due to false condition; ('$(OutDirTrailingSlashWarning)'=='true') was evaluated as (''=='true').
+                   Task "MakeDir" (TaskId:10)
+                   Done executing task "MakeDir". (TaskId:10)
+14:14:47.434     1>Done building target "PrepareForBuild" in project "gSLIC.vcxproj".: (TargetId:13)
+14:14:47.434     1>Target "GetInstalledSDKLocations: (TargetId:14)" in file "C:\Windows\Microsoft.NET\Framework\v4.0.30319\Microsoft.Common.Targets" from project "C:\TODD5_3D - Copy 05 Feb2014\gSLIC\gSLIC.vcxproj" (target "ResolveSDKReferences" depends on it):
+                   Task "GetInstalledSDKLocations" skipped, due to false condition; ('@(SDKReference)' != '') was evaluated as ('' != '').
+14:14:47.434     1>Done building target "GetInstalledSDKLocations" in project "gSLIC.vcxproj".: (TargetId:14)
+14:14:47.434     1>Target "ResolveSDKReferences: (TargetId:15)" in file "C:\Windows\Microsoft.NET\Framework\v4.0.30319\Microsoft.Common.Targets" from project "C:\TODD5_3D - Copy 05 Feb2014\gSLIC\gSLIC.vcxproj" (target "ResolveAssemblyReferences" depends on it):
+                   Task "ResolveSDKReference" skipped, due to false condition; ('@(SDKReference)'!='') was evaluated as (''!='').
+14:14:47.434     1>Done building target "ResolveSDKReferences" in project "gSLIC.vcxproj".: (TargetId:15)
+                   Target "ResolveSDKReferences" skipped. Previously built successfully.
+14:14:47.434     1>Target "ExpandSDKReferences: (TargetId:16)" in file "C:\Windows\Microsoft.NET\Framework\v4.0.30319\Microsoft.Common.Targets" from project "C:\TODD5_3D - Copy 05 Feb2014\gSLIC\gSLIC.vcxproj" (target "ResolveAssemblyReferences" depends on it):
+                   Task "GetSDKReferenceFiles" skipped, due to false condition; ('@(ResolvedSDKReference)'!='') was evaluated as (''!='').
+14:14:47.434     1>Done building target "ExpandSDKReferences" in project "gSLIC.vcxproj".: (TargetId:16)
+14:14:47.434     1>Target "ResolveAssemblyReferences: (TargetId:17)" in file "C:\Windows\Microsoft.NET\Framework\v4.0.30319\Microsoft.Common.Targets" from project "C:\TODD5_3D - Copy 05 Feb2014\gSLIC\gSLIC.vcxproj" (target "ResolveReferences" depends on it):
+                   Using "ResolveAssemblyReference" task from assembly "Microsoft.Build.Tasks.v4.0, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a".
+                   Task "ResolveAssemblyReference" (TaskId:11)
+                     TargetFrameworkMoniker: (TaskId:11)
+                         .NETFramework,Version=v4.0 (TaskId:11)
+                     TargetFrameworkMonikerDisplayName: (TaskId:11)
+                         .NET Framework 4 (TaskId:11)
+                     TargetedRuntimeVersion: (TaskId:11)
+                         v4.0.30319 (TaskId:11)
+                     Assemblies: (TaskId:11)
+                         System.Core (TaskId:11)
+                     AssemblyFiles: (TaskId:11)
+                     CandidateAssemblyFiles: (TaskId:11)
+                     TargetFrameworkDirectories: (TaskId:11)
+                         C:\Program Files (x86)\Reference Assemblies\Microsoft\Framework\.NETFramework\v4.0 (TaskId:11)
+                     InstalledAssemblyTables: (TaskId:11)
+                     IgnoreInstalledAssemblyTable: (TaskId:11)
+                         False (TaskId:11)
+                     SearchPaths: (TaskId:11)
+                         {CandidateAssemblyFiles} (TaskId:11)
+                         c:\Program Files (x86)\Microsoft Visual Studio 10.0\VC\atlmfc\lib (TaskId:11)
+                         c:\Program Files (x86)\Microsoft Visual Studio 10.0\VC\lib (TaskId:11)
+                         {HintPathFromItem} (TaskId:11)
+                         {TargetFrameworkDirectory} (TaskId:11)
+                         {Registry:Software\Microsoft\.NETFramework,v4.0,AssemblyFoldersEx} (TaskId:11)
+                         {AssemblyFolders} (TaskId:11)
+                         {GAC} (TaskId:11)
+                         {RawFileName} (TaskId:11)
+                         C:\TODD5_3D - Copy 05 Feb2014\Release\ (TaskId:11)
+                     AllowedAssemblyExtensions: (TaskId:11)
+                         .winmd (TaskId:11)
+                         .dll (TaskId:11)
+                         .exe (TaskId:11)
+                     AllowedRelatedFileExtensions: (TaskId:11)
+                         .pdb (TaskId:11)
+                         .xml (TaskId:11)
+                         .pri (TaskId:11)
+                     AppConfigFile: (TaskId:11)
+                          (TaskId:11)
+                     AutoUnify: (TaskId:11)
+                         True (TaskId:11)
+                     CopyLocalDependenciesWhenParentReferenceInGac: (TaskId:11)
+                         True (TaskId:11)
+                     FindDependencies: (TaskId:11)
+                         True (TaskId:11)
+                     TargetProcessorArchitecture: (TaskId:11)
+                         x86 (TaskId:11)
+                     StateFile: (TaskId:11)
+                         Release\gSLIC.vcxprojResolveAssemblyReference.cache (TaskId:11)
+                     InstalledAssemblySubsetTables: (TaskId:11)
+                     IgnoreInstalledAssemblySubsetTable: (TaskId:11)
+                         False (TaskId:11)
+                     TargetFrameworkSubsets: (TaskId:11)
+                     FullTargetFrameworkSubsetNames: (TaskId:11)
+                         Full (TaskId:11)
+                     ProfileName: (TaskId:11)
+                          (TaskId:11)
+                     FullFrameworkFolders: (TaskId:11)
+                         C:\Program Files (x86)\Reference Assemblies\Microsoft\Framework\.NETFramework\v4.0 (TaskId:11)
+                     LatestTargetFrameworkDirectories: (TaskId:11)
+                     ProfileTablesLocation: (TaskId:11)
+                     Primary reference "System.Core, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089". (TaskId:11)
+                         Resolved file path is "C:\Program Files (x86)\Reference Assemblies\Microsoft\Framework\.NETFramework\v4.0\System.Core.dll". (TaskId:11)
+                         Reference found at search path location "{TargetFrameworkDirectory}". (TaskId:11)
+                             For SearchPath "c:\Program Files (x86)\Microsoft Visual Studio 10.0\VC\atlmfc\lib". (TaskId:11)
+                             Considered "c:\Program Files (x86)\Microsoft Visual Studio 10.0\VC\atlmfc\lib\System.Core.winmd", but it didn't exist. (TaskId:11)
+                             Considered "c:\Program Files (x86)\Microsoft Visual Studio 10.0\VC\atlmfc\lib\System.Core.dll", but it didn't exist. (TaskId:11)
+                             Considered "c:\Program Files (x86)\Microsoft Visual Studio 10.0\VC\atlmfc\lib\System.Core.exe", but it didn't exist. (TaskId:11)
+                             For SearchPath "c:\Program Files (x86)\Microsoft Visual Studio 10.0\VC\lib". (TaskId:11)
+                             Considered "c:\Program Files (x86)\Microsoft Visual Studio 10.0\VC\lib\System.Core.winmd", but it didn't exist. (TaskId:11)
+                             Considered "c:\Program Files (x86)\Microsoft Visual Studio 10.0\VC\lib\System.Core.dll", but it didn't exist. (TaskId:11)
+                             Considered "c:\Program Files (x86)\Microsoft Visual Studio 10.0\VC\lib\System.Core.exe", but it didn't exist. (TaskId:11)
+                             For SearchPath "{TargetFrameworkDirectory}". (TaskId:11)
+                             Considered "C:\Program Files (x86)\Reference Assemblies\Microsoft\Framework\.NETFramework\v4.0\System.Core.winmd", but it didn't exist. (TaskId:11)
+                         This reference is not "CopyLocal" because it's a prerequisite file. (TaskId:11)
+                         The ImageRuntimeVersion for this reference is "v4.0.30319". (TaskId:11)
+                   Done executing task "ResolveAssemblyReference". (TaskId:11)
+14:14:47.436     1>Done building target "ResolveAssemblyReferences" in project "gSLIC.vcxproj".: (TargetId:17)
+                   Target "ResolveComReferences" skipped, due to false condition; ('@(COMReference)'!='' or '@(COMFileReference)'!='') was evaluated as (''!='' or ''!='').
+14:14:47.436     1>Target "AfterResolveReferences: (TargetId:18)" in file "C:\Windows\Microsoft.NET\Framework\v4.0.30319\Microsoft.Common.Targets" from project "C:\TODD5_3D - Copy 05 Feb2014\gSLIC\gSLIC.vcxproj" (target "ResolveReferences" depends on it):
+14:14:47.436     1>Done building target "AfterResolveReferences" in project "gSLIC.vcxproj".: (TargetId:18)
+                   Target "ImplicitlyExpandDesignTimeFacades" skipped, due to false condition; ('$(ImplicitlyExpandDesignTimeFacades)' == 'true') was evaluated as ('' == 'true').
+                   Target "ResolveTestReferences" skipped, due to false condition; ('@(Shadow)'!='') was evaluated as (''!='').
+14:14:47.436     1>Target "ResolveReferences: (TargetId:19)" in file "C:\Windows\Microsoft.NET\Framework\v4.0.30319\Microsoft.Common.Targets" from project "C:\TODD5_3D - Copy 05 Feb2014\gSLIC\gSLIC.vcxproj" (target "Build" depends on it):
+14:14:47.436     1>Done building target "ResolveReferences" in project "gSLIC.vcxproj".: (TargetId:19)
+                   Target "PrepareForBuild" skipped. Previously built successfully.
+                   Target "PrepareForBuild" skipped. Previously built successfully.
+14:14:47.436     1>Target "InitializeBuildStatus: (TargetId:20)" in file "C:\Program Files (x86)\MSBuild\Microsoft.Cpp\v4.0\Microsoft.CppBuild.targets" from project "C:\TODD5_3D - Copy 05 Feb2014\gSLIC\gSLIC.vcxproj" (target "Build" depends on it):
+                   Using "ReadLinesFromFile" task from assembly "Microsoft.Build.Tasks.v4.0, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a".
+                   Task "ReadLinesFromFile" (TaskId:12)
+                   Done executing task "ReadLinesFromFile". (TaskId:12)
+                   Using "WriteLinesToFile" task from assembly "Microsoft.Build.Tasks.v4.0, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a".
+                   Task "WriteLinesToFile" (TaskId:13)
+                   Done executing task "WriteLinesToFile". (TaskId:13)
+                   Using "Touch" task from assembly "Microsoft.Build.Tasks.v4.0, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a".
+                   Task "Touch" (TaskId:14)
+                     Creating "Release\gSLIC.unsuccessfulbuild" because "AlwaysCreate" was specified. (TaskId:14)
+                   Done executing task "Touch". (TaskId:14)
+14:14:47.438     1>Done building target "InitializeBuildStatus" in project "gSLIC.vcxproj".: (TargetId:20)
+                   Target "AssignProjectConfiguration" skipped. Previously built successfully.
+                   Target "_SplitProjectReferencesByFileExistence" skipped. Previously built successfully.
+14:14:47.438     1>Target "BuildGenerateSourcesTraverse: (TargetId:21)" in file "C:\Windows\Microsoft.NET\Framework\v4.0.30319\Microsoft.Common.Targets" from project "C:\TODD5_3D - Copy 05 Feb2014\gSLIC\gSLIC.vcxproj" (target "BuildGenerateSources" depends on it):
+                   Task "MSBuild" skipped, due to false condition; ('$(BuildPassReferences)' == 'true' and '@(ProjectReferenceWithConfiguration)' != '' and '@(_MSBuildProjectReferenceExistent)' != '' and '%(_MSBuildProjectReferenceExistent.BuildReference)' == 'true') was evaluated as ('' == 'true' and '' != '' and '' != '' and '' == 'true').
+14:14:47.438     1>Done building target "BuildGenerateSourcesTraverse" in project "gSLIC.vcxproj".: (TargetId:21)
+                   Target "SetBuildDefaultEnvironmentVariables" skipped. Previously built successfully.
+                   Target "SetUserMacroEnvironmentVariables" skipped, due to false condition; ('@(BuildMacro)' != '') was evaluated as ('' != '').
+                   Target "PrepareForBuild" skipped. Previously built successfully.
+                   Target "ResolveReferences" skipped. Previously built successfully.
+14:14:47.438     1>Target "BeforeBuildGenerateSources: (TargetId:22)" in file "C:\Program Files (x86)\MSBuild\Microsoft.Cpp\v4.0\Microsoft.BuildSteps.Targets" from project "C:\TODD5_3D - Copy 05 Feb2014\gSLIC\gSLIC.vcxproj" (target "BuildGenerateSources" depends on it):
+14:14:47.438     1>Done building target "BeforeBuildGenerateSources" in project "gSLIC.vcxproj".: (TargetId:22)
+14:14:47.438     1>Target "PreBuildEvent: (TargetId:23)" in file "C:\Program Files (x86)\MSBuild\Microsoft.Cpp\v4.0\Microsoft.CppCommon.targets" from project "C:\TODD5_3D - Copy 05 Feb2014\gSLIC\gSLIC.vcxproj" (target "BuildGenerateSources" depends on it):
+                   Task "Message" skipped, due to false condition; ('%(PreBuildEvent.Message)' != '' and '%(PreBuildEvent.Command)' != '') was evaluated as ('' != '' and '' != '').
+                   Task "Exec" skipped, due to false condition; ('%(PreBuildEvent.Command)' != '') was evaluated as ('' != '').
+14:14:47.438     1>Done building target "PreBuildEvent" in project "gSLIC.vcxproj".: (TargetId:23)
+                   Target "CustomBuild" skipped, due to false condition; ('@(CustomBuild)' != '') was evaluated as ('' != '').
+                   Target "PrepareForBuild" skipped. Previously built successfully.
+                   Target "SetBuildDefaultEnvironmentVariables" skipped. Previously built successfully.
+                   Target "SetUserMacroEnvironmentVariables" skipped, due to false condition; ('@(BuildMacro)' != '') was evaluated as ('' != '').
+14:14:47.438     1>Target "_SelectedFiles: (TargetId:24)" in file "C:\Program Files (x86)\MSBuild\Microsoft.Cpp\v4.0\Microsoft.CppBuild.targets" from project "C:\TODD5_3D - Copy 05 Feb2014\gSLIC\gSLIC.vcxproj" (target "CudaBuild" depends on it):
+14:14:47.438     1>Done building target "_SelectedFiles" in project "gSLIC.vcxproj".: (TargetId:24)
+                   Target "CudaFilterSelectedFiles" skipped, due to false condition; ('@(SelectedFiles)' != '') was evaluated as ('' != '').
+14:14:47.438     1>Target "InitializeCudaHostProperties: (TargetId:25)" in file "C:\Program Files (x86)\MSBuild\Microsoft.Cpp\v4.0\BuildCustomizations\CUDA 6.0.targets" from project "C:\TODD5_3D - Copy 05 Feb2014\gSLIC\gSLIC.vcxproj" (target "AddCudaCompileMetadata" depends on it):
+14:14:47.438     1>Done building target "InitializeCudaHostProperties" in project "gSLIC.vcxproj".: (TargetId:25)
+14:14:47.438     1>Target "AddCudaCompileMetadata: (TargetId:26)" in file "C:\Program Files (x86)\MSBuild\Microsoft.Cpp\v4.0\BuildCustomizations\CUDA 6.0.targets" from project "C:\TODD5_3D - Copy 05 Feb2014\gSLIC\gSLIC.vcxproj" (target "CudaBuild" depends on it):
+                   Building target "AddCudaCompileMetadata" completely.
+                   No input files were specified.
+                   Using "SanitizePaths" task from assembly "C:\Program Files (x86)\MSBuild\Microsoft.Cpp\v4.0\BuildCustomizations\Nvda.Build.CudaTasks.v6.0.dll".
+                   Task "SanitizePaths" (TaskId:15)
+                   Done executing task "SanitizePaths". (TaskId:15)
+                   Task "ReadLinesFromFile" (TaskId:16)
+                   Done executing task "ReadLinesFromFile". (TaskId:16)
+                   Using "SplitToItemMetadata" task from assembly "C:\Program Files (x86)\MSBuild\Microsoft.Cpp\v4.0\BuildCustomizations\Nvda.Build.CudaTasks.v6.0.dll".
+                   Task "SplitToItemMetadata" (TaskId:17)
+                   Done executing task "SplitToItemMetadata". (TaskId:17)
+14:14:47.443     1>Done building target "AddCudaCompileMetadata" in project "gSLIC.vcxproj".: (TargetId:26)
+14:14:47.443     1>Target "AddCudaCompileMetadata: (TargetId:27)" in file "C:\Program Files (x86)\MSBuild\Microsoft.Cpp\v4.0\BuildCustomizations\CUDA 6.0.targets" from project "C:\TODD5_3D - Copy 05 Feb2014\gSLIC\gSLIC.vcxproj" (target "CudaBuild" depends on it):
+                   Building target "AddCudaCompileMetadata" completely.
+                   No input files were specified.
+                   Task "SanitizePaths" (TaskId:18)
+                   Done executing task "SanitizePaths". (TaskId:18)
+                   Task "ReadLinesFromFile" (TaskId:19)
+                   Done executing task "ReadLinesFromFile". (TaskId:19)
+                   Task "SplitToItemMetadata" (TaskId:20)
+                   Done executing task "SplitToItemMetadata". (TaskId:20)
+14:14:47.444     1>Done building target "AddCudaCompileMetadata" in project "gSLIC.vcxproj".: (TargetId:27)
+14:14:47.444     1>Target "AddCudaCompileMetadata: (TargetId:28)" in file "C:\Program Files (x86)\MSBuild\Microsoft.Cpp\v4.0\BuildCustomizations\CUDA 6.0.targets" from project "C:\TODD5_3D - Copy 05 Feb2014\gSLIC\gSLIC.vcxproj" (target "CudaBuild" depends on it):
+                   Building target "AddCudaCompileMetadata" completely.
+                   No input files were specified.
+                   Task "SanitizePaths" (TaskId:21)
+                   Done executing task "SanitizePaths". (TaskId:21)
+                   Task "ReadLinesFromFile" (TaskId:22)
+                   Done executing task "ReadLinesFromFile". (TaskId:22)
+                   Task "SplitToItemMetadata" (TaskId:23)
+                   Done executing task "SplitToItemMetadata". (TaskId:23)
+14:14:47.445     1>Done building target "AddCudaCompileMetadata" in project "gSLIC.vcxproj".: (TargetId:28)
+14:14:47.445     1>Target "AddCudaCompileMetadata: (TargetId:29)" in file "C:\Program Files (x86)\MSBuild\Microsoft.Cpp\v4.0\BuildCustomizations\CUDA 6.0.targets" from project "C:\TODD5_3D - Copy 05 Feb2014\gSLIC\gSLIC.vcxproj" (target "CudaBuild" depends on it):
+                   Building target "AddCudaCompileMetadata" completely.
+                   No input files were specified.
+                   Task "SanitizePaths" (TaskId:24)
+                   Done executing task "SanitizePaths". (TaskId:24)
+                   Task "ReadLinesFromFile" (TaskId:25)
+                   Done executing task "ReadLinesFromFile". (TaskId:25)
+                   Task "SplitToItemMetadata" (TaskId:26)
+                   Done executing task "SplitToItemMetadata". (TaskId:26)
+14:14:47.447     1>Done building target "AddCudaCompileMetadata" in project "gSLIC.vcxproj".: (TargetId:29)
+                   Target "AddCudaCompileMetadata" skipped. Previously built successfully.
+                   Target "InitializeCudaHostProperties" skipped. Previously built successfully.
+                   Target "AddCudaCompileMetadata" skipped. Previously built successfully.
+14:14:47.447     1>Target "InitializeCudaProjectProperties: (TargetId:30)" in file "C:\Program Files (x86)\MSBuild\Microsoft.Cpp\v4.0\BuildCustomizations\CUDA 6.0.targets" from project "C:\TODD5_3D - Copy 05 Feb2014\gSLIC\gSLIC.vcxproj" (target "AddCudaLinkMetadata" depends on it):
+                   Task "SplitToItemMetadata" (TaskId:27)
+                   Done executing task "SplitToItemMetadata". (TaskId:27)
+14:14:47.447     1>Done building target "InitializeCudaProjectProperties" in project "gSLIC.vcxproj".: (TargetId:30)
+14:14:47.447     1>Target "AddCudaLinkMetadata: (TargetId:31)" in file "C:\Program Files (x86)\MSBuild\Microsoft.Cpp\v4.0\BuildCustomizations\CUDA 6.0.targets" from project "C:\TODD5_3D - Copy 05 Feb2014\gSLIC\gSLIC.vcxproj" (target "CudaBuild" depends on it):
+                   Building target "AddCudaLinkMetadata" completely.
+                   No input files were specified.
+                   Using "ResolvePaths" task from assembly "C:\Program Files (x86)\MSBuild\Microsoft.Cpp\v4.0\BuildCustomizations\Nvda.Build.CudaTasks.v6.0.dll".
+                   Task "ResolvePaths" (TaskId:28)
+                   Done executing task "ResolvePaths". (TaskId:28)
+14:14:47.447     1>Done building target "AddCudaLinkMetadata" in project "gSLIC.vcxproj".: (TargetId:31)
+14:14:47.447     1>Target "AddCudaLinkMetadata: (TargetId:32)" in file "C:\Program Files (x86)\MSBuild\Microsoft.Cpp\v4.0\BuildCustomizations\CUDA 6.0.targets" from project "C:\TODD5_3D - Copy 05 Feb2014\gSLIC\gSLIC.vcxproj" (target "CudaBuild" depends on it):
+                   Building target "AddCudaLinkMetadata" completely.
+                   No input files were specified.
+                   Task "ResolvePaths" (TaskId:29)
+                   Done executing task "ResolvePaths". (TaskId:29)
+14:14:47.448     1>Done building target "AddCudaLinkMetadata" in project "gSLIC.vcxproj".: (TargetId:32)
+14:14:47.448     1>Target "AddCudaLinkMetadata: (TargetId:33)" in file "C:\Program Files (x86)\MSBuild\Microsoft.Cpp\v4.0\BuildCustomizations\CUDA 6.0.targets" from project "C:\TODD5_3D - Copy 05 Feb2014\gSLIC\gSLIC.vcxproj" (target "CudaBuild" depends on it):
+                   Building target "AddCudaLinkMetadata" completely.
+                   No input files were specified.
+                   Task "ResolvePaths" (TaskId:30)
+                   Done executing task "ResolvePaths". (TaskId:30)
+14:14:47.448     1>Done building target "AddCudaLinkMetadata" in project "gSLIC.vcxproj".: (TargetId:33)
+14:14:47.448     1>Target "AddCudaLinkMetadata: (TargetId:34)" in file "C:\Program Files (x86)\MSBuild\Microsoft.Cpp\v4.0\BuildCustomizations\CUDA 6.0.targets" from project "C:\TODD5_3D - Copy 05 Feb2014\gSLIC\gSLIC.vcxproj" (target "CudaBuild" depends on it):
+                   Building target "AddCudaLinkMetadata" completely.
+                   No input files were specified.
+                   Task "ResolvePaths" (TaskId:31)
+                   Done executing task "ResolvePaths". (TaskId:31)
+14:14:47.448     1>Done building target "AddCudaLinkMetadata" in project "gSLIC.vcxproj".: (TargetId:34)
+                   Target "SetBuildDefaultEnvironmentVariables" skipped. Previously built successfully.
+                   Target "SetUserMacroEnvironmentVariables" skipped, due to false condition; ('@(BuildMacro)' != '') was evaluated as ('' != '').
+                   Target "PrepareForBuild" skipped. Previously built successfully.
+                   Target "AddCudaCompileMetadata" skipped. Previously built successfully.
+14:14:47.448     1>Target "AddCudaCompileDeps: (TargetId:35)" in file "C:\Program Files (x86)\MSBuild\Microsoft.Cpp\v4.0\BuildCustomizations\CUDA 6.0.targets" from project "C:\TODD5_3D - Copy 05 Feb2014\gSLIC\gSLIC.vcxproj" (target "CudaBuild" depends on it):
+                   Building target "AddCudaCompileDeps" completely.
+                   Input file "C:\Program Files\NVIDIA GPU Computing Toolkit\CUDA\v4.1\include\cuda_runtime.h" does not exist.
+                   Using "GenerateDeps" task from assembly "C:\Program Files (x86)\MSBuild\Microsoft.Cpp\v4.0\BuildCustomizations\Nvda.Build.CudaTasks.v6.0.dll".
+                   Task "GenerateDeps" (TaskId:32)
+                     Command: (TaskId:32)
+                     c:\Program Files (x86)\Microsoft Visual Studio 10.0\VC\bin\cl.exe /E /nologo /showIncludes /TP /D__CUDACC__ /D_MBCS /I"C:\Program Files\NVIDIA GPU Computing Toolkit\CUDA\v6.0\include" /I"C:\Program Files\NVIDIA GPU Computing Toolkit\CUDA\v6.0\bin" /I"C:\Program Files\NVIDIA GPU Computing Toolkit\CUDA\v6.0\include" /I. /FIcuda_runtime.h /c "C:\TODD5_3D - Copy 05 Feb2014\gSLIC\cudaImgTrans.cu"  (TaskId:32)
+                     The "GenerateDeps" task is using "cl.exe" from "c:\Program Files (x86)\Microsoft Visual Studio 10.0\VC\bin\cl.exe". (TaskId:32)
+                   Done executing task "GenerateDeps". (TaskId:32)
+                   Task "MakeDir" (TaskId:33)
+                   Done executing task "MakeDir". (TaskId:33)
+                   Task "WriteLinesToFile" (TaskId:34)
+                   Done executing task "WriteLinesToFile". (TaskId:34)
+14:14:47.833     1>Done building target "AddCudaCompileDeps" in project "gSLIC.vcxproj".: (TargetId:35)
+14:14:47.833     1>Target "AddCudaCompileDeps: (TargetId:36)" in file "C:\Program Files (x86)\MSBuild\Microsoft.Cpp\v4.0\BuildCustomizations\CUDA 6.0.targets" from project "C:\TODD5_3D - Copy 05 Feb2014\gSLIC\gSLIC.vcxproj" (target "CudaBuild" depends on it):
+                   Building target "AddCudaCompileDeps" completely.
+                   Input file "C:\Program Files\NVIDIA GPU Computing Toolkit\CUDA\v4.1\include\cuda_runtime.h" does not exist.
+                   Task "GenerateDeps" (TaskId:35)
+                     Command: (TaskId:35)
+                     c:\Program Files (x86)\Microsoft Visual Studio 10.0\VC\bin\cl.exe /E /nologo /showIncludes /TP /D__CUDACC__ /D_MBCS /I"C:\Program Files\NVIDIA GPU Computing Toolkit\CUDA\v6.0\include" /I"C:\Program Files\NVIDIA GPU Computing Toolkit\CUDA\v6.0\bin" /I"C:\Program Files\NVIDIA GPU Computing Toolkit\CUDA\v6.0\include" /I. /FIcuda_runtime.h /c "C:\TODD5_3D - Copy 05 Feb2014\gSLIC\cudaSegEngine.cu"  (TaskId:35)
+                     The "GenerateDeps" task is using "cl.exe" from "c:\Program Files (x86)\Microsoft Visual Studio 10.0\VC\bin\cl.exe". (TaskId:35)
+                   Done executing task "GenerateDeps". (TaskId:35)
+                   Task "MakeDir" (TaskId:36)
+                   Done executing task "MakeDir". (TaskId:36)
+                   Task "WriteLinesToFile" (TaskId:37)
+                   Done executing task "WriteLinesToFile". (TaskId:37)
+14:14:48.223     1>Done building target "AddCudaCompileDeps" in project "gSLIC.vcxproj".: (TargetId:36)
+14:14:48.223     1>Target "AddCudaCompileDeps: (TargetId:37)" in file "C:\Program Files (x86)\MSBuild\Microsoft.Cpp\v4.0\BuildCustomizations\CUDA 6.0.targets" from project "C:\TODD5_3D - Copy 05 Feb2014\gSLIC\gSLIC.vcxproj" (target "CudaBuild" depends on it):
+                   Building target "AddCudaCompileDeps" completely.
+                   Input file "C:\Program Files\NVIDIA GPU Computing Toolkit\CUDA\v4.1\include\cuda_runtime.h" does not exist.
+                   Task "GenerateDeps" (TaskId:38)
+                     Command: (TaskId:38)
+                     c:\Program Files (x86)\Microsoft Visual Studio 10.0\VC\bin\cl.exe /E /nologo /showIncludes /TP /D__CUDACC__ /D_MBCS /I"C:\Program Files\NVIDIA GPU Computing Toolkit\CUDA\v6.0\include" /I"C:\Program Files\NVIDIA GPU Computing Toolkit\CUDA\v6.0\bin" /I"C:\Program Files\NVIDIA GPU Computing Toolkit\CUDA\v6.0\include" /I. /FIcuda_runtime.h /c "C:\TODD5_3D - Copy 05 Feb2014\gSLIC\cudaSegSLIC.cu"  (TaskId:38)
+                     The "GenerateDeps" task is using "cl.exe" from "c:\Program Files (x86)\Microsoft Visual Studio 10.0\VC\bin\cl.exe". (TaskId:38)
+                   Done executing task "GenerateDeps". (TaskId:38)
+                   Task "MakeDir" (TaskId:39)
+                   Done executing task "MakeDir". (TaskId:39)
+                   Task "WriteLinesToFile" (TaskId:40)
+                   Done executing task "WriteLinesToFile". (TaskId:40)
+14:14:48.630     1>Done building target "AddCudaCompileDeps" in project "gSLIC.vcxproj".: (TargetId:37)
+14:14:48.630     1>Target "AddCudaCompileDeps: (TargetId:38)" in file "C:\Program Files (x86)\MSBuild\Microsoft.Cpp\v4.0\BuildCustomizations\CUDA 6.0.targets" from project "C:\TODD5_3D - Copy 05 Feb2014\gSLIC\gSLIC.vcxproj" (target "CudaBuild" depends on it):
+                   Building target "AddCudaCompileDeps" completely.
+                   Input file "C:\Program Files\NVIDIA GPU Computing Toolkit\CUDA\v4.1\include\cuda_runtime.h" does not exist.
+                   Task "GenerateDeps" (TaskId:41)
+                     Command: (TaskId:41)
+                     c:\Program Files (x86)\Microsoft Visual Studio 10.0\VC\bin\cl.exe /E /nologo /showIncludes /TP /D__CUDACC__ /D_MBCS /I"C:\Program Files\NVIDIA GPU Computing Toolkit\CUDA\v6.0\include" /I"C:\Program Files\NVIDIA GPU Computing Toolkit\CUDA\v6.0\bin" /I"C:\Program Files\NVIDIA GPU Computing Toolkit\CUDA\v6.0\include" /I. /FIcuda_runtime.h /c "C:\TODD5_3D - Copy 05 Feb2014\gSLIC\cudaUtil.cu"  (TaskId:41)
+                     The "GenerateDeps" task is using "cl.exe" from "c:\Program Files (x86)\Microsoft Visual Studio 10.0\VC\bin\cl.exe". (TaskId:41)
+                   Done executing task "GenerateDeps". (TaskId:41)
+                   Task "MakeDir" (TaskId:42)
+                   Done executing task "MakeDir". (TaskId:42)
+                   Task "WriteLinesToFile" (TaskId:43)
+                   Done executing task "WriteLinesToFile". (TaskId:43)
+14:14:49.001     1>Done building target "AddCudaCompileDeps" in project "gSLIC.vcxproj".: (TargetId:38)
+                   Target "SetBuildDefaultEnvironmentVariables" skipped. Previously built successfully.
+                   Target "SetUserMacroEnvironmentVariables" skipped, due to false condition; ('@(BuildMacro)' != '') was evaluated as ('' != '').
+                   Target "PrepareForBuild" skipped. Previously built successfully.
+                   Target "AddCudaCompileMetadata" skipped. Previously built successfully.
+14:14:49.001     1>Target "AddCudaCompilePropsDeps: (TargetId:39)" in file "C:\Program Files (x86)\MSBuild\Microsoft.Cpp\v4.0\BuildCustomizations\CUDA 6.0.targets" from project "C:\TODD5_3D - Copy 05 Feb2014\gSLIC\gSLIC.vcxproj" (target "CudaBuild" depends on it):
+                   Building target "AddCudaCompilePropsDeps" completely.
+                   Input file "gSLIC.vcxproj" is newer than output file "Release\cudaImgTrans.cu.cache".
+                   Task "ReadLinesFromFile" (TaskId:44)
+                   Done executing task "ReadLinesFromFile". (TaskId:44)
+                   Using "XmlPeek" task from assembly "Microsoft.Build.Tasks.v4.0, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a".
+                   Task "XmlPeek" (TaskId:45)
+                     Found "CudaToolkitCustomDir". (TaskId:45)
+                     Found "AdditionalDeps". (TaskId:45)
+                     Found "CompileOut". (TaskId:45)
+                     Found "Include". (TaskId:45)
+                     Found "UseHostInclude". (TaskId:45)
+                     Found "Keep". (TaskId:45)
+                     Found "KeepDir". (TaskId:45)
+                     Found "GenerateRelocatableDeviceCode". (TaskId:45)
+                     Found "NvccCompilation". (TaskId:45)
+                     Found "CudaRuntime". (TaskId:45)
+                     Found "NvccPath". (TaskId:45)
+                     Found "RequiredIncludes". (TaskId:45)
+                     Found "TargetMachinePlatform". (TaskId:45)
+                     Found "CInterleavedPTX". (TaskId:45)
+                     Found "CodeGeneration". (TaskId:45)
+                     Found "GPUDebugInfo". (TaskId:45)
+                     Found "GenerateLineInfo". (TaskId:45)
+                     Found "MaxRegCount". (TaskId:45)
+                     Found "PtxAsOptionV". (TaskId:45)
+                     Found "AdditionalCompilerOptions". (TaskId:45)
+                     Found "Defines". (TaskId:45)
+                     Found "UseHostDefines". (TaskId:45)
+                     Found "Emulation". (TaskId:45)
+                     Found "HostDebugInfo". (TaskId:45)
+                     Found "FastMath". (TaskId:45)
+                     Found "Optimization". (TaskId:45)
+                     Found "Runtime". (TaskId:45)
+                     Found "RuntimeChecks". (TaskId:45)
+                     Found "TypeInfo". (TaskId:45)
+                     Found "Warning". (TaskId:45)
+                     Found "AdditionalOptions". (TaskId:45)
+                     Found "CommandLineTemplate". (TaskId:45)
+                     Found "PerformDeviceLink". (TaskId:45)
+                     Found "LinkOut". (TaskId:45)
+                     Found "AdditionalLibraryDirectories". (TaskId:45)
+                     Found "UseHostLibraryDirectories". (TaskId:45)
+                     Found "AdditionalDependencies". (TaskId:45)
+                     Found "UseHostLibraryDependencies". (TaskId:45)
+                     Found "GPUDebugInfo". (TaskId:45)
+                     Found "Optimization". (TaskId:45)
+                     Found "CodeGeneration". (TaskId:45)
+                     Found "TargetMachinePlatform". (TaskId:45)
+                     Found "Warning". (TaskId:45)
+                     Found "RuntimeChecks". (TaskId:45)
+                     Found "Runtime". (TaskId:45)
+                     Found "TypeInfo". (TaskId:45)
+                     Found "AdditionalCompilerOptions". (TaskId:45)
+                     Found "Inputs". (TaskId:45)
+                     Found "AdditionalOptions". (TaskId:45)
+                     Found "CommandLineTemplate". (TaskId:45)
+                   Done executing task "XmlPeek". (TaskId:45)
+                   Using "ReadMetadataLinesFromItems" task from assembly "C:\Program Files (x86)\MSBuild\Microsoft.Cpp\v4.0\BuildCustomizations\Nvda.Build.CudaTasks.v6.0.dll".
+                   Task "ReadMetadataLinesFromItems" (TaskId:46)
+                   Done executing task "ReadMetadataLinesFromItems". (TaskId:46)
+                   Task "WriteLinesToFile" (TaskId:47)
+                   Done executing task "WriteLinesToFile". (TaskId:47)
+14:14:49.005     1>Done building target "AddCudaCompilePropsDeps" in project "gSLIC.vcxproj".: (TargetId:39)
+14:14:49.005     1>Target "AddCudaCompilePropsDeps: (TargetId:40)" in file "C:\Program Files (x86)\MSBuild\Microsoft.Cpp\v4.0\BuildCustomizations\CUDA 6.0.targets" from project "C:\TODD5_3D - Copy 05 Feb2014\gSLIC\gSLIC.vcxproj" (target "CudaBuild" depends on it):
+                   Building target "AddCudaCompilePropsDeps" completely.
+                   Input file "gSLIC.vcxproj" is newer than output file "Release\cudaSegEngine.cu.cache".
+                   Task "ReadLinesFromFile" (TaskId:48)
+                   Done executing task "ReadLinesFromFile". (TaskId:48)
+                   Task "XmlPeek" (TaskId:49)
+                     Found "CudaToolkitCustomDir". (TaskId:49)
+                     Found "AdditionalDeps". (TaskId:49)
+                     Found "CompileOut". (TaskId:49)
+                     Found "Include". (TaskId:49)
+                     Found "UseHostInclude". (TaskId:49)
+                     Found "Keep". (TaskId:49)
+                     Found "KeepDir". (TaskId:49)
+                     Found "GenerateRelocatableDeviceCode". (TaskId:49)
+                     Found "NvccCompilation". (TaskId:49)
+                     Found "CudaRuntime". (TaskId:49)
+                     Found "NvccPath". (TaskId:49)
+                     Found "RequiredIncludes". (TaskId:49)
+                     Found "TargetMachinePlatform". (TaskId:49)
+                     Found "CInterleavedPTX". (TaskId:49)
+                     Found "CodeGeneration". (TaskId:49)
+                     Found "GPUDebugInfo". (TaskId:49)
+                     Found "GenerateLineInfo". (TaskId:49)
+                     Found "MaxRegCount". (TaskId:49)
+                     Found "PtxAsOptionV". (TaskId:49)
+                     Found "AdditionalCompilerOptions". (TaskId:49)
+                     Found "Defines". (TaskId:49)
+                     Found "UseHostDefines". (TaskId:49)
+                     Found "Emulation". (TaskId:49)
+                     Found "HostDebugInfo". (TaskId:49)
+                     Found "FastMath". (TaskId:49)
+                     Found "Optimization". (TaskId:49)
+                     Found "Runtime". (TaskId:49)
+                     Found "RuntimeChecks". (TaskId:49)
+                     Found "TypeInfo". (TaskId:49)
+                     Found "Warning". (TaskId:49)
+                     Found "AdditionalOptions". (TaskId:49)
+                     Found "CommandLineTemplate". (TaskId:49)
+                     Found "PerformDeviceLink". (TaskId:49)
+                     Found "LinkOut". (TaskId:49)
+                     Found "AdditionalLibraryDirectories". (TaskId:49)
+                     Found "UseHostLibraryDirectories". (TaskId:49)
+                     Found "AdditionalDependencies". (TaskId:49)
+                     Found "UseHostLibraryDependencies". (TaskId:49)
+                     Found "GPUDebugInfo". (TaskId:49)
+                     Found "Optimization". (TaskId:49)
+                     Found "CodeGeneration". (TaskId:49)
+                     Found "TargetMachinePlatform". (TaskId:49)
+                     Found "Warning". (TaskId:49)
+                     Found "RuntimeChecks". (TaskId:49)
+                     Found "Runtime". (TaskId:49)
+                     Found "TypeInfo". (TaskId:49)
+                     Found "AdditionalCompilerOptions". (TaskId:49)
+                     Found "Inputs". (TaskId:49)
+                     Found "AdditionalOptions". (TaskId:49)
+                     Found "CommandLineTemplate". (TaskId:49)
+                   Done executing task "XmlPeek". (TaskId:49)
+                   Task "ReadMetadataLinesFromItems" (TaskId:50)
+                   Done executing task "ReadMetadataLinesFromItems". (TaskId:50)
+                   Task "WriteLinesToFile" (TaskId:51)
+                   Done executing task "WriteLinesToFile". (TaskId:51)
+14:14:49.007     1>Done building target "AddCudaCompilePropsDeps" in project "gSLIC.vcxproj".: (TargetId:40)
+14:14:49.007     1>Target "AddCudaCompilePropsDeps: (TargetId:41)" in file "C:\Program Files (x86)\MSBuild\Microsoft.Cpp\v4.0\BuildCustomizations\CUDA 6.0.targets" from project "C:\TODD5_3D - Copy 05 Feb2014\gSLIC\gSLIC.vcxproj" (target "CudaBuild" depends on it):
+                   Building target "AddCudaCompilePropsDeps" completely.
+                   Input file "gSLIC.vcxproj" is newer than output file "Release\cudaSegSLIC.cu.cache".
+                   Task "ReadLinesFromFile" (TaskId:52)
+                   Done executing task "ReadLinesFromFile". (TaskId:52)
+                   Task "XmlPeek" (TaskId:53)
+                     Found "CudaToolkitCustomDir". (TaskId:53)
+                     Found "AdditionalDeps". (TaskId:53)
+                     Found "CompileOut". (TaskId:53)
+                     Found "Include". (TaskId:53)
+                     Found "UseHostInclude". (TaskId:53)
+                     Found "Keep". (TaskId:53)
+                     Found "KeepDir". (TaskId:53)
+                     Found "GenerateRelocatableDeviceCode". (TaskId:53)
+                     Found "NvccCompilation". (TaskId:53)
+                     Found "CudaRuntime". (TaskId:53)
+                     Found "NvccPath". (TaskId:53)
+                     Found "RequiredIncludes". (TaskId:53)
+                     Found "TargetMachinePlatform". (TaskId:53)
+                     Found "CInterleavedPTX". (TaskId:53)
+                     Found "CodeGeneration". (TaskId:53)
+                     Found "GPUDebugInfo". (TaskId:53)
+                     Found "GenerateLineInfo". (TaskId:53)
+                     Found "MaxRegCount". (TaskId:53)
+                     Found "PtxAsOptionV". (TaskId:53)
+                     Found "AdditionalCompilerOptions". (TaskId:53)
+                     Found "Defines". (TaskId:53)
+                     Found "UseHostDefines". (TaskId:53)
+                     Found "Emulation". (TaskId:53)
+                     Found "HostDebugInfo". (TaskId:53)
+                     Found "FastMath". (TaskId:53)
+                     Found "Optimization". (TaskId:53)
+                     Found "Runtime". (TaskId:53)
+                     Found "RuntimeChecks". (TaskId:53)
+                     Found "TypeInfo". (TaskId:53)
+                     Found "Warning". (TaskId:53)
+                     Found "AdditionalOptions". (TaskId:53)
+                     Found "CommandLineTemplate". (TaskId:53)
+                     Found "PerformDeviceLink". (TaskId:53)
+                     Found "LinkOut". (TaskId:53)
+                     Found "AdditionalLibraryDirectories". (TaskId:53)
+                     Found "UseHostLibraryDirectories". (TaskId:53)
+                     Found "AdditionalDependencies". (TaskId:53)
+                     Found "UseHostLibraryDependencies". (TaskId:53)
+                     Found "GPUDebugInfo". (TaskId:53)
+                     Found "Optimization". (TaskId:53)
+                     Found "CodeGeneration". (TaskId:53)
+                     Found "TargetMachinePlatform". (TaskId:53)
+                     Found "Warning". (TaskId:53)
+                     Found "RuntimeChecks". (TaskId:53)
+                     Found "Runtime". (TaskId:53)
+                     Found "TypeInfo". (TaskId:53)
+                     Found "AdditionalCompilerOptions". (TaskId:53)
+                     Found "Inputs". (TaskId:53)
+                     Found "AdditionalOptions". (TaskId:53)
+                     Found "CommandLineTemplate". (TaskId:53)
+                   Done executing task "XmlPeek". (TaskId:53)
+                   Task "ReadMetadataLinesFromItems" (TaskId:54)
+                   Done executing task "ReadMetadataLinesFromItems". (TaskId:54)
+                   Task "WriteLinesToFile" (TaskId:55)
+                   Done executing task "WriteLinesToFile". (TaskId:55)
+14:14:49.014     1>Done building target "AddCudaCompilePropsDeps" in project "gSLIC.vcxproj".: (TargetId:41)
+14:14:49.014     1>Target "AddCudaCompilePropsDeps: (TargetId:42)" in file "C:\Program Files (x86)\MSBuild\Microsoft.Cpp\v4.0\BuildCustomizations\CUDA 6.0.targets" from project "C:\TODD5_3D - Copy 05 Feb2014\gSLIC\gSLIC.vcxproj" (target "CudaBuild" depends on it):
+                   Building target "AddCudaCompilePropsDeps" completely.
+                   Input file "gSLIC.vcxproj" is newer than output file "Release\cudaUtil.cu.cache".
+                   Task "ReadLinesFromFile" (TaskId:56)
+                   Done executing task "ReadLinesFromFile". (TaskId:56)
+                   Task "XmlPeek" (TaskId:57)
+                     Found "CudaToolkitCustomDir". (TaskId:57)
+                     Found "AdditionalDeps". (TaskId:57)
+                     Found "CompileOut". (TaskId:57)
+                     Found "Include". (TaskId:57)
+                     Found "UseHostInclude". (TaskId:57)
+                     Found "Keep". (TaskId:57)
+                     Found "KeepDir". (TaskId:57)
+                     Found "GenerateRelocatableDeviceCode". (TaskId:57)
+                     Found "NvccCompilation". (TaskId:57)
+                     Found "CudaRuntime". (TaskId:57)
+                     Found "NvccPath". (TaskId:57)
+                     Found "RequiredIncludes". (TaskId:57)
+                     Found "TargetMachinePlatform". (TaskId:57)
+                     Found "CInterleavedPTX". (TaskId:57)
+                     Found "CodeGeneration". (TaskId:57)
+                     Found "GPUDebugInfo". (TaskId:57)
+                     Found "GenerateLineInfo". (TaskId:57)
+                     Found "MaxRegCount". (TaskId:57)
+                     Found "PtxAsOptionV". (TaskId:57)
+                     Found "AdditionalCompilerOptions". (TaskId:57)
+                     Found "Defines". (TaskId:57)
+                     Found "UseHostDefines". (TaskId:57)
+                     Found "Emulation". (TaskId:57)
+                     Found "HostDebugInfo". (TaskId:57)
+                     Found "FastMath". (TaskId:57)
+                     Found "Optimization". (TaskId:57)
+                     Found "Runtime". (TaskId:57)
+                     Found "RuntimeChecks". (TaskId:57)
+                     Found "TypeInfo". (TaskId:57)
+                     Found "Warning". (TaskId:57)
+                     Found "AdditionalOptions". (TaskId:57)
+                     Found "CommandLineTemplate". (TaskId:57)
+                     Found "PerformDeviceLink". (TaskId:57)
+                     Found "LinkOut". (TaskId:57)
+                     Found "AdditionalLibraryDirectories". (TaskId:57)
+                     Found "UseHostLibraryDirectories". (TaskId:57)
+                     Found "AdditionalDependencies". (TaskId:57)
+                     Found "UseHostLibraryDependencies". (TaskId:57)
+                     Found "GPUDebugInfo". (TaskId:57)
+                     Found "Optimization". (TaskId:57)
+                     Found "CodeGeneration". (TaskId:57)
+                     Found "TargetMachinePlatform". (TaskId:57)
+                     Found "Warning". (TaskId:57)
+                     Found "RuntimeChecks". (TaskId:57)
+                     Found "Runtime". (TaskId:57)
+                     Found "TypeInfo". (TaskId:57)
+                     Found "AdditionalCompilerOptions". (TaskId:57)
+                     Found "Inputs". (TaskId:57)
+                     Found "AdditionalOptions". (TaskId:57)
+                     Found "CommandLineTemplate". (TaskId:57)
+                   Done executing task "XmlPeek". (TaskId:57)
+                   Task "ReadMetadataLinesFromItems" (TaskId:58)
+                   Done executing task "ReadMetadataLinesFromItems". (TaskId:58)
+                   Task "WriteLinesToFile" (TaskId:59)
+                   Done executing task "WriteLinesToFile". (TaskId:59)
+14:14:49.019     1>Done building target "AddCudaCompilePropsDeps" in project "gSLIC.vcxproj".: (TargetId:42)
+14:14:49.019     1>Target "ValidateCudaBuild: (TargetId:43)" in file "C:\Program Files (x86)\MSBuild\Microsoft.Cpp\v4.0\BuildCustomizations\CUDA 6.0.targets" from project "C:\TODD5_3D - Copy 05 Feb2014\gSLIC\gSLIC.vcxproj" (target "CudaBuild" depends on it):
+                   Task "Error" skipped, due to false condition; (!Exists($(CudaToolkitDir))) was evaluated as (!Exists(C:\Program Files\NVIDIA GPU Computing Toolkit\CUDA\v6.0\)).
+                   Task "Error" skipped, due to false condition; ('$(PlatformToolset)' == 'v120') was evaluated as ('v100' == 'v120').
+14:14:49.019     1>Done building target "ValidateCudaBuild" in project "gSLIC.vcxproj".: (TargetId:43)
+14:14:49.019     1>Target "ValidateCudaCodeGeneration: (TargetId:44)" in file "C:\Program Files (x86)\MSBuild\Microsoft.Cpp\v4.0\BuildCustomizations\CUDA 6.0.targets" from project "C:\TODD5_3D - Copy 05 Feb2014\gSLIC\gSLIC.vcxproj" (target "CudaBuild" depends on it):
+                   Building target "ValidateCudaCodeGeneration" completely.
+                   No input files were specified.
+                   Using "CountItems" task from assembly "C:\Program Files (x86)\MSBuild\Microsoft.Cpp\v4.0\BuildCustomizations\Nvda.Build.CudaTasks.v6.0.dll".
+                   Task "CountItems" (TaskId:60)
+                   Done executing task "CountItems". (TaskId:60)
+                   Task "Error" skipped, due to false condition; ('%(CudaCompile.NvccCompilation)' != 'compile' AND $(ValidateCudaCodeGenerationCount) > 1) was evaluated as ('compile' != 'compile' AND 1 > 1).
+14:14:49.020     1>Done building target "ValidateCudaCodeGeneration" in project "gSLIC.vcxproj".: (TargetId:44)
+14:14:49.020     1>Target "ValidateCudaCodeGeneration: (TargetId:45)" in file "C:\Program Files (x86)\MSBuild\Microsoft.Cpp\v4.0\BuildCustomizations\CUDA 6.0.targets" from project "C:\TODD5_3D - Copy 05 Feb2014\gSLIC\gSLIC.vcxproj" (target "CudaBuild" depends on it):
+                   Building target "ValidateCudaCodeGeneration" completely.
+                   No input files were specified.
+                   Task "CountItems" (TaskId:61)
+                   Done executing task "CountItems". (TaskId:61)
+                   Task "Error" skipped, due to false condition; ('%(CudaCompile.NvccCompilation)' != 'compile' AND $(ValidateCudaCodeGenerationCount) > 1) was evaluated as ('compile' != 'compile' AND 1 > 1).
+14:14:49.020     1>Done building target "ValidateCudaCodeGeneration" in project "gSLIC.vcxproj".: (TargetId:45)
+14:14:49.020     1>Target "ValidateCudaCodeGeneration: (TargetId:46)" in file "C:\Program Files (x86)\MSBuild\Microsoft.Cpp\v4.0\BuildCustomizations\CUDA 6.0.targets" from project "C:\TODD5_3D - Copy 05 Feb2014\gSLIC\gSLIC.vcxproj" (target "CudaBuild" depends on it):
+                   Building target "ValidateCudaCodeGeneration" completely.
+                   No input files were specified.
+                   Task "CountItems" (TaskId:62)
+                   Done executing task "CountItems". (TaskId:62)
+                   Task "Error" skipped, due to false condition; ('%(CudaCompile.NvccCompilation)' != 'compile' AND $(ValidateCudaCodeGenerationCount) > 1) was evaluated as ('compile' != 'compile' AND 1 > 1).
+14:14:49.020     1>Done building target "ValidateCudaCodeGeneration" in project "gSLIC.vcxproj".: (TargetId:46)
+14:14:49.020     1>Target "ValidateCudaCodeGeneration: (TargetId:47)" in file "C:\Program Files (x86)\MSBuild\Microsoft.Cpp\v4.0\BuildCustomizations\CUDA 6.0.targets" from project "C:\TODD5_3D - Copy 05 Feb2014\gSLIC\gSLIC.vcxproj" (target "CudaBuild" depends on it):
+                   Building target "ValidateCudaCodeGeneration" completely.
+                   No input files were specified.
+                   Task "CountItems" (TaskId:63)
+                   Done executing task "CountItems". (TaskId:63)
+                   Task "Error" skipped, due to false condition; ('%(CudaCompile.NvccCompilation)' != 'compile' AND $(ValidateCudaCodeGenerationCount) > 1) was evaluated as ('compile' != 'compile' AND 1 > 1).
+14:14:49.020     1>Done building target "ValidateCudaCodeGeneration" in project "gSLIC.vcxproj".: (TargetId:47)
+14:14:49.020     1>Target "ComputeCudaCompileOutput: (TargetId:48)" in file "C:\Program Files (x86)\MSBuild\Microsoft.Cpp\v4.0\BuildCustomizations\CUDA 6.0.targets" from project "C:\TODD5_3D - Copy 05 Feb2014\gSLIC\gSLIC.vcxproj" (target "CudaBuild" depends on it):
+                   Building target "ComputeCudaCompileOutput" completely.
+                   No input files were specified.
+14:14:49.020     1>Done building target "ComputeCudaCompileOutput" in project "gSLIC.vcxproj".: (TargetId:48)
+14:14:49.020     1>Target "ComputeCudaCompileOutput: (TargetId:49)" in file "C:\Program Files (x86)\MSBuild\Microsoft.Cpp\v4.0\BuildCustomizations\CUDA 6.0.targets" from project "C:\TODD5_3D - Copy 05 Feb2014\gSLIC\gSLIC.vcxproj" (target "CudaBuild" depends on it):
+                   Building target "ComputeCudaCompileOutput" completely.
+                   No input files were specified.
+14:14:49.020     1>Done building target "ComputeCudaCompileOutput" in project "gSLIC.vcxproj".: (TargetId:49)
+14:14:49.020     1>Target "ComputeCudaCompileOutput: (TargetId:50)" in file "C:\Program Files (x86)\MSBuild\Microsoft.Cpp\v4.0\BuildCustomizations\CUDA 6.0.targets" from project "C:\TODD5_3D - Copy 05 Feb2014\gSLIC\gSLIC.vcxproj" (target "CudaBuild" depends on it):
+                   Building target "ComputeCudaCompileOutput" completely.
+                   No input files were specified.
+14:14:49.021     1>Done building target "ComputeCudaCompileOutput" in project "gSLIC.vcxproj".: (TargetId:50)
+14:14:49.021     1>Target "ComputeCudaCompileOutput: (TargetId:51)" in file "C:\Program Files (x86)\MSBuild\Microsoft.Cpp\v4.0\BuildCustomizations\CUDA 6.0.targets" from project "C:\TODD5_3D - Copy 05 Feb2014\gSLIC\gSLIC.vcxproj" (target "CudaBuild" depends on it):
+                   Building target "ComputeCudaCompileOutput" completely.
+                   No input files were specified.
+14:14:49.021     1>Done building target "ComputeCudaCompileOutput" in project "gSLIC.vcxproj".: (TargetId:51)
+14:14:49.021     1>Target "PrepareForCudaBuild: (TargetId:52)" in file "C:\Program Files (x86)\MSBuild\Microsoft.Cpp\v4.0\BuildCustomizations\CUDA 6.0.targets" from project "C:\TODD5_3D - Copy 05 Feb2014\gSLIC\gSLIC.vcxproj" (target "CudaBuild" depends on it):
+                   Task "SanitizePaths" (TaskId:64)
+                   Done executing task "SanitizePaths". (TaskId:64)
+                   Using "CudaSetEnvironmentVariable" task from assembly "C:\Program Files (x86)\MSBuild\Microsoft.Cpp\v4.0\BuildCustomizations\Nvda.Build.CudaTasks.v6.0.dll".
+                   Task "CudaSetEnvironmentVariable" (TaskId:65)
+                     Nvda.Build.CudaTasks.CudaSetEnvironmentVariable: Setting 'CUDAFE_FLAGS' to '--sdk_dir "C:\Program Files (x86)\Microsoft SDKs\Windows\v7.0A"' (TaskId:65)
+                   Done executing task "CudaSetEnvironmentVariable". (TaskId:65)
+14:14:49.023     1>Done building target "PrepareForCudaBuild" in project "gSLIC.vcxproj".: (TargetId:52)
+14:14:49.023     1>Target "CudaBuild: (TargetId:53)" in file "C:\Program Files (x86)\MSBuild\Microsoft.Cpp\v4.0\BuildCustomizations\CUDA 6.0.targets" from project "C:\TODD5_3D - Copy 05 Feb2014\gSLIC\gSLIC.vcxproj" (target "BuildGenerateSources" depends on it):
+                   Building target "CudaBuild" completely.
+                   Input file "gSLIC.vcxproj" is newer than output file "Release\cudaImgTrans.cu.obj".
+                   Task "Message" (TaskId:66)
+                     Compiling CUDA source file cudaImgTrans.cu... (TaskId:66)
+                   Done executing task "Message". (TaskId:66)
+                   Task "Message" skipped, due to false condition; ('%(CudaCompile.ExcludedFromBuild)' == 'true') was evaluated as ('' == 'true').
+                   Task "MakeDir" skipped, due to false condition; (!Exists('$(CompileOutDir)')) was evaluated as (!Exists('C:\TODD5_3D - Copy 05 Feb2014\gSLIC\Release')).
+                   Task "MakeDir" skipped, due to false condition; ('%(CudaCompile.Keep)' == 'true' AND !Exists('%(CudaCompile.KeepDir)')) was evaluated as ('false' == 'true' AND !Exists('Release')).
+                   Initializing task factory "XamlTaskFactory" from assembly "Microsoft.Build.Tasks.v4.0".
+                   Using "CudaCompile" task from the task factory "XamlTaskFactory".
+                   Task "CudaCompile" (TaskId:67)
+                     cmd.exe /C "C:\Users\Hossein\AppData\Local\Temp\tmp7aa510587bf54b2e9d47cf09ead3b6e3.cmd" (TaskId:67)
+                     "C:\Program Files\NVIDIA GPU Computing Toolkit\CUDA\v6.0\bin\nvcc.exe" -gencode=arch=compute_20,code=\"sm_20,compute_20\" --use-local-env --cl-version 2010 -ccbin "c:\Program Files (x86)\Microsoft Visual Studio 10.0\VC\bin"  -I"C:\Program Files\NVIDIA GPU Computing Toolkit\CUDA\v6.0\include" -I"C:\Program Files\NVIDIA GPU Computing Toolkit\CUDA\v6.0\include"     --keep-dir Release -maxrregcount=0  --machine 32 --compile -cudart static     -D_MBCS -Xcompiler "/EHsc /W3 /nologo /O2 /Zi  /MD  " -o Release\cudaImgTrans.cu.obj "C:\TODD5_3D - Copy 05 Feb2014\gSLIC\cudaImgTrans.cu" (TaskId:67)
+                      (TaskId:67)
+                     C:\TODD5_3D - Copy 05 Feb2014\gSLIC>"C:\Program Files\NVIDIA GPU Computing Toolkit\CUDA\v6.0\bin\nvcc.exe" -gencode=arch=compute_20,code=\"sm_20,compute_20\" --use-local-env --cl-version 2010 -ccbin "c:\Program Files (x86)\Microsoft Visual Studio 10.0\VC\bin"  -I"C:\Program Files\NVIDIA GPU Computing Toolkit\CUDA\v6.0\include" -I"C:\Program Files\NVIDIA GPU Computing Toolkit\CUDA\v6.0\include"     --keep-dir Release -maxrregcount=0  --machine 32 --compile -cudart static     -D_MBCS -Xcompiler "/EHsc /W3 /nologo /O2 /Zi  /MD  " -o Release\cudaImgTrans.cu.obj "C:\TODD5_3D - Copy 05 Feb2014\gSLIC\cudaImgTrans.cu"  (TaskId:67)
+                     cudaImgTrans.cu (TaskId:67)
+                   Done executing task "CudaCompile". (TaskId:67)
+                   Using "Delete" task from assembly "Microsoft.Build.Tasks.v4.0, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a".
+                   Task "Delete" (TaskId:68)
+                   Done executing task "Delete". (TaskId:68)
+14:14:51.768     1>Done building target "CudaBuild" in project "gSLIC.vcxproj".: (TargetId:53)
+14:14:51.768     1>Target "CudaBuild: (TargetId:54)" in file "C:\Program Files (x86)\MSBuild\Microsoft.Cpp\v4.0\BuildCustomizations\CUDA 6.0.targets" from project "C:\TODD5_3D - Copy 05 Feb2014\gSLIC\gSLIC.vcxproj" (target "BuildGenerateSources" depends on it):
+                   Building target "CudaBuild" completely.
+                   Input file "gSLIC.vcxproj" is newer than output file "Release\cudaSegEngine.cu.obj".
+                   Task "Message" (TaskId:69)
+                     Compiling CUDA source file cudaSegEngine.cu... (TaskId:69)
+                   Done executing task "Message". (TaskId:69)
+                   Task "Message" skipped, due to false condition; ('%(CudaCompile.ExcludedFromBuild)' == 'true') was evaluated as ('' == 'true').
+                   Task "MakeDir" skipped, due to false condition; (!Exists('$(CompileOutDir)')) was evaluated as (!Exists('C:\TODD5_3D - Copy 05 Feb2014\gSLIC\Release')).
+                   Task "MakeDir" skipped, due to false condition; ('%(CudaCompile.Keep)' == 'true' AND !Exists('%(CudaCompile.KeepDir)')) was evaluated as ('false' == 'true' AND !Exists('Release')).
+                   Task "CudaCompile" (TaskId:70)
+                     cmd.exe /C "C:\Users\Hossein\AppData\Local\Temp\tmp624f79ec87f84a229e8c5df6222495c9.cmd" (TaskId:70)
+                     "C:\Program Files\NVIDIA GPU Computing Toolkit\CUDA\v6.0\bin\nvcc.exe" -gencode=arch=compute_20,code=\"sm_20,compute_20\" --use-local-env --cl-version 2010 -ccbin "c:\Program Files (x86)\Microsoft Visual Studio 10.0\VC\bin"  -I"C:\Program Files\NVIDIA GPU Computing Toolkit\CUDA\v6.0\include" -I"C:\Program Files\NVIDIA GPU Computing Toolkit\CUDA\v6.0\include"     --keep-dir Release -maxrregcount=0  --machine 32 --compile -cudart static     -D_MBCS -Xcompiler "/EHsc /W3 /nologo /O2 /Zi  /MD  " -o Release\cudaSegEngine.cu.obj "C:\TODD5_3D - Copy 05 Feb2014\gSLIC\cudaSegEngine.cu" (TaskId:70)
+                      (TaskId:70)
+                     C:\TODD5_3D - Copy 05 Feb2014\gSLIC>"C:\Program Files\NVIDIA GPU Computing Toolkit\CUDA\v6.0\bin\nvcc.exe" -gencode=arch=compute_20,code=\"sm_20,compute_20\" --use-local-env --cl-version 2010 -ccbin "c:\Program Files (x86)\Microsoft Visual Studio 10.0\VC\bin"  -I"C:\Program Files\NVIDIA GPU Computing Toolkit\CUDA\v6.0\include" -I"C:\Program Files\NVIDIA GPU Computing Toolkit\CUDA\v6.0\include"     --keep-dir Release -maxrregcount=0  --machine 32 --compile -cudart static     -D_MBCS -Xcompiler "/EHsc /W3 /nologo /O2 /Zi  /MD  " -o Release\cudaSegEngine.cu.obj "C:\TODD5_3D - Copy 05 Feb2014\gSLIC\cudaSegEngine.cu"  (TaskId:70)
+14:14:53.516     1>C:/TODD5_3D - Copy 05 Feb2014/gSLIC/cudaSegEngine.cu(55): warning : a __device__ variable "floatBuffer" cannot be directly read in a host function
+                      (TaskId:70)
+14:14:53.516     1>C:/TODD5_3D - Copy 05 Feb2014/gSLIC/cudaSegEngine.cu(56): warning : a __device__ variable "maskBuffer" cannot be directly read in a host function
+                      (TaskId:70)
+14:14:53.516     1>C:/TODD5_3D - Copy 05 Feb2014/gSLIC/cudaSegEngine.cu(81): warning : a __device__ variable "vSLICCenterList" cannot be directly read in a host function
+                      (TaskId:70)
+14:14:53.517     1>C:/TODD5_3D - Copy 05 Feb2014/gSLIC/cudaSegEngine.cu(93): warning : a __device__ variable "rgbBuffer" cannot be directly read in a host function
+                      (TaskId:70)
+14:14:53.517     1>C:/TODD5_3D - Copy 05 Feb2014/gSLIC/cudaSegEngine.cu(105): warning : a __device__ variable "rgbBuffer" cannot be directly read in a host function
+                      (TaskId:70)
+14:14:53.517     1>C:/TODD5_3D - Copy 05 Feb2014/gSLIC/cudaSegEngine.cu(106): warning : a __device__ variable "floatBuffer" cannot be directly read in a host function
+                      (TaskId:70)
+14:14:53.517     1>C:/TODD5_3D - Copy 05 Feb2014/gSLIC/cudaSegEngine.cu(107): warning : a __device__ variable "maskBuffer" cannot be directly read in a host function
+                      (TaskId:70)
+14:14:53.517     1>C:/TODD5_3D - Copy 05 Feb2014/gSLIC/cudaSegEngine.cu(113): warning : a __device__ variable "vSLICCenterList" cannot be directly read in a host function
+                      (TaskId:70)
+14:14:53.518     1>C:/TODD5_3D - Copy 05 Feb2014/gSLIC/cudaSegEngine.cu(127): warning : a __device__ variable "rgbBuffer" cannot be directly read in a host function
+                      (TaskId:70)
+14:14:53.518     1>C:/TODD5_3D - Copy 05 Feb2014/gSLIC/cudaSegEngine.cu(127): warning : a __device__ variable "floatBuffer" cannot be directly read in a host function
+                      (TaskId:70)
+14:14:53.518     1>C:/TODD5_3D - Copy 05 Feb2014/gSLIC/cudaSegEngine.cu(128): warning : a __device__ variable "maskBuffer" cannot be directly read in a host function
+                      (TaskId:70)
+14:14:53.518     1>C:/TODD5_3D - Copy 05 Feb2014/gSLIC/cudaSegEngine.cu(128): warning : a __device__ variable "floatBuffer" cannot be directly read in a host function
+                      (TaskId:70)
+14:14:53.518     1>C:/TODD5_3D - Copy 05 Feb2014/gSLIC/cudaSegEngine.cu(128): warning : a __device__ variable "vSLICCenterList" cannot be directly read in a host function
+                      (TaskId:70)
+14:14:53.518     1>C:/TODD5_3D - Copy 05 Feb2014/gSLIC/cudaSegEngine.cu(133): warning : a __device__ variable "rgbBuffer" cannot be directly read in a host function
+                      (TaskId:70)
+14:14:53.518     1>C:/TODD5_3D - Copy 05 Feb2014/gSLIC/cudaSegEngine.cu(133): warning : a __device__ variable "floatBuffer" cannot be directly read in a host function
+                      (TaskId:70)
+14:14:53.518     1>C:/TODD5_3D - Copy 05 Feb2014/gSLIC/cudaSegEngine.cu(134): warning : a __device__ variable "maskBuffer" cannot be directly read in a host function
+                      (TaskId:70)
+14:14:53.518     1>C:/TODD5_3D - Copy 05 Feb2014/gSLIC/cudaSegEngine.cu(134): warning : a __device__ variable "floatBuffer" cannot be directly read in a host function
+                      (TaskId:70)
+14:14:53.518     1>C:/TODD5_3D - Copy 05 Feb2014/gSLIC/cudaSegEngine.cu(134): warning : a __device__ variable "vSLICCenterList" cannot be directly read in a host function
+                      (TaskId:70)
+14:14:53.518     1>C:/TODD5_3D - Copy 05 Feb2014/gSLIC/cudaSegEngine.cu(138): warning : a __device__ variable "rgbBuffer" cannot be directly read in a host function
+                      (TaskId:70)
+14:14:53.518     1>C:/TODD5_3D - Copy 05 Feb2014/gSLIC/cudaSegEngine.cu(138): warning : a __device__ variable "floatBuffer" cannot be directly read in a host function
+                      (TaskId:70)
+14:14:53.518     1>C:/TODD5_3D - Copy 05 Feb2014/gSLIC/cudaSegEngine.cu(139): warning : a __device__ variable "maskBuffer" cannot be directly read in a host function
+                      (TaskId:70)
+14:14:53.518     1>C:/TODD5_3D - Copy 05 Feb2014/gSLIC/cudaSegEngine.cu(139): warning : a __device__ variable "floatBuffer" cannot be directly read in a host function
+                      (TaskId:70)
+14:14:53.518     1>C:/TODD5_3D - Copy 05 Feb2014/gSLIC/cudaSegEngine.cu(139): warning : a __device__ variable "vSLICCenterList" cannot be directly read in a host function
+                      (TaskId:70)
+14:14:53.518     1>C:/TODD5_3D - Copy 05 Feb2014/gSLIC/cudaSegEngine.cu(150): warning : a __device__ variable "rgbBuffer" cannot be directly read in a host function
+                      (TaskId:70)
+14:14:53.518     1>C:/TODD5_3D - Copy 05 Feb2014/gSLIC/cudaSegEngine.cu(158): warning : a __device__ variable "maskBuffer" cannot be directly read in a host function
+                      (TaskId:70)
+                     cudaSegEngine.cu (TaskId:70)
+                   Done executing task "CudaCompile". (TaskId:70)
+                   Task "Delete" (TaskId:71)
+                   Done executing task "Delete". (TaskId:71)
+14:14:54.408     1>Done building target "CudaBuild" in project "gSLIC.vcxproj".: (TargetId:54)
+14:14:54.408     1>Target "CudaBuild: (TargetId:55)" in file "C:\Program Files (x86)\MSBuild\Microsoft.Cpp\v4.0\BuildCustomizations\CUDA 6.0.targets" from project "C:\TODD5_3D - Copy 05 Feb2014\gSLIC\gSLIC.vcxproj" (target "BuildGenerateSources" depends on it):
+                   Building target "CudaBuild" completely.
+                   Input file "gSLIC.vcxproj" is newer than output file "Release\cudaSegSLIC.cu.obj".
+                   Task "Message" (TaskId:72)
+                     Compiling CUDA source file cudaSegSLIC.cu... (TaskId:72)
+                   Done executing task "Message". (TaskId:72)
+                   Task "Message" skipped, due to false condition; ('%(CudaCompile.ExcludedFromBuild)' == 'true') was evaluated as ('' == 'true').
+                   Task "MakeDir" skipped, due to false condition; (!Exists('$(CompileOutDir)')) was evaluated as (!Exists('C:\TODD5_3D - Copy 05 Feb2014\gSLIC\Release')).
+                   Task "MakeDir" skipped, due to false condition; ('%(CudaCompile.Keep)' == 'true' AND !Exists('%(CudaCompile.KeepDir)')) was evaluated as ('false' == 'true' AND !Exists('Release')).
+                   Task "CudaCompile" (TaskId:73)
+                     cmd.exe /C "C:\Users\Hossein\AppData\Local\Temp\tmpa18c53dd41754e10b03b00f8a2cade10.cmd" (TaskId:73)
+                     "C:\Program Files\NVIDIA GPU Computing Toolkit\CUDA\v6.0\bin\nvcc.exe" -gencode=arch=compute_20,code=\"sm_20,compute_20\" --use-local-env --cl-version 2010 -ccbin "c:\Program Files (x86)\Microsoft Visual Studio 10.0\VC\bin"  -I"C:\Program Files\NVIDIA GPU Computing Toolkit\CUDA\v6.0\include" -I"C:\Program Files\NVIDIA GPU Computing Toolkit\CUDA\v6.0\include"     --keep-dir Release -maxrregcount=0  --machine 32 --compile -cudart static     -D_MBCS -Xcompiler "/EHsc /W3 /nologo /O2 /Zi  /MD  " -o Release\cudaSegSLIC.cu.obj "C:\TODD5_3D - Copy 05 Feb2014\gSLIC\cudaSegSLIC.cu" (TaskId:73)
+                      (TaskId:73)
+                     C:\TODD5_3D - Copy 05 Feb2014\gSLIC>"C:\Program Files\NVIDIA GPU Computing Toolkit\CUDA\v6.0\bin\nvcc.exe" -gencode=arch=compute_20,code=\"sm_20,compute_20\" --use-local-env --cl-version 2010 -ccbin "c:\Program Files (x86)\Microsoft Visual Studio 10.0\VC\bin"  -I"C:\Program Files\NVIDIA GPU Computing Toolkit\CUDA\v6.0\include" -I"C:\Program Files\NVIDIA GPU Computing Toolkit\CUDA\v6.0\include"     --keep-dir Release -maxrregcount=0  --machine 32 --compile -cudart static     -D_MBCS -Xcompiler "/EHsc /W3 /nologo /O2 /Zi  /MD  " -o Release\cudaSegSLIC.cu.obj "C:\TODD5_3D - Copy 05 Feb2014\gSLIC\cudaSegSLIC.cu"  (TaskId:73)
+14:14:55.205     1>C:/TODD5_3D - Copy 05 Feb2014/gSLIC/cudaSegSLIC.cu(75): warning : variable "pixelUpdateList" was set but never used
+                      (TaskId:73)
+14:14:55.206     1>C:/TODD5_3D - Copy 05 Feb2014/gSLIC/cudaSegSLIC.cu(76): warning : variable "pixelUpdateIdx" was set but never used
+                      (TaskId:73)
+14:14:55.207     1>C:/TODD5_3D - Copy 05 Feb2014/gSLIC/cudaSegSLIC.cu(197): warning : variable "offsetBlock" was declared but never referenced
+                      (TaskId:73)
+14:14:56.159     1>C:/TODD5_3D - Copy 05 Feb2014/gSLIC/cudaSegSLIC.cu(75): warning : variable "pixelUpdateList" was set but never used
+                      (TaskId:73)
+14:14:56.160     1>C:/TODD5_3D - Copy 05 Feb2014/gSLIC/cudaSegSLIC.cu(76): warning : variable "pixelUpdateIdx" was set but never used
+                      (TaskId:73)
+14:14:56.161     1>C:/TODD5_3D - Copy 05 Feb2014/gSLIC/cudaSegSLIC.cu(197): warning : variable "offsetBlock" was declared but never referenced
+                      (TaskId:73)
+                     cudaSegSLIC.cu (TaskId:73)
+                   Done executing task "CudaCompile". (TaskId:73)
+                   Task "Delete" (TaskId:74)
+                   Done executing task "Delete". (TaskId:74)
+14:14:57.053     1>Done building target "CudaBuild" in project "gSLIC.vcxproj".: (TargetId:55)
+14:14:57.053     1>Target "CudaBuild: (TargetId:56)" in file "C:\Program Files (x86)\MSBuild\Microsoft.Cpp\v4.0\BuildCustomizations\CUDA 6.0.targets" from project "C:\TODD5_3D - Copy 05 Feb2014\gSLIC\gSLIC.vcxproj" (target "BuildGenerateSources" depends on it):
+                   Building target "CudaBuild" completely.
+                   Input file "gSLIC.vcxproj" is newer than output file "Release\cudaUtil.cu.obj".
+                   Task "Message" (TaskId:75)
+                     Compiling CUDA source file cudaUtil.cu... (TaskId:75)
+                   Done executing task "Message". (TaskId:75)
+                   Task "Message" skipped, due to false condition; ('%(CudaCompile.ExcludedFromBuild)' == 'true') was evaluated as ('' == 'true').
+                   Task "MakeDir" skipped, due to false condition; (!Exists('$(CompileOutDir)')) was evaluated as (!Exists('C:\TODD5_3D - Copy 05 Feb2014\gSLIC\Release')).
+                   Task "MakeDir" skipped, due to false condition; ('%(CudaCompile.Keep)' == 'true' AND !Exists('%(CudaCompile.KeepDir)')) was evaluated as ('false' == 'true' AND !Exists('Release')).
+                   Task "CudaCompile" (TaskId:76)
+                     cmd.exe /C "C:\Users\Hossein\AppData\Local\Temp\tmpeab4aeaa54884a7abba8ba2d7ec6faa6.cmd" (TaskId:76)
+                     "C:\Program Files\NVIDIA GPU Computing Toolkit\CUDA\v6.0\bin\nvcc.exe" -gencode=arch=compute_20,code=\"sm_20,compute_20\" --use-local-env --cl-version 2010 -ccbin "c:\Program Files (x86)\Microsoft Visual Studio 10.0\VC\bin"  -I"C:\Program Files\NVIDIA GPU Computing Toolkit\CUDA\v6.0\include" -I"C:\Program Files\NVIDIA GPU Computing Toolkit\CUDA\v6.0\include"     --keep-dir Release -maxrregcount=0  --machine 32 --compile -cudart static     -D_MBCS -Xcompiler "/EHsc /W3 /nologo /O2 /Zi  /MD  " -o Release\cudaUtil.cu.obj "C:\TODD5_3D - Copy 05 Feb2014\gSLIC\cudaUtil.cu" (TaskId:76)
+                      (TaskId:76)
+                     C:\TODD5_3D - Copy 05 Feb2014\gSLIC>"C:\Program Files\NVIDIA GPU Computing Toolkit\CUDA\v6.0\bin\nvcc.exe" -gencode=arch=compute_20,code=\"sm_20,compute_20\" --use-local-env --cl-version 2010 -ccbin "c:\Program Files (x86)\Microsoft Visual Studio 10.0\VC\bin"  -I"C:\Program Files\NVIDIA GPU Computing Toolkit\CUDA\v6.0\include" -I"C:\Program Files\NVIDIA GPU Computing Toolkit\CUDA\v6.0\include"     --keep-dir Release -maxrregcount=0  --machine 32 --compile -cudart static     -D_MBCS -Xcompiler "/EHsc /W3 /nologo /O2 /Zi  /MD  " -o Release\cudaUtil.cu.obj "C:\TODD5_3D - Copy 05 Feb2014\gSLIC\cudaUtil.cu"  (TaskId:76)
+                     cudaUtil.cu (TaskId:76)
+                   Done executing task "CudaCompile". (TaskId:76)
+                   Task "Delete" (TaskId:77)
+                   Done executing task "Delete". (TaskId:77)
+14:14:59.676     1>Done building target "CudaBuild" in project "gSLIC.vcxproj".: (TargetId:56)
+14:14:59.676     1>Target "_GenerateXMLData: (TargetId:57)" in file "C:\Program Files (x86)\MSBuild\Microsoft.Cpp\v4.0\Microsoft.CppBuild.targets" from project "C:\TODD5_3D - Copy 05 Feb2014\gSLIC\gSLIC.vcxproj" (target "BuildGenerateSources" depends on it):
+14:14:59.676     1>Done building target "_GenerateXMLData" in project "gSLIC.vcxproj".: (TargetId:57)
+14:14:59.677     1>Target "_GenerateWebServiceProxy: (TargetId:58)" in file "C:\Program Files (x86)\MSBuild\Microsoft.Cpp\v4.0\Microsoft.CppBuild.targets" from project "C:\TODD5_3D - Copy 05 Feb2014\gSLIC\gSLIC.vcxproj" (target "BuildGenerateSources" depends on it):
+14:14:59.677     1>Done building target "_GenerateWebServiceProxy" in project "gSLIC.vcxproj".: (TargetId:58)
+                   Target "Xsd" skipped, due to false condition; ('@(Xsd)' != '') was evaluated as ('' != '').
+14:14:59.677     1>Target "_Xsd: (TargetId:59)" in file "C:\Program Files (x86)\MSBuild\Microsoft.Cpp\v4.0\Microsoft.CppBuild.targets" from project "C:\TODD5_3D - Copy 05 Feb2014\gSLIC\gSLIC.vcxproj" (target "BuildGenerateSources" depends on it):
+14:14:59.677     1>Done building target "_Xsd" in project "gSLIC.vcxproj".: (TargetId:59)
+14:14:59.677     1>Target "MakeDirsForMidl: (TargetId:60)" in file "C:\Program Files (x86)\MSBuild\Microsoft.Cpp\v4.0\Microsoft.CppBuild.targets" from project "C:\TODD5_3D - Copy 05 Feb2014\gSLIC\gSLIC.vcxproj" (target "_Midl" depends on it):
+                   Task "Makedir" (TaskId:78)
+                   Done executing task "Makedir". (TaskId:78)
+14:14:59.685     1>Done building target "MakeDirsForMidl" in project "gSLIC.vcxproj".: (TargetId:60)
+                   Target "Midl" skipped, due to false condition; ('@(Midl)' != '') was evaluated as ('' != '').
+                   Target "CustomBuild" skipped, due to false condition; ('@(CustomBuild)' != '') was evaluated as ('' != '').
+14:14:59.685     1>Target "ComputeMIDLGeneratedCompileInputs: (TargetId:61)" in file "C:\Program Files (x86)\MSBuild\Microsoft.Cpp\v4.0\Microsoft.CppBuild.targets" from project "C:\TODD5_3D - Copy 05 Feb2014\gSLIC\gSLIC.vcxproj" (target "_Midl" depends on it):
+14:14:59.685     1>Done building target "ComputeMIDLGeneratedCompileInputs" in project "gSLIC.vcxproj".: (TargetId:61)
+14:14:59.685     1>Target "AfterMidl: (TargetId:62)" in file "C:\Program Files (x86)\MSBuild\Microsoft.Cpp\v4.0\Microsoft.CppBuild.targets" from project "C:\TODD5_3D - Copy 05 Feb2014\gSLIC\gSLIC.vcxproj" (target "_Midl" depends on it):
+14:14:59.685     1>Done building target "AfterMidl" in project "gSLIC.vcxproj".: (TargetId:62)
+14:14:59.685     1>Target "_Midl: (TargetId:63)" in file "C:\Program Files (x86)\MSBuild\Microsoft.Cpp\v4.0\Microsoft.CppBuild.targets" from project "C:\TODD5_3D - Copy 05 Feb2014\gSLIC\gSLIC.vcxproj" (target "BuildGenerateSources" depends on it):
+14:14:59.685     1>Done building target "_Midl" in project "gSLIC.vcxproj".: (TargetId:63)
+14:14:59.685     1>Target "AfterBuildGenerateSources: (TargetId:64)" in file "C:\Program Files (x86)\MSBuild\Microsoft.Cpp\v4.0\Microsoft.BuildSteps.Targets" from project "C:\TODD5_3D - Copy 05 Feb2014\gSLIC\gSLIC.vcxproj" (target "BuildGenerateSources" depends on it):
+14:14:59.685     1>Done building target "AfterBuildGenerateSources" in project "gSLIC.vcxproj".: (TargetId:64)
+14:14:59.685     1>Target "AfterBuildGenerateSourcesEvent: (TargetId:65)" in file "C:\Program Files (x86)\MSBuild\Microsoft.Cpp\v4.0\Microsoft.CppBuild.targets" from project "C:\TODD5_3D - Copy 05 Feb2014\gSLIC\gSLIC.vcxproj" (target "BuildGenerateSources" depends on it):
+14:14:59.685     1>Done building target "AfterBuildGenerateSourcesEvent" in project "gSLIC.vcxproj".: (TargetId:65)
+14:14:59.685     1>Target "BuildGenerateSources: (TargetId:66)" in file "C:\Windows\Microsoft.NET\Framework\v4.0.30319\Microsoft.Common.Targets" from project "C:\TODD5_3D - Copy 05 Feb2014\gSLIC\gSLIC.vcxproj" (target "Build" depends on it):
+14:14:59.685     1>Done building target "BuildGenerateSources" in project "gSLIC.vcxproj".: (TargetId:66)
+                   Target "AssignProjectConfiguration" skipped. Previously built successfully.
+                   Target "_SplitProjectReferencesByFileExistence" skipped. Previously built successfully.
+14:14:59.685     1>Target "BuildCompileTraverse: (TargetId:67)" in file "C:\Windows\Microsoft.NET\Framework\v4.0.30319\Microsoft.Common.Targets" from project "C:\TODD5_3D - Copy 05 Feb2014\gSLIC\gSLIC.vcxproj" (target "BuildCompile" depends on it):
+                   Task "MSBuild" skipped, due to false condition; ('$(BuildPassReferences)' == 'true' and '@(ProjectReferenceWithConfiguration)' != '' and '@(_MSBuildProjectReferenceExistent)' != ''  and '%(_MSBuildProjectReferenceExistent.BuildReference)' == 'true') was evaluated as ('' == 'true' and '' != '' and '' != ''  and '' == 'true').
+14:14:59.685     1>Done building target "BuildCompileTraverse" in project "gSLIC.vcxproj".: (TargetId:67)
+                   Target "SetBuildDefaultEnvironmentVariables" skipped. Previously built successfully.
+                   Target "SetUserMacroEnvironmentVariables" skipped, due to false condition; ('@(BuildMacro)' != '') was evaluated as ('' != '').
+                   Target "PrepareForBuild" skipped. Previously built successfully.
+                   Target "ResolveReferences" skipped. Previously built successfully.
+14:14:59.685     1>Target "BeforeClCompile: (TargetId:68)" in file "C:\Program Files (x86)\MSBuild\Microsoft.Cpp\v4.0\Microsoft.CppBuild.targets" from project "C:\TODD5_3D - Copy 05 Feb2014\gSLIC\gSLIC.vcxproj" (target "_ClCompile" depends on it):
+14:14:59.685     1>Done building target "BeforeClCompile" in project "gSLIC.vcxproj".: (TargetId:68)
+                   Target "ComputeMIDLGeneratedCompileInputs" skipped. Previously built successfully.
+14:14:59.685     1>Target "ComputeCLInputPDBName: (TargetId:69)" in file "C:\Program Files (x86)\MSBuild\Microsoft.Cpp\v4.0\Microsoft.CppBuild.targets" from project "C:\TODD5_3D - Copy 05 Feb2014\gSLIC\gSLIC.vcxproj" (target "_ClCompile" depends on it):
+14:14:59.685     1>Done building target "ComputeCLInputPDBName" in project "gSLIC.vcxproj".: (TargetId:69)
+                   Target "ResolveReferences" skipped. Previously built successfully.
+14:14:59.685     1>Target "ComputeReferenceCLInput: (TargetId:70)" in file "C:\Program Files (x86)\MSBuild\Microsoft.Cpp\v4.0\Microsoft.CppBuild.targets" from project "C:\TODD5_3D - Copy 05 Feb2014\gSLIC\gSLIC.vcxproj" (target "_ClCompile" depends on it):
+                   Task "WriteLinesToFile" (TaskId:79)
+                   Done executing task "WriteLinesToFile". (TaskId:79)
+                   Task "Message" skipped, due to false condition; ('$(_REFERENCE_DEBUG)'=='true' and '%(ClCompile.CompileAsManaged)' != 'false' and '%(ClCompile.CompileAsManaged)' != '') was evaluated as (''=='true' and '' != 'false' and '' != '').
+14:14:59.686     1>Done building target "ComputeReferenceCLInput" in project "gSLIC.vcxproj".: (TargetId:70)
+14:14:59.686     1>Target "MakeDirsForCl: (TargetId:71)" in file "C:\Program Files (x86)\MSBuild\Microsoft.Cpp\v4.0\Microsoft.CppBuild.targets" from project "C:\TODD5_3D - Copy 05 Feb2014\gSLIC\gSLIC.vcxproj" (target "_ClCompile" depends on it):
+                   Task "MakeDir" (TaskId:80)
+                   Done executing task "MakeDir". (TaskId:80)
+14:14:59.686     1>Done building target "MakeDirsForCl" in project "gSLIC.vcxproj".: (TargetId:71)
+                   Target "ClCompile" skipped, due to false condition; ('@(ClCompile)' != '') was evaluated as ('' != '').
+                   Target "GenerateTargetFrameworkMonikerAttribute" skipped, due to false condition; ('$(GenerateTargetFrameworkAttribute)' == 'true') was evaluated as ('false' == 'true').
+                   Target "ManagedIncrementalBuildPreProcessDependencyGraph" skipped, due to false condition; ('@(ClCompile)' != '' and '$(EnableManagedIncrementalBuild)' == 'True') was evaluated as ('' != '' and 'false' == 'True').
+                   Target "ManagedIncrementalBuildPostProcessDependencyGraph" skipped, due to false condition; ('@(ClCompile)' != '' and '$(EnableManagedIncrementalBuild)' == 'True') was evaluated as ('' != '' and 'false' == 'True').
+14:14:59.686     1>Target "AfterClCompile: (TargetId:72)" in file "C:\Program Files (x86)\MSBuild\Microsoft.Cpp\v4.0\Microsoft.CppBuild.targets" from project "C:\TODD5_3D - Copy 05 Feb2014\gSLIC\gSLIC.vcxproj" (target "_ClCompile" depends on it):
+14:14:59.686     1>Done building target "AfterClCompile" in project "gSLIC.vcxproj".: (TargetId:72)
+14:14:59.686     1>Target "_ClCompile: (TargetId:73)" in file "C:\Program Files (x86)\MSBuild\Microsoft.Cpp\v4.0\Microsoft.CppBuild.targets" from project "C:\TODD5_3D - Copy 05 Feb2014\gSLIC\gSLIC.vcxproj" (target "BuildCompile" depends on it):
+14:14:59.686     1>Done building target "_ClCompile" in project "gSLIC.vcxproj".: (TargetId:73)
+                   Target "_ResGen" skipped, due to false condition; ('@(EmbeddedResource)'!='') was evaluated as (''!='').
+14:14:59.686     1>Target "BeforeResourceCompile: (TargetId:74)" in file "C:\Program Files (x86)\MSBuild\Microsoft.Cpp\v4.0\Microsoft.CppBuild.targets" from project "C:\TODD5_3D - Copy 05 Feb2014\gSLIC\gSLIC.vcxproj" (target "_ResourceCompile" depends on it):
+14:14:59.686     1>Done building target "BeforeResourceCompile" in project "gSLIC.vcxproj".: (TargetId:74)
+14:14:59.686     1>Target "MakeDirsForResourceCompile: (TargetId:75)" in file "C:\Program Files (x86)\MSBuild\Microsoft.Cpp\v4.0\Microsoft.CppBuild.targets" from project "C:\TODD5_3D - Copy 05 Feb2014\gSLIC\gSLIC.vcxproj" (target "_ResourceCompile" depends on it):
+                   Task "MakeDir" (TaskId:81)
+                   Done executing task "MakeDir". (TaskId:81)
+14:14:59.686     1>Done building target "MakeDirsForResourceCompile" in project "gSLIC.vcxproj".: (TargetId:75)
+                   Target "ResourceCompile" skipped, due to false condition; ('@(ResourceCompile)' != '') was evaluated as ('' != '').
+14:14:59.686     1>Target "AfterResourceCompile: (TargetId:76)" in file "C:\Program Files (x86)\MSBuild\Microsoft.Cpp\v4.0\Microsoft.CppBuild.targets" from project "C:\TODD5_3D - Copy 05 Feb2014\gSLIC\gSLIC.vcxproj" (target "_ResourceCompile" depends on it):
+14:14:59.686     1>Done building target "AfterResourceCompile" in project "gSLIC.vcxproj".: (TargetId:76)
+14:14:59.686     1>Target "_ResourceCompile: (TargetId:77)" in file "C:\Program Files (x86)\MSBuild\Microsoft.Cpp\v4.0\Microsoft.CppBuild.targets" from project "C:\TODD5_3D - Copy 05 Feb2014\gSLIC\gSLIC.vcxproj" (target "BuildCompile" depends on it):
+14:14:59.686     1>Done building target "_ResourceCompile" in project "gSLIC.vcxproj".: (TargetId:77)
+                   Target "_ImpLib" skipped, due to false condition; ('$(ImpLibCompiled)' == 'true') was evaluated as ('' == 'true').
+14:14:59.687     1>Target "BeforeLib: (TargetId:78)" in file "C:\Program Files (x86)\MSBuild\Microsoft.Cpp\v4.0\Microsoft.CppBuild.targets" from project "C:\TODD5_3D - Copy 05 Feb2014\gSLIC\gSLIC.vcxproj" (target "_Lib" depends on it):
+14:14:59.687     1>Done building target "BeforeLib" in project "gSLIC.vcxproj".: (TargetId:78)
+14:14:59.687     1>Target "ComputeLibAdditionalOptions: (TargetId:79)" in file "C:\Program Files (x86)\MSBuild\Microsoft.Cpp\v4.0\Microsoft.CppBuild.targets" from project "C:\TODD5_3D - Copy 05 Feb2014\gSLIC\gSLIC.vcxproj" (target "_Lib" depends on it):
+14:14:59.687     1>Done building target "ComputeLibAdditionalOptions" in project "gSLIC.vcxproj".: (TargetId:79)
+14:14:59.687     1>Target "ComputeRCOutputs: (TargetId:80)" in file "C:\Program Files (x86)\MSBuild\Microsoft.Cpp\v4.0\Microsoft.CppBuild.targets" from project "C:\TODD5_3D - Copy 05 Feb2014\gSLIC\gSLIC.vcxproj" (target "ComputeRCGeneratedLibInputs" depends on it):
+14:14:59.687     1>Done building target "ComputeRCOutputs" in project "gSLIC.vcxproj".: (TargetId:80)
+14:14:59.687     1>Target "ComputeRCGeneratedLibInputs: (TargetId:81)" in file "C:\Program Files (x86)\MSBuild\Microsoft.Cpp\v4.0\Microsoft.CppBuild.targets" from project "C:\TODD5_3D - Copy 05 Feb2014\gSLIC\gSLIC.vcxproj" (target "_Lib" depends on it):
+14:14:59.687     1>Done building target "ComputeRCGeneratedLibInputs" in project "gSLIC.vcxproj".: (TargetId:81)
+14:14:59.687     1>Target "ComputeCustomBuildOutput: (TargetId:82)" in file "C:\Program Files (x86)\MSBuild\Microsoft.Cpp\v4.0\Microsoft.CppBuild.targets" from project "C:\TODD5_3D - Copy 05 Feb2014\gSLIC\gSLIC.vcxproj" (target "_Lib" depends on it):
+                   Task "MakeDir" (TaskId:82)
+                   Done executing task "MakeDir". (TaskId:82)
+14:14:59.687     1>Done building target "ComputeCustomBuildOutput" in project "gSLIC.vcxproj".: (TargetId:82)
+                   Target "ComputeCLOutputs" skipped, due to false condition; ('@(ClCompile)' != '') was evaluated as ('' != '').
+14:14:59.687     1>Target "ComputeCLGeneratedLibInputs: (TargetId:83)" in file "C:\Program Files (x86)\MSBuild\Microsoft.Cpp\v4.0\Microsoft.CppBuild.targets" from project "C:\TODD5_3D - Copy 05 Feb2014\gSLIC\gSLIC.vcxproj" (target "_Lib" depends on it):
+14:14:59.687     1>Done building target "ComputeCLGeneratedLibInputs" in project "gSLIC.vcxproj".: (TargetId:83)
+14:14:59.687     1>Target "ComputeLibInputsFromProject: (TargetId:84)" in file "C:\Program Files (x86)\MSBuild\Microsoft.Cpp\v4.0\Microsoft.CppBuild.targets" from project "C:\TODD5_3D - Copy 05 Feb2014\gSLIC\gSLIC.vcxproj" (target "_Lib" depends on it):
+14:14:59.687     1>Done building target "ComputeLibInputsFromProject" in project "gSLIC.vcxproj".: (TargetId:84)
+                   Target "ComputeReferenceLibInputs" skipped, due to false condition; (@(ProjectReference) != '') was evaluated as ( != '').
+                   Target "ComputeCudaCompileOutput" skipped. Previously built successfully.
+                   Target "ComputeCudaLinkOutput" skipped, due to false condition; ('@(CudaLink)' != '') was evaluated as ('' != '').
+14:14:59.687     1>Target "MakeDirsForLib: (TargetId:85)" in file "C:\Program Files (x86)\MSBuild\Microsoft.Cpp\v4.0\Microsoft.CppBuild.targets" from project "C:\TODD5_3D - Copy 05 Feb2014\gSLIC\gSLIC.vcxproj" (target "_Lib" depends on it):
+                   Task "MakeDir" (TaskId:83)
+                   Done executing task "MakeDir". (TaskId:83)
+14:14:59.687     1>Done building target "MakeDirsForLib" in project "gSLIC.vcxproj".: (TargetId:85)
+14:14:59.687     1>Target "DoLibOutputFilesMatch: (TargetId:86)" in file "C:\Program Files (x86)\MSBuild\Microsoft.Cpp\v4.0\Microsoft.CppBuild.targets" from project "C:\TODD5_3D - Copy 05 Feb2014\gSLIC\gSLIC.vcxproj" (target "_Lib" depends on it):
+                   Task "VCMessage" skipped, due to false condition; ('%(_OutputFileFromLib.FullPath)' != '$([System.IO.Path]::GetFullPath($(TargetPath)))') was evaluated as ('C:\TODD5_3D - Copy 05 Feb2014\Release\gSLIC.lib' != 'C:\TODD5_3D - Copy 05 Feb2014\Release\gSLIC.lib').
+                   Task "VCMessage" skipped, due to false condition; ('%(_OutputFileFromLib.Extension)' != '$(TargetExt)') was evaluated as ('.lib' != '.lib').
+                   Task "VCMessage" skipped, due to false condition; ('%(_OutputFileFromLib.Filename)' != '$(TargetName)') was evaluated as ('gSLIC' != 'gSLIC').
+14:14:59.687     1>Done building target "DoLibOutputFilesMatch" in project "gSLIC.vcxproj".: (TargetId:86)
+14:14:59.687     1>Target "PreLinkEvent: (TargetId:87)" in file "C:\Program Files (x86)\MSBuild\Microsoft.Cpp\v4.0\Microsoft.CppCommon.targets" from project "C:\TODD5_3D - Copy 05 Feb2014\gSLIC\gSLIC.vcxproj" (target "_Lib" depends on it):
+                   Task "Message" skipped, due to false condition; ('%(PreLinkEvent.Message)' != '' and '%(PreLinkEvent.Command)' != '') was evaluated as ('' != '' and '' != '').
+                   Task "Exec" skipped, due to false condition; ('%(PreLinkEvent.Command)' != '') was evaluated as ('' != '').
+14:14:59.687     1>Done building target "PreLinkEvent" in project "gSLIC.vcxproj".: (TargetId:87)
+                   Target "CudaLink" skipped, due to false condition; ('@(CudaLink)' != '') was evaluated as ('' != '').
+14:14:59.687     1>Target "Lib: (TargetId:88)" in file "C:\Program Files (x86)\MSBuild\Microsoft.Cpp\v4.0\Microsoft.CppCommon.targets" from project "C:\TODD5_3D - Copy 05 Feb2014\gSLIC\gSLIC.vcxproj" (target "_Lib" depends on it):
+                   Using "LIB" task from assembly "Microsoft.Build.CppTasks.Common, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a".
+                   Task "LIB" (TaskId:84)
+                     Write Tracking Logs: (TaskId:84)
+                     	Release\Lib-link.write.1.tlog (TaskId:84)
+                     Read Tracking Logs: (TaskId:84)
+                     	Release\Lib-link.read.1.tlog (TaskId:84)
+                     No output for C:\TODD5_3D - COPY 05 FEB2014\GSLIC\RELEASE\CUDAIMGTRANS.CU.OBJ|C:\TODD5_3D - COPY 05 FEB2014\GSLIC\RELEASE\CUDASEGENGINE.CU.OBJ|C:\TODD5_3D - COPY 05 FEB2014\GSLIC\RELEASE\CUDASEGSLIC.CU.OBJ|C:\TODD5_3D - COPY 05 FEB2014\GSLIC\RELEASE\CUDAUTIL.CU.OBJ was found in the tracking log; source compilation required. (TaskId:84)
+                     No dependencies for output C:\TODD5_3D - COPY 05 FEB2014\GSLIC\RELEASE\CUDAIMGTRANS.CU.OBJ|C:\TODD5_3D - COPY 05 FEB2014\GSLIC\RELEASE\CUDASEGENGINE.CU.OBJ|C:\TODD5_3D - COPY 05 FEB2014\GSLIC\RELEASE\CUDASEGSLIC.CU.OBJ|C:\TODD5_3D - COPY 05 FEB2014\GSLIC\RELEASE\CUDAUTIL.CU.OBJ were found in the tracking log; source compilation required. (TaskId:84)
+                     c:\Program Files (x86)\Microsoft Visual Studio 10.0\VC\bin\Lib.exe /OUT:"C:\TODD5_3D - Copy 05 Feb2014\Release\gSLIC.lib" /LIBPATH:"C:\TODD5_3D - Copy 05 Feb2014\Release" /NOLOGO /LTCG Release\cudaImgTrans.cu.obj
+                     Release\cudaSegEngine.cu.obj
+                     Release\cudaSegSLIC.cu.obj
+                     Release\cudaUtil.cu.obj (TaskId:84)
+                     Tracking command: (TaskId:84)
+                     C:\Program Files (x86)\Microsoft SDKs\Windows\v7.0A\bin\NETFX 4.0 Tools\Tracker.exe /d C:\Windows\Microsoft.NET\Framework\v4.0.30319\FileTracker.dll /i "C:\TODD5_3D - Copy 05 Feb2014\gSLIC\Release" /r "C:\TODD5_3D - COPY 05 FEB2014\GSLIC\RELEASE\CUDAIMGTRANS.CU.OBJ|C:\TODD5_3D - COPY 05 FEB2014\GSLIC\RELEASE\CUDASEGENGINE.CU.OBJ|C:\TODD5_3D - COPY 05 FEB2014\GSLIC\RELEASE\CUDASEGSLIC.CU.OBJ|C:\TODD5_3D - COPY 05 FEB2014\GSLIC\RELEASE\CUDAUTIL.CU.OBJ" /b MSBuildConsole_CancelEvent8b55a132144d4370a48a1b6cecea5ea3  /c "c:\Program Files (x86)\Microsoft Visual Studio 10.0\VC\bin\Lib.exe"  /OUT:"C:\TODD5_3D - Copy 05 Feb2014\Release\gSLIC.lib" /LIBPATH:"C:\TODD5_3D - Copy 05 Feb2014\Release" /NOLOGO /LTCG Release\cudaImgTrans.cu.obj
+                     Release\cudaSegEngine.cu.obj
+                     Release\cudaSegSLIC.cu.obj
+                     Release\cudaUtil.cu.obj (TaskId:84)
+                   Done executing task "LIB". (TaskId:84)
+                   Task "Message" (TaskId:85)
+                     gSLIC.vcxproj -> C:\TODD5_3D - Copy 05 Feb2014\Release\gSLIC.lib (TaskId:85)
+                   Done executing task "Message". (TaskId:85)
+14:14:59.727     1>Done building target "Lib" in project "gSLIC.vcxproj".: (TargetId:88)
+14:14:59.727     1>Target "AfterLib: (TargetId:89)" in file "C:\Program Files (x86)\MSBuild\Microsoft.Cpp\v4.0\Microsoft.CppBuild.targets" from project "C:\TODD5_3D - Copy 05 Feb2014\gSLIC\gSLIC.vcxproj" (target "_Lib" depends on it):
+14:14:59.727     1>Done building target "AfterLib" in project "gSLIC.vcxproj".: (TargetId:89)
+14:14:59.727     1>Target "_Lib: (TargetId:90)" in file "C:\Program Files (x86)\MSBuild\Microsoft.Cpp\v4.0\Microsoft.CppBuild.targets" from project "C:\TODD5_3D - Copy 05 Feb2014\gSLIC\gSLIC.vcxproj" (target "BuildCompile" depends on it):
+14:14:59.727     1>Done building target "_Lib" in project "gSLIC.vcxproj".: (TargetId:90)
+14:14:59.727     1>Target "AfterBuildCompileEvent: (TargetId:91)" in file "C:\Program Files (x86)\MSBuild\Microsoft.Cpp\v4.0\Microsoft.CppBuild.targets" from project "C:\TODD5_3D - Copy 05 Feb2014\gSLIC\gSLIC.vcxproj" (target "BuildCompile" depends on it):
+14:14:59.727     1>Done building target "AfterBuildCompileEvent" in project "gSLIC.vcxproj".: (TargetId:91)
+14:14:59.727     1>Target "BuildCompile: (TargetId:92)" in file "C:\Windows\Microsoft.NET\Framework\v4.0.30319\Microsoft.Common.Targets" from project "C:\TODD5_3D - Copy 05 Feb2014\gSLIC\gSLIC.vcxproj" (target "Build" depends on it):
+14:14:59.727     1>Done building target "BuildCompile" in project "gSLIC.vcxproj".: (TargetId:92)
+                   Target "AssignProjectConfiguration" skipped. Previously built successfully.
+                   Target "_SplitProjectReferencesByFileExistence" skipped. Previously built successfully.
+14:14:59.727     1>Target "BuildLinkTraverse: (TargetId:93)" in file "C:\Windows\Microsoft.NET\Framework\v4.0.30319\Microsoft.Common.Targets" from project "C:\TODD5_3D - Copy 05 Feb2014\gSLIC\gSLIC.vcxproj" (target "BuildLink" depends on it):
+                   Task "MSBuild" skipped, due to false condition; ('$(BuildPassReferences)' == 'true' and '@(ProjectReferenceWithConfiguration)' != '' and '@(_MSBuildProjectReferenceExistent)' != ''  and '%(_MSBuildProjectReferenceExistent.BuildReference)' == 'true') was evaluated as ('' == 'true' and '' != '' and '' != ''  and '' == 'true').
+14:14:59.727     1>Done building target "BuildLinkTraverse" in project "gSLIC.vcxproj".: (TargetId:93)
+                   Target "SetBuildDefaultEnvironmentVariables" skipped. Previously built successfully.
+                   Target "SetUserMacroEnvironmentVariables" skipped, due to false condition; ('@(BuildMacro)' != '') was evaluated as ('' != '').
+                   Target "PrepareForBuild" skipped. Previously built successfully.
+                   Target "ResolveReferences" skipped. Previously built successfully.
+                   Target "_Link" skipped, due to false condition; ('$(LinkCompiled)' == 'true') was evaluated as ('' == 'true').
+14:14:59.727     1>Target "_ALink: (TargetId:94)" in file "C:\Program Files (x86)\MSBuild\Microsoft.Cpp\v4.0\Microsoft.CppBuild.targets" from project "C:\TODD5_3D - Copy 05 Feb2014\gSLIC\gSLIC.vcxproj" (target "BuildLink" depends on it):
+14:14:59.727     1>Done building target "_ALink" in project "gSLIC.vcxproj".: (TargetId:94)
+14:14:59.727     1>Target "_Manifest: (TargetId:95)" in file "C:\Program Files (x86)\MSBuild\Microsoft.Cpp\v4.0\Microsoft.CppBuild.targets" from project "C:\TODD5_3D - Copy 05 Feb2014\gSLIC\gSLIC.vcxproj" (target "BuildLink" depends on it):
+14:14:59.727     1>Done building target "_Manifest" in project "gSLIC.vcxproj".: (TargetId:95)
+14:14:59.727     1>Target "RegisterOutput: (TargetId:96)" in file "C:\Program Files (x86)\MSBuild\Microsoft.Cpp\v4.0\Microsoft.CppCommon.targets" from project "C:\TODD5_3D - Copy 05 Feb2014\gSLIC\gSLIC.vcxproj" (target "BuildLink" depends on it):
+                   Task "Exec" skipped, due to false condition; ('$(ConfigurationType)'=='DynamicLibrary' and '%(Link.RegisterOutput)'=='true' and '%(Link.PerUserRedirection)'!='true') was evaluated as ('StaticLibrary'=='DynamicLibrary' and ''=='true' and ''!='true').
+                   Task "Exec" skipped, due to false condition; ('$(ConfigurationType)'=='DynamicLibrary' and '%(Link.RegisterOutput)'=='true' and '%(Link.PerUserRedirection)'=='true') was evaluated as ('StaticLibrary'=='DynamicLibrary' and ''=='true' and ''=='true').
+                   Task "Exec" skipped, due to false condition; ('$(ConfigurationType)'=='Application' and '%(Link.RegisterOutput)'=='true' and '%(Link.PerUserRedirection)'!='true') was evaluated as ('StaticLibrary'=='Application' and ''=='true' and ''!='true').
+                   Task "Exec" skipped, due to false condition; ('$(ConfigurationType)'=='Application' and '%(Link.RegisterOutput)'=='true' and '%(Link.PerUserRedirection)'=='true') was evaluated as ('StaticLibrary'=='Application' and ''=='true' and ''=='true').
+                   Task "VCMessage" skipped, due to false condition; ('$(_RegisterOutputExitCode)' != '' and '$(_RegisterOutputExitCode)' != '0') was evaluated as ('' != '' and '' != '0').
+14:14:59.727     1>Done building target "RegisterOutput" in project "gSLIC.vcxproj".: (TargetId:96)
+14:14:59.727     1>Target "ComputeCLCompileGeneratedXDCFiles: (TargetId:97)" in file "C:\Program Files (x86)\MSBuild\Microsoft.Cpp\v4.0\Microsoft.CppBuild.targets" from project "C:\TODD5_3D - Copy 05 Feb2014\gSLIC\gSLIC.vcxproj" (target "_XdcMake" depends on it):
+14:14:59.727     1>Done building target "ComputeCLCompileGeneratedXDCFiles" in project "gSLIC.vcxproj".: (TargetId:97)
+                   Target "SetBuildDefaultEnvironmentVariables" skipped. Previously built successfully.
+                   Target "SetUserMacroEnvironmentVariables" skipped, due to false condition; ('@(BuildMacro)' != '') was evaluated as ('' != '').
+                   Target "PrepareForBuild" skipped. Previously built successfully.
+                   Target "ResolveReferences" skipped. Previously built successfully.
+14:14:59.727     1>Target "ResolvedXDCMake: (TargetId:98)" in file "C:\Program Files (x86)\MSBuild\Microsoft.Cpp\v4.0\Microsoft.CppBuild.targets" from project "C:\TODD5_3D - Copy 05 Feb2014\gSLIC\gSLIC.vcxproj" (target "_XdcMake" depends on it):
+                   Task "MSBuild" skipped, due to false condition; ('%(_MSBuildProjectReferenceExistent.Extension)' == '.vcxproj' and '@(ProjectReferenceWithConfiguration)' != '' and '@(_MSBuildProjectReferenceExistent)' != '' and '$(_ClCompileGenerateXMLDocumentationFiles)' == 'true') was evaluated as ('' == '.vcxproj' and '' != '' and '' != '' and '' == 'true').
+14:14:59.727     1>Done building target "ResolvedXDCMake" in project "gSLIC.vcxproj".: (TargetId:98)
+14:14:59.727     1>Target "MakeDirsForXdcMake: (TargetId:99)" in file "C:\Program Files (x86)\MSBuild\Microsoft.Cpp\v4.0\Microsoft.CppBuild.targets" from project "C:\TODD5_3D - Copy 05 Feb2014\gSLIC\gSLIC.vcxproj" (target "_XdcMake" depends on it):
+                   Task "MakeDir" (TaskId:86)
+                   Done executing task "MakeDir". (TaskId:86)
+14:14:59.727     1>Done building target "MakeDirsForXdcMake" in project "gSLIC.vcxproj".: (TargetId:99)
+                   Target "XdcMake" skipped, due to false condition; ('@(XdcMake)' != '') was evaluated as ('' != '').
+14:14:59.727     1>Target "_XdcMake: (TargetId:100)" in file "C:\Program Files (x86)\MSBuild\Microsoft.Cpp\v4.0\Microsoft.CppBuild.targets" from project "C:\TODD5_3D - Copy 05 Feb2014\gSLIC\gSLIC.vcxproj" (target "BuildLink" depends on it):
+14:14:59.727     1>Done building target "_XdcMake" in project "gSLIC.vcxproj".: (TargetId:100)
+14:14:59.727     1>Target "ComputeCLCompileGeneratedSbrFiles: (TargetId:101)" in file "C:\Program Files (x86)\MSBuild\Microsoft.Cpp\v4.0\Microsoft.CppBuild.targets" from project "C:\TODD5_3D - Copy 05 Feb2014\gSLIC\gSLIC.vcxproj" (target "_BscMake" depends on it):
+14:14:59.727     1>Done building target "ComputeCLCompileGeneratedSbrFiles" in project "gSLIC.vcxproj".: (TargetId:101)
+14:14:59.727     1>Target "MakeDirsForBscMake: (TargetId:102)" in file "C:\Program Files (x86)\MSBuild\Microsoft.Cpp\v4.0\Microsoft.CppBuild.targets" from project "C:\TODD5_3D - Copy 05 Feb2014\gSLIC\gSLIC.vcxproj" (target "_BscMake" depends on it):
+                   Task "MakeDir" (TaskId:87)
+                   Done executing task "MakeDir". (TaskId:87)
+14:14:59.728     1>Done building target "MakeDirsForBscMake" in project "gSLIC.vcxproj".: (TargetId:102)
+                   Target "BscMake" skipped, due to false condition; ('@(BscMake)' != '') was evaluated as ('' != '').
+                   Target "CustomBuildStep" skipped, due to false condition; ('@(CustomBuildStep)' != '' and '$(SelectedFiles)'=='') was evaluated as ('' != '' and ''=='').
+14:14:59.728     1>Target "_BscMake: (TargetId:103)" in file "C:\Program Files (x86)\MSBuild\Microsoft.Cpp\v4.0\Microsoft.CppBuild.targets" from project "C:\TODD5_3D - Copy 05 Feb2014\gSLIC\gSLIC.vcxproj" (target "BuildLink" depends on it):
+14:14:59.728     1>Done building target "_BscMake" in project "gSLIC.vcxproj".: (TargetId:103)
+                   Target "RunCodeAnalysis" skipped, due to false condition; ('$(RunCodeAnalysis)'=='true' or '$(RunCodeAnalysisOnce)'=='true') was evaluated as (''=='true' or ''=='true').
+14:14:59.728     1>Target "_GenerateSatelliteAssemblyInputs: (TargetId:104)" in file "C:\Windows\Microsoft.NET\Framework\v4.0.30319\Microsoft.Common.Targets" from project "C:\TODD5_3D - Copy 05 Feb2014\gSLIC\gSLIC.vcxproj" (target "CreateSatelliteAssemblies" depends on it):
+                   Task "Warning" skipped, due to false condition; ('@(ManifestResourceWithCulture)'!='' and '%(ManifestResourceWithCulture.EmittedForCompatibilityOnly)'=='') was evaluated as (''!='' and ''=='').
+                   Task "Warning" skipped, due to false condition; ('@(ManifestNonResxWithCultureOnDisk)'!='' and '%(ManifestNonResxWithCultureOnDisk.EmittedForCompatibilityOnly)'=='') was evaluated as (''!='' and ''=='').
+14:14:59.728     1>Done building target "_GenerateSatelliteAssemblyInputs" in project "gSLIC.vcxproj".: (TargetId:104)
+                   Target "ComputeIntermediateSatelliteAssemblies" skipped, due to false condition; (@(ReferenceSatellitePaths->'%(DestinationSubDirectory)') != '') was evaluated as ( != '').
+                   Target "GenerateSatelliteAssemblies" skipped, due to false condition; ('@(_SatelliteAssemblyResourceInputs)' != '') was evaluated as ('' != '').
+14:14:59.728     1>Target "CreateSatelliteAssemblies: (TargetId:105)" in file "C:\Windows\Microsoft.NET\Framework\v4.0.30319\Microsoft.Common.Targets" from project "C:\TODD5_3D - Copy 05 Feb2014\gSLIC\gSLIC.vcxproj" (target "BuildLink" depends on it):
+14:14:59.728     1>Done building target "CreateSatelliteAssemblies" in project "gSLIC.vcxproj".: (TargetId:105)
+14:14:59.728     1>Target "_Appverifier: (TargetId:106)" in file "C:\Program Files (x86)\MSBuild\Microsoft.Cpp\v4.0\Microsoft.CppBuild.targets" from project "C:\TODD5_3D - Copy 05 Feb2014\gSLIC\gSLIC.vcxproj" (target "BuildLink" depends on it):
+14:14:59.728     1>Done building target "_Appverifier" in project "gSLIC.vcxproj".: (TargetId:106)
+14:14:59.728     1>Target "_Deploy: (TargetId:107)" in file "C:\Program Files (x86)\MSBuild\Microsoft.Cpp\v4.0\Microsoft.CppBuild.targets" from project "C:\TODD5_3D - Copy 05 Feb2014\gSLIC\gSLIC.vcxproj" (target "BuildLink" depends on it):
+14:14:59.728     1>Done building target "_Deploy" in project "gSLIC.vcxproj".: (TargetId:107)
+                   Target "ComputeIntermediateSatelliteAssemblies" skipped, due to false condition; (@(ReferenceSatellitePaths->'%(DestinationSubDirectory)') != '') was evaluated as ( != '').
+                   Target "_CopyFilesMarkedCopyLocal" skipped, due to false condition; ('@(ReferenceCopyLocalPaths)' != '') was evaluated as ('' != '').
+14:14:59.728     1>Target "AssignTargetPaths: (TargetId:108)" in file "C:\Windows\Microsoft.NET\Framework\v4.0.30319\Microsoft.Common.Targets" from project "C:\TODD5_3D - Copy 05 Feb2014\gSLIC\gSLIC.vcxproj" (target "GetCopyToOutputDirectoryItems" depends on it):
+                   Using "AssignTargetPath" task from assembly "Microsoft.Build.Tasks.v4.0, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a".
+                   Task "AssignTargetPath" (TaskId:88)
+                   Done executing task "AssignTargetPath". (TaskId:88)
+                   Task "AssignTargetPath" (TaskId:89)
+                   Done executing task "AssignTargetPath". (TaskId:89)
+                   Task "AssignTargetPath" (TaskId:90)
+                   Done executing task "AssignTargetPath". (TaskId:90)
+                   Task "AssignTargetPath" (TaskId:91)
+                   Done executing task "AssignTargetPath". (TaskId:91)
+                   Task "AssignTargetPath" skipped, due to false condition; ('@(_DeploymentBaseManifestWithTargetPath)'=='' and '%(None.Extension)'=='.manifest') was evaluated as (''=='' and '.cuh'=='.manifest').
+14:14:59.728     1>Done building target "AssignTargetPaths" in project "gSLIC.vcxproj".: (TargetId:108)
+                   Target "_SplitProjectReferencesByFileExistence" skipped. Previously built successfully.
+14:14:59.728     1>Target "GetCopyToOutputDirectoryXamlAppDefs: (TargetId:109)" in file "C:\Windows\Microsoft.NET\Framework\v4.0.30319\Microsoft.Xaml.targets" from project "C:\TODD5_3D - Copy 05 Feb2014\gSLIC\gSLIC.vcxproj" (target "GetCopyToOutputDirectoryItems" depends on it):
+                   Task "AssignTargetPath" (TaskId:92)
+                   Done executing task "AssignTargetPath". (TaskId:92)
+14:14:59.728     1>Done building target "GetCopyToOutputDirectoryXamlAppDefs" in project "gSLIC.vcxproj".: (TargetId:109)
+14:14:59.728     1>Target "GetCopyToOutputDirectoryItems: (TargetId:110)" in file "C:\Windows\Microsoft.NET\Framework\v4.0.30319\Microsoft.Common.Targets" from project "C:\TODD5_3D - Copy 05 Feb2014\gSLIC\gSLIC.vcxproj" (target "_CopySourceItemsToOutputDirectory" depends on it):
+                   Task "MSBuild" skipped, due to false condition; ('@(_MSBuildProjectReferenceExistent)' != '' and '$(_GetChildProjectCopyToOutputDirectoryItems)' == 'true' and '%(_MSBuildProjectReferenceExistent.Private)' != 'false' and '$(UseCommonOutputDirectory)' != 'true') was evaluated as ('' != '' and 'true' == 'true' and '' != 'false' and 'false' != 'true').
+                   Task "AssignTargetPath" (TaskId:93)
+                   Done executing task "AssignTargetPath". (TaskId:93)
+14:14:59.729     1>Done building target "GetCopyToOutputDirectoryItems" in project "gSLIC.vcxproj".: (TargetId:110)
+                   Target "_CopyOutOfDateSourceItemsToOutputDirectory" skipped, due to false condition; ( '@(_SourceItemsToCopyToOutputDirectory)' != '' ) was evaluated as ( '' != '' ).
+                   Target "_CopyOutOfDateSourceItemsToOutputDirectoryAlways" skipped, due to false condition; ( '@(_SourceItemsToCopyToOutputDirectoryAlways)' != '' ) was evaluated as ( '' != '' ).
+14:14:59.729     1>Target "_CopySourceItemsToOutputDirectory: (TargetId:111)" in file "C:\Windows\Microsoft.NET\Framework\v4.0.30319\Microsoft.Common.Targets" from project "C:\TODD5_3D - Copy 05 Feb2014\gSLIC\gSLIC.vcxproj" (target "CopyFilesToOutputDirectory" depends on it):
+14:14:59.729     1>Done building target "_CopySourceItemsToOutputDirectory" in project "gSLIC.vcxproj".: (TargetId:111)
+                   Target "_CopyAppConfigFile" skipped, due to false condition; ( '@(AppConfigWithTargetPath)' != '' ) was evaluated as ( '' != '' ).
+                   Target "_CopyManifestFiles" skipped, due to false condition; ( '$(_DeploymentCopyApplicationManifest)'=='true' or '$(GenerateClickOnceManifests)'=='true' ) was evaluated as ( ''=='true' or ''=='true' ).
+14:14:59.729     1>Target "_CheckForCompileOutputs: (TargetId:112)" in file "C:\Windows\Microsoft.NET\Framework\v4.0.30319\Microsoft.Common.Targets" from project "C:\TODD5_3D - Copy 05 Feb2014\gSLIC\gSLIC.vcxproj" (target "CopyFilesToOutputDirectory" depends on it):
+14:14:59.729     1>Done building target "_CheckForCompileOutputs" in project "gSLIC.vcxproj".: (TargetId:112)
+                   Target "_SGenCheckForOutputs" skipped, due to false condition; ('$(_SGenGenerateSerializationAssembliesConfig)' == 'On' or ('@(WebReferenceUrl)'!='' and '$(_SGenGenerateSerializationAssembliesConfig)' == 'Auto')) was evaluated as ('Auto' == 'On' or (''!='' and 'Auto' == 'Auto')).
+14:14:59.729     1>Target "CopyFilesToOutputDirectory: (TargetId:113)" in file "C:\Windows\Microsoft.NET\Framework\v4.0.30319\Microsoft.Common.Targets" from project "C:\TODD5_3D - Copy 05 Feb2014\gSLIC\gSLIC.vcxproj" (target "BuildLink" depends on it):
+                   Task "Copy" skipped, due to false condition; ('$(CopyBuildOutputToOutputDirectory)' == 'true' and '$(SkipCopyBuildProduct)' != 'true') was evaluated as ('true' == 'true' and 'true' != 'true').
+                   Task "Message" skipped, due to false condition; ('$(CopyBuildOutputToOutputDirectory)' == 'true' and '$(SkipCopyBuildProduct)'!='true') was evaluated as ('true' == 'true' and 'true'!='true').
+                   Task "Copy" skipped, due to false condition; ('@(AddModules)' != '') was evaluated as ('' != '').
+                   Task "Copy" skipped, due to false condition; ('$(_SGenDllCreated)'=='true') was evaluated as ('false'=='true').
+                   Task "Copy" skipped, due to false condition; ('$(_DebugSymbolsProduced)'=='true' and '$(SkipCopyingSymbolsToOutputDirectory)' != 'true' and '$(CopyOutputSymbolsToOutputDirectory)'=='true') was evaluated as ('false'=='true' and '' != 'true' and 'true'=='true').
+                   Task "Copy" skipped, due to false condition; ('$(_DocumentationFileProduced)'=='true') was evaluated as ('false'=='true').
+                   Task "Copy" skipped, due to false condition; ('@(IntermediateSatelliteAssembliesWithTargetPath)' != '') was evaluated as ('' != '').
+                   Task "Copy" skipped, due to false condition; ('@(ReferenceComWrappersToCopyLocal)' != '' or '@(ResolvedIsolatedComModules)' != '' or '@(_DeploymentLooseManifestFile)' != '' or '@(NativeReferenceFile)' != '' ) was evaluated as ('' != '' or '' != '' or '' != '' or '' != '' ).
+                   Task "Copy" skipped, due to false condition; ('$(SkipCopyWinMDArtifact)' != 'true' and '@(WinMDExpArtifacts)' != '') was evaluated as ('' != 'true' and '' != '').
+                   Task "Message" skipped, due to false condition; ('$(SkipCopyWinMDArtifact)' != 'true' and '$(_WindowsMetadataOutputPath)' != '') was evaluated as ('' != 'true' and '' != '').
+14:14:59.729     1>Done building target "CopyFilesToOutputDirectory" in project "gSLIC.vcxproj".: (TargetId:113)
+                   Target "CustomBuildStep" skipped, due to false condition; ('@(CustomBuildStep)' != '' and '$(SelectedFiles)'=='') was evaluated as ('' != '' and ''=='').
+14:14:59.729     1>Target "PostBuildEvent: (TargetId:114)" in file "C:\Program Files (x86)\MSBuild\Microsoft.Cpp\v4.0\Microsoft.CppCommon.targets" from project "C:\TODD5_3D - Copy 05 Feb2014\gSLIC\gSLIC.vcxproj" (target "BuildLink" depends on it):
+                   Task "Message" skipped, due to false condition; ('%(PostBuildEvent.Message)' != '' and '%(PostBuildEvent.Command)' != '') was evaluated as ('' != '' and 'echo copy "C:\Program Files\NVIDIA GPU Computing Toolkit\CUDA\v6.0\bin\cudart*.dll" "C:\TODD5_3D - Copy 05 Feb2014\Release\"
+                   copy "C:\Program Files\NVIDIA GPU Computing Toolkit\CUDA\v6.0\bin\cudart*.dll" "C:\TODD5_3D - Copy 05 Feb2014\Release\"' != '').
+                   Using "Exec" task from assembly "Microsoft.Build.Tasks.v4.0, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a".
+                   Task "Exec" (TaskId:94)
+                     echo copy "C:\Program Files\NVIDIA GPU Computing Toolkit\CUDA\v6.0\bin\cudart*.dll" "C:\TODD5_3D - Copy 05 Feb2014\Release\"
+                     copy "C:\Program Files\NVIDIA GPU Computing Toolkit\CUDA\v6.0\bin\cudart*.dll" "C:\TODD5_3D - Copy 05 Feb2014\Release\"
+                     :VCEnd (TaskId:94)
+                     copy "C:\Program Files\NVIDIA GPU Computing Toolkit\CUDA\v6.0\bin\cudart*.dll" "C:\TODD5_3D - Copy 05 Feb2014\Release\" (TaskId:94)
+                     C:\Program Files\NVIDIA GPU Computing Toolkit\CUDA\v6.0\bin\cudart32_60.dll (TaskId:94)
+                     C:\Program Files\NVIDIA GPU Computing Toolkit\CUDA\v6.0\bin\cudart64_60.dll (TaskId:94)
+                             2 file(s) copied. (TaskId:94)
+                   Done executing task "Exec". (TaskId:94)
+14:14:59.852     1>Done building target "PostBuildEvent" in project "gSLIC.vcxproj".: (TargetId:114)
+14:14:59.852     1>Target "BuildLink: (TargetId:115)" in file "C:\Windows\Microsoft.NET\Framework\v4.0.30319\Microsoft.Common.Targets" from project "C:\TODD5_3D - Copy 05 Feb2014\gSLIC\gSLIC.vcxproj" (target "Build" depends on it):
+14:14:59.852     1>Done building target "BuildLink" in project "gSLIC.vcxproj".: (TargetId:115)
+14:14:59.852     1>Target "AfterBuild: (TargetId:116)" in file "C:\Program Files (x86)\MSBuild\Microsoft.Cpp\v4.0\Microsoft.BuildSteps.Targets" from project "C:\TODD5_3D - Copy 05 Feb2014\gSLIC\gSLIC.vcxproj" (target "Build" depends on it):
+14:14:59.852     1>Done building target "AfterBuild" in project "gSLIC.vcxproj".: (TargetId:116)
+14:14:59.852     1>Target "FinalizeBuildStatus: (TargetId:117)" in file "C:\Program Files (x86)\MSBuild\Microsoft.Cpp\v4.0\Microsoft.CppBuild.targets" from project "C:\TODD5_3D - Copy 05 Feb2014\gSLIC\gSLIC.vcxproj" (target "Build" depends on it):
+                   Task "Delete" (TaskId:95)
+                     Deleting file "Release\gSLIC.unsuccessfulbuild". (TaskId:95)
+                   Done executing task "Delete". (TaskId:95)
+                   Task "Touch" (TaskId:96)
+                     Touching "Release\gSLIC.lastbuildstate". (TaskId:96)
+                   Done executing task "Touch". (TaskId:96)
+14:14:59.854     1>Done building target "FinalizeBuildStatus" in project "gSLIC.vcxproj".: (TargetId:117)
+14:14:59.854     1>Target "Build: (TargetId:118)" in file "C:\Program Files (x86)\MSBuild\Microsoft.Cpp\v4.0\Microsoft.BuildSteps.Targets" from project "C:\TODD5_3D - Copy 05 Feb2014\gSLIC\gSLIC.vcxproj" (entry point):
+14:14:59.854     1>Done building target "Build" in project "gSLIC.vcxproj".: (TargetId:118)
+14:14:59.854     1>Done Building Project "C:\TODD5_3D - Copy 05 Feb2014\gSLIC\gSLIC.vcxproj" (build target(s)).
+
+Project Performance Summary:
+    12424 ms  C:\TODD5_3D - Copy 05 Feb2014\gSLIC\gSLIC.vcxproj   1 calls
+              12424 ms  build                                      1 calls
+
+Target Performance Summary:
+        0 ms  BuildCompile                               1 calls
+        0 ms  _Midl                                      1 calls
+        0 ms  _ClCompile                                 1 calls
+        0 ms  ComputeCLCompileGeneratedSbrFiles          1 calls
+        0 ms  _PrepareForBuild                           1 calls
+        0 ms  _Lib                                       1 calls
+        0 ms  _CheckForCompileOutputs                    1 calls
+        0 ms  _SelectedFiles                             1 calls
+        0 ms  AfterBuildCompileEvent                     1 calls
+        0 ms  GetReferenceAssemblyPaths                  1 calls
+        0 ms  InitializeCudaHostProperties               1 calls
+        0 ms  AfterBuild                                 1 calls
+        0 ms  BeforeResourceCompile                      1 calls
+        0 ms  ComputeCustomBuildOutput                   1 calls
+        0 ms  _Manifest                                  1 calls
+        0 ms  _GenerateXMLData                           1 calls
+        0 ms  ComputeCLCompileGeneratedXDCFiles          1 calls
+        0 ms  ComputeLibInputsFromProject                1 calls
+        0 ms  BeforeLib                                  1 calls
+        0 ms  MakeDirsForResourceCompile                 1 calls
+        0 ms  _GenerateSatelliteAssemblyInputs           1 calls
+        0 ms  ComputeRCOutputs                           1 calls
+        0 ms  DoLibOutputFilesMatch                      1 calls
+        0 ms  _XdcMake                                   1 calls
+        0 ms  BuildLinkTraverse                          1 calls
+        0 ms  AfterLib                                   1 calls
+        0 ms  _ResourceCompile                           1 calls
+        0 ms  InitializeCudaProjectProperties            1 calls
+        0 ms  Build                                      1 calls
+        0 ms  CopyFilesToOutputDirectory                 1 calls
+        0 ms  AfterBuildGenerateSources                  1 calls
+        0 ms  MakeDirsForCl                              1 calls
+        0 ms  ResolvedXDCMake                            1 calls
+        0 ms  MakeDirsForLib                             1 calls
+        0 ms  BuildCompileTraverse                       1 calls
+        0 ms  _CopySourceItemsToOutputDirectory          1 calls
+        0 ms  ComputeCLGeneratedLibInputs                1 calls
+        0 ms  CreateSatelliteAssemblies                  1 calls
+        0 ms  _Appverifier                               1 calls
+        0 ms  AfterMidl                                  1 calls
+        0 ms  RegisterOutput                             1 calls
+        0 ms  PrepareForBuild                            1 calls
+        0 ms  BuildLink                                  1 calls
+        0 ms  AfterResourceCompile                       1 calls
+        0 ms  ExpandSDKReferences                        1 calls
+        0 ms  PreBuildEvent                              1 calls
+        0 ms  _Xsd                                       1 calls
+        0 ms  _BscMake                                   1 calls
+        0 ms  ResolveReferences                          1 calls
+        0 ms  GetFrameworkPaths                          1 calls
+        0 ms  AssignTargetPaths                          1 calls
+        0 ms  BuildGenerateSourcesTraverse               1 calls
+        0 ms  ComputeMIDLGeneratedCompileInputs          1 calls
+        0 ms  ComputeCLInputPDBName                      1 calls
+        0 ms  _SplitProjectReferencesByFileExistence     1 calls
+        0 ms  ResolveSDKReferences                       1 calls
+        0 ms  _DetermineManagedStateFromCL               1 calls
+        0 ms  GetCopyToOutputDirectoryXamlAppDefs        1 calls
+        0 ms  _ALink                                     1 calls
+        0 ms  MakeDirsForXdcMake                         1 calls
+        0 ms  PlatformPrepareForBuild                    1 calls
+        0 ms  AssignProjectConfiguration                 1 calls
+        0 ms  GetInstalledSDKLocations                   1 calls
+        0 ms  _Deploy                                    1 calls
+        0 ms  PreLinkEvent                               1 calls
+        0 ms  AfterClCompile                             1 calls
+        0 ms  BeforeBuildGenerateSources                 1 calls
+        0 ms  _GenerateWebServiceProxy                   1 calls
+        0 ms  BeforeResolveReferences                    1 calls
+        0 ms  BeforeClCompile                            1 calls
+        0 ms  AfterResolveReferences                     1 calls
+        0 ms  ComputeLibAdditionalOptions                1 calls
+        0 ms  ValidateCudaBuild                          1 calls
+        0 ms  BuildGenerateSources                       1 calls
+        0 ms  AfterBuildGenerateSourcesEvent             1 calls
+        0 ms  ComputeRCGeneratedLibInputs                1 calls
+        1 ms  MakeDirsForBscMake                         1 calls
+        1 ms  AddCudaLinkMetadata                        4 calls
+        1 ms  ResolveProjectReferences                   1 calls
+        1 ms  ComputeCudaCompileOutput                   4 calls
+        1 ms  ComputeReferenceCLInput                    1 calls
+        1 ms  GetCopyToOutputDirectoryItems              1 calls
+        1 ms  ValidateCudaCodeGeneration                 4 calls
+        1 ms  SetBuildDefaultEnvironmentVariables        1 calls
+        2 ms  _CheckForInvalidConfigurationAndPlatform   1 calls
+        2 ms  InitializeBuildStatus                      1 calls
+        2 ms  PrepareForCudaBuild                        1 calls
+        2 ms  FinalizeBuildStatus                        1 calls
+        2 ms  ResolveAssemblyReferences                  1 calls
+        8 ms  MakeDirsForMidl                            1 calls
+        9 ms  AddCudaCompileMetadata                     4 calls
+       18 ms  AddCudaCompilePropsDeps                    4 calls
+       40 ms  Lib                                        1 calls
+      123 ms  PostBuildEvent                             1 calls
+     1553 ms  AddCudaCompileDeps                         4 calls
+    10653 ms  CudaBuild                                  4 calls
+
+Task Performance Summary:
+        0 ms  AssignProjectConfiguration                 1 calls
+        0 ms  SplitToItemMetadata                        5 calls
+        0 ms  Message                                    7 calls
+        0 ms  ResolvePaths                               4 calls
+        0 ms  AssignTargetPath                           6 calls
+        0 ms  SanitizePaths                              5 calls
+        0 ms  CudaSetEnvironmentVariable                 1 calls
+        1 ms  SetEnv                                     4 calls
+        1 ms  Delete                                     5 calls
+        1 ms  ResolveAssemblyReference                   1 calls
+        1 ms  CountItems                                 4 calls
+        2 ms  ReadLinesFromFile                          9 calls
+        3 ms  ReadMetadataLinesFromItems                 4 calls
+        3 ms  MakeDir                                   13 calls
+        3 ms  Touch                                      2 calls
+        3 ms  XmlPeek                                    4 calls
+       34 ms  WriteLinesToFile                          10 calls
+       39 ms  LIB                                        1 calls
+      123 ms  Exec                                       1 calls
+     1520 ms  GenerateDeps                               4 calls
+    10538 ms  CudaCompile                                4 calls
+
+Build succeeded.
+
+Time Elapsed 00:00:12.42

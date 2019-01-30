@@ -1,0 +1,45 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="4.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <ItemGroup>
+    <Filter Include="Resource Files">
+      <UniqueIdentifier>{67DA6AB6-F800-4c08-8B7A-83BB121AAD01}</UniqueIdentifier>
+      <Extensions>rc;ico;cur;bmp;dlg;rc2;rct;bin;rgs;gif;jpg;jpeg;jpe;resx;tiff;tif;png;wav;mfcribbon-ms</Extensions>
+    </Filter>
+    <Filter Include="Superpixels">
+      <UniqueIdentifier>{64e969db-61cf-4396-8a8f-7d87ae43cfee}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Superpixels\Header Files">
+      <UniqueIdentifier>{93995380-89BD-4b04-88EB-625FBE52EBFB}</UniqueIdentifier>
+      <Extensions>h;hpp;hxx;hm;inl;inc;xsd</Extensions>
+    </Filter>
+    <Filter Include="Superpixels\Source Files">
+      <UniqueIdentifier>{4FC737F1-C7A5-4376-A066-2A32D752A2FF}</UniqueIdentifier>
+      <Extensions>cpp;c;cc;cxx;def;odl;idl;hpj;bat;asm;asmx</Extensions>
+    </Filter>
+    <Filter Include="Features">
+      <UniqueIdentifier>{46efaac9-a459-4fb9-9e8a-c910174c981d}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Features\Header Files">
+      <UniqueIdentifier>{bdbebc94-fc3f-48b1-8145-3b643f584f45}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Features\Source Files">
+      <UniqueIdentifier>{741166a0-dccb-4903-b61b-82aeb3c09127}</UniqueIdentifier>
+    </Filter>
+  </ItemGroup>
+  <ItemGroup>
+    <ClCompile Include="FastImgSeg.cpp">
+      <Filter>Superpixels\Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="FastFeatures.cpp">
+      <Filter>Features\Source Files</Filter>
+    </ClCompile>
+  </ItemGroup>
+  <ItemGroup>
+    <ClInclude Include="FastImgSeg.h">
+      <Filter>Superpixels\Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="FastFeatures.h">
+      <Filter>Features\Header Files</Filter>
+    </ClInclude>
+  </ItemGroup>
+</Project>

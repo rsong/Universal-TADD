@@ -1,0 +1,744 @@
+﻿Build started 29/05/2014 14:27:57.
+Environment at start of build:
+ALLUSERSPROFILE = C:\ProgramData
+APPDATA = C:\Users\Hossein\AppData\Roaming
+CommonProgramFiles = C:\Program Files (x86)\Common Files
+CommonProgramFiles(x86) = C:\Program Files (x86)\Common Files
+CommonProgramW6432 = C:\Program Files\Common Files
+COMPUTERNAME = H
+ComSpec = C:\Windows\system32\cmd.exe
+CUDA_PATH = C:\Program Files\NVIDIA GPU Computing Toolkit\CUDA\v6.0
+CUDA_PATH_V6_0 = C:\Program Files\NVIDIA GPU Computing Toolkit\CUDA\v6.0
+FP_NO_HOST_CHECK = NO
+HALCONARCH = x64-win64
+HALCONEXAMPLES = C:\Users\Public\Documents\MVTec\HALCON-11.0\examples
+HALCONIMAGES = C:\Users\Public\Documents\MVTec\HALCON-11.0\examples\images
+HALCONROOT = C:\Program Files\MVTec\HALCON-11.0
+HOMEDRIVE = C:
+HOMEPATH = \Users\Hossein
+LOCALAPPDATA = C:\Users\Hossein\AppData\Local
+LOGONSERVER = \\H
+NUMBER_OF_PROCESSORS = 8
+NVCUDASAMPLES6_0_ROOT = C:\ProgramData\NVIDIA Corporation\CUDA Samples\v6.0
+NVCUDASAMPLES_ROOT = C:\ProgramData\NVIDIA Corporation\CUDA Samples\v6.0
+NVTOOLSEXT_PATH = C:\Program Files\NVIDIA Corporation\NvToolsExt\
+OS = Windows_NT
+Path = C:\Program Files\Common Files\Microsoft Shared\Windows Live;C:\Program Files (x86)\Common Files\Microsoft Shared\Windows Live;C:\Program Files\NVIDIA GPU Computing Toolkit\CUDA\v6.0\bin;C:\Program Files\NVIDIA GPU Computing Toolkit\CUDA\v6.0\libnvvp;C:\Program Files (x86)\NVIDIA Corporation\PhysX\Common;C:\Program Files (x86)\Intel\iCLS Client\;C:\Program Files\Intel\iCLS Client\;C:\Windows\system32;C:\Windows;C:\Windows\System32\Wbem;C:\Windows\System32\WindowsPowerShell\v1.0\;C:\Program Files\Intel\Intel(R) Management Engine Components\DAL;C:\Program Files\Intel\Intel(R) Management Engine Components\IPT;C:\Program Files (x86)\Intel\Intel(R) Management Engine Components\DAL;C:\Program Files (x86)\Intel\Intel(R) Management Engine Components\IPT;c:\Program Files (x86)\Microsoft SQL Server\100\Tools\Binn\;c:\Program Files\Microsoft SQL Server\100\Tools\Binn\;c:\Program Files\Microsoft SQL Server\100\DTS\Binn\;C:\Tesseract-OCR;C:\Program Files (x86)\Tesseract-OCR;C:\Program Files\MVTec\HALCON-11.0\bin\x64-win64;C:\Program Files\MVTec\HALCON-11.0\FLEXlm\x64-win64;C:\Program Files\MiKTeX 2.9\miktex\bin\x64\;C:\Program Files\doxygen\bin;C:\Program Files\MATLAB\R2014a\runtime\win64;C:\Program Files\MATLAB\R2014a\bin;C:\Program Files\MATLAB\MATLAB Compiler Runtime\v82\runtime\win64;C:\Program Files (x86)\Windows Live\Shared;C:\Users\Hossein\Project\OpenCV2.4.8\build
+PATHEXT = .COM;.EXE;.BAT;.CMD;.VBS;.VBE;.JS;.JSE;.WSF;.WSH;.MSC
+PROCESSOR_ARCHITECTURE = x86
+PROCESSOR_ARCHITEW6432 = AMD64
+PROCESSOR_IDENTIFIER = Intel64 Family 6 Model 58 Stepping 9, GenuineIntel
+PROCESSOR_LEVEL = 6
+PROCESSOR_REVISION = 3a09
+ProgramData = C:\ProgramData
+ProgramFiles = C:\Program Files (x86)
+ProgramFiles(x86) = C:\Program Files (x86)
+ProgramW6432 = C:\Program Files
+PSModulePath = C:\Windows\system32\WindowsPowerShell\v1.0\Modules\
+PUBLIC = C:\Users\Public
+QTDIR = C:\Users\Hossein\Project\4.7.3x86_Intel
+SESSIONNAME = Console
+SystemDrive = C:
+SystemRoot = C:\Windows
+TEMP = C:\Users\Hossein\AppData\Local\Temp
+TESSDATA_PREFIX = C:\Program Files (x86)\Tesseract-OCR\
+TMP = C:\Users\Hossein\AppData\Local\Temp
+USERDOMAIN = H
+USERNAME = Hossein
+USERPROFILE = C:\Users\Hossein
+VisualStudioDir = C:\Users\Hossein\Documents\Visual Studio 2010
+VS100COMNTOOLS = c:\Program Files (x86)\Microsoft Visual Studio 10.0\Common7\Tools\
+windir = C:\Windows
+windows_tracing_flags = 3
+windows_tracing_logfile = C:\BVTBin\Tests\installpackage\csilogfile.log
+
+14:27:57.091     1>Project "C:\Users\Hossein\Project\TADD\TADDengine\TADDengine.vcxproj" on node 4 (rebuild target(s)).
+14:27:57.091     1>Building with tools version "4.0".
+14:27:57.092     1>Target "_CheckForInvalidConfigurationAndPlatform: (TargetId:155)" in file "C:\Windows\Microsoft.NET\Framework\v4.0.30319\Microsoft.Common.Targets" from project "C:\Users\Hossein\Project\TADD\TADDengine\TADDengine.vcxproj" (entry point):
+                   Task "Error" skipped, due to false condition; ( '$(_InvalidConfigurationError)' == 'true' ) was evaluated as ( '' == 'true' ).
+                   Task "Warning" skipped, due to false condition; ( '$(_InvalidConfigurationWarning)' == 'true' ) was evaluated as ( '' == 'true' ).
+                   Task "Message" (TaskId:146)
+                     Configuration=Debug (TaskId:146)
+                   Done executing task "Message". (TaskId:146)
+                   Task "Message" (TaskId:147)
+                     Platform=Win32 (TaskId:147)
+                   Done executing task "Message". (TaskId:147)
+                   Task "Error" skipped, due to false condition; ('$(OutDir)' != '' and !HasTrailingSlash('$(OutDir)')) was evaluated as ('C:\Users\Hossein\Project\TADD\Debug\' != '' and !HasTrailingSlash('C:\Users\Hossein\Project\TADD\Debug\')).
+                   Task "Error" skipped, due to false condition; ('$(BaseIntermediateOutputPath)' != '' and !HasTrailingSlash('$(BaseIntermediateOutputPath)')) was evaluated as ('obj\' != '' and !HasTrailingSlash('obj\')).
+                   Task "Error" skipped, due to false condition; ('$(IntermediateOutputPath)' != '' and !HasTrailingSlash('$(IntermediateOutputPath)')) was evaluated as ('Debug\' != '' and !HasTrailingSlash('Debug\')).
+14:27:57.092     1>Done building target "_CheckForInvalidConfigurationAndPlatform" in project "TADDengine.vcxproj".: (TargetId:155)
+14:27:57.092     1>Target "_DetermineManagedStateFromCL: (TargetId:156)" in file "C:\Program Files (x86)\MSBuild\Microsoft.Cpp\v4.0\Microsoft.CppBuild.targets" from project "C:\Users\Hossein\Project\TADD\TADDengine\TADDengine.vcxproj" (target "Rebuild" depends on it):
+14:27:57.092     1>Done building target "_DetermineManagedStateFromCL" in project "TADDengine.vcxproj".: (TargetId:156)
+14:27:57.092     1>Target "_PrepareForRebuild: (TargetId:157)" in file "C:\Program Files (x86)\MSBuild\Microsoft.Cpp\v4.0\Microsoft.BuildSteps.Targets" from project "C:\Users\Hossein\Project\TADD\TADDengine\TADDengine.vcxproj" (target "Rebuild" depends on it):
+14:27:57.092     1>Done building target "_PrepareForRebuild" in project "TADDengine.vcxproj".: (TargetId:157)
+14:27:57.092     1>Target "BeforeRebuild: (TargetId:158)" in file "C:\Windows\Microsoft.NET\Framework\v4.0.30319\Microsoft.Common.Targets" from project "C:\Users\Hossein\Project\TADD\TADDengine\TADDengine.vcxproj" (target "Rebuild" depends on it):
+14:27:57.092     1>Done building target "BeforeRebuild" in project "TADDengine.vcxproj".: (TargetId:158)
+14:27:57.092     1>Target "_PrepareForClean: (TargetId:159)" in file "C:\Program Files (x86)\MSBuild\Microsoft.Cpp\v4.0\Microsoft.BuildSteps.Targets" from project "C:\Users\Hossein\Project\TADD\TADDengine\TADDengine.vcxproj" (target "Clean" depends on it):
+                   Task "Delete" (TaskId:148)
+                     Deleting file "Debug\TADDengine.lastbuildstate". (TaskId:148)
+                   Done executing task "Delete". (TaskId:148)
+14:27:57.092     1>Done building target "_PrepareForClean" in project "TADDengine.vcxproj".: (TargetId:159)
+14:27:57.092     1>Target "BeforeClean: (TargetId:160)" in file "C:\Windows\Microsoft.NET\Framework\v4.0.30319\Microsoft.Common.Targets" from project "C:\Users\Hossein\Project\TADD\TADDengine\TADDengine.vcxproj" (target "Clean" depends on it):
+14:27:57.092     1>Done building target "BeforeClean" in project "TADDengine.vcxproj".: (TargetId:160)
+                   Target "UnmanagedUnregistration" skipped, due to false condition; ((('$(_AssemblyTimestampBeforeCompile)' != '$(_AssemblyTimestampAfterCompile)' or '$(RegisterForComInterop)' != 'true' or '$(OutputType)' != 'library') or
+                                       ('$(_AssemblyTimestampBeforeCompile)' == '')) and
+                                      Exists('@(_UnmanagedRegistrationCache)')) was evaluated as ((('' != '' or '' != 'true' or 'staticlibrary' != 'library') or
+                                       ('' == '')) and
+                                      Exists('obj\TADDengine.vcxproj.UnmanagedRegistration.cache')).
+14:27:57.092     1>Target "CoreClean: (TargetId:161)" in file "C:\Windows\Microsoft.NET\Framework\v4.0.30319\Microsoft.Common.Targets" from project "C:\Users\Hossein\Project\TADD\TADDengine\TADDengine.vcxproj" (target "Clean" depends on it):
+                   Task "Delete" (TaskId:149)
+                   Done executing task "Delete". (TaskId:149)
+                   Task "ReadLinesFromFile" (TaskId:150)
+                   Done executing task "ReadLinesFromFile". (TaskId:150)
+                   Task "FindUnderPath" (TaskId:151)
+                     Comparison path is "C:\Users\Hossein\Project\TADD\Debug\". (TaskId:151)
+                   Done executing task "FindUnderPath". (TaskId:151)
+                   Task "FindUnderPath" (TaskId:152)
+                     Comparison path is "Debug\". (TaskId:152)
+                   Done executing task "FindUnderPath". (TaskId:152)
+                   Task "Delete" (TaskId:153)
+                   Done executing task "Delete". (TaskId:153)
+                   Task "RemoveDuplicates" (TaskId:154)
+                   Done executing task "RemoveDuplicates". (TaskId:154)
+                   Task "MakeDir" (TaskId:155)
+                   Done executing task "MakeDir". (TaskId:155)
+                   Task "WriteLinesToFile" (TaskId:156)
+                   Done executing task "WriteLinesToFile". (TaskId:156)
+14:27:57.093     1>Done building target "CoreClean" in project "TADDengine.vcxproj".: (TargetId:161)
+14:27:57.093     1>Target "AssignProjectConfiguration: (TargetId:162)" in file "C:\Windows\Microsoft.NET\Framework\v4.0.30319\Microsoft.Common.Targets" from project "C:\Users\Hossein\Project\TADD\TADDengine\TADDengine.vcxproj" (target "CleanReferencedProjects" depends on it):
+                   Task "AssignProjectConfiguration" (TaskId:157)
+                   Done executing task "AssignProjectConfiguration". (TaskId:157)
+14:27:57.093     1>Done building target "AssignProjectConfiguration" in project "TADDengine.vcxproj".: (TargetId:162)
+14:27:57.093     1>Target "_SplitProjectReferencesByFileExistence: (TargetId:163)" in file "C:\Windows\Microsoft.NET\Framework\v4.0.30319\Microsoft.Common.Targets" from project "C:\Users\Hossein\Project\TADD\TADDengine\TADDengine.vcxproj" (target "CleanReferencedProjects" depends on it):
+                   Task "ResolveNonMSBuildProjectOutput" skipped, due to false condition; ('$(BuildingInsideVisualStudio)'=='true' and '@(ProjectReferenceWithConfiguration)'!='') was evaluated as ('true'=='true' and ''!='').
+14:27:57.093     1>Done building target "_SplitProjectReferencesByFileExistence" in project "TADDengine.vcxproj".: (TargetId:163)
+14:27:57.093     1>Target "CleanReferencedProjects: (TargetId:164)" in file "C:\Windows\Microsoft.NET\Framework\v4.0.30319\Microsoft.Common.Targets" from project "C:\Users\Hossein\Project\TADD\TADDengine\TADDengine.vcxproj" (target "Clean" depends on it):
+                   Task "MSBuild" skipped, due to false condition; ('$(BuildingInsideVisualStudio)' != 'true' and '$(BuildProjectReferences)' == 'true' and '@(_MSBuildProjectReferenceExistent)' != '') was evaluated as ('true' != 'true' and 'true' == 'true' and '' != '').
+14:27:57.093     1>Done building target "CleanReferencedProjects" in project "TADDengine.vcxproj".: (TargetId:164)
+14:27:57.093     1>Target "CleanPublishFolder: (TargetId:165)" in file "C:\Windows\Microsoft.NET\Framework\v4.0.30319\Microsoft.Common.Targets" from project "C:\Users\Hossein\Project\TADD\TADDengine\TADDengine.vcxproj" (target "Clean" depends on it):
+                   Task "RemoveDir" skipped, due to false condition; ('$(PublishDir)'=='$(OutputPath)app.publish\' and Exists('$(PublishDir)')) was evaluated as ('C:\Users\Hossein\Project\TADD\Debug\app.publish\'=='C:\Users\Hossein\Project\TADD\Debug\app.publish\' and Exists('C:\Users\Hossein\Project\TADD\Debug\app.publish\')).
+14:27:57.093     1>Done building target "CleanPublishFolder" in project "TADDengine.vcxproj".: (TargetId:165)
+14:27:57.093     1>Target "AfterClean: (TargetId:166)" in file "C:\Windows\Microsoft.NET\Framework\v4.0.30319\Microsoft.Common.Targets" from project "C:\Users\Hossein\Project\TADD\TADDengine\TADDengine.vcxproj" (target "Clean" depends on it):
+14:27:57.093     1>Done building target "AfterClean" in project "TADDengine.vcxproj".: (TargetId:166)
+                   Target "EntityClean" skipped, due to false condition; ('@(EntityDeploy)' != '') was evaluated as ('' != '').
+14:27:57.093     1>Target "BeforeCppClean: (TargetId:167)" in file "C:\Program Files (x86)\MSBuild\Microsoft.Cpp\v4.0\Microsoft.CppClean.targets" from project "C:\Users\Hossein\Project\TADD\TADDengine\TADDengine.vcxproj" (target "CppClean" depends on it):
+14:27:57.093     1>Done building target "BeforeCppClean" in project "TADDengine.vcxproj".: (TargetId:167)
+14:27:57.093     1>Target "CoreCppClean: (TargetId:168)" in file "C:\Program Files (x86)\MSBuild\Microsoft.Cpp\v4.0\Microsoft.CppClean.targets" from project "C:\Users\Hossein\Project\TADD\TADDengine\TADDengine.vcxproj" (target "CppClean" depends on it):
+                   Task "MakeDir" (TaskId:158)
+                   Done executing task "MakeDir". (TaskId:158)
+                   Using "CppClean" task from assembly "Microsoft.Build.CppTasks.Common, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a".
+                   Task "CppClean" (TaskId:159)
+                   Done executing task "CppClean". (TaskId:159)
+                   Task "WriteLinesToFile" (TaskId:160)
+                   Done executing task "WriteLinesToFile". (TaskId:160)
+14:27:57.098     1>Done building target "CoreCppClean" in project "TADDengine.vcxproj".: (TargetId:168)
+14:27:57.098     1>Target "AfterCppClean: (TargetId:169)" in file "C:\Program Files (x86)\MSBuild\Microsoft.Cpp\v4.0\Microsoft.CppClean.targets" from project "C:\Users\Hossein\Project\TADD\TADDengine\TADDengine.vcxproj" (target "CppClean" depends on it):
+14:27:57.098     1>Done building target "AfterCppClean" in project "TADDengine.vcxproj".: (TargetId:169)
+14:27:57.098     1>Target "PGInstrumentedClean: (TargetId:170)" in file "C:\Program Files (x86)\MSBuild\Microsoft.Cpp\v4.0\Microsoft.CppClean.targets" from project "C:\Users\Hossein\Project\TADD\TADDengine\TADDengine.vcxproj" (target "CppClean" depends on it):
+                   Task "Delete" (TaskId:161)
+                   Done executing task "Delete". (TaskId:161)
+14:27:57.098     1>Done building target "PGInstrumentedClean" in project "TADDengine.vcxproj".: (TargetId:170)
+14:27:57.098     1>Target "CppClean: (TargetId:171)" in file "C:\Program Files (x86)\MSBuild\Microsoft.Cpp\v4.0\Microsoft.CppClean.targets" from project "C:\Users\Hossein\Project\TADD\TADDengine\TADDengine.vcxproj" (target "Clean" depends on it):
+14:27:57.098     1>Done building target "CppClean" in project "TADDengine.vcxproj".: (TargetId:171)
+14:27:57.098     1>Target "Clean: (TargetId:172)" in file "C:\Windows\Microsoft.NET\Framework\v4.0.30319\Microsoft.Common.Targets" from project "C:\Users\Hossein\Project\TADD\TADDengine\TADDengine.vcxproj" (target "Rebuild" depends on it):
+14:27:57.098     1>Done building target "Clean" in project "TADDengine.vcxproj".: (TargetId:172)
+                   Target "_DetermineManagedStateFromCL" skipped. Previously built successfully.
+14:27:57.098     1>Target "_PrepareForBuild: (TargetId:173)" in file "C:\Program Files (x86)\MSBuild\Microsoft.Cpp\v4.0\Microsoft.BuildSteps.Targets" from project "C:\Users\Hossein\Project\TADD\TADDengine\TADDengine.vcxproj" (target "Build" depends on it):
+14:27:57.099     1>Done building target "_PrepareForBuild" in project "TADDengine.vcxproj".: (TargetId:173)
+14:27:57.099     1>Target "SetBuildDefaultEnvironmentVariables: (TargetId:174)" in file "C:\Program Files (x86)\MSBuild\Microsoft.Cpp\v4.0\Microsoft.Cpp.targets" from project "C:\Users\Hossein\Project\TADD\TADDengine\TADDengine.vcxproj" (target "Build" depends on it):
+                   Using "SetEnv" task from assembly "Microsoft.Build.CppTasks.Common, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a".
+                   Task "SetEnv" (TaskId:162)
+                     PATH=c:\Program Files (x86)\Microsoft Visual Studio 10.0\VC\bin;C:\Program Files (x86)\Microsoft SDKs\Windows\v7.0A\bin\NETFX 4.0 Tools;C:\Program Files (x86)\Microsoft SDKs\Windows\v7.0A\bin;C:\Program Files (x86)\Microsoft Visual Studio 10.0\Common7\Tools\bin;C:\Program Files (x86)\Microsoft Visual Studio 10.0\Common7\tools;C:\Program Files (x86)\Microsoft Visual Studio 10.0\Common7\ide;C:\Program Files (x86)\HTML Help Workshop;C:\Program Files (x86)\Microsoft SDKs\Windows\v7.0A\\bin;C:\Windows\Microsoft.NET\Framework\v4.0.30319\;C:\Program Files (x86)\Microsoft Visual Studio 10.0\;C:\Windows\SysWow64;;C:\Program Files\Common Files\Microsoft Shared\Windows Live;C:\Program Files (x86)\Common Files\Microsoft Shared\Windows Live;C:\Program Files\NVIDIA GPU Computing Toolkit\CUDA\v6.0\bin;C:\Program Files\NVIDIA GPU Computing Toolkit\CUDA\v6.0\libnvvp;C:\Program Files (x86)\NVIDIA Corporation\PhysX\Common;C:\Program Files (x86)\Intel\iCLS Client\;C:\Program Files\Intel\iCLS Client\;C:\Windows\system32;C:\Windows;C:\Windows\System32\Wbem;C:\Windows\System32\WindowsPowerShell\v1.0\;C:\Program Files\Intel\Intel(R) Management Engine Components\DAL;C:\Program Files\Intel\Intel(R) Management Engine Components\IPT;C:\Program Files (x86)\Intel\Intel(R) Management Engine Components\DAL;C:\Program Files (x86)\Intel\Intel(R) Management Engine Components\IPT;c:\Program Files (x86)\Microsoft SQL Server\100\Tools\Binn\;c:\Program Files\Microsoft SQL Server\100\Tools\Binn\;c:\Program Files\Microsoft SQL Server\100\DTS\Binn\;C:\Tesseract-OCR;C:\Program Files (x86)\Tesseract-OCR;C:\Program Files\MVTec\HALCON-11.0\bin\x64-win64;C:\Program Files\MVTec\HALCON-11.0\FLEXlm\x64-win64;C:\Program Files\MiKTeX 2.9\miktex\bin\x64\;C:\Program Files\doxygen\bin;C:\Program Files\MATLAB\R2014a\runtime\win64;C:\Program Files\MATLAB\R2014a\bin;C:\Program Files\MATLAB\MATLAB Compiler Runtime\v82\runtime\win64;C:\Program Files (x86)\Windows Live\Shared;C:\Users\Hossein\Project\OpenCV2.4.8\build; (TaskId:162)
+                   Done executing task "SetEnv". (TaskId:162)
+                   Task "SetEnv" skipped, due to false condition; ('$(_IsNativeEnvironment)' == 'true') was evaluated as ('' == 'true').
+                   Task "SetEnv" (TaskId:163)
+                     LIB=C:\Users\Hossein\Project\boost_1_47\lib;C:\Users\Hossein\Project\tbb\lib\ia32\vc10;C:\Users\Hossein\Project\OpenCV2.4.8\build\x86\vc10\lib;C:\Users\Hossein\Project\FlyCapture2\lib\FC1;C:\Users\Hossein\Project\FlyCapture2\lib\C;C:\Users\Hossein\Project\FlyCapture2\lib;C:\Users\Hossein\Project\EDSDK\Library;C:\Users\Hossein\Project\4.7.3x86_Intel\lib;c:\Program Files (x86)\Microsoft Visual Studio 10.0\VC\lib;c:\Program Files (x86)\Microsoft Visual Studio 10.0\VC\atlmfc\lib;C:\Program Files (x86)\Microsoft SDKs\Windows\v7.0A\lib;C:\Program Files (x86)\Microsoft SDKs\Windows\v7.0A\\lib (TaskId:163)
+                   Done executing task "SetEnv". (TaskId:163)
+                   Task "SetEnv" (TaskId:164)
+                     LIBPATH=c:\Program Files (x86)\Microsoft Visual Studio 10.0\VC\atlmfc\lib;c:\Program Files (x86)\Microsoft Visual Studio 10.0\VC\lib (TaskId:164)
+                   Done executing task "SetEnv". (TaskId:164)
+                   Task "SetEnv" (TaskId:165)
+                     INCLUDE=C:\Users\Hossein\Project\tbb\include;C:\Users\Hossein\Project\OpenCV2.4.8\build\include;C:\Users\Hossein\Project\OpenCV2.4.8\build\include\opencv;C:\Users\Hossein\Project\FlyCapture2\include\FC1;C:\Users\Hossein\Project\FlyCapture2\include\C;C:\Users\Hossein\Project\FlyCapture2\include;C:\Users\Hossein\Project\EDSDK\Header;C:\Users\Hossein\Project\boost_1_47;C:\Users\Hossein\Project\boost_1_47\boost;C:\Users\Hossein\Project\4.7.3x86_Intel\include;c:\Program Files (x86)\Microsoft Visual Studio 10.0\VC\include;c:\Program Files (x86)\Microsoft Visual Studio 10.0\VC\atlmfc\include;C:\Program Files (x86)\Microsoft SDKs\Windows\v7.0A\include;C:\Program Files (x86)\Microsoft SDKs\Windows\v7.0A\\include; (TaskId:165)
+                   Done executing task "SetEnv". (TaskId:165)
+14:27:57.099     1>Done building target "SetBuildDefaultEnvironmentVariables" in project "TADDengine.vcxproj".: (TargetId:174)
+                   Target "SetUserMacroEnvironmentVariables" skipped, due to false condition; ('@(BuildMacro)' != '') was evaluated as ('' != '').
+14:27:57.099     1>Target "BeforeResolveReferences: (TargetId:175)" in file "C:\Windows\Microsoft.NET\Framework\v4.0.30319\Microsoft.Common.Targets" from project "C:\Users\Hossein\Project\TADD\TADDengine\TADDengine.vcxproj" (target "ResolveReferences" depends on it):
+14:27:57.099     1>Done building target "BeforeResolveReferences" in project "TADDengine.vcxproj".: (TargetId:175)
+                   Target "AssignProjectConfiguration" skipped. Previously built successfully.
+                   Target "AssignProjectConfiguration" skipped. Previously built successfully.
+                   Target "_SplitProjectReferencesByFileExistence" skipped. Previously built successfully.
+                   Target "_RemoveNameMetadataFromProjectReferenceItems" skipped, due to false condition; ('@(ProjectReference)'!='') was evaluated as (''!='').
+14:27:57.099     1>Target "ResolveProjectReferences: (TargetId:176)" in file "C:\Windows\Microsoft.NET\Framework\v4.0.30319\Microsoft.Common.Targets" from project "C:\Users\Hossein\Project\TADD\TADDengine\TADDengine.vcxproj" (target "ResolveReferences" depends on it):
+                   Task "MSBuild" skipped, due to false condition; ('%(_MSBuildProjectReferenceExistent.BuildReference)' == 'true' and '@(ProjectReferenceWithConfiguration)' != '' and ('$(BuildingInsideVisualStudio)' == 'true' or '$(BuildProjectReferences)' != 'true') and '$(VisualStudioVersion)' != '10.0' and '@(_MSBuildProjectReferenceExistent)' != '') was evaluated as ('' == 'true' and '' != '' and ('true' == 'true' or 'true' != 'true') and '10.0' != '10.0' and '' != '').
+                   Task "MSBuild" skipped, due to false condition; ('%(_MSBuildProjectReferenceExistent.BuildReference)' == 'true' and '@(ProjectReferenceWithConfiguration)' != '' and ('$(BuildingInsideVisualStudio)' == 'true' or '$(BuildProjectReferences)' != 'true') and '$(VisualStudioVersion)' == '10.0' and '@(_MSBuildProjectReferenceExistent)' != '') was evaluated as ('' == 'true' and '' != '' and ('true' == 'true' or 'true' != 'true') and '10.0' == '10.0' and '' != '').
+                   Task "MSBuild" skipped, due to false condition; ('%(_MSBuildProjectReferenceExistent.BuildReference)' == 'true' and '@(ProjectReferenceWithConfiguration)' != '' and '$(BuildingInsideVisualStudio)' != 'true' and '$(BuildProjectReferences)' == 'true' and '@(_MSBuildProjectReferenceExistent)' != '') was evaluated as ('' == 'true' and '' != '' and 'true' != 'true' and 'true' == 'true' and '' != '').
+                   Task "MSBuild" skipped, due to false condition; ('%(_MSBuildProjectReferenceExistent.BuildReference)' == 'true' and '@(ProjectReferenceWithConfiguration)' != '' and '$(BuildingProject)' == 'true' and '@(_MSBuildProjectReferenceExistent)' != '') was evaluated as ('' == 'true' and '' != '' and 'true' == 'true' and '' != '').
+                   Task "Warning" skipped, due to false condition; ('@(ProjectReferenceWithConfiguration)' != '' and '@(_MSBuildProjectReferenceNonexistent)' != '') was evaluated as ('' != '' and '' != '').
+14:27:57.100     1>Done building target "ResolveProjectReferences" in project "TADDengine.vcxproj".: (TargetId:176)
+                   Target "ResolveNativeReferences" skipped, due to false condition; ('@(NativeReference)'!='') was evaluated as (''!='').
+14:27:57.100     1>Target "GetFrameworkPaths: (TargetId:177)" in file "C:\Windows\Microsoft.NET\Framework\v4.0.30319\Microsoft.NETFramework.targets" from project "C:\Users\Hossein\Project\TADD\TADDengine\TADDengine.vcxproj" (target "ResolveAssemblyReferences" depends on it):
+14:27:57.100     1>Done building target "GetFrameworkPaths" in project "TADDengine.vcxproj".: (TargetId:177)
+                   Target "GetWinFXPath" skipped, due to false condition; (('@(Page)' != '' or '@(ApplicationDefinition)' != '' or '@(Resource)' != '') and ('$(GetWinFXNativePath)' != '' or '$(GetWinFXWoWPath)' != '' )) was evaluated as (('' != '' or '' != '' or '' != '') and ('' != '' or '' != '' )).
+14:27:57.100     1>Target "GetReferenceAssemblyPaths: (TargetId:178)" in file "C:\Windows\Microsoft.NET\Framework\v4.0.30319\Microsoft.Common.Targets" from project "C:\Users\Hossein\Project\TADD\TADDengine\TADDengine.vcxproj" (target "ResolveAssemblyReferences" depends on it):
+                   Task "GetReferenceAssemblyPaths" skipped, due to false condition; ('$(TargetFrameworkMoniker)' != '' and ('$(_TargetFrameworkDirectories)' == '' or '$(_FullFrameworkReferenceAssemblyPaths)' == '')) was evaluated as ('.NETFramework,Version=v4.0' != '' and ('C:\Program Files (x86)\Reference Assemblies\Microsoft\Framework\.NETFramework\v4.0' == '' or 'C:\Program Files (x86)\Reference Assemblies\Microsoft\Framework\.NETFramework\v4.0' == '')).
+14:27:57.100     1>Done building target "GetReferenceAssemblyPaths" in project "TADDengine.vcxproj".: (TargetId:178)
+14:27:57.100     1>Target "PlatformPrepareForBuild: (TargetId:179)" in file "C:\Program Files (x86)\MSBuild\Microsoft.Cpp\v4.0\Platforms\Win32\Microsoft.Cpp.Win32.Targets" from project "C:\Users\Hossein\Project\TADD\TADDengine\TADDengine.vcxproj" (target "PrepareForBuild" depends on it):
+                   Task "VCMessage" skipped, due to false condition; (!(exists('$(VCTargetsPath)\Platforms\Win32\PlatformToolsets\$(PlatformToolset)\Microsoft.Cpp.Win32.$(PlatformToolset).targets'))) was evaluated as (!(exists('C:\Program Files (x86)\MSBuild\Microsoft.Cpp\v4.0\\Platforms\Win32\PlatformToolsets\v100\Microsoft.Cpp.Win32.v100.targets'))).
+14:27:57.100     1>Done building target "PlatformPrepareForBuild" in project "TADDengine.vcxproj".: (TargetId:179)
+                   Target "GetFrameworkPaths" skipped. Previously built successfully.
+                   Target "GetReferenceAssemblyPaths" skipped. Previously built successfully.
+14:27:57.100     1>Target "PrepareForBuild: (TargetId:180)" in file "C:\Program Files (x86)\MSBuild\Microsoft.Cpp\v4.0\Microsoft.CppBuild.targets" from project "C:\Users\Hossein\Project\TADD\TADDengine\TADDengine.vcxproj" (target "ResolveAssemblyReferences" depends on it):
+                   Task "VCMessage" skipped, due to false condition; ('$(DesignTimeBuild)'!='true' and '$(ConfigurationPlatformExists)' != 'true') was evaluated as (''!='true' and 'true' != 'true').
+                   Task "MakeDir" (TaskId:166)
+                   Done executing task "MakeDir". (TaskId:166)
+                   Task "VCMessage" skipped, due to false condition; ('$(DesignTimeBuild)'!='true' and '$(VCInstallDir)'=='' and '$(UseEnv)' != 'true' and ($(TargetFrameworkVersion)=='v3.5' or $(TargetFrameworkVersion)=='v3.0' or $(TargetFrameworkVersion)=='v2.0' )) was evaluated as (''!='true' and 'c:\Program Files (x86)\Microsoft Visual Studio 10.0\VC\'=='' and '' != 'true' and (v4.0=='v3.5' or v4.0=='v3.0' or v4.0=='v2.0' )).
+                   Task "VCMessage" skipped, due to false condition; ('$(DesignTimeBuild)'!='true' and '$(VCInstallDir)'=='' and '$(UseEnv)' != 'true' and '$(PlatformToolset)'=='v90') was evaluated as (''!='true' and 'c:\Program Files (x86)\Microsoft Visual Studio 10.0\VC\'=='' and '' != 'true' and 'v100'=='v90').
+                   Task "VCMessage" skipped, due to false condition; ('$(VCInstallDir)'=='' and '$(UseEnv)' != 'true') was evaluated as ('c:\Program Files (x86)\Microsoft Visual Studio 10.0\VC\'=='' and '' != 'true').
+                   Task "VCMessage" skipped, due to false condition; ('$(WindowsSDKDir)'=='' and '$(UseEnv)' != 'true') was evaluated as ('C:\Program Files (x86)\Microsoft SDKs\Windows\v7.0A\'=='' and '' != 'true').
+                   Task "VCMessage" skipped, due to false condition; ('$(IntDirTrailingSlashWarning)'=='true') was evaluated as (''=='true').
+                   Task "VCMessage" skipped, due to false condition; ('$(OutDirTrailingSlashWarning)'=='true') was evaluated as (''=='true').
+                   Task "MakeDir" (TaskId:167)
+                   Done executing task "MakeDir". (TaskId:167)
+14:27:57.101     1>Done building target "PrepareForBuild" in project "TADDengine.vcxproj".: (TargetId:180)
+14:27:57.101     1>Target "GetInstalledSDKLocations: (TargetId:181)" in file "C:\Windows\Microsoft.NET\Framework\v4.0.30319\Microsoft.Common.Targets" from project "C:\Users\Hossein\Project\TADD\TADDengine\TADDengine.vcxproj" (target "ResolveSDKReferences" depends on it):
+                   Task "GetInstalledSDKLocations" skipped, due to false condition; ('@(SDKReference)' != '') was evaluated as ('' != '').
+14:27:57.101     1>Done building target "GetInstalledSDKLocations" in project "TADDengine.vcxproj".: (TargetId:181)
+14:27:57.101     1>Target "ResolveSDKReferences: (TargetId:182)" in file "C:\Windows\Microsoft.NET\Framework\v4.0.30319\Microsoft.Common.Targets" from project "C:\Users\Hossein\Project\TADD\TADDengine\TADDengine.vcxproj" (target "ResolveAssemblyReferences" depends on it):
+                   Task "ResolveSDKReference" skipped, due to false condition; ('@(SDKReference)'!='') was evaluated as (''!='').
+14:27:57.101     1>Done building target "ResolveSDKReferences" in project "TADDengine.vcxproj".: (TargetId:182)
+                   Target "ResolveSDKReferences" skipped. Previously built successfully.
+14:27:57.101     1>Target "ExpandSDKReferences: (TargetId:183)" in file "C:\Windows\Microsoft.NET\Framework\v4.0.30319\Microsoft.Common.Targets" from project "C:\Users\Hossein\Project\TADD\TADDengine\TADDengine.vcxproj" (target "ResolveAssemblyReferences" depends on it):
+                   Task "GetSDKReferenceFiles" skipped, due to false condition; ('@(ResolvedSDKReference)'!='') was evaluated as (''!='').
+14:27:57.101     1>Done building target "ExpandSDKReferences" in project "TADDengine.vcxproj".: (TargetId:183)
+14:27:57.101     1>Target "ResolveAssemblyReferences: (TargetId:184)" in file "C:\Windows\Microsoft.NET\Framework\v4.0.30319\Microsoft.Common.Targets" from project "C:\Users\Hossein\Project\TADD\TADDengine\TADDengine.vcxproj" (target "ResolveReferences" depends on it):
+                   Task "ResolveAssemblyReference" (TaskId:168)
+                     TargetFrameworkMoniker: (TaskId:168)
+                         .NETFramework,Version=v4.0 (TaskId:168)
+                     TargetFrameworkMonikerDisplayName: (TaskId:168)
+                         .NET Framework 4 (TaskId:168)
+                     TargetedRuntimeVersion: (TaskId:168)
+                         v4.0.30319 (TaskId:168)
+                     Assemblies: (TaskId:168)
+                         System.Core (TaskId:168)
+                     AssemblyFiles: (TaskId:168)
+                     CandidateAssemblyFiles: (TaskId:168)
+                     TargetFrameworkDirectories: (TaskId:168)
+                         C:\Program Files (x86)\Reference Assemblies\Microsoft\Framework\.NETFramework\v4.0 (TaskId:168)
+                     InstalledAssemblyTables: (TaskId:168)
+                     IgnoreInstalledAssemblyTable: (TaskId:168)
+                         False (TaskId:168)
+                     SearchPaths: (TaskId:168)
+                         {CandidateAssemblyFiles} (TaskId:168)
+                         c:\Program Files (x86)\Microsoft Visual Studio 10.0\VC\atlmfc\lib (TaskId:168)
+                         c:\Program Files (x86)\Microsoft Visual Studio 10.0\VC\lib (TaskId:168)
+                         {HintPathFromItem} (TaskId:168)
+                         {TargetFrameworkDirectory} (TaskId:168)
+                         {Registry:Software\Microsoft\.NETFramework,v4.0,AssemblyFoldersEx} (TaskId:168)
+                         {AssemblyFolders} (TaskId:168)
+                         {GAC} (TaskId:168)
+                         {RawFileName} (TaskId:168)
+                         C:\Users\Hossein\Project\TADD\Debug\ (TaskId:168)
+                     AllowedAssemblyExtensions: (TaskId:168)
+                         .winmd (TaskId:168)
+                         .dll (TaskId:168)
+                         .exe (TaskId:168)
+                     AllowedRelatedFileExtensions: (TaskId:168)
+                         .pdb (TaskId:168)
+                         .xml (TaskId:168)
+                         .pri (TaskId:168)
+                     AppConfigFile: (TaskId:168)
+                          (TaskId:168)
+                     AutoUnify: (TaskId:168)
+                         True (TaskId:168)
+                     CopyLocalDependenciesWhenParentReferenceInGac: (TaskId:168)
+                         True (TaskId:168)
+                     FindDependencies: (TaskId:168)
+                         True (TaskId:168)
+                     TargetProcessorArchitecture: (TaskId:168)
+                         x86 (TaskId:168)
+                     StateFile: (TaskId:168)
+                         Debug\TADDengine.vcxprojResolveAssemblyReference.cache (TaskId:168)
+                     InstalledAssemblySubsetTables: (TaskId:168)
+                     IgnoreInstalledAssemblySubsetTable: (TaskId:168)
+                         False (TaskId:168)
+                     TargetFrameworkSubsets: (TaskId:168)
+                     FullTargetFrameworkSubsetNames: (TaskId:168)
+                         Full (TaskId:168)
+                     ProfileName: (TaskId:168)
+                          (TaskId:168)
+                     FullFrameworkFolders: (TaskId:168)
+                         C:\Program Files (x86)\Reference Assemblies\Microsoft\Framework\.NETFramework\v4.0 (TaskId:168)
+                     LatestTargetFrameworkDirectories: (TaskId:168)
+                     ProfileTablesLocation: (TaskId:168)
+                     Primary reference "System.Core, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089". (TaskId:168)
+                         Resolved file path is "C:\Program Files (x86)\Reference Assemblies\Microsoft\Framework\.NETFramework\v4.0\System.Core.dll". (TaskId:168)
+                         Reference found at search path location "{TargetFrameworkDirectory}". (TaskId:168)
+                             For SearchPath "c:\Program Files (x86)\Microsoft Visual Studio 10.0\VC\atlmfc\lib". (TaskId:168)
+                             Considered "c:\Program Files (x86)\Microsoft Visual Studio 10.0\VC\atlmfc\lib\System.Core.winmd", but it didn't exist. (TaskId:168)
+                             Considered "c:\Program Files (x86)\Microsoft Visual Studio 10.0\VC\atlmfc\lib\System.Core.dll", but it didn't exist. (TaskId:168)
+                             Considered "c:\Program Files (x86)\Microsoft Visual Studio 10.0\VC\atlmfc\lib\System.Core.exe", but it didn't exist. (TaskId:168)
+                             For SearchPath "c:\Program Files (x86)\Microsoft Visual Studio 10.0\VC\lib". (TaskId:168)
+                             Considered "c:\Program Files (x86)\Microsoft Visual Studio 10.0\VC\lib\System.Core.winmd", but it didn't exist. (TaskId:168)
+                             Considered "c:\Program Files (x86)\Microsoft Visual Studio 10.0\VC\lib\System.Core.dll", but it didn't exist. (TaskId:168)
+                             Considered "c:\Program Files (x86)\Microsoft Visual Studio 10.0\VC\lib\System.Core.exe", but it didn't exist. (TaskId:168)
+                             For SearchPath "{TargetFrameworkDirectory}". (TaskId:168)
+                             Considered "C:\Program Files (x86)\Reference Assemblies\Microsoft\Framework\.NETFramework\v4.0\System.Core.winmd", but it didn't exist. (TaskId:168)
+                         This reference is not "CopyLocal" because it's a prerequisite file. (TaskId:168)
+                         The ImageRuntimeVersion for this reference is "v4.0.30319". (TaskId:168)
+                   Done executing task "ResolveAssemblyReference". (TaskId:168)
+14:27:57.103     1>Done building target "ResolveAssemblyReferences" in project "TADDengine.vcxproj".: (TargetId:184)
+                   Target "ResolveComReferences" skipped, due to false condition; ('@(COMReference)'!='' or '@(COMFileReference)'!='') was evaluated as (''!='' or ''!='').
+14:27:57.103     1>Target "AfterResolveReferences: (TargetId:185)" in file "C:\Windows\Microsoft.NET\Framework\v4.0.30319\Microsoft.Common.Targets" from project "C:\Users\Hossein\Project\TADD\TADDengine\TADDengine.vcxproj" (target "ResolveReferences" depends on it):
+14:27:57.103     1>Done building target "AfterResolveReferences" in project "TADDengine.vcxproj".: (TargetId:185)
+                   Target "ImplicitlyExpandDesignTimeFacades" skipped, due to false condition; ('$(ImplicitlyExpandDesignTimeFacades)' == 'true') was evaluated as ('' == 'true').
+                   Target "ResolveTestReferences" skipped, due to false condition; ('@(Shadow)'!='') was evaluated as (''!='').
+14:27:57.103     1>Target "ResolveReferences: (TargetId:186)" in file "C:\Windows\Microsoft.NET\Framework\v4.0.30319\Microsoft.Common.Targets" from project "C:\Users\Hossein\Project\TADD\TADDengine\TADDengine.vcxproj" (target "Build" depends on it):
+14:27:57.103     1>Done building target "ResolveReferences" in project "TADDengine.vcxproj".: (TargetId:186)
+                   Target "PrepareForBuild" skipped. Previously built successfully.
+                   Target "PrepareForBuild" skipped. Previously built successfully.
+14:27:57.103     1>Target "InitializeBuildStatus: (TargetId:187)" in file "C:\Program Files (x86)\MSBuild\Microsoft.Cpp\v4.0\Microsoft.CppBuild.targets" from project "C:\Users\Hossein\Project\TADD\TADDengine\TADDengine.vcxproj" (target "Build" depends on it):
+                   Task "ReadLinesFromFile" (TaskId:169)
+                   Done executing task "ReadLinesFromFile". (TaskId:169)
+                   Task "WriteLinesToFile" (TaskId:170)
+                   Done executing task "WriteLinesToFile". (TaskId:170)
+                   Task "Touch" (TaskId:171)
+                     Creating "Debug\TADDengine.unsuccessfulbuild" because "AlwaysCreate" was specified. (TaskId:171)
+                   Done executing task "Touch". (TaskId:171)
+14:27:57.106     1>Done building target "InitializeBuildStatus" in project "TADDengine.vcxproj".: (TargetId:187)
+                   Target "AssignProjectConfiguration" skipped. Previously built successfully.
+                   Target "_SplitProjectReferencesByFileExistence" skipped. Previously built successfully.
+14:27:57.106     1>Target "BuildGenerateSourcesTraverse: (TargetId:188)" in file "C:\Windows\Microsoft.NET\Framework\v4.0.30319\Microsoft.Common.Targets" from project "C:\Users\Hossein\Project\TADD\TADDengine\TADDengine.vcxproj" (target "BuildGenerateSources" depends on it):
+                   Task "MSBuild" skipped, due to false condition; ('$(BuildPassReferences)' == 'true' and '@(ProjectReferenceWithConfiguration)' != '' and '@(_MSBuildProjectReferenceExistent)' != '' and '%(_MSBuildProjectReferenceExistent.BuildReference)' == 'true') was evaluated as ('' == 'true' and '' != '' and '' != '' and '' == 'true').
+14:27:57.106     1>Done building target "BuildGenerateSourcesTraverse" in project "TADDengine.vcxproj".: (TargetId:188)
+                   Target "SetBuildDefaultEnvironmentVariables" skipped. Previously built successfully.
+                   Target "SetUserMacroEnvironmentVariables" skipped, due to false condition; ('@(BuildMacro)' != '') was evaluated as ('' != '').
+                   Target "PrepareForBuild" skipped. Previously built successfully.
+                   Target "ResolveReferences" skipped. Previously built successfully.
+14:27:57.106     1>Target "BeforeBuildGenerateSources: (TargetId:189)" in file "C:\Program Files (x86)\MSBuild\Microsoft.Cpp\v4.0\Microsoft.BuildSteps.Targets" from project "C:\Users\Hossein\Project\TADD\TADDengine\TADDengine.vcxproj" (target "BuildGenerateSources" depends on it):
+14:27:57.106     1>Done building target "BeforeBuildGenerateSources" in project "TADDengine.vcxproj".: (TargetId:189)
+14:27:57.106     1>Target "PreBuildEvent: (TargetId:190)" in file "C:\Program Files (x86)\MSBuild\Microsoft.Cpp\v4.0\Microsoft.CppCommon.targets" from project "C:\Users\Hossein\Project\TADD\TADDengine\TADDengine.vcxproj" (target "BuildGenerateSources" depends on it):
+                   Task "Message" skipped, due to false condition; ('%(PreBuildEvent.Message)' != '' and '%(PreBuildEvent.Command)' != '') was evaluated as ('' != '' and '' != '').
+                   Task "Exec" skipped, due to false condition; ('%(PreBuildEvent.Command)' != '') was evaluated as ('' != '').
+14:27:57.106     1>Done building target "PreBuildEvent" in project "TADDengine.vcxproj".: (TargetId:190)
+                   Target "CustomBuild" skipped, due to false condition; ('@(CustomBuild)' != '') was evaluated as ('' != '').
+14:27:57.106     1>Target "_GenerateXMLData: (TargetId:191)" in file "C:\Program Files (x86)\MSBuild\Microsoft.Cpp\v4.0\Microsoft.CppBuild.targets" from project "C:\Users\Hossein\Project\TADD\TADDengine\TADDengine.vcxproj" (target "BuildGenerateSources" depends on it):
+14:27:57.106     1>Done building target "_GenerateXMLData" in project "TADDengine.vcxproj".: (TargetId:191)
+14:27:57.106     1>Target "_GenerateWebServiceProxy: (TargetId:192)" in file "C:\Program Files (x86)\MSBuild\Microsoft.Cpp\v4.0\Microsoft.CppBuild.targets" from project "C:\Users\Hossein\Project\TADD\TADDengine\TADDengine.vcxproj" (target "BuildGenerateSources" depends on it):
+14:27:57.106     1>Done building target "_GenerateWebServiceProxy" in project "TADDengine.vcxproj".: (TargetId:192)
+                   Target "Xsd" skipped, due to false condition; ('@(Xsd)' != '') was evaluated as ('' != '').
+14:27:57.106     1>Target "_Xsd: (TargetId:193)" in file "C:\Program Files (x86)\MSBuild\Microsoft.Cpp\v4.0\Microsoft.CppBuild.targets" from project "C:\Users\Hossein\Project\TADD\TADDengine\TADDengine.vcxproj" (target "BuildGenerateSources" depends on it):
+14:27:57.106     1>Done building target "_Xsd" in project "TADDengine.vcxproj".: (TargetId:193)
+14:27:57.106     1>Target "MakeDirsForMidl: (TargetId:194)" in file "C:\Program Files (x86)\MSBuild\Microsoft.Cpp\v4.0\Microsoft.CppBuild.targets" from project "C:\Users\Hossein\Project\TADD\TADDengine\TADDengine.vcxproj" (target "_Midl" depends on it):
+                   Task "Makedir" (TaskId:172)
+                   Done executing task "Makedir". (TaskId:172)
+14:27:57.106     1>Done building target "MakeDirsForMidl" in project "TADDengine.vcxproj".: (TargetId:194)
+                   Target "Midl" skipped, due to false condition; ('@(Midl)' != '') was evaluated as ('' != '').
+                   Target "CustomBuild" skipped, due to false condition; ('@(CustomBuild)' != '') was evaluated as ('' != '').
+14:27:57.106     1>Target "ComputeMIDLGeneratedCompileInputs: (TargetId:195)" in file "C:\Program Files (x86)\MSBuild\Microsoft.Cpp\v4.0\Microsoft.CppBuild.targets" from project "C:\Users\Hossein\Project\TADD\TADDengine\TADDengine.vcxproj" (target "_Midl" depends on it):
+14:27:57.106     1>Done building target "ComputeMIDLGeneratedCompileInputs" in project "TADDengine.vcxproj".: (TargetId:195)
+14:27:57.106     1>Target "AfterMidl: (TargetId:196)" in file "C:\Program Files (x86)\MSBuild\Microsoft.Cpp\v4.0\Microsoft.CppBuild.targets" from project "C:\Users\Hossein\Project\TADD\TADDengine\TADDengine.vcxproj" (target "_Midl" depends on it):
+14:27:57.106     1>Done building target "AfterMidl" in project "TADDengine.vcxproj".: (TargetId:196)
+14:27:57.106     1>Target "_Midl: (TargetId:197)" in file "C:\Program Files (x86)\MSBuild\Microsoft.Cpp\v4.0\Microsoft.CppBuild.targets" from project "C:\Users\Hossein\Project\TADD\TADDengine\TADDengine.vcxproj" (target "BuildGenerateSources" depends on it):
+14:27:57.106     1>Done building target "_Midl" in project "TADDengine.vcxproj".: (TargetId:197)
+14:27:57.106     1>Target "AfterBuildGenerateSources: (TargetId:198)" in file "C:\Program Files (x86)\MSBuild\Microsoft.Cpp\v4.0\Microsoft.BuildSteps.Targets" from project "C:\Users\Hossein\Project\TADD\TADDengine\TADDengine.vcxproj" (target "BuildGenerateSources" depends on it):
+14:27:57.106     1>Done building target "AfterBuildGenerateSources" in project "TADDengine.vcxproj".: (TargetId:198)
+14:27:57.106     1>Target "AfterBuildGenerateSourcesEvent: (TargetId:199)" in file "C:\Program Files (x86)\MSBuild\Microsoft.Cpp\v4.0\Microsoft.CppBuild.targets" from project "C:\Users\Hossein\Project\TADD\TADDengine\TADDengine.vcxproj" (target "BuildGenerateSources" depends on it):
+14:27:57.106     1>Done building target "AfterBuildGenerateSourcesEvent" in project "TADDengine.vcxproj".: (TargetId:199)
+14:27:57.106     1>Target "BuildGenerateSources: (TargetId:200)" in file "C:\Windows\Microsoft.NET\Framework\v4.0.30319\Microsoft.Common.Targets" from project "C:\Users\Hossein\Project\TADD\TADDengine\TADDengine.vcxproj" (target "Build" depends on it):
+14:27:57.106     1>Done building target "BuildGenerateSources" in project "TADDengine.vcxproj".: (TargetId:200)
+                   Target "AssignProjectConfiguration" skipped. Previously built successfully.
+                   Target "_SplitProjectReferencesByFileExistence" skipped. Previously built successfully.
+14:27:57.107     1>Target "BuildCompileTraverse: (TargetId:201)" in file "C:\Windows\Microsoft.NET\Framework\v4.0.30319\Microsoft.Common.Targets" from project "C:\Users\Hossein\Project\TADD\TADDengine\TADDengine.vcxproj" (target "BuildCompile" depends on it):
+                   Task "MSBuild" skipped, due to false condition; ('$(BuildPassReferences)' == 'true' and '@(ProjectReferenceWithConfiguration)' != '' and '@(_MSBuildProjectReferenceExistent)' != ''  and '%(_MSBuildProjectReferenceExistent.BuildReference)' == 'true') was evaluated as ('' == 'true' and '' != '' and '' != ''  and '' == 'true').
+14:27:57.107     1>Done building target "BuildCompileTraverse" in project "TADDengine.vcxproj".: (TargetId:201)
+                   Target "SetBuildDefaultEnvironmentVariables" skipped. Previously built successfully.
+                   Target "SetUserMacroEnvironmentVariables" skipped, due to false condition; ('@(BuildMacro)' != '') was evaluated as ('' != '').
+                   Target "PrepareForBuild" skipped. Previously built successfully.
+                   Target "ResolveReferences" skipped. Previously built successfully.
+14:27:57.107     1>Target "BeforeClCompile: (TargetId:202)" in file "C:\Program Files (x86)\MSBuild\Microsoft.Cpp\v4.0\Microsoft.CppBuild.targets" from project "C:\Users\Hossein\Project\TADD\TADDengine\TADDengine.vcxproj" (target "_ClCompile" depends on it):
+14:27:57.107     1>Done building target "BeforeClCompile" in project "TADDengine.vcxproj".: (TargetId:202)
+                   Target "ComputeMIDLGeneratedCompileInputs" skipped. Previously built successfully.
+14:27:57.107     1>Target "ComputeCLInputPDBName: (TargetId:203)" in file "C:\Program Files (x86)\MSBuild\Microsoft.Cpp\v4.0\Microsoft.CppBuild.targets" from project "C:\Users\Hossein\Project\TADD\TADDengine\TADDengine.vcxproj" (target "_ClCompile" depends on it):
+14:27:57.107     1>Done building target "ComputeCLInputPDBName" in project "TADDengine.vcxproj".: (TargetId:203)
+                   Target "ResolveReferences" skipped. Previously built successfully.
+14:27:57.107     1>Target "ComputeReferenceCLInput: (TargetId:204)" in file "C:\Program Files (x86)\MSBuild\Microsoft.Cpp\v4.0\Microsoft.CppBuild.targets" from project "C:\Users\Hossein\Project\TADD\TADDengine\TADDengine.vcxproj" (target "_ClCompile" depends on it):
+                   Task "WriteLinesToFile" (TaskId:173)
+                   Done executing task "WriteLinesToFile". (TaskId:173)
+                   Task "Message" skipped, due to false condition; ('$(_REFERENCE_DEBUG)'=='true' and '%(ClCompile.CompileAsManaged)' != 'false' and '%(ClCompile.CompileAsManaged)' != '') was evaluated as (''=='true' and '' != 'false' and '' != '').
+14:27:57.108     1>Done building target "ComputeReferenceCLInput" in project "TADDengine.vcxproj".: (TargetId:204)
+14:27:57.108     1>Target "MakeDirsForCl: (TargetId:205)" in file "C:\Program Files (x86)\MSBuild\Microsoft.Cpp\v4.0\Microsoft.CppBuild.targets" from project "C:\Users\Hossein\Project\TADD\TADDengine\TADDengine.vcxproj" (target "_ClCompile" depends on it):
+                   Task "MakeDir" (TaskId:174)
+                   Done executing task "MakeDir". (TaskId:174)
+14:27:57.108     1>Done building target "MakeDirsForCl" in project "TADDengine.vcxproj".: (TargetId:205)
+                   Target "PrepareForBuild" skipped. Previously built successfully.
+                   Target "SetBuildDefaultEnvironmentVariables" skipped. Previously built successfully.
+                   Target "SetUserMacroEnvironmentVariables" skipped, due to false condition; ('@(BuildMacro)' != '') was evaluated as ('' != '').
+14:27:57.108     1>Target "_SelectedFiles: (TargetId:206)" in file "C:\Program Files (x86)\MSBuild\Microsoft.Cpp\v4.0\Microsoft.CppBuild.targets" from project "C:\Users\Hossein\Project\TADD\TADDengine\TADDengine.vcxproj" (target "SelectClCompile" depends on it):
+14:27:57.108     1>Done building target "_SelectedFiles" in project "TADDengine.vcxproj".: (TargetId:206)
+                   Target "ComputeMIDLGeneratedCompileInputs" skipped. Previously built successfully.
+                   Target "ComputeCLInputPDBName" skipped. Previously built successfully.
+                   Target "ComputeReferenceCLInput" skipped. Previously built successfully.
+                   Target "_SelectedFiles" skipped. Previously built successfully.
+14:27:57.108     1>Target "SelectCustomBuild: (TargetId:207)" in file "C:\Program Files (x86)\MSBuild\Microsoft.Cpp\v4.0\Microsoft.CppBuild.targets" from project "C:\Users\Hossein\Project\TADD\TADDengine\TADDengine.vcxproj" (target "SelectClCompile" depends on it):
+14:27:57.108     1>Done building target "SelectCustomBuild" in project "TADDengine.vcxproj".: (TargetId:207)
+14:27:57.108     1>Target "SelectClCompile: (TargetId:208)" in file "C:\Program Files (x86)\MSBuild\Microsoft.Cpp\v4.0\Microsoft.CppBuild.targets" from project "C:\Users\Hossein\Project\TADD\TADDengine\TADDengine.vcxproj" (target "ClCompile" depends on it):
+14:27:57.108     1>Done building target "SelectClCompile" in project "TADDengine.vcxproj".: (TargetId:208)
+                   Target "GenerateTargetFrameworkMonikerAttribute" skipped, due to false condition; ('$(GenerateTargetFrameworkAttribute)' == 'true') was evaluated as ('false' == 'true').
+                   Target "ManagedIncrementalBuildPreProcessDependencyGraph" skipped, due to false condition; ('@(ClCompile)' != '' and '$(EnableManagedIncrementalBuild)' == 'True') was evaluated as ('Engine.cpp' != '' and 'false' == 'True').
+14:27:57.108     1>Target "ClCompile: (TargetId:209)" in file "C:\Program Files (x86)\MSBuild\Microsoft.Cpp\v4.0\Platforms\Win32\Microsoft.Cpp.Win32.Targets" from project "C:\Users\Hossein\Project\TADD\TADDengine\TADDengine.vcxproj" (target "_ClCompile" depends on it):
+                   Task "Delete" (TaskId:175)
+                   Done executing task "Delete". (TaskId:175)
+                   Task "CL" skipped, due to false condition; ('%(ClCompile.PrecompiledHeader)' == 'Create' and '%(ClCompile.ExcludedFromBuild)'!='true') was evaluated as ('NotUsing' == 'Create' and ''!='true').
+                   Using "CL" task from assembly "Microsoft.Build.CppTasks.Win32, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a".
+                   Task "CL" (TaskId:176)
+                     Environment Variables passed to tool: (TaskId:176)
+                       VS_UNICODE_OUTPUT=1176 (TaskId:176)
+                     c:\Program Files (x86)\Microsoft Visual Studio 10.0\VC\bin\CL.exe /c /I"c:\Program Files\NVIDIA GPU Computing Toolkit\CUDA\v6.0\include" /ZI /nologo /W3 /WX- /Od /Oy- /D _MBCS /Gm /EHsc /RTC1 /MDd /GS /fp:precise /Zc:wchar_t /Zc:forScope /Fo"Debug\\" /Fd"Debug\vc100.pdb" /Gd /TP /analyze- /errorReport:prompt Engine.cpp (TaskId:176)
+                     Tracking command: (TaskId:176)
+                     C:\Program Files (x86)\Microsoft SDKs\Windows\v7.0A\bin\NETFX 4.0 Tools\Tracker.exe /d C:\Windows\Microsoft.NET\Framework\v4.0.30319\FileTracker.dll /i C:\Users\Hossein\Project\TADD\TADDengine\Debug /r C:\USERS\HOSSEIN\PROJECT\TADD\TADDENGINE\ENGINE.CPP /b MSBuildConsole_CancelEventde18d409986f463c98482f6e8bbf7382  /c "c:\Program Files (x86)\Microsoft Visual Studio 10.0\VC\bin\CL.exe"  /c /I"c:\Program Files\NVIDIA GPU Computing Toolkit\CUDA\v6.0\include" /ZI /nologo /W3 /WX- /Od /Oy- /D _MBCS /Gm /EHsc /RTC1 /MDd /GS /fp:precise /Zc:wchar_t /Zc:forScope /Fo"Debug\\" /Fd"Debug\vc100.pdb" /Gd /TP /analyze- /errorReport:prompt Engine.cpp (TaskId:176)
+                     Engine.cpp (TaskId:176)
+14:27:58.797     1>c:\users\hossein\project\opencv2.4.8\build\include\opencv2\flann\logger.h(66): warning C4996: 'fopen': This function or variable may be unsafe. Consider using fopen_s instead. To disable deprecation, use _CRT_SECURE_NO_WARNINGS. See online help for details.
+                             c:\program files (x86)\microsoft visual studio 10.0\vc\include\stdio.h(234) : see declaration of 'fopen' (TaskId:176)
+14:28:00.098     1>c:\users\hossein\project\tadd\taddengine\engine.cpp(12): warning C4996: 'sprintf': This function or variable may be unsafe. Consider using sprintf_s instead. To disable deprecation, use _CRT_SECURE_NO_WARNINGS. See online help for details.
+                             c:\program files (x86)\microsoft visual studio 10.0\vc\include\stdio.h(371) : see declaration of 'sprintf' (TaskId:176)
+14:28:00.101     1>c:\users\hossein\project\tadd\taddengine\engine.cpp(35): warning C4482: nonstandard extension used: enum '_SEGMETHOD' used in qualified name
+14:28:00.101     1>c:\users\hossein\project\tadd\taddengine\engine.cpp(36): warning C4305: '=' : truncation from 'double' to 'float'
+14:28:00.103     1>c:\users\hossein\project\tadd\taddengine\engine.cpp(129): warning C4482: nonstandard extension used: enum '_SEGMETHOD' used in qualified name
+14:28:00.103     1>c:\users\hossein\project\tadd\taddengine\engine.cpp(130): warning C4305: '=' : truncation from 'double' to 'float'
+14:28:00.105     1>c:\users\hossein\project\tadd\taddengine\engine.cpp(251): warning C4482: nonstandard extension used: enum '_SEGMETHOD' used in qualified name
+14:28:00.105     1>c:\users\hossein\project\tadd\taddengine\engine.cpp(255): warning C4482: nonstandard extension used: enum '_SEGMETHOD' used in qualified name
+14:28:00.105     1>c:\users\hossein\project\tadd\taddengine\engine.cpp(259): warning C4482: nonstandard extension used: enum '_SEGMETHOD' used in qualified name
+                   Done executing task "CL". (TaskId:176)
+14:28:01.133     1>Done building target "ClCompile" in project "TADDengine.vcxproj".: (TargetId:209)
+                   Target "ManagedIncrementalBuildPostProcessDependencyGraph" skipped, due to false condition; ('@(ClCompile)' != '' and '$(EnableManagedIncrementalBuild)' == 'True') was evaluated as ('Engine.cpp' != '' and 'false' == 'True').
+14:28:01.133     1>Target "AfterClCompile: (TargetId:210)" in file "C:\Program Files (x86)\MSBuild\Microsoft.Cpp\v4.0\Microsoft.CppBuild.targets" from project "C:\Users\Hossein\Project\TADD\TADDengine\TADDengine.vcxproj" (target "_ClCompile" depends on it):
+14:28:01.133     1>Done building target "AfterClCompile" in project "TADDengine.vcxproj".: (TargetId:210)
+14:28:01.133     1>Target "_ClCompile: (TargetId:211)" in file "C:\Program Files (x86)\MSBuild\Microsoft.Cpp\v4.0\Microsoft.CppBuild.targets" from project "C:\Users\Hossein\Project\TADD\TADDengine\TADDengine.vcxproj" (target "BuildCompile" depends on it):
+14:28:01.133     1>Done building target "_ClCompile" in project "TADDengine.vcxproj".: (TargetId:211)
+                   Target "_ResGen" skipped, due to false condition; ('@(EmbeddedResource)'!='') was evaluated as (''!='').
+14:28:01.133     1>Target "BeforeResourceCompile: (TargetId:212)" in file "C:\Program Files (x86)\MSBuild\Microsoft.Cpp\v4.0\Microsoft.CppBuild.targets" from project "C:\Users\Hossein\Project\TADD\TADDengine\TADDengine.vcxproj" (target "_ResourceCompile" depends on it):
+14:28:01.133     1>Done building target "BeforeResourceCompile" in project "TADDengine.vcxproj".: (TargetId:212)
+14:28:01.133     1>Target "MakeDirsForResourceCompile: (TargetId:213)" in file "C:\Program Files (x86)\MSBuild\Microsoft.Cpp\v4.0\Microsoft.CppBuild.targets" from project "C:\Users\Hossein\Project\TADD\TADDengine\TADDengine.vcxproj" (target "_ResourceCompile" depends on it):
+                   Task "MakeDir" (TaskId:177)
+                   Done executing task "MakeDir". (TaskId:177)
+14:28:01.133     1>Done building target "MakeDirsForResourceCompile" in project "TADDengine.vcxproj".: (TargetId:213)
+                   Target "ResourceCompile" skipped, due to false condition; ('@(ResourceCompile)' != '') was evaluated as ('' != '').
+14:28:01.133     1>Target "AfterResourceCompile: (TargetId:214)" in file "C:\Program Files (x86)\MSBuild\Microsoft.Cpp\v4.0\Microsoft.CppBuild.targets" from project "C:\Users\Hossein\Project\TADD\TADDengine\TADDengine.vcxproj" (target "_ResourceCompile" depends on it):
+14:28:01.133     1>Done building target "AfterResourceCompile" in project "TADDengine.vcxproj".: (TargetId:214)
+14:28:01.133     1>Target "_ResourceCompile: (TargetId:215)" in file "C:\Program Files (x86)\MSBuild\Microsoft.Cpp\v4.0\Microsoft.CppBuild.targets" from project "C:\Users\Hossein\Project\TADD\TADDengine\TADDengine.vcxproj" (target "BuildCompile" depends on it):
+14:28:01.133     1>Done building target "_ResourceCompile" in project "TADDengine.vcxproj".: (TargetId:215)
+                   Target "_ImpLib" skipped, due to false condition; ('$(ImpLibCompiled)' == 'true') was evaluated as ('' == 'true').
+14:28:01.134     1>Target "BeforeLib: (TargetId:216)" in file "C:\Program Files (x86)\MSBuild\Microsoft.Cpp\v4.0\Microsoft.CppBuild.targets" from project "C:\Users\Hossein\Project\TADD\TADDengine\TADDengine.vcxproj" (target "_Lib" depends on it):
+14:28:01.134     1>Done building target "BeforeLib" in project "TADDengine.vcxproj".: (TargetId:216)
+14:28:01.134     1>Target "ComputeLibAdditionalOptions: (TargetId:217)" in file "C:\Program Files (x86)\MSBuild\Microsoft.Cpp\v4.0\Microsoft.CppBuild.targets" from project "C:\Users\Hossein\Project\TADD\TADDengine\TADDengine.vcxproj" (target "_Lib" depends on it):
+14:28:01.134     1>Done building target "ComputeLibAdditionalOptions" in project "TADDengine.vcxproj".: (TargetId:217)
+14:28:01.134     1>Target "ComputeRCOutputs: (TargetId:218)" in file "C:\Program Files (x86)\MSBuild\Microsoft.Cpp\v4.0\Microsoft.CppBuild.targets" from project "C:\Users\Hossein\Project\TADD\TADDengine\TADDengine.vcxproj" (target "ComputeRCGeneratedLibInputs" depends on it):
+14:28:01.134     1>Done building target "ComputeRCOutputs" in project "TADDengine.vcxproj".: (TargetId:218)
+14:28:01.134     1>Target "ComputeRCGeneratedLibInputs: (TargetId:219)" in file "C:\Program Files (x86)\MSBuild\Microsoft.Cpp\v4.0\Microsoft.CppBuild.targets" from project "C:\Users\Hossein\Project\TADD\TADDengine\TADDengine.vcxproj" (target "_Lib" depends on it):
+14:28:01.134     1>Done building target "ComputeRCGeneratedLibInputs" in project "TADDengine.vcxproj".: (TargetId:219)
+14:28:01.134     1>Target "ComputeCustomBuildOutput: (TargetId:220)" in file "C:\Program Files (x86)\MSBuild\Microsoft.Cpp\v4.0\Microsoft.CppBuild.targets" from project "C:\Users\Hossein\Project\TADD\TADDengine\TADDengine.vcxproj" (target "_Lib" depends on it):
+                   Task "MakeDir" (TaskId:178)
+                   Done executing task "MakeDir". (TaskId:178)
+14:28:01.134     1>Done building target "ComputeCustomBuildOutput" in project "TADDengine.vcxproj".: (TargetId:220)
+                   Target "ComputeMIDLGeneratedCompileInputs" skipped. Previously built successfully.
+                   Target "ComputeCLInputPDBName" skipped. Previously built successfully.
+                   Target "ComputeReferenceCLInput" skipped. Previously built successfully.
+14:28:01.134     1>Target "ComputeCLOutputs: (TargetId:221)" in file "C:\Program Files (x86)\MSBuild\Microsoft.Cpp\v4.0\Microsoft.CppBuild.targets" from project "C:\Users\Hossein\Project\TADD\TADDengine\TADDengine.vcxproj" (target "ComputeCLGeneratedLibInputs" depends on it):
+14:28:01.134     1>Done building target "ComputeCLOutputs" in project "TADDengine.vcxproj".: (TargetId:221)
+14:28:01.134     1>Target "ComputeCLGeneratedLibInputs: (TargetId:222)" in file "C:\Program Files (x86)\MSBuild\Microsoft.Cpp\v4.0\Microsoft.CppBuild.targets" from project "C:\Users\Hossein\Project\TADD\TADDengine\TADDengine.vcxproj" (target "_Lib" depends on it):
+14:28:01.134     1>Done building target "ComputeCLGeneratedLibInputs" in project "TADDengine.vcxproj".: (TargetId:222)
+14:28:01.134     1>Target "ComputeLibInputsFromProject: (TargetId:223)" in file "C:\Program Files (x86)\MSBuild\Microsoft.Cpp\v4.0\Microsoft.CppBuild.targets" from project "C:\Users\Hossein\Project\TADD\TADDengine\TADDengine.vcxproj" (target "_Lib" depends on it):
+14:28:01.134     1>Done building target "ComputeLibInputsFromProject" in project "TADDengine.vcxproj".: (TargetId:223)
+                   Target "ComputeReferenceLibInputs" skipped, due to false condition; (@(ProjectReference) != '') was evaluated as ( != '').
+14:28:01.134     1>Target "MakeDirsForLib: (TargetId:224)" in file "C:\Program Files (x86)\MSBuild\Microsoft.Cpp\v4.0\Microsoft.CppBuild.targets" from project "C:\Users\Hossein\Project\TADD\TADDengine\TADDengine.vcxproj" (target "_Lib" depends on it):
+                   Task "MakeDir" (TaskId:179)
+                   Done executing task "MakeDir". (TaskId:179)
+14:28:01.134     1>Done building target "MakeDirsForLib" in project "TADDengine.vcxproj".: (TargetId:224)
+14:28:01.134     1>Target "DoLibOutputFilesMatch: (TargetId:225)" in file "C:\Program Files (x86)\MSBuild\Microsoft.Cpp\v4.0\Microsoft.CppBuild.targets" from project "C:\Users\Hossein\Project\TADD\TADDengine\TADDengine.vcxproj" (target "_Lib" depends on it):
+                   Task "VCMessage" skipped, due to false condition; ('%(_OutputFileFromLib.FullPath)' != '$([System.IO.Path]::GetFullPath($(TargetPath)))') was evaluated as ('C:\Users\Hossein\Project\TADD\Debug\TADDengine.lib' != 'C:\Users\Hossein\Project\TADD\Debug\TADDengine.lib').
+                   Task "VCMessage" skipped, due to false condition; ('%(_OutputFileFromLib.Extension)' != '$(TargetExt)') was evaluated as ('.lib' != '.lib').
+                   Task "VCMessage" skipped, due to false condition; ('%(_OutputFileFromLib.Filename)' != '$(TargetName)') was evaluated as ('TADDengine' != 'TADDengine').
+14:28:01.134     1>Done building target "DoLibOutputFilesMatch" in project "TADDengine.vcxproj".: (TargetId:225)
+14:28:01.134     1>Target "PreLinkEvent: (TargetId:226)" in file "C:\Program Files (x86)\MSBuild\Microsoft.Cpp\v4.0\Microsoft.CppCommon.targets" from project "C:\Users\Hossein\Project\TADD\TADDengine\TADDengine.vcxproj" (target "_Lib" depends on it):
+                   Task "Message" skipped, due to false condition; ('%(PreLinkEvent.Message)' != '' and '%(PreLinkEvent.Command)' != '') was evaluated as ('' != '' and '' != '').
+                   Task "Exec" skipped, due to false condition; ('%(PreLinkEvent.Command)' != '') was evaluated as ('' != '').
+14:28:01.134     1>Done building target "PreLinkEvent" in project "TADDengine.vcxproj".: (TargetId:226)
+14:28:01.134     1>Target "Lib: (TargetId:227)" in file "C:\Program Files (x86)\MSBuild\Microsoft.Cpp\v4.0\Microsoft.CppCommon.targets" from project "C:\Users\Hossein\Project\TADD\TADDengine\TADDengine.vcxproj" (target "_Lib" depends on it):
+                   Using "LIB" task from assembly "Microsoft.Build.CppTasks.Common, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a".
+                   Task "LIB" (TaskId:180)
+                     c:\Program Files (x86)\Microsoft Visual Studio 10.0\VC\bin\Lib.exe /OUT:"C:\Users\Hossein\Project\TADD\Debug\TADDengine.lib" /NOLOGO Debug\Engine.obj (TaskId:180)
+                     Tracking command: (TaskId:180)
+                     C:\Program Files (x86)\Microsoft SDKs\Windows\v7.0A\bin\NETFX 4.0 Tools\Tracker.exe /d C:\Windows\Microsoft.NET\Framework\v4.0.30319\FileTracker.dll /i C:\Users\Hossein\Project\TADD\TADDengine\Debug /r C:\USERS\HOSSEIN\PROJECT\TADD\TADDENGINE\DEBUG\ENGINE.OBJ /b MSBuildConsole_CancelEvent30dab2b974664f4688dc4169bce58472  /c "c:\Program Files (x86)\Microsoft Visual Studio 10.0\VC\bin\Lib.exe"  /OUT:"C:\Users\Hossein\Project\TADD\Debug\TADDengine.lib" /NOLOGO Debug\Engine.obj (TaskId:180)
+                   Done executing task "LIB". (TaskId:180)
+                   Task "Message" (TaskId:181)
+                     TADDengine.vcxproj -> C:\Users\Hossein\Project\TADD\Debug\TADDengine.lib (TaskId:181)
+                   Done executing task "Message". (TaskId:181)
+14:28:01.174     1>Done building target "Lib" in project "TADDengine.vcxproj".: (TargetId:227)
+14:28:01.174     1>Target "AfterLib: (TargetId:228)" in file "C:\Program Files (x86)\MSBuild\Microsoft.Cpp\v4.0\Microsoft.CppBuild.targets" from project "C:\Users\Hossein\Project\TADD\TADDengine\TADDengine.vcxproj" (target "_Lib" depends on it):
+14:28:01.174     1>Done building target "AfterLib" in project "TADDengine.vcxproj".: (TargetId:228)
+14:28:01.174     1>Target "_Lib: (TargetId:229)" in file "C:\Program Files (x86)\MSBuild\Microsoft.Cpp\v4.0\Microsoft.CppBuild.targets" from project "C:\Users\Hossein\Project\TADD\TADDengine\TADDengine.vcxproj" (target "BuildCompile" depends on it):
+14:28:01.174     1>Done building target "_Lib" in project "TADDengine.vcxproj".: (TargetId:229)
+14:28:01.174     1>Target "AfterBuildCompileEvent: (TargetId:230)" in file "C:\Program Files (x86)\MSBuild\Microsoft.Cpp\v4.0\Microsoft.CppBuild.targets" from project "C:\Users\Hossein\Project\TADD\TADDengine\TADDengine.vcxproj" (target "BuildCompile" depends on it):
+14:28:01.174     1>Done building target "AfterBuildCompileEvent" in project "TADDengine.vcxproj".: (TargetId:230)
+14:28:01.174     1>Target "BuildCompile: (TargetId:231)" in file "C:\Windows\Microsoft.NET\Framework\v4.0.30319\Microsoft.Common.Targets" from project "C:\Users\Hossein\Project\TADD\TADDengine\TADDengine.vcxproj" (target "Build" depends on it):
+14:28:01.174     1>Done building target "BuildCompile" in project "TADDengine.vcxproj".: (TargetId:231)
+                   Target "AssignProjectConfiguration" skipped. Previously built successfully.
+                   Target "_SplitProjectReferencesByFileExistence" skipped. Previously built successfully.
+14:28:01.174     1>Target "BuildLinkTraverse: (TargetId:232)" in file "C:\Windows\Microsoft.NET\Framework\v4.0.30319\Microsoft.Common.Targets" from project "C:\Users\Hossein\Project\TADD\TADDengine\TADDengine.vcxproj" (target "BuildLink" depends on it):
+                   Task "MSBuild" skipped, due to false condition; ('$(BuildPassReferences)' == 'true' and '@(ProjectReferenceWithConfiguration)' != '' and '@(_MSBuildProjectReferenceExistent)' != ''  and '%(_MSBuildProjectReferenceExistent.BuildReference)' == 'true') was evaluated as ('' == 'true' and '' != '' and '' != ''  and '' == 'true').
+14:28:01.174     1>Done building target "BuildLinkTraverse" in project "TADDengine.vcxproj".: (TargetId:232)
+                   Target "SetBuildDefaultEnvironmentVariables" skipped. Previously built successfully.
+                   Target "SetUserMacroEnvironmentVariables" skipped, due to false condition; ('@(BuildMacro)' != '') was evaluated as ('' != '').
+                   Target "PrepareForBuild" skipped. Previously built successfully.
+                   Target "ResolveReferences" skipped. Previously built successfully.
+                   Target "_Link" skipped, due to false condition; ('$(LinkCompiled)' == 'true') was evaluated as ('' == 'true').
+14:28:01.174     1>Target "_ALink: (TargetId:233)" in file "C:\Program Files (x86)\MSBuild\Microsoft.Cpp\v4.0\Microsoft.CppBuild.targets" from project "C:\Users\Hossein\Project\TADD\TADDengine\TADDengine.vcxproj" (target "BuildLink" depends on it):
+14:28:01.174     1>Done building target "_ALink" in project "TADDengine.vcxproj".: (TargetId:233)
+14:28:01.174     1>Target "_Manifest: (TargetId:234)" in file "C:\Program Files (x86)\MSBuild\Microsoft.Cpp\v4.0\Microsoft.CppBuild.targets" from project "C:\Users\Hossein\Project\TADD\TADDengine\TADDengine.vcxproj" (target "BuildLink" depends on it):
+14:28:01.174     1>Done building target "_Manifest" in project "TADDengine.vcxproj".: (TargetId:234)
+14:28:01.174     1>Target "RegisterOutput: (TargetId:235)" in file "C:\Program Files (x86)\MSBuild\Microsoft.Cpp\v4.0\Microsoft.CppCommon.targets" from project "C:\Users\Hossein\Project\TADD\TADDengine\TADDengine.vcxproj" (target "BuildLink" depends on it):
+                   Task "Exec" skipped, due to false condition; ('$(ConfigurationType)'=='DynamicLibrary' and '%(Link.RegisterOutput)'=='true' and '%(Link.PerUserRedirection)'!='true') was evaluated as ('StaticLibrary'=='DynamicLibrary' and ''=='true' and ''!='true').
+                   Task "Exec" skipped, due to false condition; ('$(ConfigurationType)'=='DynamicLibrary' and '%(Link.RegisterOutput)'=='true' and '%(Link.PerUserRedirection)'=='true') was evaluated as ('StaticLibrary'=='DynamicLibrary' and ''=='true' and ''=='true').
+                   Task "Exec" skipped, due to false condition; ('$(ConfigurationType)'=='Application' and '%(Link.RegisterOutput)'=='true' and '%(Link.PerUserRedirection)'!='true') was evaluated as ('StaticLibrary'=='Application' and ''=='true' and ''!='true').
+                   Task "Exec" skipped, due to false condition; ('$(ConfigurationType)'=='Application' and '%(Link.RegisterOutput)'=='true' and '%(Link.PerUserRedirection)'=='true') was evaluated as ('StaticLibrary'=='Application' and ''=='true' and ''=='true').
+                   Task "VCMessage" skipped, due to false condition; ('$(_RegisterOutputExitCode)' != '' and '$(_RegisterOutputExitCode)' != '0') was evaluated as ('' != '' and '' != '0').
+14:28:01.174     1>Done building target "RegisterOutput" in project "TADDengine.vcxproj".: (TargetId:235)
+14:28:01.174     1>Target "ComputeCLCompileGeneratedXDCFiles: (TargetId:236)" in file "C:\Program Files (x86)\MSBuild\Microsoft.Cpp\v4.0\Microsoft.CppBuild.targets" from project "C:\Users\Hossein\Project\TADD\TADDengine\TADDengine.vcxproj" (target "_XdcMake" depends on it):
+14:28:01.174     1>Done building target "ComputeCLCompileGeneratedXDCFiles" in project "TADDengine.vcxproj".: (TargetId:236)
+                   Target "SetBuildDefaultEnvironmentVariables" skipped. Previously built successfully.
+                   Target "SetUserMacroEnvironmentVariables" skipped, due to false condition; ('@(BuildMacro)' != '') was evaluated as ('' != '').
+                   Target "PrepareForBuild" skipped. Previously built successfully.
+                   Target "ResolveReferences" skipped. Previously built successfully.
+14:28:01.174     1>Target "ResolvedXDCMake: (TargetId:237)" in file "C:\Program Files (x86)\MSBuild\Microsoft.Cpp\v4.0\Microsoft.CppBuild.targets" from project "C:\Users\Hossein\Project\TADD\TADDengine\TADDengine.vcxproj" (target "_XdcMake" depends on it):
+                   Task "MSBuild" skipped, due to false condition; ('%(_MSBuildProjectReferenceExistent.Extension)' == '.vcxproj' and '@(ProjectReferenceWithConfiguration)' != '' and '@(_MSBuildProjectReferenceExistent)' != '' and '$(_ClCompileGenerateXMLDocumentationFiles)' == 'true') was evaluated as ('' == '.vcxproj' and '' != '' and '' != '' and '' == 'true').
+14:28:01.174     1>Done building target "ResolvedXDCMake" in project "TADDengine.vcxproj".: (TargetId:237)
+14:28:01.174     1>Target "MakeDirsForXdcMake: (TargetId:238)" in file "C:\Program Files (x86)\MSBuild\Microsoft.Cpp\v4.0\Microsoft.CppBuild.targets" from project "C:\Users\Hossein\Project\TADD\TADDengine\TADDengine.vcxproj" (target "_XdcMake" depends on it):
+                   Task "MakeDir" (TaskId:182)
+                   Done executing task "MakeDir". (TaskId:182)
+14:28:01.174     1>Done building target "MakeDirsForXdcMake" in project "TADDengine.vcxproj".: (TargetId:238)
+                   Target "XdcMake" skipped, due to false condition; ('@(XdcMake)' != '') was evaluated as ('' != '').
+14:28:01.174     1>Target "_XdcMake: (TargetId:239)" in file "C:\Program Files (x86)\MSBuild\Microsoft.Cpp\v4.0\Microsoft.CppBuild.targets" from project "C:\Users\Hossein\Project\TADD\TADDengine\TADDengine.vcxproj" (target "BuildLink" depends on it):
+14:28:01.174     1>Done building target "_XdcMake" in project "TADDengine.vcxproj".: (TargetId:239)
+14:28:01.174     1>Target "ComputeCLCompileGeneratedSbrFiles: (TargetId:240)" in file "C:\Program Files (x86)\MSBuild\Microsoft.Cpp\v4.0\Microsoft.CppBuild.targets" from project "C:\Users\Hossein\Project\TADD\TADDengine\TADDengine.vcxproj" (target "_BscMake" depends on it):
+14:28:01.175     1>Done building target "ComputeCLCompileGeneratedSbrFiles" in project "TADDengine.vcxproj".: (TargetId:240)
+14:28:01.175     1>Target "MakeDirsForBscMake: (TargetId:241)" in file "C:\Program Files (x86)\MSBuild\Microsoft.Cpp\v4.0\Microsoft.CppBuild.targets" from project "C:\Users\Hossein\Project\TADD\TADDengine\TADDengine.vcxproj" (target "_BscMake" depends on it):
+                   Task "MakeDir" (TaskId:183)
+                   Done executing task "MakeDir". (TaskId:183)
+14:28:01.175     1>Done building target "MakeDirsForBscMake" in project "TADDengine.vcxproj".: (TargetId:241)
+                   Target "BscMake" skipped, due to false condition; ('@(BscMake)' != '') was evaluated as ('' != '').
+                   Target "CustomBuildStep" skipped, due to false condition; ('@(CustomBuildStep)' != '' and '$(SelectedFiles)'=='') was evaluated as ('' != '' and ''=='').
+14:28:01.175     1>Target "_BscMake: (TargetId:242)" in file "C:\Program Files (x86)\MSBuild\Microsoft.Cpp\v4.0\Microsoft.CppBuild.targets" from project "C:\Users\Hossein\Project\TADD\TADDengine\TADDengine.vcxproj" (target "BuildLink" depends on it):
+14:28:01.175     1>Done building target "_BscMake" in project "TADDengine.vcxproj".: (TargetId:242)
+                   Target "RunCodeAnalysis" skipped, due to false condition; ('$(RunCodeAnalysis)'=='true' or '$(RunCodeAnalysisOnce)'=='true') was evaluated as (''=='true' or ''=='true').
+14:28:01.175     1>Target "_GenerateSatelliteAssemblyInputs: (TargetId:243)" in file "C:\Windows\Microsoft.NET\Framework\v4.0.30319\Microsoft.Common.Targets" from project "C:\Users\Hossein\Project\TADD\TADDengine\TADDengine.vcxproj" (target "CreateSatelliteAssemblies" depends on it):
+                   Task "Warning" skipped, due to false condition; ('@(ManifestResourceWithCulture)'!='' and '%(ManifestResourceWithCulture.EmittedForCompatibilityOnly)'=='') was evaluated as (''!='' and ''=='').
+                   Task "Warning" skipped, due to false condition; ('@(ManifestNonResxWithCultureOnDisk)'!='' and '%(ManifestNonResxWithCultureOnDisk.EmittedForCompatibilityOnly)'=='') was evaluated as (''!='' and ''=='').
+14:28:01.175     1>Done building target "_GenerateSatelliteAssemblyInputs" in project "TADDengine.vcxproj".: (TargetId:243)
+                   Target "ComputeIntermediateSatelliteAssemblies" skipped, due to false condition; (@(ReferenceSatellitePaths->'%(DestinationSubDirectory)') != '') was evaluated as ( != '').
+                   Target "GenerateSatelliteAssemblies" skipped, due to false condition; ('@(_SatelliteAssemblyResourceInputs)' != '') was evaluated as ('' != '').
+14:28:01.175     1>Target "CreateSatelliteAssemblies: (TargetId:244)" in file "C:\Windows\Microsoft.NET\Framework\v4.0.30319\Microsoft.Common.Targets" from project "C:\Users\Hossein\Project\TADD\TADDengine\TADDengine.vcxproj" (target "BuildLink" depends on it):
+14:28:01.175     1>Done building target "CreateSatelliteAssemblies" in project "TADDengine.vcxproj".: (TargetId:244)
+14:28:01.175     1>Target "_Appverifier: (TargetId:245)" in file "C:\Program Files (x86)\MSBuild\Microsoft.Cpp\v4.0\Microsoft.CppBuild.targets" from project "C:\Users\Hossein\Project\TADD\TADDengine\TADDengine.vcxproj" (target "BuildLink" depends on it):
+14:28:01.175     1>Done building target "_Appverifier" in project "TADDengine.vcxproj".: (TargetId:245)
+14:28:01.175     1>Target "_Deploy: (TargetId:246)" in file "C:\Program Files (x86)\MSBuild\Microsoft.Cpp\v4.0\Microsoft.CppBuild.targets" from project "C:\Users\Hossein\Project\TADD\TADDengine\TADDengine.vcxproj" (target "BuildLink" depends on it):
+14:28:01.175     1>Done building target "_Deploy" in project "TADDengine.vcxproj".: (TargetId:246)
+                   Target "ComputeIntermediateSatelliteAssemblies" skipped, due to false condition; (@(ReferenceSatellitePaths->'%(DestinationSubDirectory)') != '') was evaluated as ( != '').
+                   Target "_CopyFilesMarkedCopyLocal" skipped, due to false condition; ('@(ReferenceCopyLocalPaths)' != '') was evaluated as ('' != '').
+14:28:01.175     1>Target "AssignTargetPaths: (TargetId:247)" in file "C:\Windows\Microsoft.NET\Framework\v4.0.30319\Microsoft.Common.Targets" from project "C:\Users\Hossein\Project\TADD\TADDengine\TADDengine.vcxproj" (target "GetCopyToOutputDirectoryItems" depends on it):
+                   Task "AssignTargetPath" (TaskId:184)
+                   Done executing task "AssignTargetPath". (TaskId:184)
+                   Task "AssignTargetPath" (TaskId:185)
+                   Done executing task "AssignTargetPath". (TaskId:185)
+                   Task "AssignTargetPath" (TaskId:186)
+                   Done executing task "AssignTargetPath". (TaskId:186)
+                   Task "AssignTargetPath" (TaskId:187)
+                   Done executing task "AssignTargetPath". (TaskId:187)
+                   Task "AssignTargetPath" skipped, due to false condition; ('@(_DeploymentBaseManifestWithTargetPath)'=='' and '%(None.Extension)'=='.manifest') was evaluated as (''=='' and ''=='.manifest').
+14:28:01.175     1>Done building target "AssignTargetPaths" in project "TADDengine.vcxproj".: (TargetId:247)
+                   Target "_SplitProjectReferencesByFileExistence" skipped. Previously built successfully.
+14:28:01.175     1>Target "GetCopyToOutputDirectoryXamlAppDefs: (TargetId:248)" in file "C:\Windows\Microsoft.NET\Framework\v4.0.30319\Microsoft.Xaml.targets" from project "C:\Users\Hossein\Project\TADD\TADDengine\TADDengine.vcxproj" (target "GetCopyToOutputDirectoryItems" depends on it):
+                   Task "AssignTargetPath" (TaskId:188)
+                   Done executing task "AssignTargetPath". (TaskId:188)
+14:28:01.175     1>Done building target "GetCopyToOutputDirectoryXamlAppDefs" in project "TADDengine.vcxproj".: (TargetId:248)
+14:28:01.175     1>Target "GetCopyToOutputDirectoryItems: (TargetId:249)" in file "C:\Windows\Microsoft.NET\Framework\v4.0.30319\Microsoft.Common.Targets" from project "C:\Users\Hossein\Project\TADD\TADDengine\TADDengine.vcxproj" (target "_CopySourceItemsToOutputDirectory" depends on it):
+                   Task "MSBuild" skipped, due to false condition; ('@(_MSBuildProjectReferenceExistent)' != '' and '$(_GetChildProjectCopyToOutputDirectoryItems)' == 'true' and '%(_MSBuildProjectReferenceExistent.Private)' != 'false' and '$(UseCommonOutputDirectory)' != 'true') was evaluated as ('' != '' and 'true' == 'true' and '' != 'false' and 'false' != 'true').
+                   Task "AssignTargetPath" (TaskId:189)
+                   Done executing task "AssignTargetPath". (TaskId:189)
+14:28:01.175     1>Done building target "GetCopyToOutputDirectoryItems" in project "TADDengine.vcxproj".: (TargetId:249)
+                   Target "_CopyOutOfDateSourceItemsToOutputDirectory" skipped, due to false condition; ( '@(_SourceItemsToCopyToOutputDirectory)' != '' ) was evaluated as ( '' != '' ).
+                   Target "_CopyOutOfDateSourceItemsToOutputDirectoryAlways" skipped, due to false condition; ( '@(_SourceItemsToCopyToOutputDirectoryAlways)' != '' ) was evaluated as ( '' != '' ).
+14:28:01.175     1>Target "_CopySourceItemsToOutputDirectory: (TargetId:250)" in file "C:\Windows\Microsoft.NET\Framework\v4.0.30319\Microsoft.Common.Targets" from project "C:\Users\Hossein\Project\TADD\TADDengine\TADDengine.vcxproj" (target "CopyFilesToOutputDirectory" depends on it):
+14:28:01.175     1>Done building target "_CopySourceItemsToOutputDirectory" in project "TADDengine.vcxproj".: (TargetId:250)
+                   Target "_CopyAppConfigFile" skipped, due to false condition; ( '@(AppConfigWithTargetPath)' != '' ) was evaluated as ( '' != '' ).
+                   Target "_CopyManifestFiles" skipped, due to false condition; ( '$(_DeploymentCopyApplicationManifest)'=='true' or '$(GenerateClickOnceManifests)'=='true' ) was evaluated as ( ''=='true' or ''=='true' ).
+14:28:01.175     1>Target "_CheckForCompileOutputs: (TargetId:251)" in file "C:\Windows\Microsoft.NET\Framework\v4.0.30319\Microsoft.Common.Targets" from project "C:\Users\Hossein\Project\TADD\TADDengine\TADDengine.vcxproj" (target "CopyFilesToOutputDirectory" depends on it):
+14:28:01.176     1>Done building target "_CheckForCompileOutputs" in project "TADDengine.vcxproj".: (TargetId:251)
+                   Target "_SGenCheckForOutputs" skipped, due to false condition; ('$(_SGenGenerateSerializationAssembliesConfig)' == 'On' or ('@(WebReferenceUrl)'!='' and '$(_SGenGenerateSerializationAssembliesConfig)' == 'Auto')) was evaluated as ('Off' == 'On' or (''!='' and 'Off' == 'Auto')).
+14:28:01.176     1>Target "CopyFilesToOutputDirectory: (TargetId:252)" in file "C:\Windows\Microsoft.NET\Framework\v4.0.30319\Microsoft.Common.Targets" from project "C:\Users\Hossein\Project\TADD\TADDengine\TADDengine.vcxproj" (target "BuildLink" depends on it):
+                   Task "Copy" skipped, due to false condition; ('$(CopyBuildOutputToOutputDirectory)' == 'true' and '$(SkipCopyBuildProduct)' != 'true') was evaluated as ('true' == 'true' and 'true' != 'true').
+                   Task "Message" skipped, due to false condition; ('$(CopyBuildOutputToOutputDirectory)' == 'true' and '$(SkipCopyBuildProduct)'!='true') was evaluated as ('true' == 'true' and 'true'!='true').
+                   Task "Copy" skipped, due to false condition; ('@(AddModules)' != '') was evaluated as ('' != '').
+                   Task "Copy" skipped, due to false condition; ('$(_SGenDllCreated)'=='true') was evaluated as ('false'=='true').
+                   Task "Copy" skipped, due to false condition; ('$(_DebugSymbolsProduced)'=='true' and '$(SkipCopyingSymbolsToOutputDirectory)' != 'true' and '$(CopyOutputSymbolsToOutputDirectory)'=='true') was evaluated as ('false'=='true' and '' != 'true' and 'true'=='true').
+                   Task "Copy" skipped, due to false condition; ('$(_DocumentationFileProduced)'=='true') was evaluated as ('false'=='true').
+                   Task "Copy" skipped, due to false condition; ('@(IntermediateSatelliteAssembliesWithTargetPath)' != '') was evaluated as ('' != '').
+                   Task "Copy" skipped, due to false condition; ('@(ReferenceComWrappersToCopyLocal)' != '' or '@(ResolvedIsolatedComModules)' != '' or '@(_DeploymentLooseManifestFile)' != '' or '@(NativeReferenceFile)' != '' ) was evaluated as ('' != '' or '' != '' or '' != '' or '' != '' ).
+                   Task "Copy" skipped, due to false condition; ('$(SkipCopyWinMDArtifact)' != 'true' and '@(WinMDExpArtifacts)' != '') was evaluated as ('' != 'true' and '' != '').
+                   Task "Message" skipped, due to false condition; ('$(SkipCopyWinMDArtifact)' != 'true' and '$(_WindowsMetadataOutputPath)' != '') was evaluated as ('' != 'true' and '' != '').
+14:28:01.176     1>Done building target "CopyFilesToOutputDirectory" in project "TADDengine.vcxproj".: (TargetId:252)
+                   Target "CustomBuildStep" skipped, due to false condition; ('@(CustomBuildStep)' != '' and '$(SelectedFiles)'=='') was evaluated as ('' != '' and ''=='').
+14:28:01.176     1>Target "PostBuildEvent: (TargetId:253)" in file "C:\Program Files (x86)\MSBuild\Microsoft.Cpp\v4.0\Microsoft.CppCommon.targets" from project "C:\Users\Hossein\Project\TADD\TADDengine\TADDengine.vcxproj" (target "BuildLink" depends on it):
+                   Task "Message" skipped, due to false condition; ('%(PostBuildEvent.Message)' != '' and '%(PostBuildEvent.Command)' != '') was evaluated as ('' != '' and '' != '').
+                   Task "Exec" skipped, due to false condition; ('%(PostBuildEvent.Command)' != '') was evaluated as ('' != '').
+14:28:01.176     1>Done building target "PostBuildEvent" in project "TADDengine.vcxproj".: (TargetId:253)
+14:28:01.176     1>Target "BuildLink: (TargetId:254)" in file "C:\Windows\Microsoft.NET\Framework\v4.0.30319\Microsoft.Common.Targets" from project "C:\Users\Hossein\Project\TADD\TADDengine\TADDengine.vcxproj" (target "Build" depends on it):
+14:28:01.176     1>Done building target "BuildLink" in project "TADDengine.vcxproj".: (TargetId:254)
+14:28:01.176     1>Target "AfterBuild: (TargetId:255)" in file "C:\Program Files (x86)\MSBuild\Microsoft.Cpp\v4.0\Microsoft.BuildSteps.Targets" from project "C:\Users\Hossein\Project\TADD\TADDengine\TADDengine.vcxproj" (target "Build" depends on it):
+14:28:01.176     1>Done building target "AfterBuild" in project "TADDengine.vcxproj".: (TargetId:255)
+14:28:01.176     1>Target "FinalizeBuildStatus: (TargetId:256)" in file "C:\Program Files (x86)\MSBuild\Microsoft.Cpp\v4.0\Microsoft.CppBuild.targets" from project "C:\Users\Hossein\Project\TADD\TADDengine\TADDengine.vcxproj" (target "Build" depends on it):
+                   Task "Delete" (TaskId:190)
+                     Deleting file "Debug\TADDengine.unsuccessfulbuild". (TaskId:190)
+                   Done executing task "Delete". (TaskId:190)
+                   Task "Touch" (TaskId:191)
+                     Touching "Debug\TADDengine.lastbuildstate". (TaskId:191)
+                   Done executing task "Touch". (TaskId:191)
+14:28:01.177     1>Done building target "FinalizeBuildStatus" in project "TADDengine.vcxproj".: (TargetId:256)
+14:28:01.177     1>Target "Build: (TargetId:257)" in file "C:\Program Files (x86)\MSBuild\Microsoft.Cpp\v4.0\Microsoft.BuildSteps.Targets" from project "C:\Users\Hossein\Project\TADD\TADDengine\TADDengine.vcxproj" (target "Rebuild" depends on it):
+14:28:01.177     1>Done building target "Build" in project "TADDengine.vcxproj".: (TargetId:257)
+14:28:01.177     1>Target "AfterRebuild: (TargetId:258)" in file "C:\Windows\Microsoft.NET\Framework\v4.0.30319\Microsoft.Common.Targets" from project "C:\Users\Hossein\Project\TADD\TADDengine\TADDengine.vcxproj" (target "Rebuild" depends on it):
+14:28:01.177     1>Done building target "AfterRebuild" in project "TADDengine.vcxproj".: (TargetId:258)
+14:28:01.177     1>Target "Rebuild: (TargetId:259)" in file "C:\Program Files (x86)\MSBuild\Microsoft.Cpp\v4.0\Microsoft.BuildSteps.Targets" from project "C:\Users\Hossein\Project\TADD\TADDengine\TADDengine.vcxproj" (entry point):
+14:28:01.177     1>Done building target "Rebuild" in project "TADDengine.vcxproj".: (TargetId:259)
+14:28:01.177     1>Done Building Project "C:\Users\Hossein\Project\TADD\TADDengine\TADDengine.vcxproj" (rebuild target(s)).
+
+Project Performance Summary:
+     4086 ms  C:\Users\Hossein\Project\TADD\TADDengine\TADDengine.vcxproj   1 calls
+               4086 ms  rebuild                                    1 calls
+
+Target Performance Summary:
+        0 ms  SelectCustomBuild                          1 calls
+        0 ms  AfterClCompile                             1 calls
+        0 ms  MakeDirsForCl                              1 calls
+        0 ms  SelectClCompile                            1 calls
+        0 ms  ResolveReferences                          1 calls
+        0 ms  ResolvedXDCMake                            1 calls
+        0 ms  _CopySourceItemsToOutputDirectory          1 calls
+        0 ms  AfterClean                                 1 calls
+        0 ms  ComputeCLGeneratedLibInputs                1 calls
+        0 ms  BuildCompileTraverse                       1 calls
+        0 ms  ExpandSDKReferences                        1 calls
+        0 ms  Clean                                      1 calls
+        0 ms  GetReferenceAssemblyPaths                  1 calls
+        0 ms  _ClCompile                                 1 calls
+        0 ms  BeforeClean                                1 calls
+        0 ms  AfterCppClean                              1 calls
+        0 ms  Rebuild                                    1 calls
+        0 ms  ComputeMIDLGeneratedCompileInputs          1 calls
+        0 ms  _SelectedFiles                             1 calls
+        0 ms  CleanPublishFolder                         1 calls
+        0 ms  _Lib                                       1 calls
+        0 ms  BuildCompile                               1 calls
+        0 ms  _Midl                                      1 calls
+        0 ms  CleanReferencedProjects                    1 calls
+        0 ms  CopyFilesToOutputDirectory                 1 calls
+        0 ms  _Xsd                                       1 calls
+        0 ms  PGInstrumentedClean                        1 calls
+        0 ms  ComputeCustomBuildOutput                   1 calls
+        0 ms  BeforeLib                                  1 calls
+        0 ms  ComputeLibInputsFromProject                1 calls
+        0 ms  AfterBuildGenerateSources                  1 calls
+        0 ms  _DetermineManagedStateFromCL               1 calls
+        0 ms  GetCopyToOutputDirectoryXamlAppDefs        1 calls
+        0 ms  ComputeCLInputPDBName                      1 calls
+        0 ms  _PrepareForClean                           1 calls
+        0 ms  AfterResourceCompile                       1 calls
+        0 ms  GetFrameworkPaths                          1 calls
+        0 ms  _GenerateSatelliteAssemblyInputs           1 calls
+        0 ms  ComputeRCOutputs                           1 calls
+        0 ms  BuildLinkTraverse                          1 calls
+        0 ms  CreateSatelliteAssemblies                  1 calls
+        0 ms  DoLibOutputFilesMatch                      1 calls
+        0 ms  _XdcMake                                   1 calls
+        0 ms  MakeDirsForResourceCompile                 1 calls
+        0 ms  BeforeRebuild                              1 calls
+        0 ms  PostBuildEvent                             1 calls
+        0 ms  BeforeCppClean                             1 calls
+        0 ms  AfterLib                                   1 calls
+        0 ms  _ResourceCompile                           1 calls
+        0 ms  BeforeResolveReferences                    1 calls
+        0 ms  AfterResolveReferences                     1 calls
+        0 ms  PreBuildEvent                              1 calls
+        0 ms  _BscMake                                   1 calls
+        0 ms  MakeDirsForMidl                            1 calls
+        0 ms  ComputeLibAdditionalOptions                1 calls
+        0 ms  _PrepareForRebuild                         1 calls
+        0 ms  BuildGenerateSources                       1 calls
+        0 ms  ComputeCLCompileGeneratedXDCFiles          1 calls
+        0 ms  BeforeClCompile                            1 calls
+        0 ms  AfterBuildGenerateSourcesEvent             1 calls
+        0 ms  _CheckForInvalidConfigurationAndPlatform   1 calls
+        0 ms  _ALink                                     1 calls
+        0 ms  ResolveSDKReferences                       1 calls
+        0 ms  BuildGenerateSourcesTraverse               1 calls
+        0 ms  _SplitProjectReferencesByFileExistence     1 calls
+        0 ms  MakeDirsForBscMake                         1 calls
+        0 ms  ComputeCLOutputs                           1 calls
+        0 ms  RegisterOutput                             1 calls
+        0 ms  _Appverifier                               1 calls
+        0 ms  AssignTargetPaths                          1 calls
+        0 ms  BuildLink                                  1 calls
+        0 ms  AfterRebuild                               1 calls
+        0 ms  _GenerateWebServiceProxy                   1 calls
+        0 ms  PreLinkEvent                               1 calls
+        0 ms  AfterMidl                                  1 calls
+        0 ms  BeforeResourceCompile                      1 calls
+        0 ms  CppClean                                   1 calls
+        0 ms  MakeDirsForLib                             1 calls
+        0 ms  _Deploy                                    1 calls
+        0 ms  AfterBuild                                 1 calls
+        0 ms  _Manifest                                  1 calls
+        0 ms  ComputeRCGeneratedLibInputs                1 calls
+        0 ms  GetCopyToOutputDirectoryItems              1 calls
+        0 ms  SetBuildDefaultEnvironmentVariables        1 calls
+        0 ms  AfterBuildCompileEvent                     1 calls
+        0 ms  _GenerateXMLData                           1 calls
+        0 ms  BeforeBuildGenerateSources                 1 calls
+        0 ms  PlatformPrepareForBuild                    1 calls
+        0 ms  MakeDirsForXdcMake                         1 calls
+        0 ms  Build                                      1 calls
+        0 ms  AssignProjectConfiguration                 1 calls
+        0 ms  GetInstalledSDKLocations                   1 calls
+        1 ms  ComputeCLCompileGeneratedSbrFiles          1 calls
+        1 ms  ResolveProjectReferences                   1 calls
+        1 ms  CoreClean                                  1 calls
+        1 ms  _CheckForCompileOutputs                    1 calls
+        1 ms  PrepareForBuild                            1 calls
+        1 ms  ComputeReferenceCLInput                    1 calls
+        1 ms  FinalizeBuildStatus                        1 calls
+        1 ms  _PrepareForBuild                           1 calls
+        2 ms  ResolveAssemblyReferences                  1 calls
+        3 ms  InitializeBuildStatus                      1 calls
+        5 ms  CoreCppClean                               1 calls
+       40 ms  Lib                                        1 calls
+     4025 ms  ClCompile                                  1 calls
+
+Task Performance Summary:
+        0 ms  AssignProjectConfiguration                 1 calls
+        0 ms  SetEnv                                     4 calls
+        0 ms  Delete                                     6 calls
+        0 ms  ReadLinesFromFile                          2 calls
+        0 ms  Message                                    3 calls
+        0 ms  RemoveDuplicates                           1 calls
+        0 ms  AssignTargetPath                           6 calls
+        1 ms  FindUnderPath                              2 calls
+        1 ms  MakeDir                                   11 calls
+        2 ms  WriteLinesToFile                           4 calls
+        2 ms  ResolveAssemblyReference                   1 calls
+        2 ms  Touch                                      2 calls
+        4 ms  CppClean                                   1 calls
+       39 ms  LIB                                        1 calls
+     4023 ms  CL                                         1 calls
+
+Build succeeded.
+
+Time Elapsed 00:00:04.09

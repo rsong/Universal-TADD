@@ -1,0 +1,78 @@
+﻿  videoInput.cpp
+c:\Program Files (x86)\Microsoft Visual Studio 10.0\VC\include\cstdio(48): warning C4995: 'gets': name was marked as #pragma deprecated
+c:\Program Files (x86)\Microsoft Visual Studio 10.0\VC\include\cstdio(52): warning C4995: 'sprintf': name was marked as #pragma deprecated
+c:\Program Files (x86)\Microsoft Visual Studio 10.0\VC\include\cstdio(55): warning C4995: 'vsprintf': name was marked as #pragma deprecated
+c:\Program Files (x86)\Microsoft Visual Studio 10.0\VC\include\cstring(21): warning C4995: 'strcat': name was marked as #pragma deprecated
+c:\Program Files (x86)\Microsoft Visual Studio 10.0\VC\include\cstring(22): warning C4995: 'strcpy': name was marked as #pragma deprecated
+c:\Program Files (x86)\Microsoft Visual Studio 10.0\VC\include\cwchar(30): warning C4995: 'swprintf': name was marked as #pragma deprecated
+c:\Program Files (x86)\Microsoft Visual Studio 10.0\VC\include\cwchar(31): warning C4995: 'vswprintf': name was marked as #pragma deprecated
+c:\Program Files (x86)\Microsoft Visual Studio 10.0\VC\include\cwchar(33): warning C4995: 'wcscat': name was marked as #pragma deprecated
+c:\Program Files (x86)\Microsoft Visual Studio 10.0\VC\include\cwchar(35): warning C4995: 'wcscpy': name was marked as #pragma deprecated
+c:\Program Files (x86)\Microsoft Visual Studio 10.0\VC\include\intrin.h(1092): warning C4995: 'wcscat': name was marked as #pragma deprecated
+c:\Program Files (x86)\Microsoft Visual Studio 10.0\VC\include\intrin.h(1094): warning C4995: 'wcscpy': name was marked as #pragma deprecated
+videoInput.cpp(303): warning C4244: '=' : conversion from 'WCHAR' to 'char', possible loss of data
+videoInput.cpp(773): warning C4244: '=' : conversion from 'OLECHAR' to 'char', possible loss of data
+videoInput.cpp(1089): warning C4244: 'initializing' : conversion from 'double' to 'float', possible loss of data
+videoInput.cpp(1176): warning C4244: 'initializing' : conversion from 'double' to 'float', possible loss of data
+videoInput.cpp(1530): warning C4995: 'sprintf': name was marked as #pragma deprecated
+videoInput.cpp(1530): warning C4996: 'sprintf': This function or variable may be unsafe. Consider using sprintf_s instead. To disable deprecation, use _CRT_SECURE_NO_WARNINGS. See online help for details.
+          c:\Program Files (x86)\Microsoft Visual Studio 10.0\VC\include\stdio.h(371) : see declaration of 'sprintf'
+videoInput.cpp(1531): warning C4995: 'sprintf': name was marked as #pragma deprecated
+videoInput.cpp(1531): warning C4996: 'sprintf': This function or variable may be unsafe. Consider using sprintf_s instead. To disable deprecation, use _CRT_SECURE_NO_WARNINGS. See online help for details.
+          c:\Program Files (x86)\Microsoft Visual Studio 10.0\VC\include\stdio.h(371) : see declaration of 'sprintf'
+videoInput.cpp(1532): warning C4995: 'sprintf': name was marked as #pragma deprecated
+videoInput.cpp(1532): warning C4996: 'sprintf': This function or variable may be unsafe. Consider using sprintf_s instead. To disable deprecation, use _CRT_SECURE_NO_WARNINGS. See online help for details.
+          c:\Program Files (x86)\Microsoft Visual Studio 10.0\VC\include\stdio.h(371) : see declaration of 'sprintf'
+videoInput.cpp(1533): warning C4995: 'sprintf': name was marked as #pragma deprecated
+videoInput.cpp(1533): warning C4996: 'sprintf': This function or variable may be unsafe. Consider using sprintf_s instead. To disable deprecation, use _CRT_SECURE_NO_WARNINGS. See online help for details.
+          c:\Program Files (x86)\Microsoft Visual Studio 10.0\VC\include\stdio.h(371) : see declaration of 'sprintf'
+videoInput.cpp(1534): warning C4995: 'sprintf': name was marked as #pragma deprecated
+videoInput.cpp(1534): warning C4996: 'sprintf': This function or variable may be unsafe. Consider using sprintf_s instead. To disable deprecation, use _CRT_SECURE_NO_WARNINGS. See online help for details.
+          c:\Program Files (x86)\Microsoft Visual Studio 10.0\VC\include\stdio.h(371) : see declaration of 'sprintf'
+videoInput.cpp(1535): warning C4995: 'sprintf': name was marked as #pragma deprecated
+videoInput.cpp(1535): warning C4996: 'sprintf': This function or variable may be unsafe. Consider using sprintf_s instead. To disable deprecation, use _CRT_SECURE_NO_WARNINGS. See online help for details.
+          c:\Program Files (x86)\Microsoft Visual Studio 10.0\VC\include\stdio.h(371) : see declaration of 'sprintf'
+videoInput.cpp(1536): warning C4995: 'sprintf': name was marked as #pragma deprecated
+videoInput.cpp(1536): warning C4996: 'sprintf': This function or variable may be unsafe. Consider using sprintf_s instead. To disable deprecation, use _CRT_SECURE_NO_WARNINGS. See online help for details.
+          c:\Program Files (x86)\Microsoft Visual Studio 10.0\VC\include\stdio.h(371) : see declaration of 'sprintf'
+videoInput.cpp(1537): warning C4995: 'sprintf': name was marked as #pragma deprecated
+videoInput.cpp(1537): warning C4996: 'sprintf': This function or variable may be unsafe. Consider using sprintf_s instead. To disable deprecation, use _CRT_SECURE_NO_WARNINGS. See online help for details.
+          c:\Program Files (x86)\Microsoft Visual Studio 10.0\VC\include\stdio.h(371) : see declaration of 'sprintf'
+videoInput.cpp(1538): warning C4995: 'sprintf': name was marked as #pragma deprecated
+videoInput.cpp(1538): warning C4996: 'sprintf': This function or variable may be unsafe. Consider using sprintf_s instead. To disable deprecation, use _CRT_SECURE_NO_WARNINGS. See online help for details.
+          c:\Program Files (x86)\Microsoft Visual Studio 10.0\VC\include\stdio.h(371) : see declaration of 'sprintf'
+videoInput.cpp(1539): warning C4995: 'sprintf': name was marked as #pragma deprecated
+videoInput.cpp(1539): warning C4996: 'sprintf': This function or variable may be unsafe. Consider using sprintf_s instead. To disable deprecation, use _CRT_SECURE_NO_WARNINGS. See online help for details.
+          c:\Program Files (x86)\Microsoft Visual Studio 10.0\VC\include\stdio.h(371) : see declaration of 'sprintf'
+videoInput.cpp(1540): warning C4995: 'sprintf': name was marked as #pragma deprecated
+videoInput.cpp(1540): warning C4996: 'sprintf': This function or variable may be unsafe. Consider using sprintf_s instead. To disable deprecation, use _CRT_SECURE_NO_WARNINGS. See online help for details.
+          c:\Program Files (x86)\Microsoft Visual Studio 10.0\VC\include\stdio.h(371) : see declaration of 'sprintf'
+videoInput.cpp(1541): warning C4995: 'sprintf': name was marked as #pragma deprecated
+videoInput.cpp(1541): warning C4996: 'sprintf': This function or variable may be unsafe. Consider using sprintf_s instead. To disable deprecation, use _CRT_SECURE_NO_WARNINGS. See online help for details.
+          c:\Program Files (x86)\Microsoft Visual Studio 10.0\VC\include\stdio.h(371) : see declaration of 'sprintf'
+videoInput.cpp(1542): warning C4995: 'sprintf': name was marked as #pragma deprecated
+videoInput.cpp(1542): warning C4996: 'sprintf': This function or variable may be unsafe. Consider using sprintf_s instead. To disable deprecation, use _CRT_SECURE_NO_WARNINGS. See online help for details.
+          c:\Program Files (x86)\Microsoft Visual Studio 10.0\VC\include\stdio.h(371) : see declaration of 'sprintf'
+videoInput.cpp(1543): warning C4995: 'sprintf': name was marked as #pragma deprecated
+videoInput.cpp(1543): warning C4996: 'sprintf': This function or variable may be unsafe. Consider using sprintf_s instead. To disable deprecation, use _CRT_SECURE_NO_WARNINGS. See online help for details.
+          c:\Program Files (x86)\Microsoft Visual Studio 10.0\VC\include\stdio.h(371) : see declaration of 'sprintf'
+videoInput.cpp(1544): warning C4995: 'sprintf': name was marked as #pragma deprecated
+videoInput.cpp(1544): warning C4996: 'sprintf': This function or variable may be unsafe. Consider using sprintf_s instead. To disable deprecation, use _CRT_SECURE_NO_WARNINGS. See online help for details.
+          c:\Program Files (x86)\Microsoft Visual Studio 10.0\VC\include\stdio.h(371) : see declaration of 'sprintf'
+videoInput.cpp(1545): warning C4995: 'sprintf': name was marked as #pragma deprecated
+videoInput.cpp(1545): warning C4996: 'sprintf': This function or variable may be unsafe. Consider using sprintf_s instead. To disable deprecation, use _CRT_SECURE_NO_WARNINGS. See online help for details.
+          c:\Program Files (x86)\Microsoft Visual Studio 10.0\VC\include\stdio.h(371) : see declaration of 'sprintf'
+videoInput.cpp(1546): warning C4995: 'sprintf': name was marked as #pragma deprecated
+videoInput.cpp(1546): warning C4996: 'sprintf': This function or variable may be unsafe. Consider using sprintf_s instead. To disable deprecation, use _CRT_SECURE_NO_WARNINGS. See online help for details.
+          c:\Program Files (x86)\Microsoft Visual Studio 10.0\VC\include\stdio.h(371) : see declaration of 'sprintf'
+videoInput.cpp(1547): warning C4995: 'sprintf': name was marked as #pragma deprecated
+videoInput.cpp(1547): warning C4996: 'sprintf': This function or variable may be unsafe. Consider using sprintf_s instead. To disable deprecation, use _CRT_SECURE_NO_WARNINGS. See online help for details.
+          c:\Program Files (x86)\Microsoft Visual Studio 10.0\VC\include\stdio.h(371) : see declaration of 'sprintf'
+videoInput.cpp(1548): warning C4995: 'sprintf': name was marked as #pragma deprecated
+videoInput.cpp(1548): warning C4996: 'sprintf': This function or variable may be unsafe. Consider using sprintf_s instead. To disable deprecation, use _CRT_SECURE_NO_WARNINGS. See online help for details.
+          c:\Program Files (x86)\Microsoft Visual Studio 10.0\VC\include\stdio.h(371) : see declaration of 'sprintf'
+mkl_intel_thread_dll.lib(mkl_intel_thread.dll) : warning LNK4006: __NULL_IMPORT_DESCRIPTOR already defined in mkl_intel_c_dll.lib(libimalloc.dll); second definition ignored
+libiomp5md.lib(libiomp5md.dll) : warning LNK4006: __NULL_IMPORT_DESCRIPTOR already defined in mkl_intel_c_dll.lib(libimalloc.dll); second definition ignored
+ole32.lib(ole32.dll) : warning LNK4006: __NULL_IMPORT_DESCRIPTOR already defined in mkl_intel_c_dll.lib(libimalloc.dll); second definition ignored
+uuid.lib(seo_i.obj) : warning LNK4006: _IID_IEventDispatcher already defined in uuid.lib(iid.obj); second definition ignored
+  videoInput.vcxproj -> C:\Users\Jamie\Desktop\Documents\TODD\Release\videoInput.lib

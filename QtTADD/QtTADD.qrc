@@ -1,0 +1,40 @@
+<RCC>
+  <qresource prefix="/toolbar">
+    <file alias="LoadFile">files_Qt/Milky/64/119.png</file>
+    <file alias="SaveFile">files_Qt/Milky/64/7.png</file>
+    <file alias="CutFile">files_Qt/Milky/64/89.png</file>
+    <file alias="PasteFile">files_Qt/Milky/64/8.png</file>
+    <file alias="UndoChange">files_Qt/Milky/64/72.png</file>
+    <file alias="RedoChange">files_Qt/Milky/64/71.png</file>
+    <file alias="ZoomIn">files_Qt/Milky/64/106.png</file>
+    <file alias="ZoomOut">files_Qt/Milky/64/107.png</file>
+  </qresource>
+  <qresource prefix="/imagebar">
+    <file alias="NextImage">files_Qt/Milky/64/23.png</file>
+    <file alias="PreviousImage">files_Qt/Milky/64/28.png</file>
+    <file alias="Classify">files_Qt/Milky/64/64.png</file>
+    <file alias="FillSection">files_Qt/Milky/64/68.png</file>
+  </qresource>
+  <qresource prefix="/classifer">
+    <file alias="Train">files_Qt/Milky/64/132.png</file>
+    <file alias="Classify">files_Qt/Milky/64/16.png</file>
+  </qresource>
+  <qresource prefix="/controls">
+    <file alias="Pause">files_Qt/Milky/64/93.png</file>
+    <file alias="Play">files_Qt/Milky/64/94.png</file>
+  </qresource>
+  <qresource prefix="/logo">
+    <file alias="lincoln">files_Qt/Milky/lincoln.png</file>
+    <file alias="potato">files_Qt/Milky/SBCSR_logo_on_white.jpg</file>
+  </qresource>
+  <qresource prefix="/key">
+    <file alias="red">files_Qt/Milky/key/red.png</file>
+    <file alias="green">files_Qt/Milky/key/green.png</file>
+    <file alias="blue">files_Qt/Milky/key/blue.png</file>
+    <file alias="orange">files_Qt/Milky/key/orange.png</file>
+    <file alias="grey">files_Qt/Milky/key/grey.png</file>
+    <file alias="purple">files_Qt/Milky/key/purple.png</file>
+    <file alias="lblue">files_Qt/Milky/key/lblue.png</file>
+    <file alias="bg">files_Qt/Milky/key/bg.png</file>
+  </qresource>
+</RCC>

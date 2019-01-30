@@ -1,0 +1,76 @@
+﻿  videoInput.cpp
+c:\program files (x86)\microsoft visual studio 10.0\vc\include\cstdio(48): warning C4995: 'gets': name was marked as #pragma deprecated
+c:\program files (x86)\microsoft visual studio 10.0\vc\include\cstdio(52): warning C4995: 'sprintf': name was marked as #pragma deprecated
+c:\program files (x86)\microsoft visual studio 10.0\vc\include\cstdio(55): warning C4995: 'vsprintf': name was marked as #pragma deprecated
+c:\program files (x86)\microsoft visual studio 10.0\vc\include\cstring(21): warning C4995: 'strcat': name was marked as #pragma deprecated
+c:\program files (x86)\microsoft visual studio 10.0\vc\include\cstring(22): warning C4995: 'strcpy': name was marked as #pragma deprecated
+c:\program files (x86)\microsoft visual studio 10.0\vc\include\cwchar(30): warning C4995: 'swprintf': name was marked as #pragma deprecated
+c:\program files (x86)\microsoft visual studio 10.0\vc\include\cwchar(31): warning C4995: 'vswprintf': name was marked as #pragma deprecated
+c:\program files (x86)\microsoft visual studio 10.0\vc\include\cwchar(33): warning C4995: 'wcscat': name was marked as #pragma deprecated
+c:\program files (x86)\microsoft visual studio 10.0\vc\include\cwchar(35): warning C4995: 'wcscpy': name was marked as #pragma deprecated
+c:\program files (x86)\microsoft visual studio 10.0\vc\include\intrin.h(1092): warning C4995: 'wcscat': name was marked as #pragma deprecated
+c:\program files (x86)\microsoft visual studio 10.0\vc\include\intrin.h(1094): warning C4995: 'wcscpy': name was marked as #pragma deprecated
+c:\users\jamie\desktop\documents\todd\videoinput\videoinput.cpp(303): warning C4244: '=' : conversion from 'WCHAR' to 'char', possible loss of data
+c:\users\jamie\desktop\documents\todd\videoinput\videoinput.cpp(773): warning C4244: '=' : conversion from 'OLECHAR' to 'char', possible loss of data
+c:\users\jamie\desktop\documents\todd\videoinput\videoinput.cpp(1089): warning C4244: 'initializing' : conversion from 'double' to 'float', possible loss of data
+c:\users\jamie\desktop\documents\todd\videoinput\videoinput.cpp(1176): warning C4244: 'initializing' : conversion from 'double' to 'float', possible loss of data
+c:\users\jamie\desktop\documents\todd\videoinput\videoinput.cpp(1530): warning C4995: 'sprintf': name was marked as #pragma deprecated
+c:\users\jamie\desktop\documents\todd\videoinput\videoinput.cpp(1530): warning C4996: 'sprintf': This function or variable may be unsafe. Consider using sprintf_s instead. To disable deprecation, use _CRT_SECURE_NO_WARNINGS. See online help for details.
+          c:\program files (x86)\microsoft visual studio 10.0\vc\include\stdio.h(371) : see declaration of 'sprintf'
+c:\users\jamie\desktop\documents\todd\videoinput\videoinput.cpp(1531): warning C4995: 'sprintf': name was marked as #pragma deprecated
+c:\users\jamie\desktop\documents\todd\videoinput\videoinput.cpp(1531): warning C4996: 'sprintf': This function or variable may be unsafe. Consider using sprintf_s instead. To disable deprecation, use _CRT_SECURE_NO_WARNINGS. See online help for details.
+          c:\program files (x86)\microsoft visual studio 10.0\vc\include\stdio.h(371) : see declaration of 'sprintf'
+c:\users\jamie\desktop\documents\todd\videoinput\videoinput.cpp(1532): warning C4995: 'sprintf': name was marked as #pragma deprecated
+c:\users\jamie\desktop\documents\todd\videoinput\videoinput.cpp(1532): warning C4996: 'sprintf': This function or variable may be unsafe. Consider using sprintf_s instead. To disable deprecation, use _CRT_SECURE_NO_WARNINGS. See online help for details.
+          c:\program files (x86)\microsoft visual studio 10.0\vc\include\stdio.h(371) : see declaration of 'sprintf'
+c:\users\jamie\desktop\documents\todd\videoinput\videoinput.cpp(1533): warning C4995: 'sprintf': name was marked as #pragma deprecated
+c:\users\jamie\desktop\documents\todd\videoinput\videoinput.cpp(1533): warning C4996: 'sprintf': This function or variable may be unsafe. Consider using sprintf_s instead. To disable deprecation, use _CRT_SECURE_NO_WARNINGS. See online help for details.
+          c:\program files (x86)\microsoft visual studio 10.0\vc\include\stdio.h(371) : see declaration of 'sprintf'
+c:\users\jamie\desktop\documents\todd\videoinput\videoinput.cpp(1534): warning C4995: 'sprintf': name was marked as #pragma deprecated
+c:\users\jamie\desktop\documents\todd\videoinput\videoinput.cpp(1534): warning C4996: 'sprintf': This function or variable may be unsafe. Consider using sprintf_s instead. To disable deprecation, use _CRT_SECURE_NO_WARNINGS. See online help for details.
+          c:\program files (x86)\microsoft visual studio 10.0\vc\include\stdio.h(371) : see declaration of 'sprintf'
+c:\users\jamie\desktop\documents\todd\videoinput\videoinput.cpp(1535): warning C4995: 'sprintf': name was marked as #pragma deprecated
+c:\users\jamie\desktop\documents\todd\videoinput\videoinput.cpp(1535): warning C4996: 'sprintf': This function or variable may be unsafe. Consider using sprintf_s instead. To disable deprecation, use _CRT_SECURE_NO_WARNINGS. See online help for details.
+          c:\program files (x86)\microsoft visual studio 10.0\vc\include\stdio.h(371) : see declaration of 'sprintf'
+c:\users\jamie\desktop\documents\todd\videoinput\videoinput.cpp(1536): warning C4995: 'sprintf': name was marked as #pragma deprecated
+c:\users\jamie\desktop\documents\todd\videoinput\videoinput.cpp(1536): warning C4996: 'sprintf': This function or variable may be unsafe. Consider using sprintf_s instead. To disable deprecation, use _CRT_SECURE_NO_WARNINGS. See online help for details.
+          c:\program files (x86)\microsoft visual studio 10.0\vc\include\stdio.h(371) : see declaration of 'sprintf'
+c:\users\jamie\desktop\documents\todd\videoinput\videoinput.cpp(1537): warning C4995: 'sprintf': name was marked as #pragma deprecated
+c:\users\jamie\desktop\documents\todd\videoinput\videoinput.cpp(1537): warning C4996: 'sprintf': This function or variable may be unsafe. Consider using sprintf_s instead. To disable deprecation, use _CRT_SECURE_NO_WARNINGS. See online help for details.
+          c:\program files (x86)\microsoft visual studio 10.0\vc\include\stdio.h(371) : see declaration of 'sprintf'
+c:\users\jamie\desktop\documents\todd\videoinput\videoinput.cpp(1538): warning C4995: 'sprintf': name was marked as #pragma deprecated
+c:\users\jamie\desktop\documents\todd\videoinput\videoinput.cpp(1538): warning C4996: 'sprintf': This function or variable may be unsafe. Consider using sprintf_s instead. To disable deprecation, use _CRT_SECURE_NO_WARNINGS. See online help for details.
+          c:\program files (x86)\microsoft visual studio 10.0\vc\include\stdio.h(371) : see declaration of 'sprintf'
+c:\users\jamie\desktop\documents\todd\videoinput\videoinput.cpp(1539): warning C4995: 'sprintf': name was marked as #pragma deprecated
+c:\users\jamie\desktop\documents\todd\videoinput\videoinput.cpp(1539): warning C4996: 'sprintf': This function or variable may be unsafe. Consider using sprintf_s instead. To disable deprecation, use _CRT_SECURE_NO_WARNINGS. See online help for details.
+          c:\program files (x86)\microsoft visual studio 10.0\vc\include\stdio.h(371) : see declaration of 'sprintf'
+c:\users\jamie\desktop\documents\todd\videoinput\videoinput.cpp(1540): warning C4995: 'sprintf': name was marked as #pragma deprecated
+c:\users\jamie\desktop\documents\todd\videoinput\videoinput.cpp(1540): warning C4996: 'sprintf': This function or variable may be unsafe. Consider using sprintf_s instead. To disable deprecation, use _CRT_SECURE_NO_WARNINGS. See online help for details.
+          c:\program files (x86)\microsoft visual studio 10.0\vc\include\stdio.h(371) : see declaration of 'sprintf'
+c:\users\jamie\desktop\documents\todd\videoinput\videoinput.cpp(1541): warning C4995: 'sprintf': name was marked as #pragma deprecated
+c:\users\jamie\desktop\documents\todd\videoinput\videoinput.cpp(1541): warning C4996: 'sprintf': This function or variable may be unsafe. Consider using sprintf_s instead. To disable deprecation, use _CRT_SECURE_NO_WARNINGS. See online help for details.
+          c:\program files (x86)\microsoft visual studio 10.0\vc\include\stdio.h(371) : see declaration of 'sprintf'
+c:\users\jamie\desktop\documents\todd\videoinput\videoinput.cpp(1542): warning C4995: 'sprintf': name was marked as #pragma deprecated
+c:\users\jamie\desktop\documents\todd\videoinput\videoinput.cpp(1542): warning C4996: 'sprintf': This function or variable may be unsafe. Consider using sprintf_s instead. To disable deprecation, use _CRT_SECURE_NO_WARNINGS. See online help for details.
+          c:\program files (x86)\microsoft visual studio 10.0\vc\include\stdio.h(371) : see declaration of 'sprintf'
+c:\users\jamie\desktop\documents\todd\videoinput\videoinput.cpp(1543): warning C4995: 'sprintf': name was marked as #pragma deprecated
+c:\users\jamie\desktop\documents\todd\videoinput\videoinput.cpp(1543): warning C4996: 'sprintf': This function or variable may be unsafe. Consider using sprintf_s instead. To disable deprecation, use _CRT_SECURE_NO_WARNINGS. See online help for details.
+          c:\program files (x86)\microsoft visual studio 10.0\vc\include\stdio.h(371) : see declaration of 'sprintf'
+c:\users\jamie\desktop\documents\todd\videoinput\videoinput.cpp(1544): warning C4995: 'sprintf': name was marked as #pragma deprecated
+c:\users\jamie\desktop\documents\todd\videoinput\videoinput.cpp(1544): warning C4996: 'sprintf': This function or variable may be unsafe. Consider using sprintf_s instead. To disable deprecation, use _CRT_SECURE_NO_WARNINGS. See online help for details.
+          c:\program files (x86)\microsoft visual studio 10.0\vc\include\stdio.h(371) : see declaration of 'sprintf'
+c:\users\jamie\desktop\documents\todd\videoinput\videoinput.cpp(1545): warning C4995: 'sprintf': name was marked as #pragma deprecated
+c:\users\jamie\desktop\documents\todd\videoinput\videoinput.cpp(1545): warning C4996: 'sprintf': This function or variable may be unsafe. Consider using sprintf_s instead. To disable deprecation, use _CRT_SECURE_NO_WARNINGS. See online help for details.
+          c:\program files (x86)\microsoft visual studio 10.0\vc\include\stdio.h(371) : see declaration of 'sprintf'
+c:\users\jamie\desktop\documents\todd\videoinput\videoinput.cpp(1546): warning C4995: 'sprintf': name was marked as #pragma deprecated
+c:\users\jamie\desktop\documents\todd\videoinput\videoinput.cpp(1546): warning C4996: 'sprintf': This function or variable may be unsafe. Consider using sprintf_s instead. To disable deprecation, use _CRT_SECURE_NO_WARNINGS. See online help for details.
+          c:\program files (x86)\microsoft visual studio 10.0\vc\include\stdio.h(371) : see declaration of 'sprintf'
+c:\users\jamie\desktop\documents\todd\videoinput\videoinput.cpp(1547): warning C4995: 'sprintf': name was marked as #pragma deprecated
+c:\users\jamie\desktop\documents\todd\videoinput\videoinput.cpp(1547): warning C4996: 'sprintf': This function or variable may be unsafe. Consider using sprintf_s instead. To disable deprecation, use _CRT_SECURE_NO_WARNINGS. See online help for details.
+          c:\program files (x86)\microsoft visual studio 10.0\vc\include\stdio.h(371) : see declaration of 'sprintf'
+c:\users\jamie\desktop\documents\todd\videoinput\videoinput.cpp(1548): warning C4995: 'sprintf': name was marked as #pragma deprecated
+c:\users\jamie\desktop\documents\todd\videoinput\videoinput.cpp(1548): warning C4996: 'sprintf': This function or variable may be unsafe. Consider using sprintf_s instead. To disable deprecation, use _CRT_SECURE_NO_WARNINGS. See online help for details.
+          c:\program files (x86)\microsoft visual studio 10.0\vc\include\stdio.h(371) : see declaration of 'sprintf'
+uuid.lib(msp_i.obj) : warning LNK4221: This object file does not define any previously undefined public symbols, so it will not be used by any link operation that consumes this library
+uuid.lib(seo_i.obj) : warning LNK4006: _IID_IEventDispatcher already defined in uuid.lib(iid.obj); second definition ignored
+  videoInput.vcxproj -> C:\Users\Jamie\Desktop\Documents\TODD\Debug\videoInput.lib

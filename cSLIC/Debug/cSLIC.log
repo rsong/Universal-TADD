@@ -1,0 +1,653 @@
+﻿Build started 07/03/2014 15:55:38.
+Environment at start of build:
+ALLUSERSPROFILE = C:\ProgramData
+APPDATA = C:\Users\Hossein\AppData\Roaming
+CommonProgramFiles = C:\Program Files (x86)\Common Files
+CommonProgramFiles(x86) = C:\Program Files (x86)\Common Files
+CommonProgramW6432 = C:\Program Files\Common Files
+COMPUTERNAME = H
+ComSpec = C:\Windows\system32\cmd.exe
+CUDA_PATH = C:\Program Files\NVIDIA GPU Computing Toolkit\CUDA\v6.0
+CUDA_PATH_V6_0 = C:\Program Files\NVIDIA GPU Computing Toolkit\CUDA\v6.0
+FP_NO_HOST_CHECK = NO
+HALCONARCH = x64-win64
+HALCONEXAMPLES = C:\Users\Public\Documents\MVTec\HALCON-11.0\examples
+HALCONIMAGES = C:\Users\Public\Documents\MVTec\HALCON-11.0\examples\images
+HALCONROOT = C:\Program Files\MVTec\HALCON-11.0
+HOMEDRIVE = C:
+HOMEPATH = \Users\Hossein
+LOCALAPPDATA = C:\Users\Hossein\AppData\Local
+LOGONSERVER = \\H
+NUMBER_OF_PROCESSORS = 8
+NVCUDASAMPLES6_0_ROOT = C:\ProgramData\NVIDIA Corporation\CUDA Samples\v6.0
+NVCUDASAMPLES_ROOT = C:\ProgramData\NVIDIA Corporation\CUDA Samples\v6.0
+NVTOOLSEXT_PATH = C:\Program Files\NVIDIA Corporation\NvToolsExt\
+OS = Windows_NT
+Path = C:\Program Files\NVIDIA GPU Computing Toolkit\CUDA\v6.0\bin;C:\Program Files\NVIDIA GPU Computing Toolkit\CUDA\v6.0\libnvvp;C:\Program Files (x86)\NVIDIA Corporation\PhysX\Common;C:\Program Files (x86)\Intel\iCLS Client\;C:\Program Files\Intel\iCLS Client\;C:\Windows\system32;C:\Windows;C:\Windows\System32\Wbem;C:\Windows\System32\WindowsPowerShell\v1.0\;C:\Program Files\Intel\Intel(R) Management Engine Components\DAL;C:\Program Files\Intel\Intel(R) Management Engine Components\IPT;C:\Program Files (x86)\Intel\Intel(R) Management Engine Components\DAL;C:\Program Files (x86)\Intel\Intel(R) Management Engine Components\IPT;c:\Program Files (x86)\Microsoft SQL Server\100\Tools\Binn\;c:\Program Files\Microsoft SQL Server\100\Tools\Binn\;c:\Program Files\Microsoft SQL Server\100\DTS\Binn\;C:\Tesseract-OCR;C:\Program Files (x86)\Tesseract-OCR;C:\Program Files\MATLAB\R2013b\runtime\win64;C:\Program Files\MATLAB\R2013b\bin;C:\Program Files\MVTec\HALCON-11.0\bin\x64-win64;C:\Program Files\MVTec\HALCON-11.0\FLEXlm\x64-win64;C:\Program Files\MiKTeX 2.9\miktex\bin\x64\;C:\Program Files\doxygen\bin
+PATHEXT = .COM;.EXE;.BAT;.CMD;.VBS;.VBE;.JS;.JSE;.WSF;.WSH;.MSC
+PROCESSOR_ARCHITECTURE = x86
+PROCESSOR_ARCHITEW6432 = AMD64
+PROCESSOR_IDENTIFIER = Intel64 Family 6 Model 58 Stepping 9, GenuineIntel
+PROCESSOR_LEVEL = 6
+PROCESSOR_REVISION = 3a09
+ProgramData = C:\ProgramData
+ProgramFiles = C:\Program Files (x86)
+ProgramFiles(x86) = C:\Program Files (x86)
+ProgramW6432 = C:\Program Files
+PSModulePath = C:\Windows\system32\WindowsPowerShell\v1.0\Modules\
+PUBLIC = C:\Users\Public
+QTDIR = C:\Users\Hossein\Project\4.7.3x86_Intel
+SESSIONNAME = Console
+SystemDrive = C:
+SystemRoot = C:\Windows
+TEMP = C:\Users\Hossein\AppData\Local\Temp
+TESSDATA_PREFIX = C:\Program Files (x86)\Tesseract-OCR\
+TMP = C:\Users\Hossein\AppData\Local\Temp
+USERDOMAIN = H
+USERNAME = Hossein
+USERPROFILE = C:\Users\Hossein
+VisualStudioDir = C:\Users\Hossein\Documents\Visual Studio 2010
+VS100COMNTOOLS = c:\Program Files (x86)\Microsoft Visual Studio 10.0\Common7\Tools\
+windir = C:\Windows
+windows_tracing_flags = 3
+windows_tracing_logfile = C:\BVTBin\Tests\installpackage\csilogfile.log
+
+15:55:38.454     1>Project "C:\TODD5_3D - Copy 05 Feb2014\cSLIC\cSLIC.vcxproj" on node 2 (build target(s)).
+15:55:38.454     1>Building with tools version "4.0".
+15:55:38.454     1>Target "_CheckForInvalidConfigurationAndPlatform: (TargetId:2)" in file "C:\Windows\Microsoft.NET\Framework\v4.0.30319\Microsoft.Common.Targets" from project "C:\TODD5_3D - Copy 05 Feb2014\cSLIC\cSLIC.vcxproj" (entry point):
+                   Task "Error" skipped, due to false condition; ( '$(_InvalidConfigurationError)' == 'true' ) was evaluated as ( '' == 'true' ).
+                   Task "Warning" skipped, due to false condition; ( '$(_InvalidConfigurationWarning)' == 'true' ) was evaluated as ( '' == 'true' ).
+                   Using "Message" task from assembly "Microsoft.Build.Tasks.v4.0, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a".
+                   Task "Message" (TaskId:2)
+                     Configuration=Debug (TaskId:2)
+                   Done executing task "Message". (TaskId:2)
+                   Task "Message" (TaskId:3)
+                     Platform=Win32 (TaskId:3)
+                   Done executing task "Message". (TaskId:3)
+                   Task "Error" skipped, due to false condition; ('$(OutDir)' != '' and !HasTrailingSlash('$(OutDir)')) was evaluated as ('C:\TODD5_3D - Copy 05 Feb2014\Debug\' != '' and !HasTrailingSlash('C:\TODD5_3D - Copy 05 Feb2014\Debug\')).
+                   Task "Error" skipped, due to false condition; ('$(BaseIntermediateOutputPath)' != '' and !HasTrailingSlash('$(BaseIntermediateOutputPath)')) was evaluated as ('obj\' != '' and !HasTrailingSlash('obj\')).
+                   Task "Error" skipped, due to false condition; ('$(IntermediateOutputPath)' != '' and !HasTrailingSlash('$(IntermediateOutputPath)')) was evaluated as ('Debug\' != '' and !HasTrailingSlash('Debug\')).
+15:55:38.456     1>Done building target "_CheckForInvalidConfigurationAndPlatform" in project "cSLIC.vcxproj".: (TargetId:2)
+15:55:38.456     1>Target "_DetermineManagedStateFromCL: (TargetId:3)" in file "C:\Program Files (x86)\MSBuild\Microsoft.Cpp\v4.0\Microsoft.CppBuild.targets" from project "C:\TODD5_3D - Copy 05 Feb2014\cSLIC\cSLIC.vcxproj" (target "Build" depends on it):
+15:55:38.456     1>Done building target "_DetermineManagedStateFromCL" in project "cSLIC.vcxproj".: (TargetId:3)
+15:55:38.456     1>Target "_PrepareForBuild: (TargetId:4)" in file "C:\Program Files (x86)\MSBuild\Microsoft.Cpp\v4.0\Microsoft.BuildSteps.Targets" from project "C:\TODD5_3D - Copy 05 Feb2014\cSLIC\cSLIC.vcxproj" (target "Build" depends on it):
+15:55:38.456     1>Done building target "_PrepareForBuild" in project "cSLIC.vcxproj".: (TargetId:4)
+15:55:38.456     1>Target "SetBuildDefaultEnvironmentVariables: (TargetId:5)" in file "C:\Program Files (x86)\MSBuild\Microsoft.Cpp\v4.0\Microsoft.Cpp.targets" from project "C:\TODD5_3D - Copy 05 Feb2014\cSLIC\cSLIC.vcxproj" (target "Build" depends on it):
+                   Using "SetEnv" task from assembly "Microsoft.Build.CppTasks.Common, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a".
+                   Task "SetEnv" (TaskId:4)
+                     PATH=c:\Program Files (x86)\Microsoft Visual Studio 10.0\VC\bin;C:\Program Files (x86)\Microsoft SDKs\Windows\v7.0A\bin\NETFX 4.0 Tools;C:\Program Files (x86)\Microsoft SDKs\Windows\v7.0A\bin;C:\Program Files (x86)\Microsoft Visual Studio 10.0\Common7\Tools\bin;C:\Program Files (x86)\Microsoft Visual Studio 10.0\Common7\tools;C:\Program Files (x86)\Microsoft Visual Studio 10.0\Common7\ide;C:\Program Files (x86)\HTML Help Workshop;C:\Program Files (x86)\Microsoft SDKs\Windows\v7.0A\\bin;C:\Windows\Microsoft.NET\Framework\v4.0.30319\;C:\Program Files (x86)\Microsoft Visual Studio 10.0\;C:\Windows\SysWow64;;C:\Program Files\NVIDIA GPU Computing Toolkit\CUDA\v6.0\bin;C:\Program Files\NVIDIA GPU Computing Toolkit\CUDA\v6.0\libnvvp;C:\Program Files (x86)\NVIDIA Corporation\PhysX\Common;C:\Program Files (x86)\Intel\iCLS Client\;C:\Program Files\Intel\iCLS Client\;C:\Windows\system32;C:\Windows;C:\Windows\System32\Wbem;C:\Windows\System32\WindowsPowerShell\v1.0\;C:\Program Files\Intel\Intel(R) Management Engine Components\DAL;C:\Program Files\Intel\Intel(R) Management Engine Components\IPT;C:\Program Files (x86)\Intel\Intel(R) Management Engine Components\DAL;C:\Program Files (x86)\Intel\Intel(R) Management Engine Components\IPT;c:\Program Files (x86)\Microsoft SQL Server\100\Tools\Binn\;c:\Program Files\Microsoft SQL Server\100\Tools\Binn\;c:\Program Files\Microsoft SQL Server\100\DTS\Binn\;C:\Tesseract-OCR;C:\Program Files (x86)\Tesseract-OCR;C:\Program Files\MATLAB\R2013b\runtime\win64;C:\Program Files\MATLAB\R2013b\bin;C:\Program Files\MVTec\HALCON-11.0\bin\x64-win64;C:\Program Files\MVTec\HALCON-11.0\FLEXlm\x64-win64;C:\Program Files\MiKTeX 2.9\miktex\bin\x64\;C:\Program Files\doxygen\bin; (TaskId:4)
+                   Done executing task "SetEnv". (TaskId:4)
+                   Task "SetEnv" skipped, due to false condition; ('$(_IsNativeEnvironment)' == 'true') was evaluated as ('' == 'true').
+                   Task "SetEnv" (TaskId:5)
+                     LIB=c:\Program Files (x86)\Microsoft Visual Studio 10.0\VC\lib;c:\Program Files (x86)\Microsoft Visual Studio 10.0\VC\atlmfc\lib;C:\Program Files (x86)\Microsoft SDKs\Windows\v7.0A\lib;C:\Program Files (x86)\Microsoft SDKs\Windows\v7.0A\\lib (TaskId:5)
+                   Done executing task "SetEnv". (TaskId:5)
+                   Task "SetEnv" (TaskId:6)
+                     LIBPATH=c:\Program Files (x86)\Microsoft Visual Studio 10.0\VC\atlmfc\lib;c:\Program Files (x86)\Microsoft Visual Studio 10.0\VC\lib (TaskId:6)
+                   Done executing task "SetEnv". (TaskId:6)
+                   Task "SetEnv" (TaskId:7)
+                     INCLUDE=c:\Program Files (x86)\Microsoft Visual Studio 10.0\VC\include;c:\Program Files (x86)\Microsoft Visual Studio 10.0\VC\atlmfc\include;C:\Program Files (x86)\Microsoft SDKs\Windows\v7.0A\include;C:\Program Files (x86)\Microsoft SDKs\Windows\v7.0A\\include; (TaskId:7)
+                   Done executing task "SetEnv". (TaskId:7)
+15:55:38.457     1>Done building target "SetBuildDefaultEnvironmentVariables" in project "cSLIC.vcxproj".: (TargetId:5)
+                   Target "SetUserMacroEnvironmentVariables" skipped, due to false condition; ('@(BuildMacro)' != '') was evaluated as ('' != '').
+15:55:38.457     1>Target "BeforeResolveReferences: (TargetId:6)" in file "C:\Windows\Microsoft.NET\Framework\v4.0.30319\Microsoft.Common.Targets" from project "C:\TODD5_3D - Copy 05 Feb2014\cSLIC\cSLIC.vcxproj" (target "ResolveReferences" depends on it):
+15:55:38.457     1>Done building target "BeforeResolveReferences" in project "cSLIC.vcxproj".: (TargetId:6)
+15:55:38.457     1>Target "AssignProjectConfiguration: (TargetId:7)" in file "C:\Windows\Microsoft.NET\Framework\v4.0.30319\Microsoft.Common.Targets" from project "C:\TODD5_3D - Copy 05 Feb2014\cSLIC\cSLIC.vcxproj" (target "ResolveReferences" depends on it):
+                   Using "AssignProjectConfiguration" task from assembly "Microsoft.Build.Tasks.v4.0, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a".
+                   Task "AssignProjectConfiguration" (TaskId:8)
+                   Done executing task "AssignProjectConfiguration". (TaskId:8)
+15:55:38.457     1>Done building target "AssignProjectConfiguration" in project "cSLIC.vcxproj".: (TargetId:7)
+                   Target "AssignProjectConfiguration" skipped. Previously built successfully.
+15:55:38.457     1>Target "_SplitProjectReferencesByFileExistence: (TargetId:8)" in file "C:\Windows\Microsoft.NET\Framework\v4.0.30319\Microsoft.Common.Targets" from project "C:\TODD5_3D - Copy 05 Feb2014\cSLIC\cSLIC.vcxproj" (target "ResolveProjectReferences" depends on it):
+                   Task "ResolveNonMSBuildProjectOutput" skipped, due to false condition; ('$(BuildingInsideVisualStudio)'=='true' and '@(ProjectReferenceWithConfiguration)'!='') was evaluated as ('true'=='true' and ''!='').
+15:55:38.457     1>Done building target "_SplitProjectReferencesByFileExistence" in project "cSLIC.vcxproj".: (TargetId:8)
+                   Target "_RemoveNameMetadataFromProjectReferenceItems" skipped, due to false condition; ('@(ProjectReference)'!='') was evaluated as (''!='').
+15:55:38.457     1>Target "ResolveProjectReferences: (TargetId:9)" in file "C:\Windows\Microsoft.NET\Framework\v4.0.30319\Microsoft.Common.Targets" from project "C:\TODD5_3D - Copy 05 Feb2014\cSLIC\cSLIC.vcxproj" (target "ResolveReferences" depends on it):
+                   Task "MSBuild" skipped, due to false condition; ('%(_MSBuildProjectReferenceExistent.BuildReference)' == 'true' and '@(ProjectReferenceWithConfiguration)' != '' and ('$(BuildingInsideVisualStudio)' == 'true' or '$(BuildProjectReferences)' != 'true') and '$(VisualStudioVersion)' != '10.0' and '@(_MSBuildProjectReferenceExistent)' != '') was evaluated as ('' == 'true' and '' != '' and ('true' == 'true' or 'true' != 'true') and '10.0' != '10.0' and '' != '').
+                   Task "MSBuild" skipped, due to false condition; ('%(_MSBuildProjectReferenceExistent.BuildReference)' == 'true' and '@(ProjectReferenceWithConfiguration)' != '' and ('$(BuildingInsideVisualStudio)' == 'true' or '$(BuildProjectReferences)' != 'true') and '$(VisualStudioVersion)' == '10.0' and '@(_MSBuildProjectReferenceExistent)' != '') was evaluated as ('' == 'true' and '' != '' and ('true' == 'true' or 'true' != 'true') and '10.0' == '10.0' and '' != '').
+                   Task "MSBuild" skipped, due to false condition; ('%(_MSBuildProjectReferenceExistent.BuildReference)' == 'true' and '@(ProjectReferenceWithConfiguration)' != '' and '$(BuildingInsideVisualStudio)' != 'true' and '$(BuildProjectReferences)' == 'true' and '@(_MSBuildProjectReferenceExistent)' != '') was evaluated as ('' == 'true' and '' != '' and 'true' != 'true' and 'true' == 'true' and '' != '').
+                   Task "MSBuild" skipped, due to false condition; ('%(_MSBuildProjectReferenceExistent.BuildReference)' == 'true' and '@(ProjectReferenceWithConfiguration)' != '' and '$(BuildingProject)' == 'true' and '@(_MSBuildProjectReferenceExistent)' != '') was evaluated as ('' == 'true' and '' != '' and 'true' == 'true' and '' != '').
+                   Task "Warning" skipped, due to false condition; ('@(ProjectReferenceWithConfiguration)' != '' and '@(_MSBuildProjectReferenceNonexistent)' != '') was evaluated as ('' != '' and '' != '').
+15:55:38.458     1>Done building target "ResolveProjectReferences" in project "cSLIC.vcxproj".: (TargetId:9)
+                   Target "ResolveNativeReferences" skipped, due to false condition; ('@(NativeReference)'!='') was evaluated as (''!='').
+15:55:38.458     1>Target "GetFrameworkPaths: (TargetId:10)" in file "C:\Windows\Microsoft.NET\Framework\v4.0.30319\Microsoft.NETFramework.targets" from project "C:\TODD5_3D - Copy 05 Feb2014\cSLIC\cSLIC.vcxproj" (target "ResolveAssemblyReferences" depends on it):
+15:55:38.458     1>Done building target "GetFrameworkPaths" in project "cSLIC.vcxproj".: (TargetId:10)
+                   Target "GetWinFXPath" skipped, due to false condition; (('@(Page)' != '' or '@(ApplicationDefinition)' != '' or '@(Resource)' != '') and ('$(GetWinFXNativePath)' != '' or '$(GetWinFXWoWPath)' != '' )) was evaluated as (('' != '' or '' != '' or '' != '') and ('' != '' or '' != '' )).
+15:55:38.458     1>Target "GetReferenceAssemblyPaths: (TargetId:11)" in file "C:\Windows\Microsoft.NET\Framework\v4.0.30319\Microsoft.Common.Targets" from project "C:\TODD5_3D - Copy 05 Feb2014\cSLIC\cSLIC.vcxproj" (target "ResolveAssemblyReferences" depends on it):
+                   Task "GetReferenceAssemblyPaths" skipped, due to false condition; ('$(TargetFrameworkMoniker)' != '' and ('$(_TargetFrameworkDirectories)' == '' or '$(_FullFrameworkReferenceAssemblyPaths)' == '')) was evaluated as ('.NETFramework,Version=v4.0' != '' and ('C:\Program Files (x86)\Reference Assemblies\Microsoft\Framework\.NETFramework\v4.0' == '' or 'C:\Program Files (x86)\Reference Assemblies\Microsoft\Framework\.NETFramework\v4.0' == '')).
+15:55:38.458     1>Done building target "GetReferenceAssemblyPaths" in project "cSLIC.vcxproj".: (TargetId:11)
+15:55:38.458     1>Target "PlatformPrepareForBuild: (TargetId:12)" in file "C:\Program Files (x86)\MSBuild\Microsoft.Cpp\v4.0\Platforms\Win32\Microsoft.Cpp.Win32.Targets" from project "C:\TODD5_3D - Copy 05 Feb2014\cSLIC\cSLIC.vcxproj" (target "PrepareForBuild" depends on it):
+                   Task "VCMessage" skipped, due to false condition; (!(exists('$(VCTargetsPath)\Platforms\Win32\PlatformToolsets\$(PlatformToolset)\Microsoft.Cpp.Win32.$(PlatformToolset).targets'))) was evaluated as (!(exists('C:\Program Files (x86)\MSBuild\Microsoft.Cpp\v4.0\\Platforms\Win32\PlatformToolsets\v100\Microsoft.Cpp.Win32.v100.targets'))).
+15:55:38.458     1>Done building target "PlatformPrepareForBuild" in project "cSLIC.vcxproj".: (TargetId:12)
+                   Target "GetFrameworkPaths" skipped. Previously built successfully.
+                   Target "GetReferenceAssemblyPaths" skipped. Previously built successfully.
+15:55:38.458     1>Target "PrepareForBuild: (TargetId:13)" in file "C:\Program Files (x86)\MSBuild\Microsoft.Cpp\v4.0\Microsoft.CppBuild.targets" from project "C:\TODD5_3D - Copy 05 Feb2014\cSLIC\cSLIC.vcxproj" (target "ResolveAssemblyReferences" depends on it):
+                   Task "VCMessage" skipped, due to false condition; ('$(DesignTimeBuild)'!='true' and '$(ConfigurationPlatformExists)' != 'true') was evaluated as (''!='true' and 'true' != 'true').
+                   Using "MakeDir" task from assembly "Microsoft.Build.Tasks.v4.0, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a".
+                   Task "MakeDir" (TaskId:9)
+                   Done executing task "MakeDir". (TaskId:9)
+                   Task "VCMessage" skipped, due to false condition; ('$(DesignTimeBuild)'!='true' and '$(VCInstallDir)'=='' and '$(UseEnv)' != 'true' and ($(TargetFrameworkVersion)=='v3.5' or $(TargetFrameworkVersion)=='v3.0' or $(TargetFrameworkVersion)=='v2.0' )) was evaluated as (''!='true' and 'c:\Program Files (x86)\Microsoft Visual Studio 10.0\VC\'=='' and '' != 'true' and (v4.0=='v3.5' or v4.0=='v3.0' or v4.0=='v2.0' )).
+                   Task "VCMessage" skipped, due to false condition; ('$(DesignTimeBuild)'!='true' and '$(VCInstallDir)'=='' and '$(UseEnv)' != 'true' and '$(PlatformToolset)'=='v90') was evaluated as (''!='true' and 'c:\Program Files (x86)\Microsoft Visual Studio 10.0\VC\'=='' and '' != 'true' and 'v100'=='v90').
+                   Task "VCMessage" skipped, due to false condition; ('$(VCInstallDir)'=='' and '$(UseEnv)' != 'true') was evaluated as ('c:\Program Files (x86)\Microsoft Visual Studio 10.0\VC\'=='' and '' != 'true').
+                   Task "VCMessage" skipped, due to false condition; ('$(WindowsSDKDir)'=='' and '$(UseEnv)' != 'true') was evaluated as ('C:\Program Files (x86)\Microsoft SDKs\Windows\v7.0A\'=='' and '' != 'true').
+                   Task "VCMessage" skipped, due to false condition; ('$(IntDirTrailingSlashWarning)'=='true') was evaluated as (''=='true').
+                   Task "VCMessage" skipped, due to false condition; ('$(OutDirTrailingSlashWarning)'=='true') was evaluated as (''=='true').
+                   Task "MakeDir" (TaskId:10)
+                   Done executing task "MakeDir". (TaskId:10)
+15:55:38.458     1>Done building target "PrepareForBuild" in project "cSLIC.vcxproj".: (TargetId:13)
+15:55:38.458     1>Target "GetInstalledSDKLocations: (TargetId:14)" in file "C:\Windows\Microsoft.NET\Framework\v4.0.30319\Microsoft.Common.Targets" from project "C:\TODD5_3D - Copy 05 Feb2014\cSLIC\cSLIC.vcxproj" (target "ResolveSDKReferences" depends on it):
+                   Task "GetInstalledSDKLocations" skipped, due to false condition; ('@(SDKReference)' != '') was evaluated as ('' != '').
+15:55:38.458     1>Done building target "GetInstalledSDKLocations" in project "cSLIC.vcxproj".: (TargetId:14)
+15:55:38.458     1>Target "ResolveSDKReferences: (TargetId:15)" in file "C:\Windows\Microsoft.NET\Framework\v4.0.30319\Microsoft.Common.Targets" from project "C:\TODD5_3D - Copy 05 Feb2014\cSLIC\cSLIC.vcxproj" (target "ResolveAssemblyReferences" depends on it):
+                   Task "ResolveSDKReference" skipped, due to false condition; ('@(SDKReference)'!='') was evaluated as (''!='').
+15:55:38.458     1>Done building target "ResolveSDKReferences" in project "cSLIC.vcxproj".: (TargetId:15)
+                   Target "ResolveSDKReferences" skipped. Previously built successfully.
+15:55:38.458     1>Target "ExpandSDKReferences: (TargetId:16)" in file "C:\Windows\Microsoft.NET\Framework\v4.0.30319\Microsoft.Common.Targets" from project "C:\TODD5_3D - Copy 05 Feb2014\cSLIC\cSLIC.vcxproj" (target "ResolveAssemblyReferences" depends on it):
+                   Task "GetSDKReferenceFiles" skipped, due to false condition; ('@(ResolvedSDKReference)'!='') was evaluated as (''!='').
+15:55:38.458     1>Done building target "ExpandSDKReferences" in project "cSLIC.vcxproj".: (TargetId:16)
+15:55:38.458     1>Target "ResolveAssemblyReferences: (TargetId:17)" in file "C:\Windows\Microsoft.NET\Framework\v4.0.30319\Microsoft.Common.Targets" from project "C:\TODD5_3D - Copy 05 Feb2014\cSLIC\cSLIC.vcxproj" (target "ResolveReferences" depends on it):
+                   Using "ResolveAssemblyReference" task from assembly "Microsoft.Build.Tasks.v4.0, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a".
+                   Task "ResolveAssemblyReference" (TaskId:11)
+                     TargetFrameworkMoniker: (TaskId:11)
+                         .NETFramework,Version=v4.0 (TaskId:11)
+                     TargetFrameworkMonikerDisplayName: (TaskId:11)
+                         .NET Framework 4 (TaskId:11)
+                     TargetedRuntimeVersion: (TaskId:11)
+                         v4.0.30319 (TaskId:11)
+                     Assemblies: (TaskId:11)
+                         System.Core (TaskId:11)
+                     AssemblyFiles: (TaskId:11)
+                     CandidateAssemblyFiles: (TaskId:11)
+                     TargetFrameworkDirectories: (TaskId:11)
+                         C:\Program Files (x86)\Reference Assemblies\Microsoft\Framework\.NETFramework\v4.0 (TaskId:11)
+                     InstalledAssemblyTables: (TaskId:11)
+                     IgnoreInstalledAssemblyTable: (TaskId:11)
+                         False (TaskId:11)
+                     SearchPaths: (TaskId:11)
+                         {CandidateAssemblyFiles} (TaskId:11)
+                         c:\Program Files (x86)\Microsoft Visual Studio 10.0\VC\atlmfc\lib (TaskId:11)
+                         c:\Program Files (x86)\Microsoft Visual Studio 10.0\VC\lib (TaskId:11)
+                         {HintPathFromItem} (TaskId:11)
+                         {TargetFrameworkDirectory} (TaskId:11)
+                         {Registry:Software\Microsoft\.NETFramework,v4.0,AssemblyFoldersEx} (TaskId:11)
+                         {AssemblyFolders} (TaskId:11)
+                         {GAC} (TaskId:11)
+                         {RawFileName} (TaskId:11)
+                         C:\TODD5_3D - Copy 05 Feb2014\Debug\ (TaskId:11)
+                     AllowedAssemblyExtensions: (TaskId:11)
+                         .winmd (TaskId:11)
+                         .dll (TaskId:11)
+                         .exe (TaskId:11)
+                     AllowedRelatedFileExtensions: (TaskId:11)
+                         .pdb (TaskId:11)
+                         .xml (TaskId:11)
+                         .pri (TaskId:11)
+                     AppConfigFile: (TaskId:11)
+                          (TaskId:11)
+                     AutoUnify: (TaskId:11)
+                         True (TaskId:11)
+                     CopyLocalDependenciesWhenParentReferenceInGac: (TaskId:11)
+                         True (TaskId:11)
+                     FindDependencies: (TaskId:11)
+                         True (TaskId:11)
+                     TargetProcessorArchitecture: (TaskId:11)
+                         x86 (TaskId:11)
+                     StateFile: (TaskId:11)
+                         Debug\cSLIC.vcxprojResolveAssemblyReference.cache (TaskId:11)
+                     InstalledAssemblySubsetTables: (TaskId:11)
+                     IgnoreInstalledAssemblySubsetTable: (TaskId:11)
+                         False (TaskId:11)
+                     TargetFrameworkSubsets: (TaskId:11)
+                     FullTargetFrameworkSubsetNames: (TaskId:11)
+                         Full (TaskId:11)
+                     ProfileName: (TaskId:11)
+                          (TaskId:11)
+                     FullFrameworkFolders: (TaskId:11)
+                         C:\Program Files (x86)\Reference Assemblies\Microsoft\Framework\.NETFramework\v4.0 (TaskId:11)
+                     LatestTargetFrameworkDirectories: (TaskId:11)
+                     ProfileTablesLocation: (TaskId:11)
+                     Primary reference "System.Core, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089". (TaskId:11)
+                         Resolved file path is "C:\Program Files (x86)\Reference Assemblies\Microsoft\Framework\.NETFramework\v4.0\System.Core.dll". (TaskId:11)
+                         Reference found at search path location "{TargetFrameworkDirectory}". (TaskId:11)
+                             For SearchPath "c:\Program Files (x86)\Microsoft Visual Studio 10.0\VC\atlmfc\lib". (TaskId:11)
+                             Considered "c:\Program Files (x86)\Microsoft Visual Studio 10.0\VC\atlmfc\lib\System.Core.winmd", but it didn't exist. (TaskId:11)
+                             Considered "c:\Program Files (x86)\Microsoft Visual Studio 10.0\VC\atlmfc\lib\System.Core.dll", but it didn't exist. (TaskId:11)
+                             Considered "c:\Program Files (x86)\Microsoft Visual Studio 10.0\VC\atlmfc\lib\System.Core.exe", but it didn't exist. (TaskId:11)
+                             For SearchPath "c:\Program Files (x86)\Microsoft Visual Studio 10.0\VC\lib". (TaskId:11)
+                             Considered "c:\Program Files (x86)\Microsoft Visual Studio 10.0\VC\lib\System.Core.winmd", but it didn't exist. (TaskId:11)
+                             Considered "c:\Program Files (x86)\Microsoft Visual Studio 10.0\VC\lib\System.Core.dll", but it didn't exist. (TaskId:11)
+                             Considered "c:\Program Files (x86)\Microsoft Visual Studio 10.0\VC\lib\System.Core.exe", but it didn't exist. (TaskId:11)
+                             For SearchPath "{TargetFrameworkDirectory}". (TaskId:11)
+                             Considered "C:\Program Files (x86)\Reference Assemblies\Microsoft\Framework\.NETFramework\v4.0\System.Core.winmd", but it didn't exist. (TaskId:11)
+                         This reference is not "CopyLocal" because it's a prerequisite file. (TaskId:11)
+                         The ImageRuntimeVersion for this reference is "v4.0.30319". (TaskId:11)
+                   Done executing task "ResolveAssemblyReference". (TaskId:11)
+15:55:38.460     1>Done building target "ResolveAssemblyReferences" in project "cSLIC.vcxproj".: (TargetId:17)
+                   Target "ResolveComReferences" skipped, due to false condition; ('@(COMReference)'!='' or '@(COMFileReference)'!='') was evaluated as (''!='' or ''!='').
+15:55:38.460     1>Target "AfterResolveReferences: (TargetId:18)" in file "C:\Windows\Microsoft.NET\Framework\v4.0.30319\Microsoft.Common.Targets" from project "C:\TODD5_3D - Copy 05 Feb2014\cSLIC\cSLIC.vcxproj" (target "ResolveReferences" depends on it):
+15:55:38.460     1>Done building target "AfterResolveReferences" in project "cSLIC.vcxproj".: (TargetId:18)
+                   Target "ImplicitlyExpandDesignTimeFacades" skipped, due to false condition; ('$(ImplicitlyExpandDesignTimeFacades)' == 'true') was evaluated as ('' == 'true').
+                   Target "ResolveTestReferences" skipped, due to false condition; ('@(Shadow)'!='') was evaluated as (''!='').
+15:55:38.460     1>Target "ResolveReferences: (TargetId:19)" in file "C:\Windows\Microsoft.NET\Framework\v4.0.30319\Microsoft.Common.Targets" from project "C:\TODD5_3D - Copy 05 Feb2014\cSLIC\cSLIC.vcxproj" (target "Build" depends on it):
+15:55:38.460     1>Done building target "ResolveReferences" in project "cSLIC.vcxproj".: (TargetId:19)
+                   Target "PrepareForBuild" skipped. Previously built successfully.
+                   Target "PrepareForBuild" skipped. Previously built successfully.
+15:55:38.460     1>Target "InitializeBuildStatus: (TargetId:20)" in file "C:\Program Files (x86)\MSBuild\Microsoft.Cpp\v4.0\Microsoft.CppBuild.targets" from project "C:\TODD5_3D - Copy 05 Feb2014\cSLIC\cSLIC.vcxproj" (target "Build" depends on it):
+                   Using "ReadLinesFromFile" task from assembly "Microsoft.Build.Tasks.v4.0, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a".
+                   Task "ReadLinesFromFile" (TaskId:12)
+                   Done executing task "ReadLinesFromFile". (TaskId:12)
+                   Using "WriteLinesToFile" task from assembly "Microsoft.Build.Tasks.v4.0, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a".
+                   Task "WriteLinesToFile" (TaskId:13)
+                   Done executing task "WriteLinesToFile". (TaskId:13)
+                   Using "Touch" task from assembly "Microsoft.Build.Tasks.v4.0, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a".
+                   Task "Touch" (TaskId:14)
+                     Creating "Debug\cSLIC.unsuccessfulbuild" because "AlwaysCreate" was specified. (TaskId:14)
+                   Done executing task "Touch". (TaskId:14)
+15:55:38.462     1>Done building target "InitializeBuildStatus" in project "cSLIC.vcxproj".: (TargetId:20)
+                   Target "AssignProjectConfiguration" skipped. Previously built successfully.
+                   Target "_SplitProjectReferencesByFileExistence" skipped. Previously built successfully.
+15:55:38.462     1>Target "BuildGenerateSourcesTraverse: (TargetId:21)" in file "C:\Windows\Microsoft.NET\Framework\v4.0.30319\Microsoft.Common.Targets" from project "C:\TODD5_3D - Copy 05 Feb2014\cSLIC\cSLIC.vcxproj" (target "BuildGenerateSources" depends on it):
+                   Task "MSBuild" skipped, due to false condition; ('$(BuildPassReferences)' == 'true' and '@(ProjectReferenceWithConfiguration)' != '' and '@(_MSBuildProjectReferenceExistent)' != '' and '%(_MSBuildProjectReferenceExistent.BuildReference)' == 'true') was evaluated as ('' == 'true' and '' != '' and '' != '' and '' == 'true').
+15:55:38.462     1>Done building target "BuildGenerateSourcesTraverse" in project "cSLIC.vcxproj".: (TargetId:21)
+                   Target "SetBuildDefaultEnvironmentVariables" skipped. Previously built successfully.
+                   Target "SetUserMacroEnvironmentVariables" skipped, due to false condition; ('@(BuildMacro)' != '') was evaluated as ('' != '').
+                   Target "PrepareForBuild" skipped. Previously built successfully.
+                   Target "ResolveReferences" skipped. Previously built successfully.
+15:55:38.462     1>Target "BeforeBuildGenerateSources: (TargetId:22)" in file "C:\Program Files (x86)\MSBuild\Microsoft.Cpp\v4.0\Microsoft.BuildSteps.Targets" from project "C:\TODD5_3D - Copy 05 Feb2014\cSLIC\cSLIC.vcxproj" (target "BuildGenerateSources" depends on it):
+15:55:38.462     1>Done building target "BeforeBuildGenerateSources" in project "cSLIC.vcxproj".: (TargetId:22)
+15:55:38.462     1>Target "PreBuildEvent: (TargetId:23)" in file "C:\Program Files (x86)\MSBuild\Microsoft.Cpp\v4.0\Microsoft.CppCommon.targets" from project "C:\TODD5_3D - Copy 05 Feb2014\cSLIC\cSLIC.vcxproj" (target "BuildGenerateSources" depends on it):
+                   Task "Message" skipped, due to false condition; ('%(PreBuildEvent.Message)' != '' and '%(PreBuildEvent.Command)' != '') was evaluated as ('' != '' and '' != '').
+                   Task "Exec" skipped, due to false condition; ('%(PreBuildEvent.Command)' != '') was evaluated as ('' != '').
+15:55:38.462     1>Done building target "PreBuildEvent" in project "cSLIC.vcxproj".: (TargetId:23)
+                   Target "CustomBuild" skipped, due to false condition; ('@(CustomBuild)' != '') was evaluated as ('' != '').
+15:55:38.462     1>Target "_GenerateXMLData: (TargetId:24)" in file "C:\Program Files (x86)\MSBuild\Microsoft.Cpp\v4.0\Microsoft.CppBuild.targets" from project "C:\TODD5_3D - Copy 05 Feb2014\cSLIC\cSLIC.vcxproj" (target "BuildGenerateSources" depends on it):
+15:55:38.462     1>Done building target "_GenerateXMLData" in project "cSLIC.vcxproj".: (TargetId:24)
+15:55:38.462     1>Target "_GenerateWebServiceProxy: (TargetId:25)" in file "C:\Program Files (x86)\MSBuild\Microsoft.Cpp\v4.0\Microsoft.CppBuild.targets" from project "C:\TODD5_3D - Copy 05 Feb2014\cSLIC\cSLIC.vcxproj" (target "BuildGenerateSources" depends on it):
+15:55:38.462     1>Done building target "_GenerateWebServiceProxy" in project "cSLIC.vcxproj".: (TargetId:25)
+                   Target "Xsd" skipped, due to false condition; ('@(Xsd)' != '') was evaluated as ('' != '').
+15:55:38.462     1>Target "_Xsd: (TargetId:26)" in file "C:\Program Files (x86)\MSBuild\Microsoft.Cpp\v4.0\Microsoft.CppBuild.targets" from project "C:\TODD5_3D - Copy 05 Feb2014\cSLIC\cSLIC.vcxproj" (target "BuildGenerateSources" depends on it):
+15:55:38.462     1>Done building target "_Xsd" in project "cSLIC.vcxproj".: (TargetId:26)
+15:55:38.462     1>Target "MakeDirsForMidl: (TargetId:27)" in file "C:\Program Files (x86)\MSBuild\Microsoft.Cpp\v4.0\Microsoft.CppBuild.targets" from project "C:\TODD5_3D - Copy 05 Feb2014\cSLIC\cSLIC.vcxproj" (target "_Midl" depends on it):
+                   Task "Makedir" (TaskId:15)
+                   Done executing task "Makedir". (TaskId:15)
+15:55:38.462     1>Done building target "MakeDirsForMidl" in project "cSLIC.vcxproj".: (TargetId:27)
+                   Target "Midl" skipped, due to false condition; ('@(Midl)' != '') was evaluated as ('' != '').
+                   Target "CustomBuild" skipped, due to false condition; ('@(CustomBuild)' != '') was evaluated as ('' != '').
+15:55:38.462     1>Target "ComputeMIDLGeneratedCompileInputs: (TargetId:28)" in file "C:\Program Files (x86)\MSBuild\Microsoft.Cpp\v4.0\Microsoft.CppBuild.targets" from project "C:\TODD5_3D - Copy 05 Feb2014\cSLIC\cSLIC.vcxproj" (target "_Midl" depends on it):
+15:55:38.462     1>Done building target "ComputeMIDLGeneratedCompileInputs" in project "cSLIC.vcxproj".: (TargetId:28)
+15:55:38.462     1>Target "AfterMidl: (TargetId:29)" in file "C:\Program Files (x86)\MSBuild\Microsoft.Cpp\v4.0\Microsoft.CppBuild.targets" from project "C:\TODD5_3D - Copy 05 Feb2014\cSLIC\cSLIC.vcxproj" (target "_Midl" depends on it):
+15:55:38.462     1>Done building target "AfterMidl" in project "cSLIC.vcxproj".: (TargetId:29)
+15:55:38.462     1>Target "_Midl: (TargetId:30)" in file "C:\Program Files (x86)\MSBuild\Microsoft.Cpp\v4.0\Microsoft.CppBuild.targets" from project "C:\TODD5_3D - Copy 05 Feb2014\cSLIC\cSLIC.vcxproj" (target "BuildGenerateSources" depends on it):
+15:55:38.462     1>Done building target "_Midl" in project "cSLIC.vcxproj".: (TargetId:30)
+15:55:38.462     1>Target "AfterBuildGenerateSources: (TargetId:31)" in file "C:\Program Files (x86)\MSBuild\Microsoft.Cpp\v4.0\Microsoft.BuildSteps.Targets" from project "C:\TODD5_3D - Copy 05 Feb2014\cSLIC\cSLIC.vcxproj" (target "BuildGenerateSources" depends on it):
+15:55:38.462     1>Done building target "AfterBuildGenerateSources" in project "cSLIC.vcxproj".: (TargetId:31)
+15:55:38.462     1>Target "AfterBuildGenerateSourcesEvent: (TargetId:32)" in file "C:\Program Files (x86)\MSBuild\Microsoft.Cpp\v4.0\Microsoft.CppBuild.targets" from project "C:\TODD5_3D - Copy 05 Feb2014\cSLIC\cSLIC.vcxproj" (target "BuildGenerateSources" depends on it):
+15:55:38.462     1>Done building target "AfterBuildGenerateSourcesEvent" in project "cSLIC.vcxproj".: (TargetId:32)
+15:55:38.462     1>Target "BuildGenerateSources: (TargetId:33)" in file "C:\Windows\Microsoft.NET\Framework\v4.0.30319\Microsoft.Common.Targets" from project "C:\TODD5_3D - Copy 05 Feb2014\cSLIC\cSLIC.vcxproj" (target "Build" depends on it):
+15:55:38.462     1>Done building target "BuildGenerateSources" in project "cSLIC.vcxproj".: (TargetId:33)
+                   Target "AssignProjectConfiguration" skipped. Previously built successfully.
+                   Target "_SplitProjectReferencesByFileExistence" skipped. Previously built successfully.
+15:55:38.462     1>Target "BuildCompileTraverse: (TargetId:34)" in file "C:\Windows\Microsoft.NET\Framework\v4.0.30319\Microsoft.Common.Targets" from project "C:\TODD5_3D - Copy 05 Feb2014\cSLIC\cSLIC.vcxproj" (target "BuildCompile" depends on it):
+                   Task "MSBuild" skipped, due to false condition; ('$(BuildPassReferences)' == 'true' and '@(ProjectReferenceWithConfiguration)' != '' and '@(_MSBuildProjectReferenceExistent)' != ''  and '%(_MSBuildProjectReferenceExistent.BuildReference)' == 'true') was evaluated as ('' == 'true' and '' != '' and '' != ''  and '' == 'true').
+15:55:38.462     1>Done building target "BuildCompileTraverse" in project "cSLIC.vcxproj".: (TargetId:34)
+                   Target "SetBuildDefaultEnvironmentVariables" skipped. Previously built successfully.
+                   Target "SetUserMacroEnvironmentVariables" skipped, due to false condition; ('@(BuildMacro)' != '') was evaluated as ('' != '').
+                   Target "PrepareForBuild" skipped. Previously built successfully.
+                   Target "ResolveReferences" skipped. Previously built successfully.
+15:55:38.462     1>Target "BeforeClCompile: (TargetId:35)" in file "C:\Program Files (x86)\MSBuild\Microsoft.Cpp\v4.0\Microsoft.CppBuild.targets" from project "C:\TODD5_3D - Copy 05 Feb2014\cSLIC\cSLIC.vcxproj" (target "_ClCompile" depends on it):
+15:55:38.462     1>Done building target "BeforeClCompile" in project "cSLIC.vcxproj".: (TargetId:35)
+                   Target "ComputeMIDLGeneratedCompileInputs" skipped. Previously built successfully.
+15:55:38.462     1>Target "ComputeCLInputPDBName: (TargetId:36)" in file "C:\Program Files (x86)\MSBuild\Microsoft.Cpp\v4.0\Microsoft.CppBuild.targets" from project "C:\TODD5_3D - Copy 05 Feb2014\cSLIC\cSLIC.vcxproj" (target "_ClCompile" depends on it):
+15:55:38.462     1>Done building target "ComputeCLInputPDBName" in project "cSLIC.vcxproj".: (TargetId:36)
+                   Target "ResolveReferences" skipped. Previously built successfully.
+15:55:38.462     1>Target "ComputeReferenceCLInput: (TargetId:37)" in file "C:\Program Files (x86)\MSBuild\Microsoft.Cpp\v4.0\Microsoft.CppBuild.targets" from project "C:\TODD5_3D - Copy 05 Feb2014\cSLIC\cSLIC.vcxproj" (target "_ClCompile" depends on it):
+                   Task "WriteLinesToFile" (TaskId:16)
+                   Done executing task "WriteLinesToFile". (TaskId:16)
+                   Task "Message" skipped, due to false condition; ('$(_REFERENCE_DEBUG)'=='true' and '%(ClCompile.CompileAsManaged)' != 'false' and '%(ClCompile.CompileAsManaged)' != '') was evaluated as (''=='true' and '' != 'false' and '' != '').
+15:55:38.463     1>Done building target "ComputeReferenceCLInput" in project "cSLIC.vcxproj".: (TargetId:37)
+15:55:38.463     1>Target "MakeDirsForCl: (TargetId:38)" in file "C:\Program Files (x86)\MSBuild\Microsoft.Cpp\v4.0\Microsoft.CppBuild.targets" from project "C:\TODD5_3D - Copy 05 Feb2014\cSLIC\cSLIC.vcxproj" (target "_ClCompile" depends on it):
+                   Task "MakeDir" (TaskId:17)
+                   Done executing task "MakeDir". (TaskId:17)
+15:55:38.463     1>Done building target "MakeDirsForCl" in project "cSLIC.vcxproj".: (TargetId:38)
+                   Target "PrepareForBuild" skipped. Previously built successfully.
+                   Target "SetBuildDefaultEnvironmentVariables" skipped. Previously built successfully.
+                   Target "SetUserMacroEnvironmentVariables" skipped, due to false condition; ('@(BuildMacro)' != '') was evaluated as ('' != '').
+15:55:38.463     1>Target "_SelectedFiles: (TargetId:39)" in file "C:\Program Files (x86)\MSBuild\Microsoft.Cpp\v4.0\Microsoft.CppBuild.targets" from project "C:\TODD5_3D - Copy 05 Feb2014\cSLIC\cSLIC.vcxproj" (target "SelectClCompile" depends on it):
+15:55:38.463     1>Done building target "_SelectedFiles" in project "cSLIC.vcxproj".: (TargetId:39)
+                   Target "ComputeMIDLGeneratedCompileInputs" skipped. Previously built successfully.
+                   Target "ComputeCLInputPDBName" skipped. Previously built successfully.
+                   Target "ComputeReferenceCLInput" skipped. Previously built successfully.
+                   Target "_SelectedFiles" skipped. Previously built successfully.
+15:55:38.463     1>Target "SelectCustomBuild: (TargetId:40)" in file "C:\Program Files (x86)\MSBuild\Microsoft.Cpp\v4.0\Microsoft.CppBuild.targets" from project "C:\TODD5_3D - Copy 05 Feb2014\cSLIC\cSLIC.vcxproj" (target "SelectClCompile" depends on it):
+15:55:38.463     1>Done building target "SelectCustomBuild" in project "cSLIC.vcxproj".: (TargetId:40)
+15:55:38.463     1>Target "SelectClCompile: (TargetId:41)" in file "C:\Program Files (x86)\MSBuild\Microsoft.Cpp\v4.0\Microsoft.CppBuild.targets" from project "C:\TODD5_3D - Copy 05 Feb2014\cSLIC\cSLIC.vcxproj" (target "ClCompile" depends on it):
+15:55:38.463     1>Done building target "SelectClCompile" in project "cSLIC.vcxproj".: (TargetId:41)
+                   Target "GenerateTargetFrameworkMonikerAttribute" skipped, due to false condition; ('$(GenerateTargetFrameworkAttribute)' == 'true') was evaluated as ('false' == 'true').
+                   Target "ManagedIncrementalBuildPreProcessDependencyGraph" skipped, due to false condition; ('@(ClCompile)' != '' and '$(EnableManagedIncrementalBuild)' == 'True') was evaluated as ('FastFeatures.cpp;FastImgSeg.cpp' != '' and 'false' == 'True').
+15:55:38.463     1>Target "ClCompile: (TargetId:42)" in file "C:\Program Files (x86)\MSBuild\Microsoft.Cpp\v4.0\Platforms\Win32\Microsoft.Cpp.Win32.Targets" from project "C:\TODD5_3D - Copy 05 Feb2014\cSLIC\cSLIC.vcxproj" (target "_ClCompile" depends on it):
+                   Task "Delete" skipped, due to false condition; ('%(ClCompile.DebugInformationFormat)' != '' and '%(ClCompile.DebugInformationFormat)' != 'OldStyle' and '%(ClCompile.ProgramDataBaseFileName)' != '' and !Exists(%(ClCompile.ProgramDataBaseFileName))) was evaluated as ('EditAndContinue' != '' and 'EditAndContinue' != 'OldStyle' and 'Debug\vc100.pdb' != '' and !Exists(Debug\vc100.pdb)).
+                   Task "CL" skipped, due to false condition; ('%(ClCompile.PrecompiledHeader)' == 'Create' and '%(ClCompile.ExcludedFromBuild)'!='true') was evaluated as ('NotUsing' == 'Create' and ''!='true').
+                   Using "CL" task from assembly "Microsoft.Build.CppTasks.Win32, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a".
+                   Task "CL" (TaskId:18)
+                     Using cached input dependency table built from: (TaskId:18)
+                     	C:\TODD5_3D - Copy 05 Feb2014\cSLIC\Debug\cl.read.1.tlog (TaskId:18)
+                     Outputs for C:\TODD5_3D - COPY 05 FEB2014\CSLIC\FASTFEATURES.CPP|C:\TODD5_3D - COPY 05 FEB2014\CSLIC\FASTIMGSEG.CPP: (TaskId:18)
+                     	C:\TODD5_3D - COPY 05 FEB2014\CSLIC\DEBUG\FASTFEATURES.OBJ (TaskId:18)
+                     	C:\TODD5_3D - COPY 05 FEB2014\CSLIC\DEBUG\FASTIMGSEG.OBJ (TaskId:18)
+                     All outputs are up-to-date. (TaskId:18)
+                   Done executing task "CL". (TaskId:18)
+15:55:38.467     1>Done building target "ClCompile" in project "cSLIC.vcxproj".: (TargetId:42)
+                   Target "ManagedIncrementalBuildPostProcessDependencyGraph" skipped, due to false condition; ('@(ClCompile)' != '' and '$(EnableManagedIncrementalBuild)' == 'True') was evaluated as ('FastFeatures.cpp;FastImgSeg.cpp' != '' and 'false' == 'True').
+15:55:38.467     1>Target "AfterClCompile: (TargetId:43)" in file "C:\Program Files (x86)\MSBuild\Microsoft.Cpp\v4.0\Microsoft.CppBuild.targets" from project "C:\TODD5_3D - Copy 05 Feb2014\cSLIC\cSLIC.vcxproj" (target "_ClCompile" depends on it):
+15:55:38.467     1>Done building target "AfterClCompile" in project "cSLIC.vcxproj".: (TargetId:43)
+15:55:38.467     1>Target "_ClCompile: (TargetId:44)" in file "C:\Program Files (x86)\MSBuild\Microsoft.Cpp\v4.0\Microsoft.CppBuild.targets" from project "C:\TODD5_3D - Copy 05 Feb2014\cSLIC\cSLIC.vcxproj" (target "BuildCompile" depends on it):
+15:55:38.467     1>Done building target "_ClCompile" in project "cSLIC.vcxproj".: (TargetId:44)
+                   Target "_ResGen" skipped, due to false condition; ('@(EmbeddedResource)'!='') was evaluated as (''!='').
+15:55:38.467     1>Target "BeforeResourceCompile: (TargetId:45)" in file "C:\Program Files (x86)\MSBuild\Microsoft.Cpp\v4.0\Microsoft.CppBuild.targets" from project "C:\TODD5_3D - Copy 05 Feb2014\cSLIC\cSLIC.vcxproj" (target "_ResourceCompile" depends on it):
+15:55:38.467     1>Done building target "BeforeResourceCompile" in project "cSLIC.vcxproj".: (TargetId:45)
+15:55:38.467     1>Target "MakeDirsForResourceCompile: (TargetId:46)" in file "C:\Program Files (x86)\MSBuild\Microsoft.Cpp\v4.0\Microsoft.CppBuild.targets" from project "C:\TODD5_3D - Copy 05 Feb2014\cSLIC\cSLIC.vcxproj" (target "_ResourceCompile" depends on it):
+                   Task "MakeDir" (TaskId:19)
+                   Done executing task "MakeDir". (TaskId:19)
+15:55:38.467     1>Done building target "MakeDirsForResourceCompile" in project "cSLIC.vcxproj".: (TargetId:46)
+                   Target "ResourceCompile" skipped, due to false condition; ('@(ResourceCompile)' != '') was evaluated as ('' != '').
+15:55:38.467     1>Target "AfterResourceCompile: (TargetId:47)" in file "C:\Program Files (x86)\MSBuild\Microsoft.Cpp\v4.0\Microsoft.CppBuild.targets" from project "C:\TODD5_3D - Copy 05 Feb2014\cSLIC\cSLIC.vcxproj" (target "_ResourceCompile" depends on it):
+15:55:38.467     1>Done building target "AfterResourceCompile" in project "cSLIC.vcxproj".: (TargetId:47)
+15:55:38.467     1>Target "_ResourceCompile: (TargetId:48)" in file "C:\Program Files (x86)\MSBuild\Microsoft.Cpp\v4.0\Microsoft.CppBuild.targets" from project "C:\TODD5_3D - Copy 05 Feb2014\cSLIC\cSLIC.vcxproj" (target "BuildCompile" depends on it):
+15:55:38.467     1>Done building target "_ResourceCompile" in project "cSLIC.vcxproj".: (TargetId:48)
+                   Target "_ImpLib" skipped, due to false condition; ('$(ImpLibCompiled)' == 'true') was evaluated as ('' == 'true').
+15:55:38.467     1>Target "BeforeLib: (TargetId:49)" in file "C:\Program Files (x86)\MSBuild\Microsoft.Cpp\v4.0\Microsoft.CppBuild.targets" from project "C:\TODD5_3D - Copy 05 Feb2014\cSLIC\cSLIC.vcxproj" (target "_Lib" depends on it):
+15:55:38.467     1>Done building target "BeforeLib" in project "cSLIC.vcxproj".: (TargetId:49)
+15:55:38.467     1>Target "ComputeLibAdditionalOptions: (TargetId:50)" in file "C:\Program Files (x86)\MSBuild\Microsoft.Cpp\v4.0\Microsoft.CppBuild.targets" from project "C:\TODD5_3D - Copy 05 Feb2014\cSLIC\cSLIC.vcxproj" (target "_Lib" depends on it):
+15:55:38.467     1>Done building target "ComputeLibAdditionalOptions" in project "cSLIC.vcxproj".: (TargetId:50)
+15:55:38.467     1>Target "ComputeRCOutputs: (TargetId:51)" in file "C:\Program Files (x86)\MSBuild\Microsoft.Cpp\v4.0\Microsoft.CppBuild.targets" from project "C:\TODD5_3D - Copy 05 Feb2014\cSLIC\cSLIC.vcxproj" (target "ComputeRCGeneratedLibInputs" depends on it):
+15:55:38.467     1>Done building target "ComputeRCOutputs" in project "cSLIC.vcxproj".: (TargetId:51)
+15:55:38.467     1>Target "ComputeRCGeneratedLibInputs: (TargetId:52)" in file "C:\Program Files (x86)\MSBuild\Microsoft.Cpp\v4.0\Microsoft.CppBuild.targets" from project "C:\TODD5_3D - Copy 05 Feb2014\cSLIC\cSLIC.vcxproj" (target "_Lib" depends on it):
+15:55:38.467     1>Done building target "ComputeRCGeneratedLibInputs" in project "cSLIC.vcxproj".: (TargetId:52)
+15:55:38.467     1>Target "ComputeCustomBuildOutput: (TargetId:53)" in file "C:\Program Files (x86)\MSBuild\Microsoft.Cpp\v4.0\Microsoft.CppBuild.targets" from project "C:\TODD5_3D - Copy 05 Feb2014\cSLIC\cSLIC.vcxproj" (target "_Lib" depends on it):
+                   Task "MakeDir" (TaskId:20)
+                   Done executing task "MakeDir". (TaskId:20)
+15:55:38.468     1>Done building target "ComputeCustomBuildOutput" in project "cSLIC.vcxproj".: (TargetId:53)
+                   Target "ComputeMIDLGeneratedCompileInputs" skipped. Previously built successfully.
+                   Target "ComputeCLInputPDBName" skipped. Previously built successfully.
+                   Target "ComputeReferenceCLInput" skipped. Previously built successfully.
+15:55:38.468     1>Target "ComputeCLOutputs: (TargetId:54)" in file "C:\Program Files (x86)\MSBuild\Microsoft.Cpp\v4.0\Microsoft.CppBuild.targets" from project "C:\TODD5_3D - Copy 05 Feb2014\cSLIC\cSLIC.vcxproj" (target "ComputeCLGeneratedLibInputs" depends on it):
+15:55:38.468     1>Done building target "ComputeCLOutputs" in project "cSLIC.vcxproj".: (TargetId:54)
+15:55:38.468     1>Target "ComputeCLGeneratedLibInputs: (TargetId:55)" in file "C:\Program Files (x86)\MSBuild\Microsoft.Cpp\v4.0\Microsoft.CppBuild.targets" from project "C:\TODD5_3D - Copy 05 Feb2014\cSLIC\cSLIC.vcxproj" (target "_Lib" depends on it):
+15:55:38.468     1>Done building target "ComputeCLGeneratedLibInputs" in project "cSLIC.vcxproj".: (TargetId:55)
+15:55:38.468     1>Target "ComputeLibInputsFromProject: (TargetId:56)" in file "C:\Program Files (x86)\MSBuild\Microsoft.Cpp\v4.0\Microsoft.CppBuild.targets" from project "C:\TODD5_3D - Copy 05 Feb2014\cSLIC\cSLIC.vcxproj" (target "_Lib" depends on it):
+15:55:38.468     1>Done building target "ComputeLibInputsFromProject" in project "cSLIC.vcxproj".: (TargetId:56)
+                   Target "ComputeReferenceLibInputs" skipped, due to false condition; (@(ProjectReference) != '') was evaluated as ( != '').
+15:55:38.468     1>Target "MakeDirsForLib: (TargetId:57)" in file "C:\Program Files (x86)\MSBuild\Microsoft.Cpp\v4.0\Microsoft.CppBuild.targets" from project "C:\TODD5_3D - Copy 05 Feb2014\cSLIC\cSLIC.vcxproj" (target "_Lib" depends on it):
+                   Task "MakeDir" (TaskId:21)
+                   Done executing task "MakeDir". (TaskId:21)
+15:55:38.468     1>Done building target "MakeDirsForLib" in project "cSLIC.vcxproj".: (TargetId:57)
+15:55:38.468     1>Target "DoLibOutputFilesMatch: (TargetId:58)" in file "C:\Program Files (x86)\MSBuild\Microsoft.Cpp\v4.0\Microsoft.CppBuild.targets" from project "C:\TODD5_3D - Copy 05 Feb2014\cSLIC\cSLIC.vcxproj" (target "_Lib" depends on it):
+                   Task "VCMessage" skipped, due to false condition; ('%(_OutputFileFromLib.FullPath)' != '$([System.IO.Path]::GetFullPath($(TargetPath)))') was evaluated as ('C:\TODD5_3D - Copy 05 Feb2014\Debug\cSLIC.lib' != 'C:\TODD5_3D - Copy 05 Feb2014\Debug\cSLIC.lib').
+                   Task "VCMessage" skipped, due to false condition; ('%(_OutputFileFromLib.Extension)' != '$(TargetExt)') was evaluated as ('.lib' != '.lib').
+                   Task "VCMessage" skipped, due to false condition; ('%(_OutputFileFromLib.Filename)' != '$(TargetName)') was evaluated as ('cSLIC' != 'cSLIC').
+15:55:38.468     1>Done building target "DoLibOutputFilesMatch" in project "cSLIC.vcxproj".: (TargetId:58)
+15:55:38.468     1>Target "PreLinkEvent: (TargetId:59)" in file "C:\Program Files (x86)\MSBuild\Microsoft.Cpp\v4.0\Microsoft.CppCommon.targets" from project "C:\TODD5_3D - Copy 05 Feb2014\cSLIC\cSLIC.vcxproj" (target "_Lib" depends on it):
+                   Task "Message" skipped, due to false condition; ('%(PreLinkEvent.Message)' != '' and '%(PreLinkEvent.Command)' != '') was evaluated as ('' != '' and '' != '').
+                   Task "Exec" skipped, due to false condition; ('%(PreLinkEvent.Command)' != '') was evaluated as ('' != '').
+15:55:38.469     1>Done building target "PreLinkEvent" in project "cSLIC.vcxproj".: (TargetId:59)
+15:55:38.469     1>Target "Lib: (TargetId:60)" in file "C:\Program Files (x86)\MSBuild\Microsoft.Cpp\v4.0\Microsoft.CppCommon.targets" from project "C:\TODD5_3D - Copy 05 Feb2014\cSLIC\cSLIC.vcxproj" (target "_Lib" depends on it):
+                   Using "LIB" task from assembly "Microsoft.Build.CppTasks.Common, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a".
+                   Task "LIB" (TaskId:22)
+                     Using cached output dependency table built from: (TaskId:22)
+                     	C:\TODD5_3D - Copy 05 Feb2014\cSLIC\Debug\Lib-link.write.1.tlog (TaskId:22)
+                     Using cached input dependency table built from: (TaskId:22)
+                     	C:\TODD5_3D - Copy 05 Feb2014\cSLIC\Debug\Lib-link.read.1.tlog (TaskId:22)
+                     Outputs for C:\TODD5_3D - COPY 05 FEB2014\CSLIC\DEBUG\FASTFEATURES.OBJ|C:\TODD5_3D - COPY 05 FEB2014\CSLIC\DEBUG\FASTIMGSEG.OBJ: (TaskId:22)
+                     	C:\TODD5_3D - COPY 05 FEB2014\DEBUG\CSLIC.LIB (TaskId:22)
+                     All outputs are up-to-date. (TaskId:22)
+                   Done executing task "LIB". (TaskId:22)
+                   Task "Message" (TaskId:23)
+                     cSLIC.vcxproj -> C:\TODD5_3D - Copy 05 Feb2014\Debug\cSLIC.lib (TaskId:23)
+                   Done executing task "Message". (TaskId:23)
+15:55:38.470     1>Done building target "Lib" in project "cSLIC.vcxproj".: (TargetId:60)
+15:55:38.470     1>Target "AfterLib: (TargetId:61)" in file "C:\Program Files (x86)\MSBuild\Microsoft.Cpp\v4.0\Microsoft.CppBuild.targets" from project "C:\TODD5_3D - Copy 05 Feb2014\cSLIC\cSLIC.vcxproj" (target "_Lib" depends on it):
+15:55:38.470     1>Done building target "AfterLib" in project "cSLIC.vcxproj".: (TargetId:61)
+15:55:38.470     1>Target "_Lib: (TargetId:62)" in file "C:\Program Files (x86)\MSBuild\Microsoft.Cpp\v4.0\Microsoft.CppBuild.targets" from project "C:\TODD5_3D - Copy 05 Feb2014\cSLIC\cSLIC.vcxproj" (target "BuildCompile" depends on it):
+15:55:38.470     1>Done building target "_Lib" in project "cSLIC.vcxproj".: (TargetId:62)
+15:55:38.470     1>Target "AfterBuildCompileEvent: (TargetId:63)" in file "C:\Program Files (x86)\MSBuild\Microsoft.Cpp\v4.0\Microsoft.CppBuild.targets" from project "C:\TODD5_3D - Copy 05 Feb2014\cSLIC\cSLIC.vcxproj" (target "BuildCompile" depends on it):
+15:55:38.470     1>Done building target "AfterBuildCompileEvent" in project "cSLIC.vcxproj".: (TargetId:63)
+15:55:38.470     1>Target "BuildCompile: (TargetId:64)" in file "C:\Windows\Microsoft.NET\Framework\v4.0.30319\Microsoft.Common.Targets" from project "C:\TODD5_3D - Copy 05 Feb2014\cSLIC\cSLIC.vcxproj" (target "Build" depends on it):
+15:55:38.470     1>Done building target "BuildCompile" in project "cSLIC.vcxproj".: (TargetId:64)
+                   Target "AssignProjectConfiguration" skipped. Previously built successfully.
+                   Target "_SplitProjectReferencesByFileExistence" skipped. Previously built successfully.
+15:55:38.470     1>Target "BuildLinkTraverse: (TargetId:65)" in file "C:\Windows\Microsoft.NET\Framework\v4.0.30319\Microsoft.Common.Targets" from project "C:\TODD5_3D - Copy 05 Feb2014\cSLIC\cSLIC.vcxproj" (target "BuildLink" depends on it):
+                   Task "MSBuild" skipped, due to false condition; ('$(BuildPassReferences)' == 'true' and '@(ProjectReferenceWithConfiguration)' != '' and '@(_MSBuildProjectReferenceExistent)' != ''  and '%(_MSBuildProjectReferenceExistent.BuildReference)' == 'true') was evaluated as ('' == 'true' and '' != '' and '' != ''  and '' == 'true').
+15:55:38.470     1>Done building target "BuildLinkTraverse" in project "cSLIC.vcxproj".: (TargetId:65)
+                   Target "SetBuildDefaultEnvironmentVariables" skipped. Previously built successfully.
+                   Target "SetUserMacroEnvironmentVariables" skipped, due to false condition; ('@(BuildMacro)' != '') was evaluated as ('' != '').
+                   Target "PrepareForBuild" skipped. Previously built successfully.
+                   Target "ResolveReferences" skipped. Previously built successfully.
+                   Target "_Link" skipped, due to false condition; ('$(LinkCompiled)' == 'true') was evaluated as ('' == 'true').
+15:55:38.470     1>Target "_ALink: (TargetId:66)" in file "C:\Program Files (x86)\MSBuild\Microsoft.Cpp\v4.0\Microsoft.CppBuild.targets" from project "C:\TODD5_3D - Copy 05 Feb2014\cSLIC\cSLIC.vcxproj" (target "BuildLink" depends on it):
+15:55:38.470     1>Done building target "_ALink" in project "cSLIC.vcxproj".: (TargetId:66)
+15:55:38.470     1>Target "_Manifest: (TargetId:67)" in file "C:\Program Files (x86)\MSBuild\Microsoft.Cpp\v4.0\Microsoft.CppBuild.targets" from project "C:\TODD5_3D - Copy 05 Feb2014\cSLIC\cSLIC.vcxproj" (target "BuildLink" depends on it):
+15:55:38.471     1>Done building target "_Manifest" in project "cSLIC.vcxproj".: (TargetId:67)
+15:55:38.471     1>Target "RegisterOutput: (TargetId:68)" in file "C:\Program Files (x86)\MSBuild\Microsoft.Cpp\v4.0\Microsoft.CppCommon.targets" from project "C:\TODD5_3D - Copy 05 Feb2014\cSLIC\cSLIC.vcxproj" (target "BuildLink" depends on it):
+                   Task "Exec" skipped, due to false condition; ('$(ConfigurationType)'=='DynamicLibrary' and '%(Link.RegisterOutput)'=='true' and '%(Link.PerUserRedirection)'!='true') was evaluated as ('StaticLibrary'=='DynamicLibrary' and ''=='true' and ''!='true').
+                   Task "Exec" skipped, due to false condition; ('$(ConfigurationType)'=='DynamicLibrary' and '%(Link.RegisterOutput)'=='true' and '%(Link.PerUserRedirection)'=='true') was evaluated as ('StaticLibrary'=='DynamicLibrary' and ''=='true' and ''=='true').
+                   Task "Exec" skipped, due to false condition; ('$(ConfigurationType)'=='Application' and '%(Link.RegisterOutput)'=='true' and '%(Link.PerUserRedirection)'!='true') was evaluated as ('StaticLibrary'=='Application' and ''=='true' and ''!='true').
+                   Task "Exec" skipped, due to false condition; ('$(ConfigurationType)'=='Application' and '%(Link.RegisterOutput)'=='true' and '%(Link.PerUserRedirection)'=='true') was evaluated as ('StaticLibrary'=='Application' and ''=='true' and ''=='true').
+                   Task "VCMessage" skipped, due to false condition; ('$(_RegisterOutputExitCode)' != '' and '$(_RegisterOutputExitCode)' != '0') was evaluated as ('' != '' and '' != '0').
+15:55:38.471     1>Done building target "RegisterOutput" in project "cSLIC.vcxproj".: (TargetId:68)
+15:55:38.471     1>Target "ComputeCLCompileGeneratedXDCFiles: (TargetId:69)" in file "C:\Program Files (x86)\MSBuild\Microsoft.Cpp\v4.0\Microsoft.CppBuild.targets" from project "C:\TODD5_3D - Copy 05 Feb2014\cSLIC\cSLIC.vcxproj" (target "_XdcMake" depends on it):
+15:55:38.471     1>Done building target "ComputeCLCompileGeneratedXDCFiles" in project "cSLIC.vcxproj".: (TargetId:69)
+                   Target "SetBuildDefaultEnvironmentVariables" skipped. Previously built successfully.
+                   Target "SetUserMacroEnvironmentVariables" skipped, due to false condition; ('@(BuildMacro)' != '') was evaluated as ('' != '').
+                   Target "PrepareForBuild" skipped. Previously built successfully.
+                   Target "ResolveReferences" skipped. Previously built successfully.
+15:55:38.471     1>Target "ResolvedXDCMake: (TargetId:70)" in file "C:\Program Files (x86)\MSBuild\Microsoft.Cpp\v4.0\Microsoft.CppBuild.targets" from project "C:\TODD5_3D - Copy 05 Feb2014\cSLIC\cSLIC.vcxproj" (target "_XdcMake" depends on it):
+                   Task "MSBuild" skipped, due to false condition; ('%(_MSBuildProjectReferenceExistent.Extension)' == '.vcxproj' and '@(ProjectReferenceWithConfiguration)' != '' and '@(_MSBuildProjectReferenceExistent)' != '' and '$(_ClCompileGenerateXMLDocumentationFiles)' == 'true') was evaluated as ('' == '.vcxproj' and '' != '' and '' != '' and '' == 'true').
+15:55:38.471     1>Done building target "ResolvedXDCMake" in project "cSLIC.vcxproj".: (TargetId:70)
+15:55:38.471     1>Target "MakeDirsForXdcMake: (TargetId:71)" in file "C:\Program Files (x86)\MSBuild\Microsoft.Cpp\v4.0\Microsoft.CppBuild.targets" from project "C:\TODD5_3D - Copy 05 Feb2014\cSLIC\cSLIC.vcxproj" (target "_XdcMake" depends on it):
+                   Task "MakeDir" (TaskId:24)
+                   Done executing task "MakeDir". (TaskId:24)
+15:55:38.471     1>Done building target "MakeDirsForXdcMake" in project "cSLIC.vcxproj".: (TargetId:71)
+                   Target "XdcMake" skipped, due to false condition; ('@(XdcMake)' != '') was evaluated as ('' != '').
+15:55:38.471     1>Target "_XdcMake: (TargetId:72)" in file "C:\Program Files (x86)\MSBuild\Microsoft.Cpp\v4.0\Microsoft.CppBuild.targets" from project "C:\TODD5_3D - Copy 05 Feb2014\cSLIC\cSLIC.vcxproj" (target "BuildLink" depends on it):
+15:55:38.471     1>Done building target "_XdcMake" in project "cSLIC.vcxproj".: (TargetId:72)
+15:55:38.471     1>Target "ComputeCLCompileGeneratedSbrFiles: (TargetId:73)" in file "C:\Program Files (x86)\MSBuild\Microsoft.Cpp\v4.0\Microsoft.CppBuild.targets" from project "C:\TODD5_3D - Copy 05 Feb2014\cSLIC\cSLIC.vcxproj" (target "_BscMake" depends on it):
+15:55:38.471     1>Done building target "ComputeCLCompileGeneratedSbrFiles" in project "cSLIC.vcxproj".: (TargetId:73)
+15:55:38.471     1>Target "MakeDirsForBscMake: (TargetId:74)" in file "C:\Program Files (x86)\MSBuild\Microsoft.Cpp\v4.0\Microsoft.CppBuild.targets" from project "C:\TODD5_3D - Copy 05 Feb2014\cSLIC\cSLIC.vcxproj" (target "_BscMake" depends on it):
+                   Task "MakeDir" (TaskId:25)
+                   Done executing task "MakeDir". (TaskId:25)
+15:55:38.471     1>Done building target "MakeDirsForBscMake" in project "cSLIC.vcxproj".: (TargetId:74)
+                   Target "BscMake" skipped, due to false condition; ('@(BscMake)' != '') was evaluated as ('' != '').
+                   Target "CustomBuildStep" skipped, due to false condition; ('@(CustomBuildStep)' != '' and '$(SelectedFiles)'=='') was evaluated as ('' != '' and ''=='').
+15:55:38.471     1>Target "_BscMake: (TargetId:75)" in file "C:\Program Files (x86)\MSBuild\Microsoft.Cpp\v4.0\Microsoft.CppBuild.targets" from project "C:\TODD5_3D - Copy 05 Feb2014\cSLIC\cSLIC.vcxproj" (target "BuildLink" depends on it):
+15:55:38.471     1>Done building target "_BscMake" in project "cSLIC.vcxproj".: (TargetId:75)
+                   Target "RunCodeAnalysis" skipped, due to false condition; ('$(RunCodeAnalysis)'=='true' or '$(RunCodeAnalysisOnce)'=='true') was evaluated as (''=='true' or ''=='true').
+15:55:38.471     1>Target "_GenerateSatelliteAssemblyInputs: (TargetId:76)" in file "C:\Windows\Microsoft.NET\Framework\v4.0.30319\Microsoft.Common.Targets" from project "C:\TODD5_3D - Copy 05 Feb2014\cSLIC\cSLIC.vcxproj" (target "CreateSatelliteAssemblies" depends on it):
+                   Task "Warning" skipped, due to false condition; ('@(ManifestResourceWithCulture)'!='' and '%(ManifestResourceWithCulture.EmittedForCompatibilityOnly)'=='') was evaluated as (''!='' and ''=='').
+                   Task "Warning" skipped, due to false condition; ('@(ManifestNonResxWithCultureOnDisk)'!='' and '%(ManifestNonResxWithCultureOnDisk.EmittedForCompatibilityOnly)'=='') was evaluated as (''!='' and ''=='').
+15:55:38.471     1>Done building target "_GenerateSatelliteAssemblyInputs" in project "cSLIC.vcxproj".: (TargetId:76)
+                   Target "ComputeIntermediateSatelliteAssemblies" skipped, due to false condition; (@(ReferenceSatellitePaths->'%(DestinationSubDirectory)') != '') was evaluated as ( != '').
+                   Target "GenerateSatelliteAssemblies" skipped, due to false condition; ('@(_SatelliteAssemblyResourceInputs)' != '') was evaluated as ('' != '').
+15:55:38.471     1>Target "CreateSatelliteAssemblies: (TargetId:77)" in file "C:\Windows\Microsoft.NET\Framework\v4.0.30319\Microsoft.Common.Targets" from project "C:\TODD5_3D - Copy 05 Feb2014\cSLIC\cSLIC.vcxproj" (target "BuildLink" depends on it):
+15:55:38.471     1>Done building target "CreateSatelliteAssemblies" in project "cSLIC.vcxproj".: (TargetId:77)
+15:55:38.471     1>Target "_Appverifier: (TargetId:78)" in file "C:\Program Files (x86)\MSBuild\Microsoft.Cpp\v4.0\Microsoft.CppBuild.targets" from project "C:\TODD5_3D - Copy 05 Feb2014\cSLIC\cSLIC.vcxproj" (target "BuildLink" depends on it):
+15:55:38.471     1>Done building target "_Appverifier" in project "cSLIC.vcxproj".: (TargetId:78)
+15:55:38.471     1>Target "_Deploy: (TargetId:79)" in file "C:\Program Files (x86)\MSBuild\Microsoft.Cpp\v4.0\Microsoft.CppBuild.targets" from project "C:\TODD5_3D - Copy 05 Feb2014\cSLIC\cSLIC.vcxproj" (target "BuildLink" depends on it):
+15:55:38.471     1>Done building target "_Deploy" in project "cSLIC.vcxproj".: (TargetId:79)
+                   Target "ComputeIntermediateSatelliteAssemblies" skipped, due to false condition; (@(ReferenceSatellitePaths->'%(DestinationSubDirectory)') != '') was evaluated as ( != '').
+                   Target "_CopyFilesMarkedCopyLocal" skipped, due to false condition; ('@(ReferenceCopyLocalPaths)' != '') was evaluated as ('' != '').
+15:55:38.471     1>Target "AssignTargetPaths: (TargetId:80)" in file "C:\Windows\Microsoft.NET\Framework\v4.0.30319\Microsoft.Common.Targets" from project "C:\TODD5_3D - Copy 05 Feb2014\cSLIC\cSLIC.vcxproj" (target "GetCopyToOutputDirectoryItems" depends on it):
+                   Using "AssignTargetPath" task from assembly "Microsoft.Build.Tasks.v4.0, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a".
+                   Task "AssignTargetPath" (TaskId:26)
+                   Done executing task "AssignTargetPath". (TaskId:26)
+                   Task "AssignTargetPath" (TaskId:27)
+                   Done executing task "AssignTargetPath". (TaskId:27)
+                   Task "AssignTargetPath" (TaskId:28)
+                   Done executing task "AssignTargetPath". (TaskId:28)
+                   Task "AssignTargetPath" (TaskId:29)
+                   Done executing task "AssignTargetPath". (TaskId:29)
+                   Task "AssignTargetPath" skipped, due to false condition; ('@(_DeploymentBaseManifestWithTargetPath)'=='' and '%(None.Extension)'=='.manifest') was evaluated as (''=='' and ''=='.manifest').
+15:55:38.472     1>Done building target "AssignTargetPaths" in project "cSLIC.vcxproj".: (TargetId:80)
+                   Target "_SplitProjectReferencesByFileExistence" skipped. Previously built successfully.
+15:55:38.472     1>Target "GetCopyToOutputDirectoryXamlAppDefs: (TargetId:81)" in file "C:\Windows\Microsoft.NET\Framework\v4.0.30319\Microsoft.Xaml.targets" from project "C:\TODD5_3D - Copy 05 Feb2014\cSLIC\cSLIC.vcxproj" (target "GetCopyToOutputDirectoryItems" depends on it):
+                   Task "AssignTargetPath" (TaskId:30)
+                   Done executing task "AssignTargetPath". (TaskId:30)
+15:55:38.472     1>Done building target "GetCopyToOutputDirectoryXamlAppDefs" in project "cSLIC.vcxproj".: (TargetId:81)
+15:55:38.472     1>Target "GetCopyToOutputDirectoryItems: (TargetId:82)" in file "C:\Windows\Microsoft.NET\Framework\v4.0.30319\Microsoft.Common.Targets" from project "C:\TODD5_3D - Copy 05 Feb2014\cSLIC\cSLIC.vcxproj" (target "_CopySourceItemsToOutputDirectory" depends on it):
+                   Task "MSBuild" skipped, due to false condition; ('@(_MSBuildProjectReferenceExistent)' != '' and '$(_GetChildProjectCopyToOutputDirectoryItems)' == 'true' and '%(_MSBuildProjectReferenceExistent.Private)' != 'false' and '$(UseCommonOutputDirectory)' != 'true') was evaluated as ('' != '' and 'true' == 'true' and '' != 'false' and 'false' != 'true').
+                   Task "AssignTargetPath" (TaskId:31)
+                   Done executing task "AssignTargetPath". (TaskId:31)
+15:55:38.472     1>Done building target "GetCopyToOutputDirectoryItems" in project "cSLIC.vcxproj".: (TargetId:82)
+                   Target "_CopyOutOfDateSourceItemsToOutputDirectory" skipped, due to false condition; ( '@(_SourceItemsToCopyToOutputDirectory)' != '' ) was evaluated as ( '' != '' ).
+                   Target "_CopyOutOfDateSourceItemsToOutputDirectoryAlways" skipped, due to false condition; ( '@(_SourceItemsToCopyToOutputDirectoryAlways)' != '' ) was evaluated as ( '' != '' ).
+15:55:38.472     1>Target "_CopySourceItemsToOutputDirectory: (TargetId:83)" in file "C:\Windows\Microsoft.NET\Framework\v4.0.30319\Microsoft.Common.Targets" from project "C:\TODD5_3D - Copy 05 Feb2014\cSLIC\cSLIC.vcxproj" (target "CopyFilesToOutputDirectory" depends on it):
+15:55:38.472     1>Done building target "_CopySourceItemsToOutputDirectory" in project "cSLIC.vcxproj".: (TargetId:83)
+                   Target "_CopyAppConfigFile" skipped, due to false condition; ( '@(AppConfigWithTargetPath)' != '' ) was evaluated as ( '' != '' ).
+                   Target "_CopyManifestFiles" skipped, due to false condition; ( '$(_DeploymentCopyApplicationManifest)'=='true' or '$(GenerateClickOnceManifests)'=='true' ) was evaluated as ( ''=='true' or ''=='true' ).
+15:55:38.472     1>Target "_CheckForCompileOutputs: (TargetId:84)" in file "C:\Windows\Microsoft.NET\Framework\v4.0.30319\Microsoft.Common.Targets" from project "C:\TODD5_3D - Copy 05 Feb2014\cSLIC\cSLIC.vcxproj" (target "CopyFilesToOutputDirectory" depends on it):
+15:55:38.472     1>Done building target "_CheckForCompileOutputs" in project "cSLIC.vcxproj".: (TargetId:84)
+                   Target "_SGenCheckForOutputs" skipped, due to false condition; ('$(_SGenGenerateSerializationAssembliesConfig)' == 'On' or ('@(WebReferenceUrl)'!='' and '$(_SGenGenerateSerializationAssembliesConfig)' == 'Auto')) was evaluated as ('Off' == 'On' or (''!='' and 'Off' == 'Auto')).
+15:55:38.472     1>Target "CopyFilesToOutputDirectory: (TargetId:85)" in file "C:\Windows\Microsoft.NET\Framework\v4.0.30319\Microsoft.Common.Targets" from project "C:\TODD5_3D - Copy 05 Feb2014\cSLIC\cSLIC.vcxproj" (target "BuildLink" depends on it):
+                   Task "Copy" skipped, due to false condition; ('$(CopyBuildOutputToOutputDirectory)' == 'true' and '$(SkipCopyBuildProduct)' != 'true') was evaluated as ('true' == 'true' and 'true' != 'true').
+                   Task "Message" skipped, due to false condition; ('$(CopyBuildOutputToOutputDirectory)' == 'true' and '$(SkipCopyBuildProduct)'!='true') was evaluated as ('true' == 'true' and 'true'!='true').
+                   Task "Copy" skipped, due to false condition; ('@(AddModules)' != '') was evaluated as ('' != '').
+                   Task "Copy" skipped, due to false condition; ('$(_SGenDllCreated)'=='true') was evaluated as ('false'=='true').
+                   Task "Copy" skipped, due to false condition; ('$(_DebugSymbolsProduced)'=='true' and '$(SkipCopyingSymbolsToOutputDirectory)' != 'true' and '$(CopyOutputSymbolsToOutputDirectory)'=='true') was evaluated as ('false'=='true' and '' != 'true' and 'true'=='true').
+                   Task "Copy" skipped, due to false condition; ('$(_DocumentationFileProduced)'=='true') was evaluated as ('false'=='true').
+                   Task "Copy" skipped, due to false condition; ('@(IntermediateSatelliteAssembliesWithTargetPath)' != '') was evaluated as ('' != '').
+                   Task "Copy" skipped, due to false condition; ('@(ReferenceComWrappersToCopyLocal)' != '' or '@(ResolvedIsolatedComModules)' != '' or '@(_DeploymentLooseManifestFile)' != '' or '@(NativeReferenceFile)' != '' ) was evaluated as ('' != '' or '' != '' or '' != '' or '' != '' ).
+                   Task "Copy" skipped, due to false condition; ('$(SkipCopyWinMDArtifact)' != 'true' and '@(WinMDExpArtifacts)' != '') was evaluated as ('' != 'true' and '' != '').
+                   Task "Message" skipped, due to false condition; ('$(SkipCopyWinMDArtifact)' != 'true' and '$(_WindowsMetadataOutputPath)' != '') was evaluated as ('' != 'true' and '' != '').
+15:55:38.472     1>Done building target "CopyFilesToOutputDirectory" in project "cSLIC.vcxproj".: (TargetId:85)
+                   Target "CustomBuildStep" skipped, due to false condition; ('@(CustomBuildStep)' != '' and '$(SelectedFiles)'=='') was evaluated as ('' != '' and ''=='').
+15:55:38.472     1>Target "PostBuildEvent: (TargetId:86)" in file "C:\Program Files (x86)\MSBuild\Microsoft.Cpp\v4.0\Microsoft.CppCommon.targets" from project "C:\TODD5_3D - Copy 05 Feb2014\cSLIC\cSLIC.vcxproj" (target "BuildLink" depends on it):
+                   Task "Message" skipped, due to false condition; ('%(PostBuildEvent.Message)' != '' and '%(PostBuildEvent.Command)' != '') was evaluated as ('' != '' and '' != '').
+                   Task "Exec" skipped, due to false condition; ('%(PostBuildEvent.Command)' != '') was evaluated as ('' != '').
+15:55:38.472     1>Done building target "PostBuildEvent" in project "cSLIC.vcxproj".: (TargetId:86)
+15:55:38.472     1>Target "BuildLink: (TargetId:87)" in file "C:\Windows\Microsoft.NET\Framework\v4.0.30319\Microsoft.Common.Targets" from project "C:\TODD5_3D - Copy 05 Feb2014\cSLIC\cSLIC.vcxproj" (target "Build" depends on it):
+15:55:38.472     1>Done building target "BuildLink" in project "cSLIC.vcxproj".: (TargetId:87)
+15:55:38.472     1>Target "AfterBuild: (TargetId:88)" in file "C:\Program Files (x86)\MSBuild\Microsoft.Cpp\v4.0\Microsoft.BuildSteps.Targets" from project "C:\TODD5_3D - Copy 05 Feb2014\cSLIC\cSLIC.vcxproj" (target "Build" depends on it):
+15:55:38.472     1>Done building target "AfterBuild" in project "cSLIC.vcxproj".: (TargetId:88)
+15:55:38.472     1>Target "FinalizeBuildStatus: (TargetId:89)" in file "C:\Program Files (x86)\MSBuild\Microsoft.Cpp\v4.0\Microsoft.CppBuild.targets" from project "C:\TODD5_3D - Copy 05 Feb2014\cSLIC\cSLIC.vcxproj" (target "Build" depends on it):
+                   Using "Delete" task from assembly "Microsoft.Build.Tasks.v4.0, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a".
+                   Task "Delete" (TaskId:32)
+                     Deleting file "Debug\cSLIC.unsuccessfulbuild". (TaskId:32)
+                   Done executing task "Delete". (TaskId:32)
+                   Task "Touch" (TaskId:33)
+                     Touching "Debug\cSLIC.lastbuildstate". (TaskId:33)
+                   Done executing task "Touch". (TaskId:33)
+15:55:38.475     1>Done building target "FinalizeBuildStatus" in project "cSLIC.vcxproj".: (TargetId:89)
+15:55:38.475     1>Target "Build: (TargetId:90)" in file "C:\Program Files (x86)\MSBuild\Microsoft.Cpp\v4.0\Microsoft.BuildSteps.Targets" from project "C:\TODD5_3D - Copy 05 Feb2014\cSLIC\cSLIC.vcxproj" (entry point):
+15:55:38.475     1>Done building target "Build" in project "cSLIC.vcxproj".: (TargetId:90)
+15:55:38.475     1>Done Building Project "C:\TODD5_3D - Copy 05 Feb2014\cSLIC\cSLIC.vcxproj" (build target(s)).
+
+Project Performance Summary:
+       21 ms  C:\TODD5_3D - Copy 05 Feb2014\cSLIC\cSLIC.vcxproj   1 calls
+                 21 ms  build                                      1 calls
+
+Target Performance Summary:
+        0 ms  GetCopyToOutputDirectoryXamlAppDefs        1 calls
+        0 ms  SelectClCompile                            1 calls
+        0 ms  _CheckForCompileOutputs                    1 calls
+        0 ms  _PrepareForBuild                           1 calls
+        0 ms  _SelectedFiles                             1 calls
+        0 ms  AfterBuildGenerateSources                  1 calls
+        0 ms  MakeDirsForCl                              1 calls
+        0 ms  MakeDirsForLib                             1 calls
+        0 ms  ResolveReferences                          1 calls
+        0 ms  ResolvedXDCMake                            1 calls
+        0 ms  ComputeCLGeneratedLibInputs                1 calls
+        0 ms  _GenerateXMLData                           1 calls
+        0 ms  AfterBuild                                 1 calls
+        0 ms  GetCopyToOutputDirectoryItems              1 calls
+        0 ms  AfterBuildCompileEvent                     1 calls
+        0 ms  SelectCustomBuild                          1 calls
+        0 ms  _Midl                                      1 calls
+        0 ms  _ClCompile                                 1 calls
+        0 ms  ComputeCLCompileGeneratedXDCFiles          1 calls
+        0 ms  GetReferenceAssemblyPaths                  1 calls
+        0 ms  MakeDirsForResourceCompile                 1 calls
+        0 ms  GetFrameworkPaths                          1 calls
+        0 ms  _ResourceCompile                           1 calls
+        0 ms  Build                                      1 calls
+        0 ms  PlatformPrepareForBuild                    1 calls
+        0 ms  _Xsd                                       1 calls
+        0 ms  AfterResourceCompile                       1 calls
+        0 ms  ComputeLibInputsFromProject                1 calls
+        0 ms  PostBuildEvent                             1 calls
+        0 ms  BeforeLib                                  1 calls
+        0 ms  CopyFilesToOutputDirectory                 1 calls
+        0 ms  CreateSatelliteAssemblies                  1 calls
+        0 ms  _CopySourceItemsToOutputDirectory          1 calls
+        0 ms  BuildCompileTraverse                       1 calls
+        0 ms  ComputeCLOutputs                           1 calls
+        0 ms  ComputeRCOutputs                           1 calls
+        0 ms  BuildLinkTraverse                          1 calls
+        0 ms  _GenerateSatelliteAssemblyInputs           1 calls
+        0 ms  DoLibOutputFilesMatch                      1 calls
+        0 ms  _XdcMake                                   1 calls
+        0 ms  BuildGenerateSources                       1 calls
+        0 ms  _BscMake                                   1 calls
+        0 ms  RegisterOutput                             1 calls
+        0 ms  _Appverifier                               1 calls
+        0 ms  MakeDirsForMidl                            1 calls
+        0 ms  ComputeMIDLGeneratedCompileInputs          1 calls
+        0 ms  BeforeResolveReferences                    1 calls
+        0 ms  PreBuildEvent                              1 calls
+        0 ms  ExpandSDKReferences                        1 calls
+        0 ms  BuildLink                                  1 calls
+        0 ms  _SplitProjectReferencesByFileExistence     1 calls
+        0 ms  _Lib                                       1 calls
+        0 ms  ComputeCLInputPDBName                      1 calls
+        0 ms  BuildGenerateSourcesTraverse               1 calls
+        0 ms  MakeDirsForBscMake                         1 calls
+        0 ms  _DetermineManagedStateFromCL               1 calls
+        0 ms  ComputeCLCompileGeneratedSbrFiles          1 calls
+        0 ms  _ALink                                     1 calls
+        0 ms  ResolveSDKReferences                       1 calls
+        0 ms  AfterResolveReferences                     1 calls
+        0 ms  AfterClCompile                             1 calls
+        0 ms  BeforeBuildGenerateSources                 1 calls
+        0 ms  MakeDirsForXdcMake                         1 calls
+        0 ms  AfterLib                                   1 calls
+        0 ms  AfterMidl                                  1 calls
+        0 ms  BeforeResourceCompile                      1 calls
+        0 ms  PrepareForBuild                            1 calls
+        0 ms  _Deploy                                    1 calls
+        0 ms  GetInstalledSDKLocations                   1 calls
+        0 ms  AfterBuildGenerateSourcesEvent             1 calls
+        0 ms  ComputeRCGeneratedLibInputs                1 calls
+        0 ms  ComputeLibAdditionalOptions                1 calls
+        0 ms  BeforeClCompile                            1 calls
+        0 ms  AssignProjectConfiguration                 1 calls
+        0 ms  _GenerateWebServiceProxy                   1 calls
+        0 ms  BuildCompile                               1 calls
+        1 ms  ComputeReferenceCLInput                    1 calls
+        1 ms  AssignTargetPaths                          1 calls
+        1 ms  ResolveProjectReferences                   1 calls
+        1 ms  Lib                                        1 calls
+        1 ms  SetBuildDefaultEnvironmentVariables        1 calls
+        1 ms  ComputeCustomBuildOutput                   1 calls
+        1 ms  _Manifest                                  1 calls
+        1 ms  PreLinkEvent                               1 calls
+        2 ms  _CheckForInvalidConfigurationAndPlatform   1 calls
+        2 ms  ResolveAssemblyReferences                  1 calls
+        2 ms  InitializeBuildStatus                      1 calls
+        3 ms  FinalizeBuildStatus                        1 calls
+        4 ms  ClCompile                                  1 calls
+
+Task Performance Summary:
+        0 ms  Delete                                     1 calls
+        0 ms  ReadLinesFromFile                          1 calls
+        0 ms  AssignProjectConfiguration                 1 calls
+        0 ms  MakeDir                                    9 calls
+        0 ms  Message                                    3 calls
+        1 ms  ResolveAssemblyReference                   1 calls
+        1 ms  LIB                                        1 calls
+        1 ms  AssignTargetPath                           6 calls
+        1 ms  WriteLinesToFile                           2 calls
+        1 ms  SetEnv                                     4 calls
+        3 ms  CL                                         1 calls
+        3 ms  Touch                                      2 calls
+
+Build succeeded.
+
+Time Elapsed 00:00:00.03
